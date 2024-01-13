@@ -65,5 +65,25 @@ The following files contain the detection rules for each design pattern. These r
 - [Visitor](https://www.uco.es/kdis/sbse/geml/rules/Visitor.txt)
 
 #### **Outcomes of GEML, SSA and Ptidej**
+
 The next table shows the number of design pattern implementations found by each tool for the project [DPExample](https://essere.disco.unimib.it/marple-2/). For each design pattern and tool, a file with the information of the implementations can be downloaded by clicking on the cell number. Symbol '-' stands for non-supported design patterns.
 
+| Design pattern | GEML | SSA | Ptidej |
+| --- | --- | --- | --- |
+| *Abstract factory* | [99](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-AbstractFactory.txt) | - | - |
+| *Adapter* | [12](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Adapter.txt) | [54](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Adapter.xml) | [128](https://www.uco.es/kdis/sbse/geml/results/ptidej/Ptidej-DPExample-Adapter.txt) |
+| *Bridge* | [41](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Bridge.txt) | [3](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Bridge.xml) | - |
+| *Command* | [79](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Command.txt) | [4](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Command.xml) | [36](https://www.uco.es/kdis/sbse/geml/results/ptidej/Ptidej-DPExample-Command.txt) |
+| *Composite* | [30](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Composite.txt) | [7](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Composite.xml) | [29](https://www.uco.es/kdis/sbse/geml/results/ptidej/Ptidej-DPExample-Composite.txt) |
+| *Decorator* | [5](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Decorator.txt) | [19](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Decorator.xml) | - |
+| *Factory method* | [26](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-FactoryMethod.txt) | [1](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-FactoryMethod.xml) | [44](https://www.uco.es/kdis/sbse/geml/results/ptidej/Ptidej-DPExample-FactoryMethod.txt) |
+| *Iterator* | [5](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Iterator.txt) | - | - |
+| *Observer* | [2](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Observer.txt) | [4](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Observer.xml) | - |
+| *Proxy* | [5](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Proxy.txt) | [2](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Proxy.xml) | [127](https://www.uco.es/kdis/sbse/geml/results/ptidej/Ptidej-DPExample-Proxy.txt) |
+| *Singleton* | [21](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Singleton.txt) | [22](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Singleton.xml) | [82](https://www.uco.es/kdis/sbse/geml/results/ptidej/Ptidej-DPExample-Singleton.txt) |
+| *State* | [57](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-State.txt) | [41](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-State.xml) | [104](https://www.uco.es/kdis/sbse/geml/results/ptidej/Ptidej-DPExample-State.txt) |
+| *Strategy* | [46](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Strategy.txt) | [6](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Strategy.xml) | 0 |
+| *Template method* | [11](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-TemplateMethod.txt) | [20](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-TemplateMethod.xml) | 234 |
+| Visitor | 33 | 11 | 2 |
+
+Note: For SSA and Ptidej, the number of DP implementations might not coincide with the number of raw results in the corresponding file. The reason is that each tool follows a different strategy to group the classes that implement each role. More specifically, we observe that SSA defines one instance for each combination of roles (only one class per role), while Ptidej puts together all classes implementing a multiple role (e.g. subclasses in a hierarchy).
