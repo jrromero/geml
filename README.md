@@ -83,8 +83,8 @@ The next table shows the number of design pattern implementations found by each 
 | *Singleton* | [21](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Singleton.txt) | [22](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Singleton.xml) | [82](https://www.uco.es/kdis/sbse/geml/results/ptidej/Ptidej-DPExample-Singleton.txt) |
 | *State* | [57](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-State.txt) | [41](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-State.xml) | [104](https://www.uco.es/kdis/sbse/geml/results/ptidej/Ptidej-DPExample-State.txt) |
 | *Strategy* | [46](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Strategy.txt) | [6](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Strategy.xml) | 0 |
-| *Template method* | [11](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-TemplateMethod.txt) | [20](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-TemplateMethod.xml) | 234 |
-| Visitor | 33 | 11 | 2 |
+| *Template method* | [11](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-TemplateMethod.txt) | [20](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-TemplateMethod.xml) | [234](https://www.uco.es/kdis/sbse/geml/results/ptidej/Ptidej-DPExample-TemplateMethod.txt) |
+| Visitor | [33](https://www.uco.es/kdis/sbse/geml/results/geml/GEML-DPExample-Visitor.txt) | [11](https://www.uco.es/kdis/sbse/geml/results/ssa/SSA-DPExample-Visitor.xml) | [2](https://www.uco.es/kdis/sbse/geml/results/ptidej/Ptidej-DPExample-Visitor.txt) |
 
 Note: For SSA and Ptidej, the number of DP implementations might not coincide with the number of raw results in the corresponding file. The reason is that each tool follows a different strategy to group the classes that implement each role. More specifically, we observe that SSA defines one instance for each combination of roles (only one class per role), while Ptidej puts together all classes implementing a multiple role (e.g. subclasses in a hierarchy).
 
