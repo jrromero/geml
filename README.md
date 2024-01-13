@@ -87,3 +87,54 @@ The next table shows the number of design pattern implementations found by each 
 | Visitor | 33 | 11 | 2 |
 
 Note: For SSA and Ptidej, the number of DP implementations might not coincide with the number of raw results in the corresponding file. The reason is that each tool follows a different strategy to group the classes that implement each role. More specifically, we observe that SSA defines one instance for each combination of roles (only one class per role), while Ptidej puts together all classes implementing a multiple role (e.g. subclasses in a hierarchy).
+
+
+### Demonstration tool
+
+#### **How to install this tool**:
+
+1. Download the demonstration tool ([ZIP](https://www.uco.es/kdis/sbse/geml/geml.zip), 31.7 MB)
+   - *Note*: This tool has been tested for Java 8, in both Ubuntu 18.04 and Windows 10.
+   - The full set of DP samples used in the experimentation are contained in the */data* folder.
+2. Unzip the file.
+   - *Note:* Please do not write special characters or white spaces in the location path. Their use is restricted by the third-party library [ckjm](https://www.spinellis.gr/sw/ckjm/doc/faq.html).
+3. Download the VFLib graph matching library ([ZIP](https://www.uco.es/kdis/sbse/geml/vf2.zip), 216 KB)
+   - *Note*: This tool uses the C++ implementation of the VF2 algorithm to generate the candidates. This folder should be located in the root folder of the tool. Follow the next steps to compile the library:
+   - Run *make*
+   - Execute *g++ -c -I include/ designPattern.cc*
+   - Execute *g++ -o designPattern designPattern.o -L lib -lvf -lstdc++ -lm*
+4. Download the example repository ([ZIP](https://www.uco.es/kdis/sbse/geml/repo.zip), 70.9 MB)
+   - These projects can be directly downloaded from the [MARPLE website](http://essere.disco.unimib.it/wiki/marple) or the [P-Mart repository](http://www.ptidej.net/tools/designpatterns/index_html#2) (with the exception of DPExample).
+   - Unzip the file into the */repo* folder.
+5. (Optionally) In case you want to skip Step 1 (*Generation of candidates*) and 2 (Learning of the detection model), please download the set of candidates, computed metrics and generated rules of the running example ([ZIP](https://www.uco.es/kdis/sbse/geml/gExample-jrefactory-singleton.zip), 26.4kB)
+   - *Note*: Unzip this file into the root folder of the GEML application.
+
+#### **How to execute a running example**:
+1. Execute the launch script.
+   - *Note*: Depending on your OS, please run *dpdtool.bat* for Windows, or *dpdtool.sh* for GNU/Linux
+2. Move to the "**DP Candidates (project path)**" tab:
+   1. Under the "**Set a new project path**" label, select the Singleton pattern and click the ![button](https://www.uco.es/grupos/kdis/wp-content/uploads/open.png) button.
+   2. Set the path of the target project, i.e., the project for which you want to detect the Singleton pattern instances.
+      - *Note*: For this example, please select *JRefactory*, which is part of the DPB repository. It should be noted that the project folder requires a specific structure: (1) a */bin* folder containing the ".class" files; (2) a */src* folder containing the ".java" files; and (3) a */lib* directory containing any external dependency in form of ".jar" files.
+   3. GEML will automatically generate the list of candidates potentially implementing the Singleton pattern. This step depends on an external library (ckjm) and can take a few minutes, especially if you are running on Windows. When finished, the number of candidates will be reported.
+      - *Note*: Click the ![save button](https://www.uco.es/grupos/kdis/wp-content/uploads/save.png) button to save the set of pattern candidates and the computed software metrics, respectively. For reproducibility, notice that both files could be loaded later by clicking the ![open button](https://www.uco.es/grupos/kdis/wp-content/uploads/open.png) button located under the label "*Load an existing set of candidates*".
+3. Move to the "*DPD Model (repository)*" tab:
+   1. Click the ![open button](https://www.uco.es/grupos/kdis/wp-content/uploads/open.png) button, located under the label "*Learn set of detection rules*", to load the *singleton.xml* file, which contains the full parametrisation of the G3P4DPD algorithm.
+      - *Note*: For those interested, notice that this file could be modified to set the values of some additional, internal-specific parameters. Nevertheless, the GUI allows the user to set the values of the support and confidence thresholds after loading this file.
+   2. Click the ![project button](https://www.uco.es/grupos/kdis/wp-content/uploads/project.png) button and deselect the *JRefactory* project to indicate that you are not interested in using it anymore for the generation of the DPD detection model. Click then *Apply* and *Close*.
+   3. Select the set of properties to be used to characterise the design pattern implementations.
+      - *Note*: In this example, select the common properties describing the Singleton pattern (explained in Section 6.2 of the paper): *isFinal*, *isSubclass*, *controlledExcep*, *controlledInit*, *conglomeration*, *returns*, *receives*, *createObject*, *ctorVisibility*, *aggregation*, *redirectInFamily*, *NOM*, *NOC*, *DIT* and *RFC*.
+   4. Click ![run button](https://www.uco.es/grupos/kdis/wp-content/uploads/run.png) to launch the G3P4DPD algorithm. When finished, the rules composing the detection model will be reported.
+      - *Note*: Click ![save button](https://www.uco.es/grupos/kdis/wp-content/uploads/save.png) to save the detection rules. For reproducibility, notice that this file could be loaded later by clicking the ![open button](https://www.uco.es/grupos/kdis/wp-content/uploads/open.png) button, located under the label "*Load an existing set of detection rules*".
+4. Select a classification strategy and click ![run button](https://www.uco.es/grupos/kdis/wp-content/uploads/run.png), located to the right of the label "*Detection strategy*".
+   - *Note*: For this example, please select the DFML_lap.
+5. Finally, after completing the execution, the detected design patterns will be reported.
+
+#### **How to execute GEML with the DPB samples (from experimentation):**
+DPB samples (positives and negatives) for the Singleton pattern ([ZIP](https://www.uco.es/kdis/sbse/geml/repo-candidates-singleton.zip), 5.5kB). This file contains 9 XML files, one per project, including both positive and negative samples of the Singleton pattern, as used for the experimentation.
+1. Unzip the DPB samples in the root folder of the *GEML* project.
+2. Load the file containing the Singleton samples of the project we are interested in.
+   - *Note*: For this example, please select *jrefactory.xml file*, which contains 10 samples (6 positives and 4 negatives).
+3. Load the file */data/metrics.csv* containing the metrics of all the projects from the DPB repository.
+4. Generate a detection model for the Singleton pattern excluding the JRefactory project.
+5. Execute the detection process selecting any classification strategy.
