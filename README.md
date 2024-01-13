@@ -1,2 +1,69 @@
-# geml
-Supplementary material of paper: "GEML: A grammar-based evolutionary machine learning approach for design pattern detection"
+## Publication
+R. Barbudo, A. Ramírez, F. Servant and J.R. Romero![*](http://jrromero.net/). ["GEML: A grammar-based evolutionary machine learning approach for design-pattern detection"](https://doi.org/10.1016/j.jss.2021.110919). *Journal of Systems and Software*, 110919. 2021.
+
+## Abstract
+Design patterns (DPs) are recognised as a good practice in software development. However, the lack of appropriate documentation often hampers traceability, and their benefits are blurred among thousands of lines of code. Automatic methods for DP detection have become relevant but are usually based on the rigid analysis of either software metrics or specific properties of the source code. We propose GEML, a novel detection approach based on evolutionary machine learning using software properties of diverse nature. Firstly, GEML makes use of an evolutionary algorithm to extract those characteristics that better describe the DP, formulated in terms of human-readable rules, whose syntax is conformant with a context-free grammar. Secondly, a rule-based classifier is built to predict whether new code contains a hidden DP implementation. GEML has been validated over five DPs taken from a public repository recurrently adopted by machine learning studies. A second experiment increases this number up to 15 diverse DPs, showing its effectiveness and robustness in terms of detection capability. An initial parameter study served to tune a parameter setup whose performance guarantees the general applicability of this approach without the need to adjust complex parameters to a specific pattern. Finally, a demonstration tool is also provided.
+
+## Additional material
+### Experiment 1
+#### **Results of statistical tests**
+Analysis of *coverage threshold* ([ZIP](https://www.uco.es/kdis/sbse/geml/coverage.zip), 27KB)
+
+Analysis of *support*, *confidence* and *classification strategy*:
+- Adapted grammar ([ZIP](https://www.uco.es/kdis/sbse/geml/adapted.zip), 65KB)
+- Full grammar ([ZIP](https://www.uco.es/kdis/sbse/geml/full.zip), 64KB)
+
+Analysis of full grammar vs. adapted grammar ([ZIP](https://www.uco.es/kdis/sbse/geml/comparison.zip), 35KB)
+
+### Experiment 3
+#### **Repository for training**
+For this experiment, a repository has been built for training. It contains implementations of 15 design patterns, as well as negative samples. Here we describe how the samples are generated:
+
+*Positive samples*
+1. Instances available from the [P-Mart repository](http://www.ptidej.net/tools/designpatterns/index_html#2) (v1.2) are added, since they have been peer-reviewed.
+2. Pieces of code for which both SSA and Ptidej tools agree in that they implement a design pattern are identified. The code belongs to the same Java projects considered in P-Mart.
+3. Instances from step 2 are automatically processed and manually revised to match roles, since each tool provides different information and level of granularity.
+
+*Negative samples*
+1. The VF2 algorithm, available in the [VFLib graph matching library](https://mivia.unisa.it/vflib/), is executed to find group of classes that are structurally similar to the design pattern.
+2. For each design pattern, we define heuristics to filter out instances. This process is required because the VF2 algorithm might return a high number of results. The heuristics check the type of relationship between classes playing roles, which is not taken into account in the previous step.
+3. For each positive sample, a maximum of three negative samples are randomly selected from the project in which the positive sample was found.
+
+The resulting repository is available for reproducibility purposes. It is provided for each design pattern separately:
+- [Abstract factory](https://www.uco.es/kdis/sbse/geml/repository/AbstractFactory.xml)
+- [Adapter](https://www.uco.es/kdis/sbse/geml/repository/Adapter.xml)
+- [Bridge](https://www.uco.es/kdis/sbse/geml/repository/Bridge.xml)
+- [Command](https://www.uco.es/kdis/sbse/geml/repository/Command.xml)
+- [Composite](https://www.uco.es/kdis/sbse/geml/repository/Composite.xml)
+- [Decorator](https://www.uco.es/kdis/sbse/geml/repository/Decorator.xml)
+- [Factory method](https://www.uco.es/kdis/sbse/geml/repository/FactoryMethod.xml)
+- [Iterator](https://www.uco.es/kdis/sbse/geml/repository/Iterator.xml)
+- [Observer](https://www.uco.es/kdis/sbse/geml/repository/Observer.xml)
+- [Proxy](https://www.uco.es/kdis/sbse/geml/repository/Proxy.xml)
+- [Singleton](https://www.uco.es/kdis/sbse/geml/repository/Singleton.xml)
+- [State](https://www.uco.es/kdis/sbse/geml/repository/State.xml)
+- [Strategy](https://www.uco.es/kdis/sbse/geml/repository/Strategy.xml)
+- [Template method](https://www.uco.es/kdis/sbse/geml/repository/TemplateMethod.xml)
+- [Visitor](https://www.uco.es/kdis/sbse/geml/repository/Visitor.xml)
+
+#### **Detection rules generated by GEML**
+The following files contain the detection rules for each design pattern. These rules correspond to the best detection model generated by the G3P algorithm after applying the pruning method (database coverage).
+- [Abstract factory](https://www.uco.es/kdis/sbse/geml/rules/AbstractFactory.txt)
+- [Adapter](https://www.uco.es/kdis/sbse/geml/rules/Adapter.txt)
+- [Bridge](https://www.uco.es/kdis/sbse/geml/rules/Bridge.txt)
+- [Command](https://www.uco.es/kdis/sbse/geml/rules/Command.txt)
+- [Composite](https://www.uco.es/kdis/sbse/geml/rules/Composite.txt)
+- [Decorator](https://www.uco.es/kdis/sbse/geml/rules/Decorator.txt)
+- [Factory method](https://www.uco.es/kdis/sbse/geml/rules/FactoryMethod.txt)
+- [Iterator](https://www.uco.es/kdis/sbse/geml/rules/Iterator.txt)
+- [Observer](https://www.uco.es/kdis/sbse/geml/rules/Observer.txt)
+- [Proxy](https://www.uco.es/kdis/sbse/geml/rules/Proxy.txt)
+- [Singleton](https://www.uco.es/kdis/sbse/geml/rules/Singleton.txt)
+- [State](https://www.uco.es/kdis/sbse/geml/rules/State.txt)
+- [Strategy](https://www.uco.es/kdis/sbse/geml/rules/Strategy.txt)
+- [Template method](https://www.uco.es/kdis/sbse/geml/rules/TemplateMethod.txt)
+- [Visitor](https://www.uco.es/kdis/sbse/geml/rules/Visitor.txt)
+
+#### **Outcomes of GEML, SSA and Ptidej**
+The next table shows the number of design pattern implementations found by each tool for the project [DPExample](https://essere.disco.unimib.it/marple-2/). For each design pattern and tool, a file with the information of the implementations can be downloaded by clicking on the cell number. Symbol '-' stands for non-supported design patterns.
+
