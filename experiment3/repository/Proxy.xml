@@ -1,0 +1,1075 @@
+<patternData>
+	<projectPath></projectPath>
+	<pattern>Proxy</pattern>
+	<roles>
+		<role>subject</role>
+		<role>proxy</role>
+		<role>realsubject</role>
+	</roles>
+	<candidates>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.sourceforge.pmd.ast.JavaParserConstants</class>
+				</role>
+				<role name="proxy">
+					<class>net.sourceforge.pmd.ast.JavaParser</class>
+				</role>
+				<role name="realsubject">
+					<class>net.sourceforge.pmd.ast.JavaParserTokenManager</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.uml.line.EndPointPanel</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.uml.UMLLine</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.uml.UMLType</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.pretty.JavaDocable</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTNestedInterfaceDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.pretty.JavaDocableImpl</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.pretty.JavaDocable</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTInterfaceDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.pretty.JavaDocableImpl</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.pretty.JavaDocable</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTNestedClassDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.pretty.JavaDocableImpl</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.pretty.JavaDocable</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTPackageDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.pretty.JavaDocableImpl</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.pretty.JavaDocable</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTConstructorDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.pretty.JavaDocableImpl</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.pretty.JavaDocable</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTFieldDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.pretty.JavaDocableImpl</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.pretty.JavaDocable</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTMethodDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.pretty.JavaDocableImpl</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.pretty.JavaDocable</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTClassDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.pretty.JavaDocableImpl</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.util.Comparator</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.pretty.sort.MultipleOrdering</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.pretty.sort.Ordering</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openide.execution.ExecutorTask</class>
+				</role>
+				<role name="proxy">
+					<class>org.netbeans.core.execution.ExecutorTaskImpl</class>
+				</role>
+				<role name="realsubject">
+					<class>org.netbeans.core.execution.DefaultSysProcess</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openide.nodes.NodeAcceptor</class>
+				</role>
+				<role name="proxy">
+					<class>org.netbeans.modules.search.ResultModel</class>
+				</role>
+				<role name="realsubject">
+					<class>org.netbeans.modules.search.SearchDisplayer</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openide.explorer.ExplorerManager$Provider</class>
+				</role>
+				<role name="proxy">
+					<class>org.netbeans.modules.search.ResultViewTopComponent</class>
+				</role>
+				<role name="realsubject">
+					<class>org.openide.explorer.ExplorerPanel</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.io.Writable</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.fetcher.FetcherOutput</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.fetcher.Outlink</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.io.Writable</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.fetcher.FetcherOutput</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.pagedb.FetchListEntry</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.io.Writable</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.searcher.Hits</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.searcher.Hit</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.io.WritableComparable</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.db.Link</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.io.MD5Hash</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.io.WritableComparable</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.db.Page</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.io.MD5Hash</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.searcher.HitDetailer</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.searcher.NutchBean</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.searcher.IndexSearcher</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.analysis.NutchAnalysisConstants</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.analysis.NutchAnalysis</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.analysis.NutchAnalysisTokenManager</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.io.Writable</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.fetcher.FetcherContent</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.io.VersionedWritable</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.io.Writable</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.fetcher.FetcherOutput</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.io.WritableComparable</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.fetcher.FetcherConstants</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.fetcher.RequestScheduler</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.fetcher.FetcherThread</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.fetcher.FetcherConstants</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.fetcher.RequestScheduler</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.fetcher.HostQueue</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.fetcher.FetcherConstants</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.fetcher.OutputThread</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.fetcher.RequestScheduler</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.quality.dynamic.PageDescriptionConstants</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.quality.dynamic.PageDescription</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.quality.dynamic.PageDescriptionTokenManager</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.fetcher.FetcherConstants</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.fetcher.OutputThread</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.fetcher.FetcherStatus</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.fetcher.FetcherConstants</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.fetcher.FetcherThread</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.fetcher.RequestScheduler</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.io.Writable</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.fetcher.FetcherText</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.io.VersionedWritable</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.io.Writable</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.linkdb.LinkAnalysisEntry</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.io.VersionedWritable</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.fetcher.FetcherConstants</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.fetcher.HostQueue</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.fetcher.FetcherStatus</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.io.Writable</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.pagedb.FetchListEntry</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.io.WritableComparable</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.nutch.searcher.HitContent</class>
+				</role>
+				<role name="proxy">
+					<class>net.nutch.searcher.NutchBean</class>
+				</role>
+				<role name="realsubject">
+					<class>net.nutch.searcher.FetchedSegments</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openide.util.SharedClassObject</class>
+				</role>
+				<role name="proxy">
+					<class>org.netbeans.modules.corba.settings.CORBASupportSettings</class>
+				</role>
+				<role name="realsubject">
+					<class>org.openide.options.SystemOption</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openide.util.Task</class>
+				</role>
+				<role name="proxy">
+					<class>org.openide.compiler.CompilerSysProcess</class>
+				</role>
+				<role name="realsubject">
+					<class>org.openide.execution.ExecutorTask</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openide.util.actions.NodeAction</class>
+				</role>
+				<role name="proxy">
+					<class>org.netbeans.modules.form.actions.EventsAction</class>
+				</role>
+				<role name="realsubject">
+					<class>org.openide.util.actions.CookieAction</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openide.nodes.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.netbeans.modules.apisupport.InstanceNode</class>
+				</role>
+				<role name="realsubject">
+					<class>org.openide.nodes.FilterNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openide.util.actions.SystemAction</class>
+				</role>
+				<role name="proxy">
+					<class>org.netbeans.core.actions.ExplorerViewAction</class>
+				</role>
+				<role name="realsubject">
+					<class>org.openide.util.actions.CallableSystemAction</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openide.nodes.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.netbeans.modules.jini.InterfaceNode</class>
+				</role>
+				<role name="realsubject">
+					<class>org.openide.nodes.AbstractNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openide.src.Element</class>
+				</role>
+				<role name="proxy">
+					<class>org.openide.src.ConstructorElement</class>
+				</role>
+				<role name="realsubject">
+					<class>org.openide.src.ClassElement</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openidex.search.SearchType</class>
+				</role>
+				<role name="proxy">
+					<class>org.netbeans.modules.search.types.FullTextType</class>
+				</role>
+				<role name="realsubject">
+					<class>org.netbeans.modules.search.types.DataObjectType</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.openide.loaders.DataObject</class>
+				</role>
+				<role name="proxy">
+					<class>org.netbeans.modules.jarpackager.JarDataObject</class>
+				</role>
+				<role name="realsubject">
+					<class>org.openide.loaders.MultiDataObject</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.print.xml.State</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.print.xml.AttributeValueState</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.print.xml.TagState</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.uml.ISourceful</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.uml.UMLType</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.uml.UMLNestedType</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.JavaParserVisitor</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.summary.SummaryLoadVisitor</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.summary.LineCountVisitor</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTMethodDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.ASTMethodDeclarator</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.print.xml.State</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.print.xml.AttributeState</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.print.xml.TagState</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTPrimarySuffix</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTFieldDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.refactor.Refactoring</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.refactor.type.AddChildRefactoring</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.refactor.type.AddClassRefactoring</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTInterfaceDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.ASTUnmodifiedInterfaceDeclaration</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.JavaParserVisitor</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.refactor.method.RenameParameterVisitor</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ChildrenVisitor</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTLocalVariableDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTInterfaceDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTFormalParameter</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTClassDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.ASTUnmodifiedClassDeclaration</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.summary.Summary</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.summary.FileSummary</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.summary.ImportSummary</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.JavaParserVisitor</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.refactor.field.RenameFieldVisitor</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ChildrenVisitor</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.summary.SummaryVisitor</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.summary.PrintVisitor</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.summary.TraversalVisitor</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTConstructorDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.ASTVariableDeclaratorId</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTShiftExpression</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTClassDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.ASTUnmodifiedClassDeclaration</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.print.xml.State</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.print.xml.QuoteAttributeValueState</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.print.xml.AttributeState</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTEqualityExpression</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTConstructorDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.ASTVariableDeclaratorId</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.print.xml.State</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.print.xml.AttributeValueState</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.print.xml.AttributeState</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTClassDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTNestedInterfaceDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTFieldDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.ASTVariableDeclaratorId</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.parser.Node</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.parser.ast.ASTUnaryExpressionNotPlusMinus</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.parser.ast.SimpleNode</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.summary.Summary</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.summary.LocalVariableSummary</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.summary.VariableSummary</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>org.acm.seguin.print.xml.State</class>
+				</role>
+				<role name="proxy">
+					<class>org.acm.seguin.print.xml.TagState</class>
+				</role>
+				<role name="realsubject">
+					<class>org.acm.seguin.print.xml.AttributeState</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.sourceforge.pmd.ast.SimpleNode</class>
+				</role>
+				<role name="proxy">
+					<class>net.sourceforge.pmd.ast.ASTImportDeclaration</class>
+				</role>
+				<role name="realsubject">
+					<class>net.sourceforge.pmd.ast.ASTName</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.sourceforge.pmd.ast.SimpleNode</class>
+				</role>
+				<role name="proxy">
+					<class>net.sourceforge.pmd.ast.ASTTryStatement</class>
+				</role>
+				<role name="realsubject">
+					<class>net.sourceforge.pmd.ast.ASTBlock</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.sourceforge.pmd.ast.JavaParserVisitor</class>
+				</role>
+				<role name="proxy">
+					<class>net.sourceforge.pmd.symboltable.SymbolFacade</class>
+				</role>
+				<role name="realsubject">
+					<class>net.sourceforge.pmd.symboltable.DeclarationFinder</class>
+				</role>
+			</roles>
+		</candidate>
+	</candidates>
+</patternData>

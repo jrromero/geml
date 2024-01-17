@@ -1,0 +1,1888 @@
+# Solution with all constraints
+1.100.Name = Adapter Design Motif
+# Solution with all constraints
+1.100.Sign = Positive
+1.100.XCommand = No source transformation needed
+1.100.target = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+1.100.adapter-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+1.100.adapter-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+1.100.adaptee-1 = abstractfactory.headfirst.pizzaaf.Garlic
+1.100.adaptee-2 = abstractfactory.headfirst.pizzaaf.RedPepper
+1.100.adaptee-3 = abstractfactory.headfirst.pizzaaf.Eggplant
+1.100.adaptee-4 = abstractfactory.headfirst.pizzaaf.Spinach
+1.100.adaptee-5 = abstractfactory.headfirst.pizzaaf.Mushroom
+1.100.adaptee-6 = abstractfactory.headfirst.pizzaaf.Dough
+1.100.adaptee-7 = abstractfactory.headfirst.pizzaaf.BlackOlives
+1.100.adaptee-8 = abstractfactory.headfirst.pizzaaf.Sauce
+1.100.adaptee-9 = abstractfactory.headfirst.pizzaaf.Pepperoni
+1.100.adaptee-10 = abstractfactory.headfirst.pizzaaf.Clams
+1.100.adaptee-11 = abstractfactory.headfirst.pizzaaf.Cheese
+1.100.adaptee-12 = abstractfactory.headfirst.pizzaaf.Onion
+1.100.adaptee-13 = abstractfactory.headfirst.pizzaaf.Veggies
+1.100.client-1 = abstractfactory.headfirst.pizzaaf.CheesePizza
+1.100.client-2 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+1.100.client-3 = abstractfactory.headfirst.pizzaaf.ClamPizza
+1.100.client-4 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+
+# Solution with all constraints
+2.100.Name = Adapter Design Motif
+# Solution with all constraints
+2.100.Sign = Positive
+2.100.XCommand = No source transformation needed
+2.100.target = interpreter.kuchana.Expression
+2.100.adapter-1 = interpreter.kuchana.TerminalExpression
+2.100.adapter-2 = interpreter.kuchana.NonTerminalExpression
+2.100.adaptee-1 = interpreter.kuchana.Context
+2.100.adaptee-2 = interpreter.kuchana.NonTerminalExpression
+2.100.client-1 = interpreter.kuchana.SubtractExpression
+2.100.client-2 = interpreter.kuchana.Calculator
+2.100.client-3 = interpreter.kuchana.MultiplyExpression
+2.100.client-4 = interpreter.kuchana.NonTerminalExpression
+2.100.client-5 = interpreter.kuchana.AddExpression
+
+# Solution with all constraints
+3.100.Name = Adapter Design Motif
+# Solution with all constraints
+3.100.Sign = Positive
+3.100.XCommand = No source transformation needed
+3.100.target = adapter.kuchana.AddressValidator
+3.100.adapter = adapter.kuchana.CAAddressAdapter
+3.100.adaptee = adapter.kuchana.CAAddress
+3.100.client-1 = adapter.kuchana.CAAddressAdapter
+3.100.client-2 = adapter.kuchana.USAddress
+
+# Solution with all constraints
+4.100.Name = Adapter Design Motif
+# Solution with all constraints
+4.100.Sign = Positive
+4.100.XCommand = No source transformation needed
+4.100.target = visitor.sourcemaking1.Visitor
+4.100.adapter-1 = visitor.sourcemaking1.DownVisitor
+4.100.adapter-2 = visitor.sourcemaking1.UpVisitor
+4.100.adaptee-1 = visitor.sourcemaking1.TheOther
+4.100.adaptee-2 = visitor.sourcemaking1.That
+4.100.adaptee-3 = visitor.sourcemaking1.This
+4.100.client-1 = visitor.sourcemaking1.TheOther
+4.100.client-2 = visitor.sourcemaking1.That
+4.100.client-3 = visitor.sourcemaking1.This
+
+# Solution with all constraints
+5.100.Name = Adapter Design Motif
+# Solution with all constraints
+5.100.Sign = Positive
+5.100.XCommand = No source transformation needed
+5.100.target = interpreter.lucacristina.expr.Expression
+5.100.adapter-1 = interpreter.lucacristina.expr.Function
+5.100.adapter-2 = interpreter.lucacristina.expr.Variable
+5.100.adaptee-1 = interpreter.lucacristina.expr.functions.FunctionFactory
+5.100.adaptee-2 = interpreter.lucacristina.expr.Context
+5.100.adaptee-3 = interpreter.lucacristina.expr.Function
+5.100.client-1 = interpreter.lucacristina.expr.functions.user.UserFunction
+5.100.client-2 = interpreter.lucacristina.expr.Constant
+5.100.client-3 = interpreter.lucacristina.expr.Sum
+5.100.client-4 = interpreter.lucacristina.parser.MathParser
+5.100.client-5 = interpreter.lucacristina.client.Client
+5.100.client-6 = interpreter.lucacristina.expr.functions.min
+5.100.client-7 = interpreter.lucacristina.expr.functions.user.UserFunctionDefinition
+5.100.client-8 = interpreter.lucacristina.expr.functions.pow
+5.100.client-9 = interpreter.lucacristina.expr.functions.sqrt
+5.100.client-10 = interpreter.lucacristina.expr.Multiplication
+5.100.client-11 = interpreter.lucacristina.expr.Function
+5.100.client-12 = interpreter.lucacristina.expr.Variable
+5.100.client-13 = interpreter.lucacristina.expr.Subtraction
+5.100.client-14 = interpreter.lucacristina.expr.Division
+
+# Solution with all constraints
+6.100.Name = Adapter Design Motif
+# Solution with all constraints
+6.100.Sign = Positive
+6.100.XCommand = No source transformation needed
+6.100.target = prototype.earthlink.FederalFraudvillian
+6.100.adapter-1 = prototype.earthlink.President
+6.100.adapter-2 = prototype.earthlink.AttorneyGeneral
+6.100.adapter-3 = prototype.earthlink.MinorityPartyCongressPerson
+6.100.adaptee-1 = prototype.earthlink.President
+6.100.adaptee-2 = prototype.earthlink.AttorneyGeneral
+6.100.adaptee-3 = prototype.earthlink.MinorityPartyCongressPerson
+6.100.client-1 = prototype.earthlink.FederalFraudvillian
+6.100.client-2 = prototype.earthlink.President
+6.100.client-3 = prototype.earthlink.AttorneyGeneral
+6.100.client-4 = prototype.earthlink.PrototypeLabCpp
+6.100.client-5 = prototype.earthlink.MinorityPartyCongressPerson
+6.100.client-6 = prototype.earthlink.Factory
+
+# Solution with all constraints
+7.100.Name = Adapter Design Motif
+# Solution with all constraints
+7.100.Sign = Positive
+7.100.XCommand = No source transformation needed
+7.100.target = interpreter.lucacristina.expr.functions.FunctionFactory
+7.100.adapter-1 = interpreter.lucacristina.expr.functions.ClassFunctionFactory
+7.100.adapter-2 = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+7.100.adaptee-1 = interpreter.lucacristina.expr.functions.user.UserFunction
+7.100.adaptee-2 = interpreter.lucacristina.expr.functions.ClassFunctionFactory
+7.100.adaptee-3 = interpreter.lucacristina.expr.functions.user.UserFunctionDefinition
+7.100.adaptee-4 = interpreter.lucacristina.expr.Function
+7.100.client = interpreter.lucacristina.expr.Function
+
+# Solution with all constraints
+8.100.Name = Adapter Design Motif
+# Solution with all constraints
+8.100.Sign = Positive
+8.100.XCommand = No source transformation needed
+8.100.target = visitor.java2s.ProjectVisitor
+8.100.adapter = visitor.java2s.ProjectCostVisitor
+8.100.adaptee-1 = visitor.java2s.Deliverable
+8.100.adaptee-2 = visitor.java2s.Task
+8.100.adaptee-3 = visitor.java2s.DependentTask
+8.100.client-1 = visitor.java2s.Deliverable
+8.100.client-2 = visitor.java2s.Task
+8.100.client-3 = visitor.java2s.Project
+8.100.client-4 = visitor.java2s.DependentTask
+
+# Solution with all constraints
+9.100.Name = Adapter Design Motif
+# Solution with all constraints
+9.100.Sign = Positive
+9.100.XCommand = No source transformation needed
+9.100.target = strategy.sun.SummarizingStrategy
+9.100.adapter-1 = strategy.sun.NameSummarizer
+9.100.adapter-2 = strategy.sun.OrganizationSummarizer
+9.100.adaptee-1 = strategy.sun.Contact
+9.100.adaptee-2 = strategy.sun.NameSummarizer.NameComparator
+9.100.adaptee-3 = strategy.sun.OrganizationSummarizer.OrganizationComparator
+9.100.client-1 = strategy.sun.RunPattern
+9.100.client-2 = strategy.sun.ContactList
+
+# Solution with all constraints
+10.100.Name = Adapter Design Motif
+# Solution with all constraints
+10.100.Sign = Positive
+10.100.XCommand = No source transformation needed
+10.100.target = abstractfactory.javapractices.DeviceDAO
+10.100.adapter-1 = abstractfactory.javapractices.DeviceDAOMySql
+10.100.adapter-2 = abstractfactory.javapractices.DeviceDAOFileScheme
+10.100.adaptee = abstractfactory.javapractices.Device
+10.100.client-1 = abstractfactory.javapractices.DAOFactoryMySql
+10.100.client-2 = abstractfactory.javapractices.DAOFactory
+10.100.client-3 = abstractfactory.javapractices.DAOFactoryFileScheme
+
+# Solution with all constraints
+11.100.Name = Adapter Design Motif
+# Solution with all constraints
+11.100.Sign = Positive
+11.100.XCommand = No source transformation needed
+11.100.target = composite.sun.ProjectItem
+11.100.adapter-1 = composite.sun.Deliverable
+11.100.adapter-2 = composite.sun.Task
+11.100.adaptee = composite.sun.Contact
+11.100.client-1 = composite.sun.Project
+11.100.client-2 = composite.sun.Task
+11.100.client-3 = composite.sun.DataCreator
+
+# Solution with all constraints
+12.100.Name = Adapter Design Motif
+# Solution with all constraints
+12.100.Sign = Positive
+12.100.XCommand = No source transformation needed
+12.100.target = strategy.earthlink.Strategy
+12.100.adapter-1 = strategy.earthlink.TemplateMethod1
+12.100.adapter-2 = strategy.earthlink.TemplateMethod2
+12.100.adaptee-1 = strategy.earthlink.TemplateMethod1
+12.100.adaptee-2 = strategy.earthlink.TemplateMethod2
+12.100.client = strategy.earthlink.StrategyDemo
+
+# Solution with all constraints
+13.100.Name = Adapter Design Motif
+# Solution with all constraints
+13.100.Sign = Positive
+13.100.XCommand = No source transformation needed
+13.100.target = command.fluffycat.CommandAbstract
+13.100.adapter-1 = command.fluffycat.DvdCommandNameStarsOff
+13.100.adapter-2 = command.fluffycat.DvdCommandNameStarsOn
+13.100.adaptee-1 = command.fluffycat.DvdCommandNameStarsOff
+13.100.adaptee-2 = command.fluffycat.DvdCommandNameStarsOn
+13.100.client-1 = command.fluffycat.TestCommand
+13.100.client-2 = command.fluffycat.DvdCommandNameStarsOff
+13.100.client-3 = command.fluffycat.DvdCommandNameStarsOn
+
+# Solution with all constraints
+14.100.Name = Adapter Design Motif
+# Solution with all constraints
+14.100.Sign = Positive
+14.100.XCommand = No source transformation needed
+14.100.target = abstractfactory.javacamp.Remote
+14.100.adapter = abstractfactory.javacamp.RemoteMode
+14.100.adaptee = abstractfactory.javacamp.DataInfo
+14.100.client-1 = abstractfactory.javacamp.Test
+14.100.client-2 = abstractfactory.javacamp.DataManager
+14.100.client-3 = abstractfactory.javacamp.ConnectionFactory
+
+# Solution with all constraints
+15.100.Name = Adapter Design Motif
+# Solution with all constraints
+15.100.Sign = Positive
+15.100.XCommand = No source transformation needed
+15.100.target = mediator.cooper.Command
+15.100.adapter-1 = mediator.cooper.ClearButton
+15.100.adapter-2 = mediator.cooper.MoveButton
+15.100.adaptee-1 = mediator.cooper.ClearButton
+15.100.adaptee-2 = mediator.cooper.MoveButton
+15.100.adaptee-3 = mediator.cooper.Mediator
+15.100.client = mediator.cooper.MedDemo
+
+# Solution with all constraints
+16.100.Name = Adapter Design Motif
+# Solution with all constraints
+16.100.Sign = Positive
+16.100.XCommand = No source transformation needed
+16.100.target = state.fluffycat.DvdStateName
+16.100.adapter-1 = state.fluffycat.DvdStateNameExclaim
+16.100.adapter-2 = state.fluffycat.DvdStateNameStars
+16.100.adaptee-1 = state.fluffycat.DvdStateNameExclaim
+16.100.adaptee-2 = state.fluffycat.DvdStateNameStars
+16.100.adaptee-3 = state.fluffycat.DvdStateContext
+16.100.client-1 = state.fluffycat.DvdStateNameExclaim
+16.100.client-2 = state.fluffycat.DvdStateNameStars
+16.100.client-3 = state.fluffycat.DvdStateContext
+
+# Solution with all constraints
+17.100.Name = Adapter Design Motif
+# Solution with all constraints
+17.100.Sign = Positive
+17.100.XCommand = No source transformation needed
+17.100.target = abstractfactory.javacamp.Local
+17.100.adapter = abstractfactory.javacamp.LocalMode
+17.100.adaptee = abstractfactory.javacamp.DataInfo
+17.100.client-1 = abstractfactory.javacamp.Test
+17.100.client-2 = abstractfactory.javacamp.DataManager
+17.100.client-3 = abstractfactory.javacamp.ConnectionFactory
+
+# Solution with all constraints
+18.100.Name = Adapter Design Motif
+# Solution with all constraints
+18.100.Sign = Positive
+18.100.XCommand = No source transformation needed
+18.100.target = visitor.kuchana.VisitorInterface
+18.100.adapter = visitor.kuchana.OrderVisitor
+18.100.adaptee-1 = visitor.kuchana.CaliforniaOrder
+18.100.adaptee-2 = visitor.kuchana.NonCaliforniaOrder
+18.100.adaptee-3 = visitor.kuchana.OverseasOrder
+18.100.client-1 = visitor.kuchana.CaliforniaOrder
+18.100.client-2 = visitor.kuchana.NonCaliforniaOrder
+18.100.client-3 = visitor.kuchana.OverseasOrder
+
+# Solution with all constraints
+19.100.Name = Adapter Design Motif
+# Solution with all constraints
+19.100.Sign = Positive
+19.100.XCommand = No source transformation needed
+19.100.target = chainofresp.cor1.AbstractStatus
+19.100.adapter-1 = chainofresp.cor1.SevenLivesStatus
+19.100.adapter-2 = chainofresp.cor1.HalfDamageStatus
+19.100.adaptee-1 = chainofresp.cor1.Attack
+19.100.adaptee-2 = chainofresp.cor1.StatusCollection
+19.100.client = chainofresp.cor1.StatusCollection
+
+# Solution with all constraints
+20.100.Name = Adapter Design Motif
+# Solution with all constraints
+20.100.Sign = Positive
+20.100.XCommand = No source transformation needed
+20.100.target = strategy.cooper.Command
+20.100.adapter-1 = strategy.cooper.JBarButton
+20.100.adapter-2 = strategy.cooper.JGraphButton
+20.100.adaptee-1 = strategy.cooper.JBarButton
+20.100.adaptee-2 = strategy.cooper.JGraphButton
+20.100.adaptee-3 = strategy.cooper.Context
+20.100.client = strategy.cooper.StrategyPlot
+
+# Solution with all constraints
+21.100.Name = Adapter Design Motif
+# Solution with all constraints
+21.100.Sign = Positive
+21.100.XCommand = No source transformation needed
+21.100.target = command.sun.UndoableCommand
+21.100.adapter = command.sun.ChangeLocationCommand
+21.100.adaptee-1 = command.sun.Appointment
+21.100.adaptee-2 = command.sun.Location
+21.100.client = command.sun.CommandGui
+
+# Solution with all constraints
+22.100.Name = Adapter Design Motif
+# Solution with all constraints
+22.100.Sign = Positive
+22.100.XCommand = No source transformation needed
+22.100.target = visitor.sourcemaking2.ReflectiveVisitor
+22.100.adapter-1 = visitor.sourcemaking2.DownVisitor
+22.100.adapter-2 = visitor.sourcemaking2.UpVisitor
+22.100.adaptee-1 = visitor.sourcemaking2.This
+22.100.adaptee-2 = visitor.sourcemaking2.That
+22.100.adaptee-3 = visitor.sourcemaking2.DownVisitor
+22.100.adaptee-4 = visitor.sourcemaking2.UpVisitor
+22.100.client-1 = visitor.sourcemaking2.This
+22.100.client-2 = visitor.sourcemaking2.That
+22.100.client-3 = visitor.sourcemaking2.TheOther
+22.100.client-4 = visitor.sourcemaking2.DownVisitor
+22.100.client-5 = visitor.sourcemaking2.UpVisitor
+
+# Solution with all constraints
+23.100.Name = Adapter Design Motif
+# Solution with all constraints
+23.100.Sign = Positive
+23.100.XCommand = No source transformation needed
+23.100.target = boh.sun.ProjectItem
+23.100.adapter-1 = boh.sun.Task
+23.100.adapter-2 = boh.sun.Project
+23.100.adaptee-1 = boh.sun.Contact
+23.100.adaptee-2 = boh.sun.Task
+23.100.client-1 = boh.sun.Task
+23.100.client-2 = boh.sun.ProjectItem
+23.100.client-3 = boh.sun.DataCreator
+23.100.client-4 = boh.sun.RunPattern
+23.100.client-5 = boh.sun.Project
+
+# Solution with all constraints
+24.100.Name = Adapter Design Motif
+# Solution with all constraints
+24.100.Sign = Positive
+24.100.XCommand = No source transformation needed
+24.100.target = abstractfactory.wikipedia.Button
+24.100.adapter-1 = abstractfactory.wikipedia.OSXButton
+24.100.adapter-2 = abstractfactory.wikipedia.WinButton
+24.100.adaptee-1 = abstractfactory.wikipedia.OSXButton
+24.100.adaptee-2 = abstractfactory.wikipedia.WinButton
+24.100.client-1 = abstractfactory.wikipedia.GUIFactory
+24.100.client-2 = abstractfactory.wikipedia.WinFactory
+24.100.client-3 = abstractfactory.wikipedia.OSXButton
+24.100.client-4 = abstractfactory.wikipedia.Application
+24.100.client-5 = abstractfactory.wikipedia.WinButton
+24.100.client-6 = abstractfactory.wikipedia.OSXFactory
+
+# Solution with all constraints
+25.100.Name = Adapter Design Motif
+# Solution with all constraints
+25.100.Sign = Positive
+25.100.XCommand = No source transformation needed
+25.100.target = interpreter.fluffycat.DvdAbstractExpression
+25.100.adapter-1 = interpreter.fluffycat.DvdActorExpression
+25.100.adapter-2 = interpreter.fluffycat.DvdActorTitleExpression
+25.100.adapter-3 = interpreter.fluffycat.DvdTitleExpression
+25.100.adapter-4 = interpreter.fluffycat.DvdTitleActorExpression
+25.100.adaptee = interpreter.fluffycat.DvdInterpreterContext
+25.100.client-1 = interpreter.fluffycat.DvdActorExpression
+25.100.client-2 = interpreter.fluffycat.DvdActorTitleExpression
+25.100.client-3 = interpreter.fluffycat.DvdTitleExpression
+25.100.client-4 = interpreter.fluffycat.DvdInterpreterClient
+25.100.client-5 = interpreter.fluffycat.DvdTitleActorExpression
+
+# Solution with all constraints
+26.100.Name = Adapter Design Motif
+# Solution with all constraints
+26.100.Sign = Positive
+26.100.XCommand = No source transformation needed
+26.100.target = state.st1.State
+26.100.adapter-1 = state.st1.HaveUser
+26.100.adapter-2 = state.st1.Authenticated
+26.100.adaptee-1 = state.st1.HaveUser
+26.100.adaptee-2 = state.st1.Context
+26.100.adaptee-3 = state.st1.Authenticated
+26.100.client-1 = state.st1.State
+26.100.client-2 = state.st1.HaveUser
+26.100.client-3 = state.st1.Context
+26.100.client-4 = state.st1.Authenticated
+26.100.client-5 = state.st1.Initial
+
+# Solution with all constraints
+27.100.Name = Adapter Design Motif
+# Solution with all constraints
+27.100.Sign = Positive
+27.100.XCommand = No source transformation needed
+27.100.target = chainofresp.earthlink.Component
+27.100.adapter-1 = chainofresp.earthlink.Primitive
+27.100.adapter-2 = chainofresp.earthlink.Composite
+27.100.adaptee-1 = chainofresp.earthlink.Primitive
+27.100.adaptee-2 = chainofresp.earthlink.Composite
+27.100.client-1 = chainofresp.earthlink.Component
+27.100.client-2 = chainofresp.earthlink.Primitive
+27.100.client-3 = chainofresp.earthlink.ChainDemo
+27.100.client-4 = chainofresp.earthlink.Composite
+
+# Solution with all constraints
+28.100.Name = Adapter Design Motif
+# Solution with all constraints
+28.100.Sign = Positive
+28.100.XCommand = No source transformation needed
+28.100.target = abstractfactory.java2s.Address
+28.100.adapter-1 = abstractfactory.java2s.FrenchAddress
+28.100.adapter-2 = abstractfactory.java2s.USAddress
+28.100.adaptee-1 = abstractfactory.java2s.FrenchAddress
+28.100.adaptee-2 = abstractfactory.java2s.USAddress
+28.100.client-1 = abstractfactory.java2s.FrenchAddress
+28.100.client-2 = abstractfactory.java2s.AddressFactory
+28.100.client-3 = abstractfactory.java2s.FrenchAddressFactory
+28.100.client-4 = abstractfactory.java2s.RunAbstractFactoryPattern
+28.100.client-5 = abstractfactory.java2s.USAddressFactory
+28.100.client-6 = abstractfactory.java2s.USAddress
+
+# Solution with all constraints
+29.100.Name = Adapter Design Motif
+# Solution with all constraints
+29.100.Sign = Positive
+29.100.XCommand = No source transformation needed
+29.100.target = abstractfactory.java2s.AddressFactory
+29.100.adapter-1 = abstractfactory.java2s.FrenchAddressFactory
+29.100.adapter-2 = abstractfactory.java2s.USAddressFactory
+29.100.adaptee-1 = abstractfactory.java2s.Address
+29.100.adaptee-2 = abstractfactory.java2s.PhoneNumber
+29.100.client = abstractfactory.java2s.RunAbstractFactoryPattern
+
+# Solution with all constraints
+30.100.Name = Adapter Design Motif
+# Solution with all constraints
+30.100.Sign = Positive
+30.100.XCommand = No source transformation needed
+30.100.target = visitor.earthlink.composite3.Visitor
+30.100.adapter = visitor.earthlink.composite3.CollectVisitor
+30.100.adaptee-1 = visitor.earthlink.composite3.Composite
+30.100.adaptee-2 = visitor.earthlink.composite3.Leaf
+30.100.client-1 = visitor.earthlink.composite3.Composite
+30.100.client-2 = visitor.earthlink.composite3.Leaf
+
+# Solution with all constraints
+31.100.Name = Adapter Design Motif
+# Solution with all constraints
+31.100.Sign = Positive
+31.100.XCommand = No source transformation needed
+31.100.target = visitor.earthlink.demo.Visitor
+31.100.adapter-1 = visitor.earthlink.demo.UpVisitor
+31.100.adapter-2 = visitor.earthlink.demo.DownVisitor
+31.100.adaptee-1 = visitor.earthlink.demo.This
+31.100.adaptee-2 = visitor.earthlink.demo.TheOther
+31.100.adaptee-3 = visitor.earthlink.demo.That
+31.100.client-1 = visitor.earthlink.demo.This
+31.100.client-2 = visitor.earthlink.demo.TheOther
+31.100.client-3 = visitor.earthlink.demo.That
+
+# Solution with all constraints
+32.100.Name = Adapter Design Motif
+# Solution with all constraints
+32.100.Sign = Positive
+32.100.XCommand = No source transformation needed
+32.100.target = factorymethod.cselt.Creator
+32.100.adapter = factorymethod.cselt.Creator1
+32.100.adaptee = factorymethod.cselt.AbstractObject
+32.100.client-1 = factorymethod.cselt.Creator
+32.100.client-2 = factorymethod.cselt.Creator1
+
+# Solution with all constraints
+33.100.Name = Adapter Design Motif
+# Solution with all constraints
+33.100.Sign = Positive
+33.100.XCommand = No source transformation needed
+33.100.target = abstractfactory.fluffycat.AbstractSoupFactory
+33.100.adapter-1 = abstractfactory.fluffycat.HonoluluConcreteSoupFactory
+33.100.adapter-2 = abstractfactory.fluffycat.BostonConcreteSoupFactory
+33.100.adaptee-1 = abstractfactory.fluffycat.FishChowder
+33.100.adaptee-2 = abstractfactory.fluffycat.ClamChowder
+33.100.client-1 = abstractfactory.fluffycat.HonoluluConcreteSoupFactory
+33.100.client-2 = abstractfactory.fluffycat.BostonConcreteSoupFactory
+33.100.client-3 = abstractfactory.fluffycat.TestAbstractSoupFactory
+
+# Solution with all constraints
+34.100.Name = Adapter Design Motif
+# Solution with all constraints
+34.100.Sign = Positive
+34.100.XCommand = No source transformation needed
+34.100.target = observer.ob2.Action
+34.100.adapter = observer.ob2.AttackAction
+34.100.adaptee = observer.ob2.Creature
+34.100.client-1 = observer.ob2.Ob2
+34.100.client-2 = observer.ob2.PlainAvailableActionsListener
+34.100.client-3 = observer.ob2.Knight
+34.100.client-4 = observer.ob2.Dragon
+34.100.client-5 = observer.ob2.Creature
+
+# Solution with all constraints
+35.100.Name = Adapter Design Motif
+# Solution with all constraints
+35.100.Sign = Positive
+35.100.XCommand = No source transformation needed
+35.100.target = state.earthlink.disc.State
+35.100.adapter-1 = state.earthlink.disc.Low
+35.100.adapter-2 = state.earthlink.disc.Medium
+35.100.adaptee-1 = state.earthlink.disc.High
+35.100.adaptee-2 = state.earthlink.disc.Chain
+35.100.adaptee-3 = state.earthlink.disc.Medium
+35.100.client-1 = state.earthlink.disc.Low
+35.100.client-2 = state.earthlink.disc.High
+35.100.client-3 = state.earthlink.disc.State
+35.100.client-4 = state.earthlink.disc.Chain
+35.100.client-5 = state.earthlink.disc.Medium
+35.100.client-6 = state.earthlink.disc.Off
+
+# Solution with all constraints
+36.100.Name = Adapter Design Motif
+# Solution with all constraints
+36.100.Sign = Positive
+36.100.XCommand = No source transformation needed
+36.100.target = mediator.med1.AbstractColleague
+36.100.adapter = mediator.med1.TextField
+36.100.adaptee = mediator.med1.AbstractMediator
+36.100.client-1 = mediator.med1.TextField
+36.100.client-2 = mediator.med1.ProgressBar
+
+# Solution with all constraints
+37.100.Name = Adapter Design Motif
+# Solution with all constraints
+37.100.Sign = Positive
+37.100.XCommand = No source transformation needed
+37.100.target = abstractfactory.allapplabs.Computer
+37.100.adapter-1 = abstractfactory.allapplabs.Server
+37.100.adapter-2 = abstractfactory.allapplabs.PC
+37.100.adapter-3 = abstractfactory.allapplabs.Workstation
+37.100.adaptee = abstractfactory.allapplabs.Parts
+37.100.client-1 = abstractfactory.allapplabs.Server
+37.100.client-2 = abstractfactory.allapplabs.ComputerType
+37.100.client-3 = abstractfactory.allapplabs.PC
+37.100.client-4 = abstractfactory.allapplabs.Workstation
+
+# Solution with all constraints
+38.100.Name = Adapter Design Motif
+# Solution with all constraints
+38.100.Sign = Positive
+38.100.XCommand = No source transformation needed
+38.100.target = factorymethod.eckel.polymorphicfactory.Shape
+38.100.adapter-1 = factorymethod.eckel.polymorphicfactory.Square
+38.100.adapter-2 = factorymethod.eckel.polymorphicfactory.Circle
+38.100.adaptee-1 = factorymethod.eckel.polymorphicfactory.Square.Factory
+38.100.adaptee-2 = factorymethod.eckel.polymorphicfactory.Square
+38.100.adaptee-3 = factorymethod.eckel.polymorphicfactory.Circle
+38.100.adaptee-4 = factorymethod.eckel.polymorphicfactory.Circle.Factory
+38.100.client-1 = factorymethod.eckel.polymorphicfactory.ShapeFactory2
+38.100.client-2 = factorymethod.eckel.polymorphicfactory.ShapeFactory
+
+# Solution with all constraints
+39.100.Name = Adapter Design Motif
+# Solution with all constraints
+39.100.Sign = Positive
+39.100.XCommand = No source transformation needed
+39.100.target = state.earthlink.demo2.State
+39.100.adapter-1 = state.earthlink.demo2.B
+39.100.adapter-2 = state.earthlink.demo2.C
+39.100.adapter-3 = state.earthlink.demo2.A
+39.100.adaptee = state.earthlink.demo2.FSM
+39.100.client-1 = state.earthlink.demo2.B
+39.100.client-2 = state.earthlink.demo2.C
+39.100.client-3 = state.earthlink.demo2.A
+
+# Solution with all constraints
+40.100.Name = Adapter Design Motif
+# Solution with all constraints
+40.100.Sign = Positive
+40.100.XCommand = No source transformation needed
+40.100.target = visitor.java2s.ProjectItem
+40.100.adapter-1 = visitor.java2s.Deliverable
+40.100.adapter-2 = visitor.java2s.Task
+40.100.adapter-3 = visitor.java2s.Project
+40.100.adaptee-1 = visitor.java2s.ProjectVisitor
+40.100.adaptee-2 = visitor.java2s.Contact
+40.100.client-1 = visitor.java2s.DataCreator
+40.100.client-2 = visitor.java2s.RunVisitorPattern
+
+# Solution with all constraints
+41.100.Name = Adapter Design Motif
+# Solution with all constraints
+41.100.Sign = Positive
+41.100.XCommand = No source transformation needed
+41.100.target = prototype.earthlink.Image
+41.100.adapter-1 = prototype.earthlink.LandSatImage
+41.100.adapter-2 = prototype.earthlink.SpotImage
+41.100.adaptee-1 = prototype.earthlink.LandSatImage
+41.100.adaptee-2 = prototype.earthlink.SpotImage
+41.100.adaptee-3 = prototype.earthlink.imageType
+41.100.client-1 = prototype.earthlink.LandSatImage
+41.100.client-2 = prototype.earthlink.PrototypeDemoCpp
+41.100.client-3 = prototype.earthlink.Image
+41.100.client-4 = prototype.earthlink.SpotImage
+
+# Solution with all constraints
+42.100.Name = Adapter Design Motif
+# Solution with all constraints
+42.100.Sign = Positive
+42.100.XCommand = No source transformation needed
+42.100.target = chainofresp.cooper.Chain
+42.100.adapter-1 = chainofresp.cooper.ColorImage
+42.100.adapter-2 = chainofresp.cooper.RestList
+42.100.adapter-3 = chainofresp.cooper.Sender
+42.100.adapter-4 = chainofresp.cooper.Imager
+42.100.adaptee-1 = chainofresp.cooper.XFile
+42.100.adaptee-2 = chainofresp.cooper.ColorImage
+42.100.adaptee-3 = chainofresp.cooper.RestList
+42.100.adaptee-4 = chainofresp.cooper.Sender
+42.100.adaptee-5 = chainofresp.cooper.Imager
+42.100.adaptee-6 = chainofresp.cooper.JawtList
+42.100.client-1 = chainofresp.cooper.ColorImage
+42.100.client-2 = chainofresp.cooper.FileList
+42.100.client-3 = chainofresp.cooper.RestList
+42.100.client-4 = chainofresp.cooper.Sender
+42.100.client-5 = chainofresp.cooper.Chain
+42.100.client-6 = chainofresp.cooper.Imager
+
+# Solution with all constraints
+43.100.Name = Adapter Design Motif
+# Solution with all constraints
+43.100.Sign = Positive
+43.100.XCommand = No source transformation needed
+43.100.target = state.earthlink.disc2.PropertyOwnershipState
+43.100.adapter-1 = state.earthlink.disc2.UnownedState
+43.100.adapter-2 = state.earthlink.disc2.OwnedState
+43.100.adaptee-1 = state.earthlink.disc2.Property
+43.100.adaptee-2 = state.earthlink.disc2.UnownedState
+43.100.adaptee-3 = state.earthlink.disc2.Player
+43.100.adaptee-4 = state.earthlink.disc2.OwnedState
+43.100.client-1 = state.earthlink.disc2.Property
+43.100.client-2 = state.earthlink.disc2.UnownedState
+43.100.client-3 = state.earthlink.disc2.OwnedState
+
+# Solution with all constraints
+44.100.Name = Adapter Design Motif
+# Solution with all constraints
+44.100.Sign = Positive
+44.100.XCommand = No source transformation needed
+44.100.target = boh.dofactory.Document
+44.100.adapter-1 = boh.dofactory.Report
+44.100.adapter-2 = boh.dofactory.Resume
+44.100.adaptee-1 = boh.dofactory.ConclusionPage
+44.100.adaptee-2 = boh.dofactory.EducationPage
+44.100.adaptee-3 = boh.dofactory.BibliographyPage
+44.100.adaptee-4 = boh.dofactory.Report
+44.100.adaptee-5 = boh.dofactory.IntroductionPage
+44.100.adaptee-6 = boh.dofactory.ResultsPage
+44.100.adaptee-7 = boh.dofactory.ExperiencePage
+44.100.adaptee-8 = boh.dofactory.Resume
+44.100.adaptee-9 = boh.dofactory.SummaryPage
+44.100.adaptee-10 = boh.dofactory.SkillsPage
+44.100.client-1 = boh.dofactory.Report
+44.100.client-2 = boh.dofactory.Document
+44.100.client-3 = boh.dofactory.Resume
+44.100.client-4 = boh.dofactory.MainApp
+
+# Solution with all constraints
+45.100.Name = Adapter Design Motif
+# Solution with all constraints
+45.100.Sign = Positive
+45.100.XCommand = No source transformation needed
+45.100.target = factorymethod.headfirst.pizzafm.PizzaStore
+45.100.adapter-1 = factorymethod.headfirst.pizzafm.ChicagoPizzaStore
+45.100.adapter-2 = factorymethod.headfirst.pizzafm.NYPizzaStore
+45.100.adaptee-1 = factorymethod.headfirst.pizzafm.ChicagoStyleCheesePizza
+45.100.adaptee-2 = factorymethod.headfirst.pizzafm.ChicagoStylePepperoniPizza
+45.100.adaptee-3 = factorymethod.headfirst.pizzafm.ChicagoStyleVeggiePizza
+45.100.adaptee-4 = factorymethod.headfirst.pizzafm.NYStyleVeggiePizza
+45.100.adaptee-5 = factorymethod.headfirst.pizzafm.NYStyleCheesePizza
+45.100.adaptee-6 = factorymethod.headfirst.pizzafm.ChicagoStyleClamPizza
+45.100.adaptee-7 = factorymethod.headfirst.pizzafm.NYStyleClamPizza
+45.100.adaptee-8 = factorymethod.headfirst.pizzafm.NYStylePepperoniPizza
+45.100.adaptee-9 = factorymethod.headfirst.pizzafm.Pizza
+45.100.client-1 = factorymethod.headfirst.pizzafm.PizzaTestDrive
+45.100.client-2 = factorymethod.headfirst.pizzafm.PizzaStore
+45.100.client-3 = factorymethod.headfirst.pizzafm.ChicagoPizzaStore
+45.100.client-4 = factorymethod.headfirst.pizzafm.NYPizzaStore
+
+# Solution with all constraints
+46.100.Name = Adapter Design Motif
+# Solution with all constraints
+46.100.Sign = Positive
+46.100.XCommand = No source transformation needed
+46.100.target = memento.cooper.Command
+46.100.adapter-1 = memento.cooper.RectButton
+46.100.adapter-2 = memento.cooper.ClearButton
+46.100.adapter-3 = memento.cooper.UndoButton
+46.100.adaptee-1 = memento.cooper.RectButton
+46.100.adaptee-2 = memento.cooper.ClearButton
+46.100.adaptee-3 = memento.cooper.Mediator
+46.100.adaptee-4 = memento.cooper.UndoButton
+46.100.client = memento.cooper.MemDraw
+
+# Solution with all constraints
+47.100.Name = Adapter Design Motif
+# Solution with all constraints
+47.100.Sign = Positive
+47.100.XCommand = No source transformation needed
+47.100.target = abstractfactory.headfirst.ducks.AbstractDuckFactory
+47.100.adapter-1 = abstractfactory.headfirst.ducks.DuckFactory
+47.100.adapter-2 = abstractfactory.headfirst.ducks.CountingDuckFactory
+47.100.adaptee-1 = abstractfactory.headfirst.ducks.Quackable
+47.100.adaptee-2 = abstractfactory.headfirst.ducks.QuackCounter
+47.100.client-1 = abstractfactory.headfirst.ducks.DuckFactory
+47.100.client-2 = abstractfactory.headfirst.ducks.DuckSimulator
+47.100.client-3 = abstractfactory.headfirst.ducks.CountingDuckFactory
+
+# Solution with all constraints
+48.100.Name = Adapter Design Motif
+# Solution with all constraints
+48.100.Sign = Positive
+48.100.XCommand = No source transformation needed
+48.100.target = builder.earthlink.democpp2.Builder
+48.100.adapter-1 = builder.earthlink.democpp2.UnixBuilder
+48.100.adapter-2 = builder.earthlink.democpp2.VmsBuilder
+48.100.adaptee = builder.earthlink.democpp2.DistrWorkPackage
+48.100.client-1 = builder.earthlink.democpp2.UnixBuilder
+48.100.client-2 = builder.earthlink.democpp2.DemoCpp2
+48.100.client-3 = builder.earthlink.democpp2.VmsBuilder
+
+# Solution with all constraints
+49.100.Name = Adapter Design Motif
+# Solution with all constraints
+49.100.Sign = Positive
+49.100.XCommand = No source transformation needed
+49.100.target = visitor.java2s.Order
+49.100.adapter-1 = visitor.java2s.OverseasOrder
+49.100.adapter-2 = visitor.java2s.NonCaliforniaOrder
+49.100.adapter-3 = visitor.java2s.CaliforniaOrder
+49.100.adaptee = visitor.java2s.OrderVisitor
+49.100.client = visitor.java2s.ButtonHandler
+
+# Solution with all constraints
+50.100.Name = Adapter Design Motif
+# Solution with all constraints
+50.100.Sign = Positive
+50.100.XCommand = No source transformation needed
+50.100.target = builder.fluffycat.SoupBuffetBuilder
+50.100.adapter-1 = builder.fluffycat.BostonSoupBuffetBuilder
+50.100.adapter-2 = builder.fluffycat.HonoluluSoupBuffetBuilder
+50.100.adaptee-1 = builder.fluffycat.HonoluluClamChowder
+50.100.adaptee-2 = builder.fluffycat.BostonClamChowder
+50.100.adaptee-3 = builder.fluffycat.BostonFishChowder
+50.100.adaptee-4 = builder.fluffycat.HonoluluFishChowder
+50.100.client-1 = builder.fluffycat.TestSoupBuffetBuilder
+50.100.client-2 = builder.fluffycat.BostonSoupBuffetBuilder
+50.100.client-3 = builder.fluffycat.HonoluluSoupBuffetBuilder
+
+# Solution with all constraints
+51.100.Name = Adapter Design Motif
+# Solution with all constraints
+51.100.Sign = Positive
+51.100.XCommand = No source transformation needed
+51.100.target = abstractfactory.inria.AbAbstractFactory
+51.100.adapter-1 = abstractfactory.inria.AbAbstractFactory2
+51.100.adapter-2 = abstractfactory.inria.AbAbstractFactory1
+51.100.adaptee-1 = abstractfactory.inria.B
+51.100.adaptee-2 = abstractfactory.inria.A
+51.100.adaptee-3 = abstractfactory.inria.A1
+51.100.adaptee-4 = abstractfactory.inria.A2
+51.100.adaptee-5 = abstractfactory.inria.B2
+51.100.adaptee-6 = abstractfactory.inria.B1
+51.100.client-1 = abstractfactory.inria.AbAbstractFactory2
+51.100.client-2 = abstractfactory.inria.AbAbstractFactory1
+
+# Solution with all constraints
+52.100.Name = Adapter Design Motif
+# Solution with all constraints
+52.100.Sign = Positive
+52.100.XCommand = No source transformation needed
+52.100.target = factorymethod.kuchana.Logger
+52.100.adapter = factorymethod.kuchana.FileLogger
+52.100.adaptee = factorymethod.kuchana.FileUtil
+52.100.client-1 = factorymethod.kuchana.LoggerTest
+52.100.client-2 = factorymethod.kuchana.LoggerFactory
+
+# Solution with all constraints
+53.100.Name = Adapter Design Motif
+# Solution with all constraints
+53.100.Sign = Positive
+53.100.XCommand = No source transformation needed
+53.100.target = mediator.sun.ContactMediator
+53.100.adapter = mediator.sun.ContactMediatorImpl
+53.100.adaptee-1 = mediator.sun.Contact
+53.100.adaptee-2 = mediator.sun.ContactImpl
+53.100.adaptee-3 = mediator.sun.ContactDisplayPanel
+53.100.client-1 = mediator.sun.ContactSelectorPanel
+53.100.client-2 = mediator.sun.ContactEditorPanel
+53.100.client-3 = mediator.sun.RunPattern
+
+# Solution with all constraints
+54.100.Name = Adapter Design Motif
+# Solution with all constraints
+54.100.Sign = Positive
+54.100.XCommand = No source transformation needed
+54.100.target = visitor.earthlink.ReflectiveVisitor
+54.100.adapter-1 = visitor.earthlink.UpVisitor
+54.100.adapter-2 = visitor.earthlink.DownVisitor
+54.100.adaptee-1 = visitor.earthlink.UpVisitor
+54.100.adaptee-2 = visitor.earthlink.DownVisitor
+54.100.adaptee-3 = visitor.earthlink.This
+54.100.adaptee-4 = visitor.earthlink.That
+54.100.client-1 = visitor.earthlink.UpVisitor
+54.100.client-2 = visitor.earthlink.DownVisitor
+54.100.client-3 = visitor.earthlink.This
+54.100.client-4 = visitor.earthlink.TheOther
+54.100.client-5 = visitor.earthlink.That
+
+# Solution with all constraints
+55.100.Name = Adapter Design Motif
+# Solution with all constraints
+55.100.Sign = Positive
+55.100.XCommand = No source transformation needed
+55.100.target = state.rigovitale.rv2.StatoCaldaia
+55.100.adapter-1 = state.rigovitale.rv2.StatoCaldaiaOff
+55.100.adapter-2 = state.rigovitale.rv2.StatoCaldaiaOn
+55.100.adapter-3 = state.rigovitale.rv2.StatoCaldaiaGuasto
+55.100.adapter-4 = state.rigovitale.rv2.StatoCaldaiaRiscaldamento
+55.100.adaptee = state.rigovitale.rv2.Caldaia
+55.100.client-1 = state.rigovitale.rv2.CaldaiaPanel
+55.100.client-2 = state.rigovitale.rv2.StatoCaldaiaOff
+55.100.client-3 = state.rigovitale.rv2.StatoCaldaiaOn
+55.100.client-4 = state.rigovitale.rv2.StatoCaldaiaGuasto
+55.100.client-5 = state.rigovitale.rv2.StatoCaldaiaRiscaldamento
+55.100.client-6 = state.rigovitale.rv2.Caldaia
+
+# Solution with all constraints
+56.100.Name = Adapter Design Motif
+# Solution with all constraints
+56.100.Sign = Positive
+56.100.XCommand = No source transformation needed
+56.100.target = iterator.iter2.Collection
+56.100.adapter = iterator.iter2.ArrayCollection
+56.100.adaptee-1 = iterator.iter2.ArrayCollection.ArrayIterator
+56.100.adaptee-2 = iterator.iter2.Element
+56.100.adaptee-3 = iterator.iter2.Iterator
+56.100.client-1 = iterator.iter2.ArrayCollection
+56.100.client-2 = iterator.iter2.Client
+
+# Solution with all constraints
+57.100.Name = Adapter Design Motif
+# Solution with all constraints
+57.100.Sign = Positive
+57.100.XCommand = No source transformation needed
+57.100.target = iterator.sun.ToDoListCollection
+57.100.adapter = iterator.sun.ToDoListCollectionImpl
+57.100.adaptee = iterator.sun.ToDoList
+57.100.client-1 = iterator.sun.DataCreator
+57.100.client-2 = iterator.sun.ListPrinter
+
+# Solution with all constraints
+58.100.Name = Adapter Design Motif
+# Solution with all constraints
+58.100.Sign = Positive
+58.100.XCommand = No source transformation needed
+58.100.target = factorymethod.gsraj.common.Profile
+58.100.adapter-1 = factorymethod.gsraj.impl3.Employee
+58.100.adapter-2 = factorymethod.gsraj.impl1.Employee
+58.100.adapter-3 = factorymethod.gsraj.impl1.NonEmployee
+58.100.adapter-4 = factorymethod.gsraj.impl3.NonEmployee
+58.100.adaptee-1 = factorymethod.gsraj.impl3.ResourceCreator
+58.100.adaptee-2 = factorymethod.gsraj.common.Resource
+58.100.client-1 = factorymethod.gsraj.impl3.Employee
+58.100.client-2 = factorymethod.gsraj.impl1.Employee
+58.100.client-3 = factorymethod.gsraj.impl1.NonEmployee
+58.100.client-4 = factorymethod.gsraj.impl3.NonEmployee
+
+# Solution with all constraints
+59.100.Name = Adapter Design Motif
+# Solution with all constraints
+59.100.Sign = Positive
+59.100.XCommand = No source transformation needed
+59.100.target = visitor.fluffycat.AbstractTitleInfo
+59.100.adapter-1 = visitor.fluffycat.BookInfo
+59.100.adapter-2 = visitor.fluffycat.DvdInfo
+59.100.adapter-3 = visitor.fluffycat.GameInfo
+59.100.adaptee-1 = visitor.fluffycat.BookInfo
+59.100.adaptee-2 = visitor.fluffycat.DvdInfo
+59.100.adaptee-3 = visitor.fluffycat.TitleBlurbVisitor
+59.100.adaptee-4 = visitor.fluffycat.GameInfo
+59.100.client-1 = visitor.fluffycat.BookInfo
+59.100.client-2 = visitor.fluffycat.TestTitleVisitor
+59.100.client-3 = visitor.fluffycat.DvdInfo
+59.100.client-4 = visitor.fluffycat.GameInfo
+
+# Solution with all constraints
+60.100.Name = Adapter Design Motif
+# Solution with all constraints
+60.100.Sign = Positive
+60.100.XCommand = No source transformation needed
+60.100.target = abstractfactory.codeguru.csharp.IAVDevice
+60.100.adapter-1 = abstractfactory.codeguru.csharp.CCd
+60.100.adapter-2 = abstractfactory.codeguru.csharp.CDvd
+60.100.adaptee-1 = abstractfactory.codeguru.csharp.IAudio
+60.100.adaptee-2 = abstractfactory.codeguru.csharp.IVideo
+60.100.client-1 = abstractfactory.codeguru.csharp.AbstractFactory
+60.100.client-2 = abstractfactory.codeguru.csharp.CAVMaker
+
+# Solution with all constraints
+61.100.Name = Adapter Design Motif
+# Solution with all constraints
+61.100.Sign = Positive
+61.100.XCommand = No source transformation needed
+61.100.target = interpreter.int2.Statement
+61.100.adapter = interpreter.int2.Assignment
+61.100.adaptee-1 = interpreter.int2.Context
+61.100.adaptee-2 = interpreter.int2.Expression
+61.100.client-1 = interpreter.int2.Block
+61.100.client-2 = interpreter.int2.Client
+61.100.client-3 = interpreter.int2.Assignment
+
+# Solution with all constraints
+62.100.Name = Adapter Design Motif
+# Solution with all constraints
+62.100.Sign = Positive
+62.100.XCommand = No source transformation needed
+62.100.target = abstractfactory.locutus.kingwoodcable.IOFactory
+62.100.adapter = abstractfactory.locutus.kingwoodcable.RemoteIOFactory
+62.100.adaptee-1 = abstractfactory.locutus.kingwoodcable.RemoteFileOutputStream
+62.100.adaptee-2 = abstractfactory.locutus.kingwoodcable.RemoteFileInputStream
+62.100.client-1 = abstractfactory.locutus.kingwoodcable.LocalIOFactory
+62.100.client-2 = abstractfactory.locutus.kingwoodcable.IOFactoryMaker
+62.100.client-3 = abstractfactory.locutus.kingwoodcable.RemoteIOFactory
+62.100.client-4 = abstractfactory.locutus.kingwoodcable.test
+
+# Solution with all constraints
+63.100.Name = Adapter Design Motif
+# Solution with all constraints
+63.100.Sign = Positive
+63.100.XCommand = No source transformation needed
+63.100.target = bridge.sourcemaking3.StackImpl
+63.100.adapter-1 = bridge.sourcemaking3.StackArray
+63.100.adapter-2 = bridge.sourcemaking3.StackList
+63.100.adaptee-1 = bridge.sourcemaking3.StackArray
+63.100.adaptee-2 = bridge.sourcemaking3.Node
+63.100.adaptee-3 = bridge.sourcemaking3.StackList
+63.100.client-1 = bridge.sourcemaking3.StackFIFO
+63.100.client-2 = bridge.sourcemaking3.Stack
+
+# Solution with all constraints
+64.100.Name = Adapter Design Motif
+# Solution with all constraints
+64.100.Sign = Positive
+64.100.XCommand = No source transformation needed
+64.100.target = abstractfactory.apwebco.FinancialToolsFactory
+64.100.adapter-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+64.100.adapter-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+64.100.adaptee-1 = abstractfactory.apwebco.ShipFeeProcessor
+64.100.adaptee-2 = abstractfactory.apwebco.TaxProcessor
+64.100.client-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+64.100.client-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+64.100.client-3 = abstractfactory.apwebco.OrderProcessor
+
+# Solution with all constraints
+65.100.Name = Adapter Design Motif
+# Solution with all constraints
+65.100.Sign = Positive
+65.100.XCommand = No source transformation needed
+65.100.target = observer.sun.TaskChangeObserver
+65.100.adapter-1 = observer.sun.TaskHistoryPanel
+65.100.adapter-2 = observer.sun.TaskSelectorPanel
+65.100.adapter-3 = observer.sun.TaskEditorPanel
+65.100.adaptee-1 = observer.sun.TaskHistoryPanel
+65.100.adaptee-2 = observer.sun.Task
+65.100.adaptee-3 = observer.sun.TaskSelectorPanel
+65.100.adaptee-4 = observer.sun.TaskEditorPanel
+65.100.adaptee-5 = observer.sun.TaskChangeObservable
+65.100.client-1 = observer.sun.ObserverGui
+65.100.client-2 = observer.sun.TaskChangeObservable
+
+# Solution with all constraints
+66.100.Name = Adapter Design Motif
+# Solution with all constraints
+66.100.Sign = Positive
+66.100.XCommand = No source transformation needed
+66.100.target = singleton.kuchana.Logger
+66.100.adapter = singleton.kuchana.FileLogger
+66.100.adaptee = singleton.kuchana.FileUtil
+66.100.client-1 = singleton.kuchana.LoggerTest
+66.100.client-2 = singleton.kuchana.LoggerFactory
+
+# Solution with all constraints
+67.100.Name = Adapter Design Motif
+# Solution with all constraints
+67.100.Sign = Positive
+67.100.XCommand = No source transformation needed
+67.100.target = visitor.sun.ProjectVisitor
+67.100.adapter = visitor.sun.ProjectCostVisitor
+67.100.adaptee-1 = visitor.sun.Task
+67.100.adaptee-2 = visitor.sun.DependentTask
+67.100.adaptee-3 = visitor.sun.Deliverable
+67.100.client-1 = visitor.sun.Task
+67.100.client-2 = visitor.sun.DependentTask
+67.100.client-3 = visitor.sun.Project
+67.100.client-4 = visitor.sun.Deliverable
+
+# Solution with all constraints
+68.100.Name = Adapter Design Motif
+# Solution with all constraints
+68.100.Sign = Positive
+68.100.XCommand = No source transformation needed
+68.100.target = abstractfactory.headfirst.pizzaaf.PizzaStore
+68.100.adapter-1 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+68.100.adapter-2 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+68.100.adaptee-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+68.100.adaptee-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+68.100.adaptee-3 = abstractfactory.headfirst.pizzaaf.CheesePizza
+68.100.adaptee-4 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+68.100.adaptee-5 = abstractfactory.headfirst.pizzaaf.Pizza
+68.100.adaptee-6 = abstractfactory.headfirst.pizzaaf.ClamPizza
+68.100.adaptee-7 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+68.100.client-1 = abstractfactory.headfirst.pizzaaf.PizzaTestDrive
+68.100.client-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+68.100.client-3 = abstractfactory.headfirst.pizzaaf.PizzaStore
+68.100.client-4 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+
+# Solution with all constraints
+69.100.Name = Adapter Design Motif
+# Solution with all constraints
+69.100.Sign = Positive
+69.100.XCommand = No source transformation needed
+69.100.target = visitor.kuchana.Order
+69.100.adapter-1 = visitor.kuchana.CaliforniaOrder
+69.100.adapter-2 = visitor.kuchana.NonCaliforniaOrder
+69.100.adapter-3 = visitor.kuchana.OverseasOrder
+69.100.adaptee = visitor.kuchana.VisitorInterface
+69.100.client = visitor.kuchana.ButtonHandler
+
+# Solution with all constraints
+70.100.Name = Adapter Design Motif
+# Solution with all constraints
+70.100.Sign = Positive
+70.100.XCommand = No source transformation needed
+70.100.target = abstractfactory.javapractices.DAOFactory
+70.100.adapter-1 = abstractfactory.javapractices.DAOFactoryMySql
+70.100.adapter-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+70.100.adaptee-1 = abstractfactory.javapractices.DeviceDAOMySql
+70.100.adaptee-2 = abstractfactory.javapractices.DeviceDAO
+70.100.adaptee-3 = abstractfactory.javapractices.DeviceDAOFileScheme
+70.100.adaptee-4 = abstractfactory.javapractices.UserDAOMySql
+70.100.adaptee-5 = abstractfactory.javapractices.UserDAOFileScheme
+70.100.adaptee-6 = abstractfactory.javapractices.UserDAO
+70.100.client = abstractfactory.javapractices.DatastoreSelector
+
+# Solution with all constraints
+71.100.Name = Adapter Design Motif
+# Solution with all constraints
+71.100.Sign = Positive
+71.100.XCommand = No source transformation needed
+71.100.target = abstractfactory.headfirst.ducks.Quackable
+71.100.adapter = abstractfactory.headfirst.ducks.GooseAdapter
+71.100.adaptee = abstractfactory.headfirst.ducks.Goose
+71.100.client-1 = abstractfactory.headfirst.ducks.DuckFactory
+71.100.client-2 = abstractfactory.headfirst.ducks.AbstractDuckFactory
+71.100.client-3 = abstractfactory.headfirst.ducks.DuckSimulator
+71.100.client-4 = abstractfactory.headfirst.ducks.CountingDuckFactory
+71.100.client-5 = abstractfactory.headfirst.ducks.QuackCounter
+
+# Solution with all constraints
+72.100.Name = Adapter Design Motif
+# Solution with all constraints
+72.100.Sign = Positive
+72.100.XCommand = No source transformation needed
+72.100.target = factorymethod.earthlink.Application
+72.100.adapter = factorymethod.earthlink.MyApplication
+72.100.adaptee-1 = factorymethod.earthlink.MyDocument
+72.100.adaptee-2 = factorymethod.earthlink.Document
+72.100.client-1 = factorymethod.earthlink.MyApplication
+72.100.client-2 = factorymethod.earthlink.Application
+
+# Solution with all constraints
+73.100.Name = Adapter Design Motif
+# Solution with all constraints
+73.100.Sign = Positive
+73.100.XCommand = No source transformation needed
+73.100.target = prototype.fluffycat.AbstractSpoon
+73.100.adapter-1 = prototype.fluffycat.SaladSpoon
+73.100.adapter-2 = prototype.fluffycat.SoupSpoon
+73.100.adaptee-1 = prototype.fluffycat.SaladSpoon
+73.100.adaptee-2 = prototype.fluffycat.SoupSpoon
+73.100.client-1 = prototype.fluffycat.SaladSpoon
+73.100.client-2 = prototype.fluffycat.PrototypeFactory
+73.100.client-3 = prototype.fluffycat.TestPrototype
+73.100.client-4 = prototype.fluffycat.SoupSpoon
+
+# Solution with all constraints
+74.100.Name = Adapter Design Motif
+# Solution with all constraints
+74.100.Sign = Positive
+74.100.XCommand = No source transformation needed
+74.100.target = visitor.fluffycat.TitleBlurbVisitor
+74.100.adapter-1 = visitor.fluffycat.TitleShortBlurbVisitor
+74.100.adapter-2 = visitor.fluffycat.TitleLongBlurbVisitor
+74.100.adaptee-1 = visitor.fluffycat.BookInfo
+74.100.adaptee-2 = visitor.fluffycat.TitleShortBlurbVisitor
+74.100.adaptee-3 = visitor.fluffycat.DvdInfo
+74.100.adaptee-4 = visitor.fluffycat.GameInfo
+74.100.adaptee-5 = visitor.fluffycat.TitleLongBlurbVisitor
+74.100.client-1 = visitor.fluffycat.BookInfo
+74.100.client-2 = visitor.fluffycat.TestTitleVisitor
+74.100.client-3 = visitor.fluffycat.TitleShortBlurbVisitor
+74.100.client-4 = visitor.fluffycat.DvdInfo
+74.100.client-5 = visitor.fluffycat.GameInfo
+74.100.client-6 = visitor.fluffycat.TitleLongBlurbVisitor
+
+# Solution with all constraints
+75.100.Name = Adapter Design Motif
+# Solution with all constraints
+75.100.Sign = Positive
+75.100.XCommand = No source transformation needed
+75.100.target = prototype.proto1.TargetedAction
+75.100.adapter = prototype.proto1.Attack
+75.100.adaptee = prototype.proto1.Creature
+75.100.client-1 = prototype.proto1.TargetedAction
+75.100.client-2 = prototype.proto1.Attack
+
+# Solution with all constraints
+76.100.Name = Adapter Design Motif
+# Solution with all constraints
+76.100.Sign = Positive
+76.100.XCommand = No source transformation needed
+76.100.target = decorator.wikipedia.WindowDecorator
+76.100.adapter-1 = decorator.wikipedia.HorizontalScrollBarDecorator
+76.100.adapter-2 = decorator.wikipedia.VerticalScrollBarDecorator
+76.100.adaptee-1 = decorator.wikipedia.HorizontalScrollBarDecorator
+76.100.adaptee-2 = decorator.wikipedia.VerticalScrollBarDecorator
+76.100.client-1 = decorator.wikipedia.HorizontalScrollBarDecorator
+76.100.client-2 = decorator.wikipedia.VerticalScrollBarDecorator
+
+# Solution with all constraints
+77.100.Name = Adapter Design Motif
+# Solution with all constraints
+77.100.Sign = Positive
+77.100.XCommand = No source transformation needed
+77.100.target = interpreter.sun.ComparisonExpression
+77.100.adapter-1 = interpreter.sun.EqualsExpression
+77.100.adapter-2 = interpreter.sun.ContainsExpression
+77.100.adaptee = interpreter.sun.Context
+77.100.client-1 = interpreter.sun.OrExpression
+77.100.client-2 = interpreter.sun.EqualsExpression
+77.100.client-3 = interpreter.sun.ContainsExpression
+77.100.client-4 = interpreter.sun.AndExpression
+
+# Solution with all constraints
+78.100.Name = Adapter Design Motif
+# Solution with all constraints
+78.100.Sign = Positive
+78.100.XCommand = No source transformation needed
+78.100.target = prototype.earthlink.Factory
+78.100.adapter-1 = prototype.earthlink.RepublicanFactory
+78.100.adapter-2 = prototype.earthlink.DemocratFactory
+78.100.adaptee-1 = prototype.earthlink.President
+78.100.adaptee-2 = prototype.earthlink.AttorneyGeneral
+78.100.adaptee-3 = prototype.earthlink.MinorityPartyCongressPerson
+78.100.client-1 = prototype.earthlink.RepublicanFactory
+78.100.client-2 = prototype.earthlink.PrototypeLabCpp
+78.100.client-3 = prototype.earthlink.DemocratFactory
+
+# Solution with all constraints
+79.100.Name = Adapter Design Motif
+# Solution with all constraints
+79.100.Sign = Positive
+79.100.XCommand = No source transformation needed
+79.100.target = abstractfactory.eckel.GameElementFactory
+79.100.adapter-1 = abstractfactory.eckel.KittiesAndPuzzles
+79.100.adapter-2 = abstractfactory.eckel.KillAndDismember
+79.100.adaptee-1 = abstractfactory.eckel.Obstacle
+79.100.adaptee-2 = abstractfactory.eckel.Player
+79.100.client = abstractfactory.eckel.GameEnvironment
+
+# Solution with all constraints
+80.100.Name = Adapter Design Motif
+# Solution with all constraints
+80.100.Sign = Positive
+80.100.XCommand = No source transformation needed
+80.100.target = abstractfactory.javanotes.AbstractSoupFactory
+80.100.adapter-1 = abstractfactory.javanotes.BostonConcreteSoupFactory
+80.100.adapter-2 = abstractfactory.javanotes.HonoluluConcreteSoupFactory
+80.100.adaptee-1 = abstractfactory.javanotes.FishChowder
+80.100.adaptee-2 = abstractfactory.javanotes.ClamChowder
+80.100.client-1 = abstractfactory.javanotes.TestAbstractSoupFactory
+80.100.client-2 = abstractfactory.javanotes.BostonConcreteSoupFactory
+80.100.client-3 = abstractfactory.javanotes.HonoluluConcreteSoupFactory
+
+# Solution with all constraints
+81.100.Name = Adapter Design Motif
+# Solution with all constraints
+81.100.Sign = Positive
+81.100.XCommand = No source transformation needed
+81.100.target = bridge.siddiqui.Abstraction
+81.100.adapter = bridge.siddiqui.RefinedAbstraction
+81.100.adaptee-1 = bridge.siddiqui.ConcreteImplementor
+81.100.adaptee-2 = bridge.siddiqui.Implementor
+81.100.client-1 = bridge.siddiqui.Client
+81.100.client-2 = bridge.siddiqui.RefinedAbstraction
+
+# Solution with all constraints
+82.100.Name = Adapter Design Motif
+# Solution with all constraints
+82.100.Sign = Positive
+82.100.XCommand = No source transformation needed
+82.100.target = factorymethod.earthlink.Factory
+82.100.adapter-1 = factorymethod.earthlink.DemocratFactory
+82.100.adapter-2 = factorymethod.earthlink.RepublicanFactory
+82.100.adaptee-1 = factorymethod.earthlink.MinorityPartyCongressPerson
+82.100.adaptee-2 = factorymethod.earthlink.President
+82.100.adaptee-3 = factorymethod.earthlink.AttorneyGeneral
+82.100.client-1 = factorymethod.earthlink.DemocratFactory
+82.100.client-2 = factorymethod.earthlink.FactoryMethodLab
+82.100.client-3 = factorymethod.earthlink.RepublicanFactory
+82.100.client-4 = factorymethod.earthlink.Factory
+
+# Solution with all constraints
+83.100.Name = Adapter Design Motif
+# Solution with all constraints
+83.100.Sign = Positive
+83.100.XCommand = No source transformation needed
+83.100.target = templatemethod.fluffycat.TitleInfo
+83.100.adapter-1 = templatemethod.fluffycat.BookTitleInfo
+83.100.adapter-2 = templatemethod.fluffycat.GameTitleInfo
+83.100.adapter-3 = templatemethod.fluffycat.DvdTitleInfo
+83.100.adaptee-1 = templatemethod.fluffycat.BookTitleInfo
+83.100.adaptee-2 = templatemethod.fluffycat.GameTitleInfo
+83.100.adaptee-3 = templatemethod.fluffycat.DvdTitleInfo
+83.100.client-1 = templatemethod.fluffycat.TestTitleInfoTemplate
+83.100.client-2 = templatemethod.fluffycat.BookTitleInfo
+83.100.client-3 = templatemethod.fluffycat.GameTitleInfo
+83.100.client-4 = templatemethod.fluffycat.TitleInfo
+83.100.client-5 = templatemethod.fluffycat.DvdTitleInfo
+
+# Solution with all constraints
+84.100.Name = Adapter Design Motif
+# Solution with all constraints
+84.100.Sign = Positive
+84.100.XCommand = No source transformation needed
+84.100.target = iterator.iter1.Point3DCollection
+84.100.adapter = iterator.iter1.ArrayPoint3DCollection
+84.100.adaptee-1 = iterator.iter1.Point3D
+84.100.adaptee-2 = iterator.iter1.ArrayPoint3DCollection.P3DIterator
+84.100.adaptee-3 = iterator.iter1.Point3DIterator
+84.100.client-1 = iterator.iter1.ArrayPoint3DCollection
+84.100.client-2 = iterator.iter1.Client
+
+# Solution with all constraints
+85.100.Name = Adapter Design Motif
+# Solution with all constraints
+85.100.Sign = Positive
+85.100.XCommand = No source transformation needed
+85.100.target = observer.kuchana.Observer
+85.100.adapter-1 = observer.kuchana.MonthlyReport
+85.100.adapter-2 = observer.kuchana.YTDChart
+85.100.adaptee-1 = observer.kuchana.MonthlyReport
+85.100.adaptee-2 = observer.kuchana.ReportManager
+85.100.adaptee-3 = observer.kuchana.FileUtil
+85.100.adaptee-4 = observer.kuchana.YTDChart
+85.100.client = observer.kuchana.ReportManager
+
+# Solution with all constraints
+86.100.Name = Adapter Design Motif
+# Solution with all constraints
+86.100.Sign = Positive
+86.100.XCommand = No source transformation needed
+86.100.target = visitor.wikipedia.CarElementVisitor
+86.100.adapter-1 = visitor.wikipedia.CarElementDoVisitor
+86.100.adapter-2 = visitor.wikipedia.CarElementPrintVisitor
+86.100.adaptee-1 = visitor.wikipedia.Car
+86.100.adaptee-2 = visitor.wikipedia.Wheel
+86.100.adaptee-3 = visitor.wikipedia.CarElement
+86.100.client-1 = visitor.wikipedia.Body
+86.100.client-2 = visitor.wikipedia.Wheel
+86.100.client-3 = visitor.wikipedia.VisitorDemo
+86.100.client-4 = visitor.wikipedia.Engine
+
+# Solution with all constraints
+87.100.Name = Adapter Design Motif
+# Solution with all constraints
+87.100.Sign = Positive
+87.100.XCommand = No source transformation needed
+87.100.target = memento.sun.Contact
+87.100.adapter = memento.sun.ContactImpl
+87.100.adaptee = memento.sun.Address
+87.100.client = memento.sun.RunPattern
+
+# Solution with all constraints
+88.100.Name = Adapter Design Motif
+# Solution with all constraints
+88.100.Sign = Positive
+88.100.XCommand = No source transformation needed
+88.100.target = state.rigovitale.rv1.StatoCaldaia
+88.100.adapter-1 = state.rigovitale.rv1.StatoCaldaiaOn
+88.100.adapter-2 = state.rigovitale.rv1.StatoCaldaiaRiscaldamento
+88.100.adapter-3 = state.rigovitale.rv1.StatoCaldaiaOff
+88.100.adapter-4 = state.rigovitale.rv1.StatoCaldaiaGuasto
+88.100.adaptee-1 = state.rigovitale.rv1.StatoCaldaiaOn
+88.100.adaptee-2 = state.rigovitale.rv1.StatoCaldaiaRiscaldamento
+88.100.adaptee-3 = state.rigovitale.rv1.StatoCaldaiaOff
+88.100.adaptee-4 = state.rigovitale.rv1.StatoCaldaiaGuasto
+88.100.adaptee-5 = state.rigovitale.rv1.Caldaia
+88.100.client-1 = state.rigovitale.rv1.StatoCaldaiaOn
+88.100.client-2 = state.rigovitale.rv1.StatoCaldaiaRiscaldamento
+88.100.client-3 = state.rigovitale.rv1.CaldaiaPanel
+88.100.client-4 = state.rigovitale.rv1.StatoCaldaiaOff
+88.100.client-5 = state.rigovitale.rv1.StatoCaldaiaGuasto
+88.100.client-6 = state.rigovitale.rv1.Caldaia
+
+# Solution with all constraints
+89.100.Name = Adapter Design Motif
+# Solution with all constraints
+89.100.Sign = Positive
+89.100.XCommand = No source transformation needed
+89.100.target = mediator.fluffycat.DvdTitle
+89.100.adapter-1 = mediator.fluffycat.DvdUpcaseTitle
+89.100.adapter-2 = mediator.fluffycat.DvdLowercaseTitle
+89.100.adaptee-1 = mediator.fluffycat.DvdMediator
+89.100.adaptee-2 = mediator.fluffycat.DvdUpcaseTitle
+89.100.adaptee-3 = mediator.fluffycat.DvdLowercaseTitle
+89.100.client-1 = mediator.fluffycat.DvdUpcaseTitle
+89.100.client-2 = mediator.fluffycat.DvdLowercaseTitle
+
+# Solution with all constraints
+90.100.Name = Adapter Design Motif
+# Solution with all constraints
+90.100.Sign = Positive
+90.100.XCommand = No source transformation needed
+90.100.target = factorymethod.landini.Creator
+90.100.adapter-1 = factorymethod.landini.ConcreteCreatorA
+90.100.adapter-2 = factorymethod.landini.ConcreteCreatorB
+90.100.adaptee-1 = factorymethod.landini.ConcreteProductA
+90.100.adaptee-2 = factorymethod.landini.Product
+90.100.client-1 = factorymethod.landini.ConcreteCreatorA
+90.100.client-2 = factorymethod.landini.ConcreteCreatorB
+90.100.client-3 = factorymethod.landini.FactoryExample
+90.100.client-4 = factorymethod.landini.Creator
+
+# Solution with all constraints
+91.100.Name = Adapter Design Motif
+# Solution with all constraints
+91.100.Sign = Positive
+91.100.XCommand = No source transformation needed
+91.100.target = visitor.sun.ProjectItem
+91.100.adapter-1 = visitor.sun.Task
+91.100.adapter-2 = visitor.sun.Project
+91.100.adapter-3 = visitor.sun.Deliverable
+91.100.adaptee-1 = visitor.sun.Contact
+91.100.adaptee-2 = visitor.sun.ProjectVisitor
+91.100.client-1 = visitor.sun.DataCreator
+91.100.client-2 = visitor.sun.RunPattern
+
+# Solution with all constraints
+92.100.Name = Adapter Design Motif
+# Solution with all constraints
+92.100.Sign = Positive
+92.100.XCommand = No source transformation needed
+92.100.target = abstractfactory.csharpcorner.Factory
+92.100.adapter-1 = abstractfactory.csharpcorner.ConcreteFactory1
+92.100.adapter-2 = abstractfactory.csharpcorner.ConcreteFactory2
+92.100.adaptee = abstractfactory.csharpcorner.Base
+92.100.client = abstractfactory.csharpcorner.MyClient
+
+# Solution with all constraints
+93.100.Name = Adapter Design Motif
+# Solution with all constraints
+93.100.Sign = Positive
+93.100.XCommand = No source transformation needed
+93.100.target = observer.ob2.Creature
+93.100.adapter-1 = observer.ob2.Knight
+93.100.adapter-2 = observer.ob2.Dragon
+93.100.adaptee-1 = observer.ob2.Knight.HealAction
+93.100.adaptee-2 = observer.ob2.Action
+93.100.adaptee-3 = observer.ob2.Knight
+93.100.adaptee-4 = observer.ob2.AttackAction
+93.100.adaptee-5 = observer.ob2.Dragon
+93.100.adaptee-6 = observer.ob2.Dragon.BreathAction
+93.100.client-1 = observer.ob2.Ob2
+93.100.client-2 = observer.ob2.PlainAvailableActionsListener
+93.100.client-3 = observer.ob2.Knight
+93.100.client-4 = observer.ob2.AttackAction
+93.100.client-5 = observer.ob2.Dragon
+93.100.client-6 = observer.ob2.Creature
+
+# Solution with all constraints
+94.100.Name = Adapter Design Motif
+# Solution with all constraints
+94.100.Sign = Positive
+94.100.XCommand = No source transformation needed
+94.100.target = visitor.earthlink.Element
+94.100.adapter-1 = visitor.earthlink.This
+94.100.adapter-2 = visitor.earthlink.TheOther
+94.100.adapter-3 = visitor.earthlink.That
+94.100.adaptee = visitor.earthlink.ReflectiveVisitor
+94.100.client = visitor.earthlink.VisitorDemoReflection
+
+# Solution with all constraints
+95.100.Name = Adapter Design Motif
+# Solution with all constraints
+95.100.Sign = Positive
+95.100.XCommand = No source transformation needed
+95.100.target = interpreter.sun.CompoundExpression
+95.100.adapter-1 = interpreter.sun.OrExpression
+95.100.adapter-2 = interpreter.sun.AndExpression
+95.100.adaptee-1 = interpreter.sun.Context
+95.100.adaptee-2 = interpreter.sun.ComparisonExpression
+95.100.client-1 = interpreter.sun.OrExpression
+95.100.client-2 = interpreter.sun.AndExpression
+
+# Solution with all constraints
+96.100.Name = Adapter Design Motif
+# Solution with all constraints
+96.100.Sign = Positive
+96.100.XCommand = No source transformation needed
+96.100.target = abstractfactory.gruntz.ComponentFactory
+96.100.adapter-1 = abstractfactory.gruntz.FactoryAWT
+96.100.adapter-2 = abstractfactory.gruntz.FactorySwing
+96.100.adaptee-1 = abstractfactory.gruntz.FactorySwing.SwingField
+96.100.adaptee-2 = abstractfactory.gruntz.FactorySwing.SwingFrame
+96.100.adaptee-3 = abstractfactory.gruntz.FactoryAWT.AWTTextField
+96.100.client-1 = abstractfactory.gruntz.GUI1
+96.100.client-2 = abstractfactory.gruntz.GUI2
+96.100.client-3 = abstractfactory.gruntz.CurrentFactory
+
+# Solution with all constraints
+97.100.Name = Adapter Design Motif
+# Solution with all constraints
+97.100.Sign = Positive
+97.100.XCommand = No source transformation needed
+97.100.target = composite.fluffycat.TeaBags
+97.100.adapter-1 = composite.fluffycat.OneTeaBag
+97.100.adapter-2 = composite.fluffycat.TinOfTeaBags
+97.100.adaptee-1 = composite.fluffycat.OneTeaBag
+97.100.adaptee-2 = composite.fluffycat.TinOfTeaBags
+97.100.client-1 = composite.fluffycat.TestTeaBagsComposite
+97.100.client-2 = composite.fluffycat.OneTeaBag
+97.100.client-3 = composite.fluffycat.TinOfTeaBags
+97.100.client-4 = composite.fluffycat.TeaBags
+
+# Solution with all constraints
+98.100.Name = Adapter Design Motif
+# Solution with all constraints
+98.100.Sign = Positive
+98.100.XCommand = No source transformation needed
+98.100.target = proxy.wikipedia.Image
+98.100.adapter = proxy.wikipedia.ProxyImage
+98.100.adaptee = proxy.wikipedia.RealImage
+98.100.client-1 = proxy.wikipedia.ProxyExample
+98.100.client-2 = proxy.wikipedia.ProxyImage
+
+# Solution with all constraints
+99.100.Name = Adapter Design Motif
+# Solution with all constraints
+99.100.Sign = Positive
+99.100.XCommand = No source transformation needed
+99.100.target = observer.ob2.AvailableActionsListener
+99.100.adapter = observer.ob2.PlainAvailableActionsListener
+99.100.adaptee-1 = observer.ob2.Action
+99.100.adaptee-2 = observer.ob2.Creature
+99.100.client-1 = observer.ob2.Ob2
+99.100.client-2 = observer.ob2.Creature
+
+# Solution with all constraints
+100.100.Name = Adapter Design Motif
+# Solution with all constraints
+100.100.Sign = Positive
+100.100.XCommand = No source transformation needed
+100.100.target = visitor.java2s.Visitor
+100.100.adapter-1 = visitor.java2s.bVacationVisitor
+100.100.adapter-2 = visitor.java2s.VacationVisitor
+100.100.adaptee-1 = visitor.java2s.Employee
+100.100.adaptee-2 = visitor.java2s.Boss
+100.100.client-1 = visitor.java2s.bVacationVisitor
+100.100.client-2 = visitor.java2s.Employee
+100.100.client-3 = visitor.java2s.VacationVisitor
+100.100.client-4 = visitor.java2s.Boss
+
+# Solution with all constraints
+101.100.Name = Adapter Design Motif
+# Solution with all constraints
+101.100.Sign = Positive
+101.100.XCommand = No source transformation needed
+101.100.target = interpreter.kuchana.NonTerminalExpression
+101.100.adapter-1 = interpreter.kuchana.SubtractExpression
+101.100.adapter-2 = interpreter.kuchana.MultiplyExpression
+101.100.adapter-3 = interpreter.kuchana.AddExpression
+101.100.adaptee-1 = interpreter.kuchana.SubtractExpression
+101.100.adaptee-2 = interpreter.kuchana.MultiplyExpression
+101.100.adaptee-3 = interpreter.kuchana.AddExpression
+101.100.client-1 = interpreter.kuchana.SubtractExpression
+101.100.client-2 = interpreter.kuchana.Calculator
+101.100.client-3 = interpreter.kuchana.MultiplyExpression
+101.100.client-4 = interpreter.kuchana.NonTerminalExpression
+101.100.client-5 = interpreter.kuchana.AddExpression
+
+# Solution with all constraints
+102.100.Name = Adapter Design Motif
+# Solution with all constraints
+102.100.Sign = Positive
+102.100.XCommand = No source transformation needed
+102.100.target = interpreter.lucacristina.expr.Function
+102.100.adapter-1 = interpreter.lucacristina.expr.functions.user.UserFunction
+102.100.adapter-2 = interpreter.lucacristina.expr.functions.min
+102.100.adapter-3 = interpreter.lucacristina.expr.functions.pow
+102.100.adapter-4 = interpreter.lucacristina.expr.functions.sqrt
+102.100.adaptee-1 = interpreter.lucacristina.expr.functions.user.UserFunction
+102.100.adaptee-2 = interpreter.lucacristina.expr.Context
+102.100.adaptee-3 = interpreter.lucacristina.expr.functions.min
+102.100.adaptee-4 = interpreter.lucacristina.expr.functions.pow
+102.100.adaptee-5 = interpreter.lucacristina.expr.functions.sqrt
+102.100.client-1 = interpreter.lucacristina.expr.functions.user.UserFunction
+102.100.client-2 = interpreter.lucacristina.expr.functions.FunctionFactory
+102.100.client-3 = interpreter.lucacristina.expr.functions.ClassFunctionFactory
+102.100.client-4 = interpreter.lucacristina.expr.functions.min
+102.100.client-5 = interpreter.lucacristina.expr.functions.pow
+102.100.client-6 = interpreter.lucacristina.expr.functions.sqrt
+102.100.client-7 = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+102.100.client-8 = interpreter.lucacristina.expr.Function
+
+# Solution with all constraints
+103.100.Name = Adapter Design Motif
+# Solution with all constraints
+103.100.Sign = Positive
+103.100.XCommand = No source transformation needed
+103.100.target = abstractfactory.eckel.Player
+103.100.adapter-1 = abstractfactory.eckel.KungFuGuy
+103.100.adapter-2 = abstractfactory.eckel.Kitty
+103.100.adaptee = abstractfactory.eckel.Obstacle
+103.100.client-1 = abstractfactory.eckel.KittiesAndPuzzles
+103.100.client-2 = abstractfactory.eckel.KillAndDismember
+103.100.client-3 = abstractfactory.eckel.GameElementFactory
+
+# Solution with all constraints
+104.100.Name = Adapter Design Motif
+# Solution with all constraints
+104.100.Sign = Positive
+104.100.XCommand = No source transformation needed
+104.100.target = adapter.sun.Contact
+104.100.adapter = adapter.sun.ContactAdapter
+104.100.adaptee-1 = adapter.sun.Chovnatlh
+104.100.adaptee-2 = adapter.sun.ChovnatlhImpl
+104.100.client = adapter.sun.RunAdapterPattern
+
+# Solution with all constraints
+105.100.Name = Adapter Design Motif
+# Solution with all constraints
+105.100.Sign = Positive
+105.100.XCommand = No source transformation needed
+105.100.target = adapter.sourcemaking1.Shape
+105.100.adapter-1 = adapter.sourcemaking1.Line
+105.100.adapter-2 = adapter.sourcemaking1.Rectangle
+105.100.adaptee-1 = adapter.sourcemaking1.LegacyLine
+105.100.adaptee-2 = adapter.sourcemaking1.LegacyRectangle
+105.100.client = adapter.sourcemaking1.AdapterDemo
+
+# Solution with all constraints
+106.100.Name = Adapter Design Motif
+# Solution with all constraints
+106.100.Sign = Positive
+106.100.XCommand = No source transformation needed
+106.100.target = bridge.oodesign.Persistence
+106.100.adapter = bridge.oodesign.PersistenceImp
+106.100.adaptee = bridge.oodesign.PersistenceImplementor
+106.100.client = bridge.oodesign.PersistenceFrameworkDriver
+
+# Solution with all constraints
+107.100.Name = Adapter Design Motif
+# Solution with all constraints
+107.100.Sign = Positive
+107.100.XCommand = No source transformation needed
+107.100.target = abstractfactory.javapractices.UserDAO
+107.100.adapter-1 = abstractfactory.javapractices.UserDAOMySql
+107.100.adapter-2 = abstractfactory.javapractices.UserDAOFileScheme
+107.100.adaptee = abstractfactory.javapractices.Device
+107.100.client-1 = abstractfactory.javapractices.DAOFactoryMySql
+107.100.client-2 = abstractfactory.javapractices.DAOFactory
+107.100.client-3 = abstractfactory.javapractices.DAOFactoryFileScheme
+
+# Solution with all constraints
+108.100.Name = Adapter Design Motif
+# Solution with all constraints
+108.100.Sign = Positive
+108.100.XCommand = No source transformation needed
+108.100.target = visitor.sourcemaking2.Element
+108.100.adapter-1 = visitor.sourcemaking2.This
+108.100.adapter-2 = visitor.sourcemaking2.That
+108.100.adapter-3 = visitor.sourcemaking2.TheOther
+108.100.adaptee = visitor.sourcemaking2.ReflectiveVisitor
+108.100.client = visitor.sourcemaking2.VisitorDemo
+
+# Solution with all constraints
+109.100.Name = Adapter Design Motif
+# Solution with all constraints
+109.100.Sign = Positive
+109.100.XCommand = No source transformation needed
+109.100.target = mediator.med1.AbstractMediator
+109.100.adapter = mediator.med1.TextToBarMediator
+109.100.adaptee-1 = mediator.med1.TextField
+109.100.adaptee-2 = mediator.med1.ProgressBar
+109.100.client-1 = mediator.med1.TextField
+109.100.client-2 = mediator.med1.TextToBarMediator
+
+# Solution with all constraints
+110.100.Name = Adapter Design Motif
+# Solution with all constraints
+110.100.Sign = Positive
+110.100.XCommand = No source transformation needed
+110.100.target = builder.earthlink.democppafter.Builder
+110.100.adapter-1 = builder.earthlink.democppafter.BuilderOne
+110.100.adapter-2 = builder.earthlink.democppafter.BuilderTwo
+110.100.adaptee-1 = builder.earthlink.democppafter.BuilderTwo.TwoEnded
+110.100.adaptee-2 = builder.earthlink.democppafter.BuilderOne.OneEnded
+110.100.adaptee-3 = builder.earthlink.democppafter.Array
+110.100.client-1 = builder.earthlink.democppafter.BuilderOne
+110.100.client-2 = builder.earthlink.democppafter.DemoCppAfter
+110.100.client-3 = builder.earthlink.democppafter.BuilderTwo
+
+# Solution with all constraints
+111.100.Name = Adapter Design Motif
+# Solution with all constraints
+111.100.Sign = Positive
+111.100.XCommand = No source transformation needed
+111.100.target = proxy.kuchana.OrderIF
+111.100.adapter-1 = proxy.kuchana.Order
+111.100.adapter-2 = proxy.kuchana.OrderProxy
+111.100.adaptee-1 = proxy.kuchana.Order
+111.100.adaptee-2 = proxy.kuchana.FileUtil
+111.100.client = proxy.kuchana.MainProxyApp
+
+# Solution with all constraints
+112.100.Name = Adapter Design Motif
+# Solution with all constraints
+112.100.Sign = Positive
+112.100.XCommand = No source transformation needed
+112.100.target = abstractfactory.headfirst.pizzaaf.Pizza
+112.100.adapter-1 = abstractfactory.headfirst.pizzaaf.CheesePizza
+112.100.adapter-2 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+112.100.adapter-3 = abstractfactory.headfirst.pizzaaf.ClamPizza
+112.100.adapter-4 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+112.100.adaptee = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+112.100.client-1 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+112.100.client-2 = abstractfactory.headfirst.pizzaaf.CheesePizza
+112.100.client-3 = abstractfactory.headfirst.pizzaaf.PizzaStore
+112.100.client-4 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+112.100.client-5 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+112.100.client-6 = abstractfactory.headfirst.pizzaaf.ClamPizza
+112.100.client-7 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+
+# Solution with all constraints
+113.100.Name = Adapter Design Motif
+# Solution with all constraints
+113.100.Sign = Positive
+113.100.XCommand = No source transformation needed
+113.100.target = state.cooper.Command
+113.100.adapter-1 = state.cooper.PickButton
+113.100.adapter-2 = state.cooper.FillButton
+113.100.adapter-3 = state.cooper.CircleButton
+113.100.adapter-4 = state.cooper.RectButton
+113.100.adapter-5 = state.cooper.ClearButton
+113.100.adapter-6 = state.cooper.UndoButton
+113.100.adaptee-1 = state.cooper.PickButton
+113.100.adaptee-2 = state.cooper.FillButton
+113.100.adaptee-3 = state.cooper.CircleButton
+113.100.adaptee-4 = state.cooper.RectButton
+113.100.adaptee-5 = state.cooper.ClearButton
+113.100.adaptee-6 = state.cooper.Mediator
+113.100.adaptee-7 = state.cooper.UndoButton
+113.100.client = state.cooper.StateDraw
+
+# Solution with all constraints
+114.100.Name = Adapter Design Motif
+# Solution with all constraints
+114.100.Sign = Positive
+114.100.XCommand = No source transformation needed
+114.100.target = abstractfactory.cooper.Garden
+114.100.adapter-1 = abstractfactory.cooper.VegieGarden
+114.100.adapter-2 = abstractfactory.cooper.AnnualGarden
+114.100.adapter-3 = abstractfactory.cooper.PerennialGarden
+114.100.adaptee = abstractfactory.cooper.Plant
+114.100.client-1 = abstractfactory.cooper.VegieGarden
+114.100.client-2 = abstractfactory.cooper.AnnualGarden
+114.100.client-3 = abstractfactory.cooper.GardenMaker
+114.100.client-4 = abstractfactory.cooper.PerennialGarden
+
+# Solution with all constraints
+115.100.Name = Adapter Design Motif
+# Solution with all constraints
+115.100.Sign = Positive
+115.100.XCommand = No source transformation needed
+115.100.target = interpreter.sun.Expression
+115.100.adapter-1 = interpreter.sun.ConstantExpression
+115.100.adapter-2 = interpreter.sun.VariableExpression
+115.100.adaptee = interpreter.sun.Context
+115.100.client-1 = interpreter.sun.EqualsExpression
+115.100.client-2 = interpreter.sun.ContainsExpression
+115.100.client-3 = interpreter.sun.ContactList
+
+# Solution with all constraints
+116.100.Name = Adapter Design Motif
+# Solution with all constraints
+116.100.Sign = Positive
+116.100.XCommand = No source transformation needed
+116.100.target = strategy.cooper.PlotStrategy
+116.100.adapter-1 = strategy.cooper.LinePlotStrategy
+116.100.adapter-2 = strategy.cooper.BarPlotStrategy
+116.100.adaptee-1 = strategy.cooper.BarPlotPanel
+116.100.adaptee-2 = strategy.cooper.LinePlotPanel
+116.100.adaptee-3 = strategy.cooper.LinePlotStrategy
+116.100.adaptee-4 = strategy.cooper.BarPlotStrategy
+116.100.client-1 = strategy.cooper.LinePlotStrategy
+116.100.client-2 = strategy.cooper.BarPlotStrategy
+116.100.client-3 = strategy.cooper.PlotStrategy
+
+# Solution with all constraints
+117.100.Name = Adapter Design Motif
+# Solution with all constraints
+117.100.Sign = Positive
+117.100.XCommand = No source transformation needed
+117.100.target = chainofresp.kuchana.PRHandler
+117.100.adapter-1 = chainofresp.kuchana.VicePresident
+117.100.adapter-2 = chainofresp.kuchana.PresidentCOO
+117.100.adapter-3 = chainofresp.kuchana.RegionalDirector
+117.100.adapter-4 = chainofresp.kuchana.BranchManager
+117.100.adaptee-1 = chainofresp.kuchana.VicePresident
+117.100.adaptee-2 = chainofresp.kuchana.PresidentCOO
+117.100.adaptee-3 = chainofresp.kuchana.RegionalDirector
+117.100.adaptee-4 = chainofresp.kuchana.BranchManager
+117.100.adaptee-5 = chainofresp.kuchana.PurchaseRequest
+117.100.client-1 = chainofresp.kuchana.VicePresident
+117.100.client-2 = chainofresp.kuchana.PresidentCOO
+117.100.client-3 = chainofresp.kuchana.RegionalDirector
+117.100.client-4 = chainofresp.kuchana.BranchManager
+117.100.client-5 = chainofresp.kuchana.PRHandler
+117.100.client-6 = chainofresp.kuchana.PRManager
+
+# Solution with all constraints
+118.100.Name = Adapter Design Motif
+# Solution with all constraints
+118.100.Sign = Positive
+118.100.XCommand = No source transformation needed
+118.100.target = prototype.proto1.Action
+118.100.adapter = prototype.proto1.TargetedAction
+118.100.adaptee = prototype.proto1.Creature
+118.100.client = prototype.proto1.TargetedAction
+
+# Solution with all constraints
+119.100.Name = Adapter Design Motif
+# Solution with all constraints
+119.100.Sign = Positive
+119.100.XCommand = No source transformation needed
+119.100.target = command.kuchana.txt.CommandInterface
+119.100.adapter-1 = command.kuchana.txt.AddCommand
+119.100.adapter-2 = command.kuchana.txt.DeleteCommand
+119.100.adaptee-1 = command.kuchana.txt.Category
+119.100.adaptee-2 = command.kuchana.txt.Item
+119.100.client-1 = command.kuchana.txt.ItemManager
+119.100.client-2 = command.kuchana.txt.CommandTest
+
+# Solution with all constraints
+120.100.Name = Adapter Design Motif
+# Solution with all constraints
+120.100.Sign = Positive
+120.100.XCommand = No source transformation needed
+120.100.target = visitor.wikipedia.CarElement
+120.100.adapter-1 = visitor.wikipedia.Body
+120.100.adapter-2 = visitor.wikipedia.Wheel
+120.100.adapter-3 = visitor.wikipedia.Engine
+120.100.adaptee = visitor.wikipedia.CarElementVisitor
+120.100.client-1 = visitor.wikipedia.Car
+120.100.client-2 = visitor.wikipedia.CarElementDoVisitor
+120.100.client-3 = visitor.wikipedia.CarElementPrintVisitor
+
+# Solution with all constraints
+121.100.Name = Adapter Design Motif
+# Solution with all constraints
+121.100.Sign = Positive
+121.100.XCommand = No source transformation needed
+121.100.target = proxy.fluffycat.PotOfTeaInterface
+121.100.adapter = proxy.fluffycat.PotOfTeaProxy
+121.100.adaptee = proxy.fluffycat.PotOfTea
+121.100.client = proxy.fluffycat.TestProxy
+
+# Solution with all constraints
+122.100.Name = Adapter Design Motif
+# Solution with all constraints
+122.100.Sign = Positive
+122.100.XCommand = No source transformation needed
+122.100.target = visitor.cooper.Visitor
+122.100.adapter-1 = visitor.cooper.VacationVisitor
+122.100.adapter-2 = visitor.cooper.bVacationVisitor
+122.100.adaptee-1 = visitor.cooper.Boss
+122.100.adaptee-2 = visitor.cooper.Employee
+122.100.client-1 = visitor.cooper.VacationVisitor
+122.100.client-2 = visitor.cooper.bVacationVisitor
+122.100.client-3 = visitor.cooper.Boss
+122.100.client-4 = visitor.cooper.Employee
+
+# Solution with all constraints
+123.100.Name = Adapter Design Motif
+# Solution with all constraints
+123.100.Sign = Positive
+123.100.XCommand = No source transformation needed
+123.100.target = abstractfactory.earthlink.democpp.Factory
+123.100.adapter-1 = abstractfactory.earthlink.democpp.MotifFactory
+123.100.adapter-2 = abstractfactory.earthlink.democpp.WindowsFactory
+123.100.adaptee = abstractfactory.earthlink.democpp.Widget
+123.100.client-1 = abstractfactory.earthlink.democpp.MotifFactory
+123.100.client-2 = abstractfactory.earthlink.democpp.WindowsFactory
+
+# Solution with all constraints
+124.100.Name = Adapter Design Motif
+# Solution with all constraints
+124.100.Sign = Positive
+124.100.XCommand = No source transformation needed
+124.100.target = facade.kuchana.server.CustomerIntr
+124.100.adapter = facade.kuchana.server.CustomerFacade
+124.100.adaptee-1 = facade.kuchana.server.Account
+124.100.adaptee-2 = facade.kuchana.server.Address
+124.100.adaptee-3 = facade.kuchana.server.CreditCard
+124.100.client = facade.kuchana.client.ButtonHandler
+
+# Solution with all constraints
+125.100.Name = Adapter Design Motif
+# Solution with all constraints
+125.100.Sign = Positive
+125.100.XCommand = No source transformation needed
+125.100.target = visitor.earthlink.composite3.Component
+125.100.adapter-1 = visitor.earthlink.composite3.Composite
+125.100.adapter-2 = visitor.earthlink.composite3.Leaf
+125.100.adaptee = visitor.earthlink.composite3.Visitor
+125.100.client-1 = visitor.earthlink.composite3.Composite
+125.100.client-2 = visitor.earthlink.composite3.VisitorComposite3
+
+# Solution with all constraints
+126.100.Name = Adapter Design Motif
+# Solution with all constraints
+126.100.Sign = Positive
+126.100.XCommand = No source transformation needed
+126.100.target = command.sun.LocationEditor
+126.100.adapter = command.sun.CommandGui
+126.100.adaptee-1 = command.sun.LocationImpl
+126.100.adaptee-2 = command.sun.UndoableCommand
+126.100.adaptee-3 = command.sun.Appointment
+126.100.adaptee-4 = command.sun.Location
+126.100.adaptee-5 = command.sun.CommandGui.WindowCloseManager
+126.100.client = command.sun.RunPattern
+
+# Solution with all constraints
+127.100.Name = Adapter Design Motif
+# Solution with all constraints
+127.100.Sign = Positive
+127.100.XCommand = No source transformation needed
+127.100.target = strategy.ravani.Salvataggio
+127.100.adapter-1 = strategy.ravani.TipoHtml
+127.100.adapter-2 = strategy.ravani.TipoXml
+127.100.adaptee = strategy.ravani.Contatto
+127.100.client = strategy.ravani.Strategy
+
+# Solution with all constraints
+128.100.Name = Adapter Design Motif
+# Solution with all constraints
+128.100.Sign = Positive
+128.100.XCommand = No source transformation needed
+128.100.target = visitor.bellinzona.dataFolder.BudgetElement
+128.100.adapter-1 = visitor.bellinzona.dataFolder.Debt
+128.100.adapter-2 = visitor.bellinzona.dataFolder.Realty
+128.100.adapter-3 = visitor.bellinzona.dataFolder.Credit
+128.100.adapter-4 = visitor.bellinzona.dataFolder.Stock
+128.100.adapter-5 = visitor.bellinzona.dataFolder.BankCash
+128.100.adapter-6 = visitor.bellinzona.dataFolder.Worker
+128.100.adaptee-1 = visitor.bellinzona.dataFolder.Debt
+128.100.adaptee-2 = visitor.bellinzona.dataFolder.Credit
+128.100.adaptee-3 = visitor.bellinzona.visitor.BudgetVisitor
+128.100.adaptee-4 = visitor.bellinzona.dataFolder.Stock
+128.100.adaptee-5 = visitor.bellinzona.dataFolder.BankCash
+128.100.adaptee-6 = visitor.bellinzona.dataFolder.Worker
+128.100.client = visitor.bellinzona.Main
+

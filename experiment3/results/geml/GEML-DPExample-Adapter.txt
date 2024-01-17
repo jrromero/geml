@@ -1,0 +1,108 @@
+# Solution with all constraints
+1.100.Name = Adapter Design Motif
+# Solution with all constraints
+1.100.Sign = Positive
+1.100.XCommand = No source transformation needed
+1.100.adapter = bridge.wikipedia.CircleShape
+1.100.adaptee = bridge.wikipedia.DrawingAPI
+1.100.target = bridge.wikipedia.Shape
+
+# Solution with all constraints
+2.100.Name = Adapter Design Motif
+# Solution with all constraints
+2.100.Sign = Positive
+2.100.XCommand = No source transformation needed
+2.100.adapter = bridge.oodesign.PersistenceImp
+2.100.adaptee = bridge.oodesign.PersistenceImplementor
+2.100.target = bridge.oodesign.Persistence
+
+# Solution with all constraints
+3.100.Name = Adapter Design Motif
+# Solution with all constraints
+3.100.Sign = Positive
+3.100.XCommand = No source transformation needed
+3.100.adapter = strategy.ravani.TipoHtml
+3.100.adaptee = strategy.ravani.Contatto
+3.100.target = strategy.ravani.Salvataggio
+
+# Solution with all constraints
+4.100.Name = Adapter Design Motif
+# Solution with all constraints
+4.100.Sign = Positive
+4.100.XCommand = No source transformation needed
+4.100.adapter = strategy.ravani.TipoXml
+4.100.adaptee = strategy.ravani.Contatto
+4.100.target = strategy.ravani.Salvataggio
+
+# Solution with all constraints
+5.100.Name = Adapter Design Motif
+# Solution with all constraints
+5.100.Sign = Positive
+5.100.XCommand = No source transformation needed
+5.100.adapter = observer.ob2.HPListener
+5.100.adaptee = observer.ob2.Creature
+5.100.target = observer.ob2.IPropertyChangeListener
+
+# Solution with all constraints
+6.100.Name = Adapter Design Motif
+# Solution with all constraints
+6.100.Sign = Positive
+6.100.XCommand = No source transformation needed
+6.100.adapter = proxy.fluffycat.PotOfTeaProxy
+6.100.adaptee = proxy.fluffycat.PotOfTea
+6.100.target = proxy.fluffycat.PotOfTeaInterface
+
+# Solution with all constraints
+7.100.Name = Adapter Design Motif
+# Solution with all constraints
+7.100.Sign = Positive
+7.100.XCommand = No source transformation needed
+7.100.adapter = command.sun.ChangeLocationCommand
+7.100.adaptee = command.sun.Appointment
+7.100.target = command.sun.UndoableCommand
+
+# Solution with all constraints
+8.100.Name = Adapter Design Motif
+# Solution with all constraints
+8.100.Sign = Positive
+8.100.XCommand = No source transformation needed
+8.100.adapter = command.sun.ChangeLocationCommand
+8.100.adaptee = command.sun.LocationEditor
+8.100.target = command.sun.UndoableCommand
+
+# Solution with all constraints
+9.100.Name = Adapter Design Motif
+# Solution with all constraints
+9.100.Sign = Positive
+9.100.XCommand = No source transformation needed
+9.100.adapter = abstractfactory.headfirst.ducks.GooseAdapter
+9.100.adaptee = abstractfactory.headfirst.ducks.Goose
+9.100.target = abstractfactory.headfirst.ducks.Quackable
+
+# Solution with all constraints
+10.100.Name = Adapter Design Motif
+# Solution with all constraints
+10.100.Sign = Positive
+10.100.XCommand = No source transformation needed
+10.100.adapter = adapter.sun.ContactAdapter
+10.100.adaptee = adapter.sun.Chovnatlh
+10.100.target = adapter.sun.Contact
+
+# Solution with all constraints
+11.100.Name = Adapter Design Motif
+# Solution with all constraints
+11.100.Sign = Positive
+11.100.XCommand = No source transformation needed
+11.100.adapter = adapter.sourcemaking1.Rectangle
+11.100.adaptee = adapter.sourcemaking1.LegacyRectangle
+11.100.target = adapter.sourcemaking1.Shape
+
+# Solution with all constraints
+12.100.Name = Adapter Design Motif
+# Solution with all constraints
+12.100.Sign = Positive
+12.100.XCommand = No source transformation needed
+12.100.adapter = adapter.sourcemaking1.Line
+12.100.adaptee = adapter.sourcemaking1.LegacyLine
+12.100.target = adapter.sourcemaking1.Shape
+

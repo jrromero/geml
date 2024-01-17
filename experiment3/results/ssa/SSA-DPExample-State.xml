@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="State">
+		<instance>
+			<role name="Context" element="state.rigovitale.rv1.Caldaia" />
+			<role name="State" element="state.rigovitale.rv1.StatoCaldaia" />
+			<role name="state" element="state.rigovitale.rv1.Caldaia::stato:state.rigovitale.rv1.StatoCaldaia" />
+			<role name="Request()" element="state.rigovitale.rv1.Caldaia::avviaRiscaldamento():java.lang.String" />
+			<role name="Request()" element="state.rigovitale.rv1.Caldaia::arrestaRiscaldamento():java.lang.String" />
+			<role name="Request()" element="state.rigovitale.rv1.Caldaia::accendi():java.lang.String" />
+			<role name="Request()" element="state.rigovitale.rv1.Caldaia::spegni():java.lang.String" />
+			<role name="Request()" element="state.rigovitale.rv1.Caldaia::modificaTemperaturaAcquaRiscaldamento(java.lang.Double):java.lang.String" />
+			<role name="Request()" element="state.rigovitale.rv1.Caldaia::modificaTemperaturaAcquaConsumo(java.lang.Double):java.lang.String" />
+			<role name="Request()" element="state.rigovitale.rv1.Caldaia::rilevatoGuasto():java.lang.String" />
+			<role name="Request()" element="state.rigovitale.rv1.Caldaia::eseguitaRiparazione():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="abstractfactory.headfirst.pizzaaf.CheesePizza" />
+			<role name="State" element="abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory" />
+			<role name="state" element="abstractfactory.headfirst.pizzaaf.CheesePizza::ingredientFactory:abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory" />
+			<role name="Request()" element="abstractfactory.headfirst.pizzaaf.CheesePizza::prepare():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="abstractfactory.headfirst.pizzaaf.ClamPizza" />
+			<role name="State" element="abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory" />
+			<role name="state" element="abstractfactory.headfirst.pizzaaf.ClamPizza::ingredientFactory:abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory" />
+			<role name="Request()" element="abstractfactory.headfirst.pizzaaf.ClamPizza::prepare():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="abstractfactory.headfirst.pizzaaf.PepperoniPizza" />
+			<role name="State" element="abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory" />
+			<role name="state" element="abstractfactory.headfirst.pizzaaf.PepperoniPizza::ingredientFactory:abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory" />
+			<role name="Request()" element="abstractfactory.headfirst.pizzaaf.PepperoniPizza::prepare():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="abstractfactory.headfirst.pizzaaf.VeggiePizza" />
+			<role name="State" element="abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory" />
+			<role name="state" element="abstractfactory.headfirst.pizzaaf.VeggiePizza::ingredientFactory:abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory" />
+			<role name="Request()" element="abstractfactory.headfirst.pizzaaf.VeggiePizza::prepare():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="builder.earthlink.democpp2.Reader" />
+			<role name="State" element="builder.earthlink.democpp2.Builder" />
+			<role name="state" element="builder.earthlink.democpp2.Reader::_builder:builder.earthlink.democpp2.Builder" />
+			<role name="Request()" element="builder.earthlink.democpp2.Reader::construct(builder.earthlink.democpp2.PersistenceAttribute[], int):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="state.earthlink.disc2.Property" />
+			<role name="State" element="state.earthlink.disc2.PropertyOwnershipState" />
+			<role name="state" element="state.earthlink.disc2.Property::currentState:state.earthlink.disc2.PropertyOwnershipState" />
+			<role name="Request()" element="state.earthlink.disc2.Property::landOnBy(state.earthlink.disc2.Player):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="mediator.sun.ContactEditorPanel" />
+			<role name="State" element="mediator.sun.ContactMediator" />
+			<role name="state" element="mediator.sun.ContactEditorPanel::mediator:mediator.sun.ContactMediator" />
+			<role name="Request()" element="mediator.sun.ContactEditorPanel::createContact():void" />
+			<role name="Request()" element="mediator.sun.ContactEditorPanel::updateContact():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="mediator.sun.ContactSelectorPanel" />
+			<role name="State" element="mediator.sun.ContactMediator" />
+			<role name="state" element="mediator.sun.ContactSelectorPanel::mediator:mediator.sun.ContactMediator" />
+			<role name="Request()" element="mediator.sun.ContactSelectorPanel::createGui():void" />
+			<role name="Request()" element="mediator.sun.ContactSelectorPanel::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="mediator.sun.MediatorGui" />
+			<role name="State" element="mediator.sun.ContactMediator" />
+			<role name="state" element="mediator.sun.MediatorGui::mediator:mediator.sun.ContactMediator" />
+			<role name="Request()" element="mediator.sun.MediatorGui::createGui():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="bridge.sourcemaking3.Stack" />
+			<role name="State" element="bridge.sourcemaking3.StackImpl" />
+			<role name="state" element="bridge.sourcemaking3.Stack::impl:bridge.sourcemaking3.StackImpl" />
+			<role name="Request()" element="bridge.sourcemaking3.Stack::push(int):void" />
+			<role name="Request()" element="bridge.sourcemaking3.Stack::pop():int" />
+			<role name="Request()" element="bridge.sourcemaking3.Stack::top():int" />
+			<role name="Request()" element="bridge.sourcemaking3.Stack::isEmpty():boolean" />
+			<role name="Request()" element="bridge.sourcemaking3.Stack::isFull():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="bridge.sourcemaking3.StackFIFO" />
+			<role name="State" element="bridge.sourcemaking3.StackImpl" />
+			<role name="state" element="bridge.sourcemaking3.StackFIFO::temp:bridge.sourcemaking3.StackImpl" />
+			<role name="Request()" element="bridge.sourcemaking3.StackFIFO::pop():int" />
+		</instance>
+		<instance>
+			<role name="Context" element="observer.earthlink.Subject" />
+			<role name="State" element="observer.earthlink.Observer" />
+			<role name="state" element="observer.earthlink.Subject::observers:observer.earthlink.Observer[]" />
+			<role name="Request()" element="observer.earthlink.Subject::notifyObservers():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="abstractfactory.cooper.Gardener" />
+			<role name="State" element="abstractfactory.cooper.Garden" />
+			<role name="state" element="abstractfactory.cooper.Gardener::garden:abstractfactory.cooper.Garden" />
+			<role name="Request()" element="abstractfactory.cooper.Gardener::setCenter():void" />
+			<role name="Request()" element="abstractfactory.cooper.Gardener::setBorder():void" />
+			<role name="Request()" element="abstractfactory.cooper.Gardener::setShade():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="abstractfactory.locutus.kingwoodcable.RemoteFileInputStream" />
+			<role name="State" element="abstractfactory.locutus.kingwoodcable.RemoteFileInput" />
+			<role name="state" element="abstractfactory.locutus.kingwoodcable.RemoteFileInputStream::input:abstractfactory.locutus.kingwoodcable.RemoteFileInput" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileInputStream::read():int" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileInputStream::read(byte[], int, int):int" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileInputStream::skip(long):long" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileInputStream::available():int" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileInputStream::close():void" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileInputStream::mark(int):void" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileInputStream::reset():void" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileInputStream::markSupported():boolean" />
+		</instance>
+		<instance>
+			<role name="Context" element="adapter.sun.ContactAdapter" />
+			<role name="State" element="adapter.sun.Chovnatlh" />
+			<role name="state" element="adapter.sun.ContactAdapter::contact:adapter.sun.Chovnatlh" />
+			<role name="Request()" element="adapter.sun.ContactAdapter::getFirstName():java.lang.String" />
+			<role name="Request()" element="adapter.sun.ContactAdapter::getLastName():java.lang.String" />
+			<role name="Request()" element="adapter.sun.ContactAdapter::getTitle():java.lang.String" />
+			<role name="Request()" element="adapter.sun.ContactAdapter::getOrganization():java.lang.String" />
+			<role name="Request()" element="adapter.sun.ContactAdapter::setFirstName(java.lang.String):void" />
+			<role name="Request()" element="adapter.sun.ContactAdapter::setLastName(java.lang.String):void" />
+			<role name="Request()" element="adapter.sun.ContactAdapter::setTitle(java.lang.String):void" />
+			<role name="Request()" element="adapter.sun.ContactAdapter::setOrganization(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="bridge.sourcemaking2.Stack" />
+			<role name="State" element="bridge.sourcemaking2.StackImp" />
+			<role name="state" element="bridge.sourcemaking2.Stack::imp:bridge.sourcemaking2.StackImp" />
+			<role name="Request()" element="bridge.sourcemaking2.Stack::push(int):void" />
+			<role name="Request()" element="bridge.sourcemaking2.Stack::pop():int" />
+			<role name="Request()" element="bridge.sourcemaking2.Stack::isEmpty():boolean" />
+		</instance>
+		<instance>
+			<role name="State" element="state.sun.State" />
+			<role name="Context" element="state.sun.CalendarEditor" />
+			<role name="state" element="state.sun.CalendarEditor::currentState:state.sun.State" />
+			<role name="Request()" element="state.sun.CalendarEditor::save():void" />
+			<role name="Request()" element="state.sun.CalendarEditor::edit():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="command.kuchana.txt.ItemManager" />
+			<role name="State" element="command.kuchana.txt.CommandInterface" />
+			<role name="state" element="command.kuchana.txt.ItemManager::command:command.kuchana.txt.CommandInterface" />
+			<role name="Request()" element="command.kuchana.txt.ItemManager::process():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="bridge.javacamp.QuestionManager" />
+			<role name="State" element="bridge.javacamp.Question" />
+			<role name="state" element="bridge.javacamp.QuestionManager::questDB:bridge.javacamp.Question" />
+			<role name="Request()" element="bridge.javacamp.QuestionManager::next():void" />
+			<role name="Request()" element="bridge.javacamp.QuestionManager::prior():void" />
+			<role name="Request()" element="bridge.javacamp.QuestionManager::newOne(java.lang.String):void" />
+			<role name="Request()" element="bridge.javacamp.QuestionManager::delete(java.lang.String):void" />
+			<role name="Request()" element="bridge.javacamp.QuestionManager::display():void" />
+			<role name="Request()" element="bridge.javacamp.QuestionManager::displayAll():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="builder.earthlink.democppafter.Director" />
+			<role name="State" element="builder.earthlink.democppafter.Builder" />
+			<role name="state" element="builder.earthlink.democppafter.Director::b:builder.earthlink.democppafter.Builder" />
+			<role name="Request()" element="builder.earthlink.democppafter.Director::construct():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="builder.kuchana.buttonHandler" />
+			<role name="State" element="builder.kuchana.UIBuilder" />
+			<role name="state" element="builder.kuchana.buttonHandler::builder:builder.kuchana.UIBuilder" />
+			<role name="Request()" element="builder.kuchana.buttonHandler::actionPerformed(java.awt.event.ActionEvent):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="builder.kuchana.UIDirector" />
+			<role name="State" element="builder.kuchana.UIBuilder" />
+			<role name="state" element="builder.kuchana.UIDirector::builder:builder.kuchana.UIBuilder" />
+			<role name="Request()" element="builder.kuchana.UIDirector::build():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="abstractfactory.locutus.kingwoodcable.RemoteFileOutputStream" />
+			<role name="State" element="abstractfactory.locutus.kingwoodcable.RemoteFileOutput" />
+			<role name="state" element="abstractfactory.locutus.kingwoodcable.RemoteFileOutputStream::output:abstractfactory.locutus.kingwoodcable.RemoteFileOutput" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileOutputStream::write(int):void" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileOutputStream::write(byte[]):void" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileOutputStream::flush():void" />
+			<role name="Request()" element="abstractfactory.locutus.kingwoodcable.RemoteFileOutputStream::close():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="memento.earthlink.mem2.Command" />
+			<role name="State" element="memento.earthlink.mem2.Action" />
+			<role name="state" element="memento.earthlink.mem2.Command::_action:memento.earthlink.mem2.Action" />
+			<role name="Request()" element="memento.earthlink.mem2.Command::execute():void" />
+			<role name="Request()" element="memento.earthlink.mem2.Command::redo():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="prototype.earthlink.PrototypesModule" />
+			<role name="State" element="prototype.earthlink.Prototype" />
+			<role name="state" element="prototype.earthlink.PrototypesModule::prototypes:prototype.earthlink.Prototype[]" />
+			<role name="Request()" element="prototype.earthlink.PrototypesModule::findAndClone(java.lang.String):java.lang.Object" />
+		</instance>
+		<instance>
+			<role name="Context" element="chainofresp.cor1.StatusCollection" />
+			<role name="State" element="chainofresp.cor1.AbstractStatus" />
+			<role name="state" element="chainofresp.cor1.StatusCollection::stat:chainofresp.cor1.AbstractStatus[]" />
+			<role name="Request()" element="chainofresp.cor1.StatusCollection::handle(chainofresp.cor1.Attack):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="command.sun.ChangeLocationCommand" />
+			<role name="State" element="command.sun.LocationEditor" />
+			<role name="state" element="command.sun.ChangeLocationCommand::editor:command.sun.LocationEditor" />
+			<role name="Request()" element="command.sun.ChangeLocationCommand::execute():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="command.sun.CommandGui" />
+			<role name="State" element="command.sun.UndoableCommand" />
+			<role name="state" element="command.sun.CommandGui::command:command.sun.UndoableCommand" />
+			<role name="Request()" element="command.sun.CommandGui::undoCommand():void" />
+			<role name="Request()" element="command.sun.CommandGui::redoCommand():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="state.fluffycat.DvdStateContext" />
+			<role name="State" element="state.fluffycat.DvdStateName" />
+			<role name="state" element="state.fluffycat.DvdStateContext::dvdStateName:state.fluffycat.DvdStateName" />
+			<role name="Request()" element="state.fluffycat.DvdStateContext::showName(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="visitor.earthlink.demo.VisitorDemo" />
+			<role name="State" element="visitor.earthlink.demo.Element" />
+			<role name="state" element="visitor.earthlink.demo.VisitorDemo::list:visitor.earthlink.demo.Element[]" />
+			<role name="Request()" element="visitor.earthlink.demo.VisitorDemo::main(java.lang.String[]):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="visitor.sourcemaking1.VisitorDemo" />
+			<role name="State" element="visitor.sourcemaking1.Element" />
+			<role name="state" element="visitor.sourcemaking1.VisitorDemo::list:visitor.sourcemaking1.Element[]" />
+			<role name="Request()" element="visitor.sourcemaking1.VisitorDemo::main(java.lang.String[]):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="abstractfactory.earthlink.democpp.FactoryDemosCpp" />
+			<role name="State" element="abstractfactory.earthlink.democpp.Factory" />
+			<role name="state" element="abstractfactory.earthlink.democpp.FactoryDemosCpp::f:abstractfactory.earthlink.democpp.Factory" />
+			<role name="Request()" element="abstractfactory.earthlink.democpp.FactoryDemosCpp::doThisWindow():void" />
+			<role name="Request()" element="abstractfactory.earthlink.democpp.FactoryDemosCpp::doThatWindow():void" />
+			<role name="Request()" element="abstractfactory.earthlink.democpp.FactoryDemosCpp::main(java.lang.String[]):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="bridge.oodesign.PersistenceImp" />
+			<role name="State" element="bridge.oodesign.PersistenceImplementor" />
+			<role name="state" element="bridge.oodesign.PersistenceImp::implementor:bridge.oodesign.PersistenceImplementor" />
+			<role name="Request()" element="bridge.oodesign.PersistenceImp::deleteById(java.lang.String):void" />
+			<role name="Request()" element="bridge.oodesign.PersistenceImp::findById(java.lang.String):java.lang.Object" />
+			<role name="Request()" element="bridge.oodesign.PersistenceImp::persist(java.lang.Object):java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Context" element="command.cmd1.MenuItem" />
+			<role name="State" element="command.cmd1.Action" />
+			<role name="state" element="command.cmd1.MenuItem::actions:command.cmd1.Action[]" />
+			<role name="Request()" element="command.cmd1.MenuItem::click():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="factorymethod.java2s.EditorGui" />
+			<role name="State" element="factorymethod.java2s.ItemEditor" />
+			<role name="state" element="factorymethod.java2s.EditorGui::editor:factorymethod.java2s.ItemEditor" />
+			<role name="Request()" element="factorymethod.java2s.EditorGui::createGui():void" />
+			<role name="Request()" element="factorymethod.java2s.EditorGui::updateItem():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="abstractfactory.apwebco.OrderProcessor" />
+			<role name="State" element="abstractfactory.apwebco.ShipFeeProcessor" />
+			<role name="state" element="abstractfactory.apwebco.OrderProcessor::shipFeeProcessor:abstractfactory.apwebco.ShipFeeProcessor" />
+			<role name="Request()" element="abstractfactory.apwebco.OrderProcessor::processOrder(abstractfactory.apwebco.Order):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="abstractfactory.apwebco.OrderProcessor" />
+			<role name="State" element="abstractfactory.apwebco.TaxProcessor" />
+			<role name="state" element="abstractfactory.apwebco.OrderProcessor::taxProcessor:abstractfactory.apwebco.TaxProcessor" />
+			<role name="Request()" element="abstractfactory.apwebco.OrderProcessor::processOrder(abstractfactory.apwebco.Order):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="abstractfactory.eckel.GameEnvironment" />
+			<role name="State" element="abstractfactory.eckel.Player" />
+			<role name="state" element="abstractfactory.eckel.GameEnvironment::p:abstractfactory.eckel.Player" />
+			<role name="Request()" element="abstractfactory.eckel.GameEnvironment::play():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="bridge.wikipedia.CircleShape" />
+			<role name="State" element="bridge.wikipedia.DrawingAPI" />
+			<role name="state" element="bridge.wikipedia.CircleShape::drawingAPI:bridge.wikipedia.DrawingAPI" />
+			<role name="Request()" element="bridge.wikipedia.CircleShape::draw():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="interpreter.int2.Assignment" />
+			<role name="State" element="interpreter.int2.Expression" />
+			<role name="state" element="interpreter.int2.Assignment::expr:interpreter.int2.Expression" />
+			<role name="Request()" element="interpreter.int2.Assignment::execute(interpreter.int2.Context):void" />
+		</instance>
+	</pattern>
+</system>
+

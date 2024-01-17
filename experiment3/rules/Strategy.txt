@@ -1,0 +1,6 @@
+( != linkArtefact concretestrategy strategy extendedImplements != conglomeration concretestrategy true != linkMethod concretestrategy strategy implement != typeOf context enum ) -> (!= label aPattern ), supp: 0.6785714285714286, conf: 1.0
+( != linkMethod concretestrategy strategy implement = typeOf context class > DIT context 1.0 > DIT context 1.0 ) -> (!= label aPattern ), supp: 0.5, conf: 1.0
+( = ctorVisibility strategy public ) -> (!= label aPattern ), supp: 0.32142857142857145, conf: 1.0
+( = linkMethod concretestrategy strategy implement ) -> (= label aPattern ), supp: 0.17857142857142858, conf: 1.0
+( = linkArtefact concretestrategy strategy extendedImplements ) -> (= label aPattern ), supp: 0.07142857142857142, conf: 1.0
+( != receives context concretestrategy true = createObj context concretestrategy true ) -> (= label aPattern ), supp: 0.10714285714285714, conf: 0.75

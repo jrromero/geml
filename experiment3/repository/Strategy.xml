@@ -1,0 +1,773 @@
+<patternData>
+	<projectPath></projectPath>
+	<pattern>Strategy</pattern>
+	<roles>
+		<role>context</role>
+		<role>strategy</role>
+		<role>concretestrategy</role>
+	</roles>
+	<candidates>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.figures.LineConnection</class>
+					<class>CH.ifa.draw.contrib.PolygonFigure</class>
+					<class>CH.ifa.draw.figures.EllipseFigure</class>
+					<class>CH.ifa.draw.figures.PolyLineFigure</class>
+					<class>CH.ifa.draw.figures.RoundRectangleFigure</class>
+					<class>CH.ifa.draw.samples.net.NodeFigure</class>
+					<class>CH.ifa.draw.standard.AbstractFigure</class>
+					<class>CH.ifa.draw.standard.DecoratorFigure</class>
+					<class>CH.ifa.draw.framework.ConnectionFigure</class>
+					<class>CH.ifa.draw.standard.ConnectionTool</class>
+					<class>CH.ifa.draw.standard.ChangeConnectionHandle</class>
+					<class>CH.ifa.draw.standard.ConnectionHandle</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.Connector</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.standard.ChopBoxConnector</class>
+					<class>CH.ifa.draw.figures.ChopEllipseConnector</class>
+					<class>CH.ifa.draw.contrib.ChopPolygonConnector</class>
+					<class>CH.ifa.draw.figures.PolyLineConnector</class>
+					<class>CH.ifa.draw.standard.LocatorConnector</class>
+					<class>CH.ifa.draw.figures.ShortestDistanceConnector</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.standard.StandardDrawingView</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.Painter</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.standard.BufferedUpdateStrategy</class>
+					<class>CH.ifa.draw.samples.javadraw.PatternPainter</class>
+					<class>CH.ifa.draw.standard.SimpleUpdateStrategy</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.contrib.PolygonHandle</class>
+					<class>CH.ifa.draw.figures.TextFigure</class>
+					<class>CH.ifa.draw.standard.LocatorConnector</class>
+					<class>CH.ifa.draw.standard.LocatorHandle</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.Locator</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.figures.ElbowTextLocator</class>
+					<class>CH.ifa.draw.standard.OffsetLocator</class>
+					<class>CH.ifa.draw.figures.PolyLineLocator</class>
+					<class>CH.ifa.draw.standard.RelativeLocator</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.standard.StandardDrawingView</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.PointConstrainer</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.standard.GridConstrainer</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="context">
+					<class>net.nutch.db.WebDBInjector</class>
+				</role>
+				<role name="strategy">
+					<class>net.nutch.db.IWebDBWriter</class>
+				</role>
+				<role name="concretestrategy">
+					<class>net.nutch.db.DistributedWebDBWriter</class>
+					<class>net.nutch.db.WebDBWriter</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="context">
+					<class>net.nutch.tools.FetchListTool</class>
+				</role>
+				<role name="strategy">
+					<class>net.nutch.db.IWebDBReader</class>
+				</role>
+				<role name="concretestrategy">
+					<class>net.nutch.db.DistributedWebDBReader</class>
+					<class>net.nutch.db.WebDBReader</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="context">
+					<class>com.taursys.dom.DOM_1_20000929_DocumentAdapter</class>
+				</role>
+				<role name="strategy">
+					<class>com.taursys.dom.AbstractWriter</class>
+				</role>
+				<role name="concretestrategy">
+					<class>com.taursys.dom.XMLWriter</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>net.nutch.net.URLFilterFactory</class>
+				</role>
+				<role name="strategy">
+					<class>net.nutch.net.URLFilter</class>
+				</role>
+				<role name="concretestrategy">
+					<class>net.nutch.net.RegexURLFilter</class>
+					<class>net.nutch.net.PrefixURLFilter</class>
+					<class>net.nutch.db.WebDBInjector</class>
+					<class>net.nutch.tools.UpdateDatabaseTool</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>net.nutch.util.NutchFile</class>
+				</role>
+				<role name="strategy">
+					<class>net.nutch.util.NutchFileSystem</class>
+				</role>
+				<role name="concretestrategy">
+					<class>net.nutch.db.EditSectionGroupWriter</class>
+					<class>net.nutch.db.DistributedWebDBReader</class>
+					<class>net.nutch.db.DistributedWebDBWriter</class>
+					<class>net.nutch.db.EditSectionGroupReader</class>
+					<class>net.nutch.db.EditSectionWriter</class>
+					<class>net.nutch.util.NutchGenericFileSystem</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>net.nutch.db.DistributedWebDBWriter</class>
+				</role>
+				<role name="strategy">
+					<class>net.nutch.io.DataOutputBuffer</class>
+				</role>
+				<role name="concretestrategy">
+					<class>net.nutch.io.UTF8</class>
+					<class>net.nutch.db.WebDBWriter</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>net.nutch.util.NutchGenericFileSystem</class>
+				</role>
+				<role name="strategy">
+					<class>net.nutch.util.ShareSet</class>
+				</role>
+				<role name="concretestrategy">
+					<class>net.nutch.util.NutchRemoteFileSystem</class>
+					<class>net.nutch.util.NutchNFSFileSystem</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>net.nutch.quality.dynamic.PageDescriptionTokenManager</class>
+				</role>
+				<role name="strategy">
+					<class>net.nutch.quality.dynamic.SimpleCharStream</class>
+				</role>
+				<role name="concretestrategy">
+					<class>net.nutch.quality.dynamic.PageDescription</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>net.nutch.db.Page</class>
+				</role>
+				<role name="strategy">
+					<class>net.nutch.io.MD5Hash</class>
+				</role>
+				<role name="concretestrategy">
+					<class>net.nutch.fetcher.OutputThread</class>
+					<class>net.nutch.fetcher.FetcherOutput</class>
+					<class>net.nutch.indexer.DeleteDuplicates</class>
+					<class>net.nutch.indexer.IndexSegment</class>
+					<class>net.nutch.db.IWebDBReader</class>
+					<class>net.nutch.db.Link</class>
+					<class>net.nutch.db.EditSectionGroupWriter</class>
+					<class>net.nutch.db.DBKeyDivision</class>
+					<class>net.nutch.db.DistributedWebDBReader</class>
+					<class>net.nutch.db.DistributedWebDBWriter</class>
+					<class>net.nutch.db.WebDBReader</class>
+					<class>net.nutch.db.WebDBWriter</class>
+					<class>net.nutch.db.DBSectionReader</class>
+					<class>net.nutch.tools.UpdateDatabaseTool</class>
+					<class>net.nutch.tools.FetchListTool</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>com.taursys.xml.Parameter</class>
+				</role>
+				<role name="strategy">
+					<class>com.taursys.model.TextModel</class>
+				</role>
+				<role name="concretestrategy">
+					<class>com.taursys.model.DefaultCheckboxModel</class>
+					<class>com.taursys.model.CheckboxModel</class>
+					<class>com.taursys.model.DefaultTextModel</class>
+					<class>com.taursys.model.test.DefaultTextModelTest</class>
+					<class>com.taursys.model.SelectModel</class>
+					<class>com.taursys.swing.MDocument</class>
+					<class>com.taursys.xml.SelectField</class>
+					<class>com.taursys.xml.CheckboxField</class>
+					<class>com.taursys.xml.render.AttributeTextFieldRenderer</class>
+					<class>com.taursys.xml.render.CheckboxFieldRenderer</class>
+					<class>com.taursys.xml.render.AttributeSelectFieldRenderer</class>
+					<class>com.taursys.xml.render.TextFieldRenderer</class>
+					<class>com.taursys.xml.render.SelectFieldRenderer</class>
+					<class>com.taursys.xml.AbstractField</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>com.taursys.model.VOComparator</class>
+				</role>
+				<role name="strategy">
+					<class>com.taursys.model.VOValueHolder</class>
+				</role>
+				<role name="concretestrategy">
+					<class>com.taursys.model.VOCollectionValueHolder</class>
+					<class>com.taursys.model.VOListValueHolder</class>
+					<class>com.taursys.model.test.VOValueHolderTest</class>
+					<class>com.taursys.model.test.DefaultSelectModelTest</class>
+					<class>com.taursys.model.test.DefaultCheckboxModelTest</class>
+					<class>com.taursys.model.test.DefaultTextModelTest</class>
+					<class>com.taursys.model.test.VOComparatorTest</class>
+					<class>com.taursys.html.test.HTMLComponentFactoryTest</class>
+					<class>com.taursys.swing.MComboBoxModel</class>
+					<class>com.taursys.swing.MDocument</class>
+					<class>com.taursys.swing.MButton</class>
+					<class>com.taursys.xml.test.ParameterTest</class>
+					<class>com.taursys.xml.test.SelectFieldTest</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>com.taursys.model.test.DefaultCheckboxModelTest</class>
+				</role>
+				<role name="strategy">
+					<class>com.taursys.model.DefaultCheckboxModel</class>
+				</role>
+				<role name="concretestrategy">
+					<class>com.taursys.xml.CheckboxField</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.figures.TextFigure</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.Figure</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.applet.DrawApplet</class>
+					<class>CH.ifa.draw.samples.pert.PertFigure</class>
+					<class>CH.ifa.draw.samples.pert.PertDependency</class>
+					<class>CH.ifa.draw.samples.pert.PertFigureCreationTool</class>
+					<class>CH.ifa.draw.samples.net.NodeFigure</class>
+					<class>CH.ifa.draw.samples.javadraw.FollowURLTool</class>
+					<class>CH.ifa.draw.samples.javadraw.MySelectionTool</class>
+					<class>CH.ifa.draw.samples.javadraw.BouncingDrawing</class>
+					<class>CH.ifa.draw.samples.javadraw.URLTool</class>
+					<class>CH.ifa.draw.framework.DrawingView</class>
+					<class>CH.ifa.draw.framework.Locator</class>
+					<class>CH.ifa.draw.framework.FigureChangeEvent</class>
+					<class>CH.ifa.draw.framework.FigureEnumeration</class>
+					<class>CH.ifa.draw.framework.Handle</class>
+					<class>CH.ifa.draw.framework.Drawing</class>
+					<class>CH.ifa.draw.framework.ConnectionFigure</class>
+					<class>CH.ifa.draw.framework.Connector</class>
+					<class>CH.ifa.draw.figures.PolyLineConnector</class>
+					<class>CH.ifa.draw.figures.ElbowHandle</class>
+					<class>CH.ifa.draw.figures.PolyLineLocator</class>
+					<class>CH.ifa.draw.figures.RoundRectangleFigure</class>
+					<class>CH.ifa.draw.figures.ElbowConnection</class>
+					<class>CH.ifa.draw.figures.ShortestDistanceConnector</class>
+					<class>CH.ifa.draw.figures.AttributeFigure</class>
+					<class>CH.ifa.draw.figures.GroupFigure</class>
+					<class>CH.ifa.draw.figures.PolyLineFigure</class>
+					<class>CH.ifa.draw.figures.BorderTool</class>
+					<class>CH.ifa.draw.figures.ImageFigure</class>
+					<class>CH.ifa.draw.figures.LineConnection</class>
+					<class>CH.ifa.draw.figures.BorderDecorator</class>
+					<class>CH.ifa.draw.figures.UngroupCommand</class>
+					<class>CH.ifa.draw.figures.ScribbleTool</class>
+					<class>CH.ifa.draw.figures.ChopEllipseConnector</class>
+					<class>CH.ifa.draw.figures.ElbowTextLocator</class>
+					<class>CH.ifa.draw.contrib.PolygonFigure</class>
+					<class>CH.ifa.draw.contrib.PolygonTool</class>
+					<class>CH.ifa.draw.contrib.TriangleFigure</class>
+					<class>CH.ifa.draw.contrib.TriangleRotationHandle</class>
+					<class>CH.ifa.draw.contrib.ChopPolygonConnector</class>
+					<class>CH.ifa.draw.standard.WestHandle</class>
+					<class>CH.ifa.draw.standard.NorthEastHandle</class>
+					<class>CH.ifa.draw.standard.ConnectionTool</class>
+					<class>CH.ifa.draw.standard.ActionTool</class>
+					<class>CH.ifa.draw.standard.TextHolder</class>
+					<class>CH.ifa.draw.standard.ChangeConnectionHandle</class>
+					<class>CH.ifa.draw.standard.CompositeFigure</class>
+					<class>CH.ifa.draw.standard.OffsetLocator</class>
+					<class>CH.ifa.draw.standard.PasteCommand</class>
+					<class>CH.ifa.draw.standard.AbstractFigure</class>
+					<class>CH.ifa.draw.standard.RelativeLocator</class>
+					<class>CH.ifa.draw.standard.ConnectionHandle</class>
+					<class>CH.ifa.draw.standard.CreationTool</class>
+					<class>CH.ifa.draw.standard.NorthHandle</class>
+					<class>CH.ifa.draw.standard.NorthWestHandle</class>
+					<class>CH.ifa.draw.standard.AbstractLocator</class>
+					<class>CH.ifa.draw.standard.DecoratorFigure</class>
+					<class>CH.ifa.draw.standard.SouthWestHandle</class>
+					<class>CH.ifa.draw.standard.AbstractConnector</class>
+					<class>CH.ifa.draw.standard.ChangeAttributeCommand</class>
+					<class>CH.ifa.draw.standard.SouthEastHandle</class>
+					<class>CH.ifa.draw.standard.ChopBoxConnector</class>
+					<class>CH.ifa.draw.standard.FigureEnumerator</class>
+					<class>CH.ifa.draw.standard.SelectAreaTracker</class>
+					<class>CH.ifa.draw.standard.DragTracker</class>
+					<class>CH.ifa.draw.standard.StandardDrawing</class>
+					<class>CH.ifa.draw.standard.SelectionTool</class>
+					<class>CH.ifa.draw.standard.AbstractHandle</class>
+					<class>CH.ifa.draw.standard.AlignCommand</class>
+					<class>CH.ifa.draw.standard.StandardDrawingView</class>
+					<class>CH.ifa.draw.standard.BoxHandleKit</class>
+					<class>CH.ifa.draw.standard.EastHandle</class>
+					<class>CH.ifa.draw.standard.ReverseFigureEnumerator</class>
+					<class>CH.ifa.draw.standard.SouthHandle</class>
+					<class>CH.ifa.draw.standard.FigureTransferCommand</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.applet.DrawApplet</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.Tool</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawViewer</class>
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawApp</class>
+					<class>CH.ifa.draw.samples.javadraw.URLTool</class>
+					<class>CH.ifa.draw.framework.DrawingView</class>
+					<class>CH.ifa.draw.framework.DrawingEditor</class>
+					<class>CH.ifa.draw.application.DrawApplication</class>
+					<class>CH.ifa.draw.figures.TextTool</class>
+					<class>CH.ifa.draw.figures.ScribbleTool</class>
+					<class>CH.ifa.draw.contrib.PolygonTool</class>
+					<class>CH.ifa.draw.standard.ConnectionTool</class>
+					<class>CH.ifa.draw.standard.ToolButton</class>
+					<class>CH.ifa.draw.standard.SelectAreaTracker</class>
+					<class>CH.ifa.draw.standard.DragTracker</class>
+					<class>CH.ifa.draw.standard.AbstractTool</class>
+					<class>CH.ifa.draw.standard.SelectionTool</class>
+					<class>CH.ifa.draw.standard.StandardDrawingView</class>
+					<class>CH.ifa.draw.standard.HandleTracker</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.figures.UngroupCommand</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.DrawingView</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.applet.DrawApplet</class>
+					<class>CH.ifa.draw.samples.javadraw.PatternPainter</class>
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawViewer</class>
+					<class>CH.ifa.draw.samples.javadraw.URLTool</class>
+					<class>CH.ifa.draw.samples.javadraw.Animator</class>
+					<class>CH.ifa.draw.framework.DrawingEditor</class>
+					<class>CH.ifa.draw.framework.Handle</class>
+					<class>CH.ifa.draw.framework.Painter</class>
+					<class>CH.ifa.draw.application.DrawApplication</class>
+					<class>CH.ifa.draw.figures.RadiusHandle</class>
+					<class>CH.ifa.draw.figures.PolyLineHandle</class>
+					<class>CH.ifa.draw.figures.ElbowHandle</class>
+					<class>CH.ifa.draw.figures.GroupCommand</class>
+					<class>CH.ifa.draw.figures.FontSizeHandle</class>
+					<class>CH.ifa.draw.figures.TextTool</class>
+					<class>CH.ifa.draw.figures.ScribbleTool</class>
+					<class>CH.ifa.draw.figures.InsertImageCommand</class>
+					<class>CH.ifa.draw.contrib.PolygonHandle</class>
+					<class>CH.ifa.draw.contrib.PolygonTool</class>
+					<class>CH.ifa.draw.standard.WestHandle</class>
+					<class>CH.ifa.draw.standard.NorthEastHandle</class>
+					<class>CH.ifa.draw.standard.ConnectionTool</class>
+					<class>CH.ifa.draw.standard.ActionTool</class>
+					<class>CH.ifa.draw.standard.ChangeConnectionHandle</class>
+					<class>CH.ifa.draw.standard.PasteCommand</class>
+					<class>CH.ifa.draw.standard.ToggleGridCommand</class>
+					<class>CH.ifa.draw.standard.ConnectionHandle</class>
+					<class>CH.ifa.draw.standard.CreationTool</class>
+					<class>CH.ifa.draw.standard.NorthHandle</class>
+					<class>CH.ifa.draw.standard.SimpleUpdateStrategy</class>
+					<class>CH.ifa.draw.standard.NorthWestHandle</class>
+					<class>CH.ifa.draw.standard.DeleteCommand</class>
+					<class>CH.ifa.draw.standard.SouthWestHandle</class>
+					<class>CH.ifa.draw.standard.ChangeAttributeCommand</class>
+					<class>CH.ifa.draw.standard.SouthEastHandle</class>
+					<class>CH.ifa.draw.standard.BufferedUpdateStrategy</class>
+					<class>CH.ifa.draw.standard.BringToFrontCommand</class>
+					<class>CH.ifa.draw.standard.SelectAreaTracker</class>
+					<class>CH.ifa.draw.standard.DragTracker</class>
+					<class>CH.ifa.draw.standard.AbstractTool</class>
+					<class>CH.ifa.draw.standard.SelectionTool</class>
+					<class>CH.ifa.draw.standard.AbstractHandle</class>
+					<class>CH.ifa.draw.standard.AlignCommand</class>
+					<class>CH.ifa.draw.standard.StandardDrawingView</class>
+					<class>CH.ifa.draw.standard.SendToBackCommand</class>
+					<class>CH.ifa.draw.standard.CopyCommand</class>
+					<class>CH.ifa.draw.standard.CutCommand</class>
+					<class>CH.ifa.draw.standard.EastHandle</class>
+					<class>CH.ifa.draw.standard.DuplicateCommand</class>
+					<class>CH.ifa.draw.standard.SouthHandle</class>
+					<class>CH.ifa.draw.standard.FigureTransferCommand</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.figures.ScribbleTool</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.figures.PolyLineFigure</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.samples.pert.PertDependency</class>
+					<class>CH.ifa.draw.figures.PolyLineConnector</class>
+					<class>CH.ifa.draw.figures.PolyLineHandle</class>
+					<class>CH.ifa.draw.figures.ElbowHandle</class>
+					<class>CH.ifa.draw.figures.PolyLineLocator</class>
+					<class>CH.ifa.draw.figures.ElbowConnection</class>
+					<class>CH.ifa.draw.figures.LineFigure</class>
+					<class>CH.ifa.draw.figures.LineConnection</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.standard.BringToFrontCommand</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.DrawingView</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.applet.DrawApplet</class>
+					<class>CH.ifa.draw.samples.javadraw.PatternPainter</class>
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawViewer</class>
+					<class>CH.ifa.draw.samples.javadraw.URLTool</class>
+					<class>CH.ifa.draw.samples.javadraw.Animator</class>
+					<class>CH.ifa.draw.framework.DrawingEditor</class>
+					<class>CH.ifa.draw.framework.Handle</class>
+					<class>CH.ifa.draw.framework.Painter</class>
+					<class>CH.ifa.draw.application.DrawApplication</class>
+					<class>CH.ifa.draw.figures.RadiusHandle</class>
+					<class>CH.ifa.draw.figures.PolyLineHandle</class>
+					<class>CH.ifa.draw.figures.ElbowHandle</class>
+					<class>CH.ifa.draw.figures.GroupCommand</class>
+					<class>CH.ifa.draw.figures.FontSizeHandle</class>
+					<class>CH.ifa.draw.figures.TextTool</class>
+					<class>CH.ifa.draw.figures.UngroupCommand</class>
+					<class>CH.ifa.draw.figures.ScribbleTool</class>
+					<class>CH.ifa.draw.figures.InsertImageCommand</class>
+					<class>CH.ifa.draw.contrib.PolygonHandle</class>
+					<class>CH.ifa.draw.contrib.PolygonTool</class>
+					<class>CH.ifa.draw.standard.WestHandle</class>
+					<class>CH.ifa.draw.standard.NorthEastHandle</class>
+					<class>CH.ifa.draw.standard.ConnectionTool</class>
+					<class>CH.ifa.draw.standard.ActionTool</class>
+					<class>CH.ifa.draw.standard.ChangeConnectionHandle</class>
+					<class>CH.ifa.draw.standard.PasteCommand</class>
+					<class>CH.ifa.draw.standard.ToggleGridCommand</class>
+					<class>CH.ifa.draw.standard.ConnectionHandle</class>
+					<class>CH.ifa.draw.standard.CreationTool</class>
+					<class>CH.ifa.draw.standard.NorthHandle</class>
+					<class>CH.ifa.draw.standard.SimpleUpdateStrategy</class>
+					<class>CH.ifa.draw.standard.NorthWestHandle</class>
+					<class>CH.ifa.draw.standard.DeleteCommand</class>
+					<class>CH.ifa.draw.standard.SouthWestHandle</class>
+					<class>CH.ifa.draw.standard.ChangeAttributeCommand</class>
+					<class>CH.ifa.draw.standard.SouthEastHandle</class>
+					<class>CH.ifa.draw.standard.BufferedUpdateStrategy</class>
+					<class>CH.ifa.draw.standard.SelectAreaTracker</class>
+					<class>CH.ifa.draw.standard.DragTracker</class>
+					<class>CH.ifa.draw.standard.AbstractTool</class>
+					<class>CH.ifa.draw.standard.SelectionTool</class>
+					<class>CH.ifa.draw.standard.AbstractHandle</class>
+					<class>CH.ifa.draw.standard.AlignCommand</class>
+					<class>CH.ifa.draw.standard.StandardDrawingView</class>
+					<class>CH.ifa.draw.standard.SendToBackCommand</class>
+					<class>CH.ifa.draw.standard.CopyCommand</class>
+					<class>CH.ifa.draw.standard.CutCommand</class>
+					<class>CH.ifa.draw.standard.EastHandle</class>
+					<class>CH.ifa.draw.standard.DuplicateCommand</class>
+					<class>CH.ifa.draw.standard.SouthHandle</class>
+					<class>CH.ifa.draw.standard.FigureTransferCommand</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.application.DrawApplication</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.util.Iconkit</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.applet.DrawApplet</class>
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawViewer</class>
+					<class>CH.ifa.draw.figures.ImageFigure</class>
+					<class>CH.ifa.draw.figures.InsertImageCommand</class>
+					<class>CH.ifa.draw.standard.ToolButton</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.standard.ConnectionTool</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.ConnectionFigure</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.samples.pert.PertDependency</class>
+					<class>CH.ifa.draw.framework.Connector</class>
+					<class>CH.ifa.draw.figures.ElbowHandle</class>
+					<class>CH.ifa.draw.figures.ElbowConnection</class>
+					<class>CH.ifa.draw.figures.ShortestDistanceConnector</class>
+					<class>CH.ifa.draw.figures.LineConnection</class>
+					<class>CH.ifa.draw.standard.ChangeConnectionHandle</class>
+					<class>CH.ifa.draw.standard.LocatorConnector</class>
+					<class>CH.ifa.draw.standard.ChangeConnectionStartHandle</class>
+					<class>CH.ifa.draw.standard.ConnectionHandle</class>
+					<class>CH.ifa.draw.standard.AbstractConnector</class>
+					<class>CH.ifa.draw.standard.ChopBoxConnector</class>
+					<class>CH.ifa.draw.standard.ChangeConnectionEndHandle</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.standard.StandardDrawingView</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.Drawing</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.applet.DrawApplet</class>
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawViewer</class>
+					<class>CH.ifa.draw.samples.javadraw.FollowURLTool</class>
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawApplet</class>
+					<class>CH.ifa.draw.samples.javadraw.MySelectionTool</class>
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawApp</class>
+					<class>CH.ifa.draw.samples.javadraw.BouncingDrawing</class>
+					<class>CH.ifa.draw.samples.javadraw.URLTool</class>
+					<class>CH.ifa.draw.framework.DrawingView</class>
+					<class>CH.ifa.draw.framework.DrawingChangeEvent</class>
+					<class>CH.ifa.draw.framework.DrawingEditor</class>
+					<class>CH.ifa.draw.framework.Handle</class>
+					<class>CH.ifa.draw.application.DrawApplication</class>
+					<class>CH.ifa.draw.figures.GroupCommand</class>
+					<class>CH.ifa.draw.figures.BorderTool</class>
+					<class>CH.ifa.draw.figures.ConnectedTextTool</class>
+					<class>CH.ifa.draw.figures.TextTool</class>
+					<class>CH.ifa.draw.figures.UngroupCommand</class>
+					<class>CH.ifa.draw.figures.ScribbleTool</class>
+					<class>CH.ifa.draw.contrib.PolygonTool</class>
+					<class>CH.ifa.draw.contrib.PolygonScaleHandle</class>
+					<class>CH.ifa.draw.contrib.TriangleRotationHandle</class>
+					<class>CH.ifa.draw.standard.ConnectionTool</class>
+					<class>CH.ifa.draw.standard.ActionTool</class>
+					<class>CH.ifa.draw.standard.ChangeConnectionHandle</class>
+					<class>CH.ifa.draw.standard.ConnectionHandle</class>
+					<class>CH.ifa.draw.standard.CreationTool</class>
+					<class>CH.ifa.draw.standard.BringToFrontCommand</class>
+					<class>CH.ifa.draw.standard.SelectAreaTracker</class>
+					<class>CH.ifa.draw.standard.AbstractTool</class>
+					<class>CH.ifa.draw.standard.StandardDrawing</class>
+					<class>CH.ifa.draw.standard.SelectionTool</class>
+					<class>CH.ifa.draw.standard.AbstractHandle</class>
+					<class>CH.ifa.draw.standard.SendToBackCommand</class>
+					<class>CH.ifa.draw.standard.FigureTransferCommand</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.standard.HandleTracker</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.Handle</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.framework.DrawingView</class>
+					<class>CH.ifa.draw.figures.RadiusHandle</class>
+					<class>CH.ifa.draw.figures.PolyLineHandle</class>
+					<class>CH.ifa.draw.figures.ElbowHandle</class>
+					<class>CH.ifa.draw.figures.GroupHandle</class>
+					<class>CH.ifa.draw.figures.FontSizeHandle</class>
+					<class>CH.ifa.draw.contrib.PolygonHandle</class>
+					<class>CH.ifa.draw.contrib.PolygonScaleHandle</class>
+					<class>CH.ifa.draw.contrib.TriangleRotationHandle</class>
+					<class>CH.ifa.draw.standard.WestHandle</class>
+					<class>CH.ifa.draw.standard.NorthEastHandle</class>
+					<class>CH.ifa.draw.standard.LocatorHandle</class>
+					<class>CH.ifa.draw.standard.ChangeConnectionHandle</class>
+					<class>CH.ifa.draw.standard.ConnectionHandle</class>
+					<class>CH.ifa.draw.standard.NorthHandle</class>
+					<class>CH.ifa.draw.standard.NorthWestHandle</class>
+					<class>CH.ifa.draw.standard.SouthWestHandle</class>
+					<class>CH.ifa.draw.standard.SouthEastHandle</class>
+					<class>CH.ifa.draw.standard.NullHandle</class>
+					<class>CH.ifa.draw.standard.SelectionTool</class>
+					<class>CH.ifa.draw.standard.AbstractHandle</class>
+					<class>CH.ifa.draw.standard.StandardDrawingView</class>
+					<class>CH.ifa.draw.standard.BoxHandleKit</class>
+					<class>CH.ifa.draw.standard.EastHandle</class>
+					<class>CH.ifa.draw.standard.SouthHandle</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.figures.RadiusHandle</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.figures.RoundRectangleFigure</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawApplet</class>
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawApp</class>
+					<class>CH.ifa.draw.samples.nothing.NothingApplet</class>
+					<class>CH.ifa.draw.samples.nothing.NothingApp</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.standard.OffsetLocator</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.framework.Locator</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.framework.Figure</class>
+					<class>CH.ifa.draw.figures.ElbowConnection</class>
+					<class>CH.ifa.draw.figures.PolyLineFigure</class>
+					<class>CH.ifa.draw.contrib.PolygonHandle</class>
+					<class>CH.ifa.draw.contrib.PolygonFigure</class>
+					<class>CH.ifa.draw.standard.LocatorHandle</class>
+					<class>CH.ifa.draw.standard.AbstractFigure</class>
+					<class>CH.ifa.draw.standard.LocatorConnector</class>
+					<class>CH.ifa.draw.standard.RelativeLocator</class>
+					<class>CH.ifa.draw.standard.AbstractLocator</class>
+					<class>CH.ifa.draw.standard.DecoratorFigure</class>
+					<class>CH.ifa.draw.standard.NullHandle</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="context">
+					<class>CH.ifa.draw.util.CommandButton</class>
+				</role>
+				<role name="strategy">
+					<class>CH.ifa.draw.util.Command</class>
+				</role>
+				<role name="concretestrategy">
+					<class>CH.ifa.draw.figures.GroupCommand</class>
+					<class>CH.ifa.draw.figures.UngroupCommand</class>
+					<class>CH.ifa.draw.figures.InsertImageCommand</class>
+					<class>CH.ifa.draw.standard.ToggleGridCommand</class>
+					<class>CH.ifa.draw.standard.ChangeAttributeCommand</class>
+					<class>CH.ifa.draw.standard.BringToFrontCommand</class>
+					<class>CH.ifa.draw.standard.AlignCommand</class>
+					<class>CH.ifa.draw.standard.StandardDrawingView</class>
+					<class>CH.ifa.draw.standard.SendToBackCommand</class>
+					<class>CH.ifa.draw.standard.FigureTransferCommand</class>
+					<class>CH.ifa.draw.util.CommandChoice</class>
+					<class>CH.ifa.draw.util.CommandMenu</class>
+				</role>
+			</roles>
+		</candidate>
+	</candidates>
+</patternData>

@@ -1,0 +1,282 @@
+<patternData>
+	<projectPath></projectPath>
+	<pattern>Factory Method</pattern>
+	<roles>
+		<role>product</role>
+		<role>creator</role>
+		<role>concreteproduct</role>
+		<role>concretecreator</role>
+	</roles>
+	<candidates>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="product">
+					<class>CH.ifa.draw.framework.Connector</class>
+				</role>
+				<role name="creator">
+					<class>CH.ifa.draw.framework.Figure</class>
+				</role>
+				<role name="concreteproduct">
+					<class>CH.ifa.draw.standard.ChopBoxConnector</class>
+					<class>CH.ifa.draw.figures.ChopEllipseConnector</class>
+					<class>CH.ifa.draw.contrib.ChopPolygonConnector</class>
+					<class>CH.ifa.draw.figures.PolyLineConnector</class>
+					<class>CH.ifa.draw.standard.LocatorConnector</class>
+					<class>CH.ifa.draw.figures.ShortestDistanceConnector</class>
+				</role>
+				<role name="concretecreator">
+					<class>CH.ifa.draw.standard.AbstractFigure</class>
+					<class>CH.ifa.draw.figures.EllipseFigure</class>
+					<class>CH.ifa.draw.contrib.PolygonFigure</class>
+					<class>CH.ifa.draw.figures.RoundRectangleFigure</class>
+					<class>CH.ifa.draw.figures.PolyLineFigure</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="product">
+					<class>CH.ifa.draw.framework.Handle</class>
+				</role>
+				<role name="creator">
+					<class>CH.ifa.draw.framework.Figure</class>
+				</role>
+				<role name="concreteproduct">
+					<class>CH.ifa.draw.standard.EastHandle</class>
+					<class>CH.ifa.draw.standard.NorthHandle</class>
+					<class>CH.ifa.draw.standard.NorthEastHandle</class>
+					<class>CH.ifa.draw.standard.NorthWestHandle</class>
+					<class>CH.ifa.draw.standard.SouthHandle</class>
+					<class>CH.ifa.draw.standard.SouthEastHandle</class>
+					<class>CH.ifa.draw.standard.SouthWestHandle</class>
+					<class>CH.ifa.draw.standard.WestHandle</class>
+					<class>CH.ifa.draw.contrib.PolygonHandle</class>
+					<class>CH.ifa.draw.contrib.PolygonScaleHandle</class>
+					<class>CH.ifa.draw.contrib.TriangleRotationHandle</class>
+					<class>CH.ifa.draw.standard.NullHandle</class>
+					<class>CH.ifa.draw.figures.FontSizeHandle</class>
+					<class>CH.ifa.draw.standard.ConnectionHandle</class>
+					<class>CH.ifa.draw.figures.GroupHandle</class>
+					<class>CH.ifa.draw.standard.ChangeConnectionStartHandle</class>
+					<class>CH.ifa.draw.figures.PolyLineHandle</class>
+					<class>CH.ifa.draw.standard.ChangeConnectionEndHandle</class>
+					<class>CH.ifa.draw.figures.ElbowHandle</class>
+				</role>
+				<role name="concretecreator">
+					<class>CH.ifa.draw.figures.EllipseFigure</class>
+					<class>CH.ifa.draw.figures.ImageFigure</class>
+					<class>CH.ifa.draw.contrib.PolygonFigure</class>
+					<class>CH.ifa.draw.figures.RectangleFigure</class>
+					<class>CH.ifa.draw.contrib.DiamondFigure</class>
+					<class>CH.ifa.draw.contrib.TriangleFigure</class>
+					<class>CH.ifa.draw.figures.RoundRectangleFigure</class>
+					<class>CH.ifa.draw.figures.TextFigure</class>
+					<class>CH.ifa.draw.samples.net.NodeFigure</class>
+					<class>CH.ifa.draw.figures.NumberTextFigure</class>
+					<class>CH.ifa.draw.figures.GroupFigure</class>
+					<class>CH.ifa.draw.samples.pert.PertFigure</class>
+					<class>CH.ifa.draw.standard.StandardDrawing</class>
+					<class>CH.ifa.draw.samples.javadraw.BouncingDrawing</class>
+					<class>CH.ifa.draw.samples.javadraw.AnimationDecorator</class>
+					<class>CH.ifa.draw.figures.BorderDecorator</class>
+					<class>CH.ifa.draw.figures.PolyLineFigure</class>
+					<class>CH.ifa.draw.figures.LineConnection</class>
+					<class>CH.ifa.draw.figures.ElbowConnection</class>
+					<class>CH.ifa.draw.samples.pert.PertDependency</class>
+					<class>CH.ifa.draw.figures.LineFigure</class>
+					<class>CH.ifa.draw.figures.LineConnection</class>
+					<class>CH.ifa.draw.figures.ElbowConnection</class>
+					<class>CH.ifa.draw.samples.pert.PertDependency</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="product">
+					<class>net.sourceforge.pmd.ast.JavaParserConstants</class>
+				</role>
+				<role name="creator">
+					<class>net.sourceforge.pmd.TargetJDKVersion</class>
+				</role>
+				<role name="concreteproduct">
+					<class>net.sourceforge.pmd.ast.JavaParser</class>
+				</role>
+				<role name="concretecreator">
+					<class>net.sourceforge.pmd.TargetJDK1_4</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="product">
+					<class>CH.ifa.draw.standard.StandardDrawing</class>
+				</role>
+				<role name="creator">
+					<class>CH.ifa.draw.applet.DrawApplet</class>
+				</role>
+				<role name="concreteproduct">
+					<class>CH.ifa.draw.samples.javadraw.BouncingDrawing</class>
+				</role>
+				<role name="concretecreator">
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawApplet</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="product">
+					<class>CH.ifa.draw.figures.LineDecoration</class>
+				</role>
+				<role name="creator">
+					<class>CH.ifa.draw.figures.PolyLineFigure</class>
+				</role>
+				<role name="concreteproduct">
+					<class>CH.ifa.draw.figures.ArrowTip</class>
+				</role>
+				<role name="concretecreator">
+					<class>CH.ifa.draw.samples.pert.PertDependency</class>
+					<class>CH.ifa.draw.figures.LineConnection</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="product">
+					<class>CH.ifa.draw.standard.SelectionTool</class>
+				</role>
+				<role name="creator">
+					<class>CH.ifa.draw.application.DrawApplication</class>
+				</role>
+				<role name="concreteproduct">
+					<class>CH.ifa.draw.samples.javadraw.MySelectionTool</class>
+				</role>
+				<role name="concretecreator">
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawApp</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="product">
+					<class>CH.ifa.draw.standard.StandardDrawing</class>
+				</role>
+				<role name="creator">
+					<class>CH.ifa.draw.application.DrawApplication</class>
+				</role>
+				<role name="concreteproduct">
+					<class>CH.ifa.draw.samples.javadraw.BouncingDrawing</class>
+				</role>
+				<role name="concretecreator">
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawApp</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="product">
+					<class>CH.ifa.draw.figures.AttributeFigure</class>
+				</role>
+				<role name="creator">
+					<class>CH.ifa.draw.applet.DrawApplet</class>
+				</role>
+				<role name="concreteproduct">
+					<class>CH.ifa.draw.figures.EllipseFigure</class>
+					<class>CH.ifa.draw.figures.TextFigure</class>
+					<class>CH.ifa.draw.figures.RoundRectangleFigure</class>
+					<class>CH.ifa.draw.figures.RectangleFigure</class>
+				</role>
+				<role name="concretecreator">
+					<class>CH.ifa.draw.samples.javadraw.JavaDrawApplet</class>
+					<class>CH.ifa.draw.samples.nothing.NothingApplet</class>
+					<class>CH.ifa.draw.samples.pert.PertApplet</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="product">
+					<class>CH.ifa.draw.standard.ChopBoxConnector</class>
+				</role>
+				<role name="creator">
+					<class>CH.ifa.draw.standard.AbstractFigure</class>
+				</role>
+				<role name="concreteproduct">
+					<class>CH.ifa.draw.figures.PolyLineConnector</class>
+					<class>CH.ifa.draw.contrib.ChopPolygonConnector</class>
+				</role>
+				<role name="concretecreator">
+					<class>CH.ifa.draw.figures.PolyLineFigure</class>
+					<class>CH.ifa.draw.contrib.PolygonFigure</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="product">
+					<class>net.sourceforge.pmd.ast.SimpleNode</class>
+				</role>
+				<role name="creator">
+					<class>net.sourceforge.pmd.rules.design.ExcessiveNodeCountRule</class>
+				</role>
+				<role name="concreteproduct">
+					<class>net.sourceforge.pmd.ast.AccessNode</class>
+					<class>net.sourceforge.pmd.ast.ASTImportDeclaration</class>
+					<class>net.sourceforge.pmd.ast.ASTMethodDeclarator</class>
+				</role>
+				<role name="concretecreator">
+					<class>net.sourceforge.pmd.rules.ExcessivePublicCountRule</class>
+					<class>net.sourceforge.pmd.rules.ExcessiveImportsRule</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="product">
+					<class>net.sourceforge.pmd.ast.SimpleNode</class>
+				</role>
+				<role name="creator">
+					<class>net.sourceforge.pmd.symboltable.AbstractNameDeclaration</class>
+				</role>
+				<role name="concreteproduct">
+					<class>net.sourceforge.pmd.ast.AccessNode</class>
+					<class>net.sourceforge.pmd.ast.ASTType</class>
+					<class>net.sourceforge.pmd.ast.ASTFormalParameters</class>
+					<class>net.sourceforge.pmd.ast.ASTVariableDeclaratorId</class>
+					<class>net.sourceforge.pmd.ast.ASTMethodDeclarator</class>
+				</role>
+				<role name="concretecreator">
+					<class>net.sourceforge.pmd.symboltable.VariableNameDeclaration</class>
+					<class>net.sourceforge.pmd.symboltable.MethodNameDeclaration</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="product">
+					<class>net.sourceforge.pmd.ast.Node</class>
+				</role>
+				<role name="creator">
+					<class>net.sourceforge.pmd.rules.design.ExcessiveNodeCountRule</class>
+				</role>
+				<role name="concreteproduct">
+					<class>net.sourceforge.pmd.ast.ASTMethodDeclarator</class>
+				</role>
+				<role name="concretecreator">
+					<class>net.sourceforge.pmd.rules.ExcessivePublicCountRule</class>
+				</role>
+			</roles>
+		</candidate>
+	</candidates>
+</patternData>

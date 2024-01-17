@@ -1,0 +1,979 @@
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+1.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+1.14.Sign = Positive
+1.14.XCommand = 
+1.14.leaf-1 = interpreter.kuchana.SubtractExpression
+1.14.leaf-2 = interpreter.kuchana.TerminalExpression
+1.14.leaf-3 = interpreter.kuchana.MultiplyExpression
+1.14.leaf-4 = interpreter.kuchana.AddExpression
+1.14.composite = interpreter.kuchana.NonTerminalExpression
+1.14.component = interpreter.kuchana.Expression
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+2.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+2.14.Sign = Positive
+2.14.XCommand = 
+2.14.leaf = composite.kuchana.FileComponent
+2.14.composite = composite.kuchana.DirComponent
+2.14.component = composite.kuchana.FileSystemComponent
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+3.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+3.14.Sign = Positive
+3.14.XCommand = 
+3.14.leaf-1 = composite.sun.Deliverable
+3.14.leaf-2 = composite.sun.Task
+3.14.composite = composite.sun.Project
+3.14.component = composite.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+4.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+4.14.Sign = Positive
+4.14.XCommand = 
+4.14.leaf-1 = composite.sun.Deliverable
+4.14.leaf-2 = composite.sun.Project
+4.14.composite = composite.sun.Task
+4.14.component = composite.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+5.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+5.14.Sign = Positive
+5.14.XCommand = 
+5.14.leaf = composite.javastuff.Leaf
+5.14.composite = composite.javastuff.Composite
+5.14.component = composite.javastuff.Component
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+6.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+6.14.Sign = Positive
+6.14.XCommand = 
+6.14.leaf = boh.sun.Project
+6.14.composite = boh.sun.Task
+6.14.component = boh.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+7.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+7.14.Sign = Positive
+7.14.XCommand = 
+7.14.leaf = boh.sun.Task
+7.14.composite = boh.sun.Project
+7.14.component = boh.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+8.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+8.14.Sign = Positive
+8.14.XCommand = 
+8.14.leaf-1 = visitor.java2s.Deliverable
+8.14.leaf-2 = visitor.java2s.Project
+8.14.leaf-3 = visitor.java2s.DependentTask
+8.14.composite = visitor.java2s.Task
+8.14.component = visitor.java2s.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+9.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+9.14.Sign = Positive
+9.14.XCommand = 
+9.14.leaf-1 = visitor.java2s.Deliverable
+9.14.leaf-2 = visitor.java2s.Task
+9.14.leaf-3 = visitor.java2s.DependentTask
+9.14.composite = visitor.java2s.Project
+9.14.component = visitor.java2s.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+10.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+10.14.Sign = Positive
+10.14.XCommand = 
+10.14.leaf = templatemethod.sun.Deliverable
+10.14.composite = templatemethod.sun.Task
+10.14.component = templatemethod.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+11.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+11.14.Sign = Positive
+11.14.XCommand = 
+11.14.leaf-1 = visitor.sun.DependentTask
+11.14.leaf-2 = visitor.sun.Project
+11.14.leaf-3 = visitor.sun.Deliverable
+11.14.composite = visitor.sun.Task
+11.14.component = visitor.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+12.14.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Constraint replaced with this weaker constraint:
+#	<>-->: Composite <#>-> Component
+12.14.Sign = Positive
+12.14.XCommand = 
+12.14.leaf-1 = visitor.sun.Task
+12.14.leaf-2 = visitor.sun.DependentTask
+12.14.leaf-3 = visitor.sun.Deliverable
+12.14.composite = visitor.sun.Project
+12.14.component = visitor.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+13.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+13.28.Sign = Positive
+13.28.XCommand = 
+13.28.leaf-1 = interpreter.kuchana.SubtractExpression
+13.28.leaf-2 = interpreter.kuchana.TerminalExpression
+13.28.leaf-3 = interpreter.kuchana.MultiplyExpression
+13.28.leaf-4 = interpreter.kuchana.AddExpression
+13.28.composite = interpreter.kuchana.NonTerminalExpression
+13.28.component = interpreter.kuchana.Expression
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+14.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+14.28.Sign = Positive
+14.28.XCommand = 
+14.28.leaf = composite.kuchana.FileComponent
+14.28.composite = composite.kuchana.DirComponent
+14.28.component = composite.kuchana.FileSystemComponent
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+15.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+15.28.Sign = Positive
+15.28.XCommand = 
+15.28.leaf-1 = composite.sun.Deliverable
+15.28.leaf-2 = composite.sun.Task
+15.28.composite = composite.sun.Project
+15.28.component = composite.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+16.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+16.28.Sign = Positive
+16.28.XCommand = 
+16.28.leaf-1 = composite.sun.Deliverable
+16.28.leaf-2 = composite.sun.Project
+16.28.composite = composite.sun.Task
+16.28.component = composite.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+17.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+17.28.Sign = Positive
+17.28.XCommand = 
+17.28.leaf = composite.javastuff.Leaf
+17.28.composite = composite.javastuff.Composite
+17.28.component = composite.javastuff.Component
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+18.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+18.28.Sign = Positive
+18.28.XCommand = 
+18.28.leaf = boh.sun.Project
+18.28.composite = boh.sun.Task
+18.28.component = boh.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+19.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+19.28.Sign = Positive
+19.28.XCommand = 
+19.28.leaf = boh.sun.Task
+19.28.composite = boh.sun.Project
+19.28.component = boh.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+20.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+20.28.Sign = Positive
+20.28.XCommand = 
+20.28.leaf-1 = visitor.java2s.Deliverable
+20.28.leaf-2 = visitor.java2s.Project
+20.28.leaf-3 = visitor.java2s.DependentTask
+20.28.composite = visitor.java2s.Task
+20.28.component = visitor.java2s.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+21.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+21.28.Sign = Positive
+21.28.XCommand = 
+21.28.leaf-1 = visitor.java2s.Deliverable
+21.28.leaf-2 = visitor.java2s.Task
+21.28.leaf-3 = visitor.java2s.DependentTask
+21.28.composite = visitor.java2s.Project
+21.28.component = visitor.java2s.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+22.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+22.28.Sign = Positive
+22.28.XCommand = 
+22.28.leaf = templatemethod.sun.Deliverable
+22.28.composite = templatemethod.sun.Task
+22.28.component = templatemethod.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+23.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+23.28.Sign = Positive
+23.28.XCommand = 
+23.28.leaf-1 = visitor.sun.DependentTask
+23.28.leaf-2 = visitor.sun.Project
+23.28.leaf-3 = visitor.sun.Deliverable
+23.28.composite = visitor.sun.Task
+23.28.component = visitor.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+24.28.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: Composite -|>- Component
+24.28.Sign = Positive
+24.28.XCommand = 
+24.28.leaf-1 = visitor.sun.Task
+24.28.leaf-2 = visitor.sun.DependentTask
+24.28.leaf-3 = visitor.sun.Deliverable
+24.28.composite = visitor.sun.Project
+24.28.component = visitor.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+25.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+25.42.Sign = Positive
+25.42.XCommand = 
+25.42.leaf-1 = interpreter.kuchana.SubtractExpression
+25.42.leaf-2 = interpreter.kuchana.TerminalExpression
+25.42.leaf-3 = interpreter.kuchana.MultiplyExpression
+25.42.leaf-4 = interpreter.kuchana.AddExpression
+25.42.composite = interpreter.kuchana.NonTerminalExpression
+25.42.component = interpreter.kuchana.Expression
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+26.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+26.42.Sign = Positive
+26.42.XCommand = 
+26.42.leaf = strategy.sun.ContactImpl
+26.42.composite = strategy.sun.ContactList
+26.42.component = strategy.sun.Contact
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+27.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+27.42.Sign = Positive
+27.42.XCommand = 
+27.42.leaf = interpreter.sun.ContactImpl
+27.42.composite = interpreter.sun.ContactList
+27.42.component = interpreter.sun.Contact
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+28.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+28.42.Sign = Positive
+28.42.XCommand = 
+28.42.leaf = composite.kuchana.FileComponent
+28.42.composite = composite.kuchana.DirComponent
+28.42.component = composite.kuchana.FileSystemComponent
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+29.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+29.42.Sign = Positive
+29.42.XCommand = 
+29.42.leaf-1 = composite.sun.Deliverable
+29.42.leaf-2 = composite.sun.Task
+29.42.composite = composite.sun.Project
+29.42.component = composite.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+30.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+30.42.Sign = Positive
+30.42.XCommand = 
+30.42.leaf-1 = composite.sun.Deliverable
+30.42.leaf-2 = composite.sun.Project
+30.42.composite = composite.sun.Task
+30.42.component = composite.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+31.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+31.42.Sign = Positive
+31.42.XCommand = 
+31.42.leaf-1 = state.kuchana.TransactionFeeState
+31.42.leaf-2 = state.kuchana.OverDrawnState
+31.42.leaf-3 = state.kuchana.NoTransactionFeeState
+31.42.composite = state.kuchana.BusinessAccount
+31.42.component = state.kuchana.State
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+32.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+32.42.Sign = Positive
+32.42.XCommand = 
+32.42.leaf = boh.sun.ContactImpl
+32.42.composite = boh.sun.Task
+32.42.component = boh.sun.Contact
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+33.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+33.42.Sign = Positive
+33.42.XCommand = 
+33.42.leaf = boh.sun.ContactImpl
+33.42.composite = boh.sun.Project
+33.42.component = boh.sun.Contact
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+34.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+34.42.Sign = Positive
+34.42.XCommand = 
+34.42.leaf = composite.javastuff.Leaf
+34.42.composite = composite.javastuff.Composite
+34.42.component = composite.javastuff.Component
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+35.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+35.42.Sign = Positive
+35.42.XCommand = 
+35.42.leaf = state.sun.LocationImpl
+35.42.composite = state.sun.Appointment
+35.42.component = state.sun.Location
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+36.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+36.42.Sign = Positive
+36.42.XCommand = 
+36.42.leaf = boh.sun.Project
+36.42.composite = boh.sun.Task
+36.42.component = boh.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+37.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+37.42.Sign = Positive
+37.42.XCommand = 
+37.42.leaf = boh.sun.Task
+37.42.composite = boh.sun.Project
+37.42.component = boh.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+38.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+38.42.Sign = Positive
+38.42.XCommand = 
+38.42.leaf = composite.sun.ContactImpl
+38.42.composite = composite.sun.Deliverable
+38.42.component = composite.sun.Contact
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+39.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+39.42.Sign = Positive
+39.42.XCommand = 
+39.42.leaf = composite.sun.ContactImpl
+39.42.composite = composite.sun.Task
+39.42.component = composite.sun.Contact
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+40.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+40.42.Sign = Positive
+40.42.XCommand = 
+40.42.leaf = visitor.sun.ContactImpl
+40.42.composite = visitor.sun.Task
+40.42.component = visitor.sun.Contact
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+41.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+41.42.Sign = Positive
+41.42.XCommand = 
+41.42.leaf = visitor.sun.ContactImpl
+41.42.composite = visitor.sun.Deliverable
+41.42.component = visitor.sun.Contact
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+42.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+42.42.Sign = Positive
+42.42.XCommand = 
+42.42.leaf-1 = visitor.java2s.Deliverable
+42.42.leaf-2 = visitor.java2s.Project
+42.42.leaf-3 = visitor.java2s.DependentTask
+42.42.composite = visitor.java2s.Task
+42.42.component = visitor.java2s.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+43.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+43.42.Sign = Positive
+43.42.XCommand = 
+43.42.leaf-1 = visitor.java2s.Deliverable
+43.42.leaf-2 = visitor.java2s.Task
+43.42.leaf-3 = visitor.java2s.DependentTask
+43.42.composite = visitor.java2s.Project
+43.42.component = visitor.java2s.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+44.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+44.42.Sign = Positive
+44.42.XCommand = 
+44.42.leaf = templatemethod.sun.Deliverable
+44.42.composite = templatemethod.sun.Task
+44.42.component = templatemethod.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+45.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+45.42.Sign = Positive
+45.42.XCommand = 
+45.42.leaf-1 = observer.sun.TaskHistoryPanel
+45.42.leaf-2 = observer.sun.TaskSelectorPanel
+45.42.leaf-3 = observer.sun.TaskEditorPanel
+45.42.composite = observer.sun.TaskChangeObservable
+45.42.component = observer.sun.TaskChangeObserver
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+46.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+46.42.Sign = Positive
+46.42.XCommand = 
+46.42.leaf = memento.sun.AddressImpl
+46.42.composite = memento.sun.ContactImpl
+46.42.component = memento.sun.Address
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+47.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+47.42.Sign = Positive
+47.42.XCommand = 
+47.42.leaf = memento.sun.ContactImpl
+47.42.composite = memento.sun.AddressBook
+47.42.component = memento.sun.Contact
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+48.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+48.42.Sign = Positive
+48.42.XCommand = 
+48.42.leaf-1 = visitor.sun.DependentTask
+48.42.leaf-2 = visitor.sun.Project
+48.42.leaf-3 = visitor.sun.Deliverable
+48.42.composite = visitor.sun.Task
+48.42.component = visitor.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+49.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+49.42.Sign = Positive
+49.42.XCommand = 
+49.42.leaf-1 = visitor.sun.Task
+49.42.leaf-2 = visitor.sun.DependentTask
+49.42.leaf-3 = visitor.sun.Deliverable
+49.42.composite = visitor.sun.Project
+49.42.component = visitor.sun.ProjectItem
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+50.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+50.42.Sign = Positive
+50.42.XCommand = 
+50.42.leaf-1 = abstractfactory.gruntz.FactoryAWT
+50.42.leaf-2 = abstractfactory.gruntz.FactorySwing
+50.42.composite = abstractfactory.gruntz.CurrentFactory
+50.42.component = abstractfactory.gruntz.ComponentFactory
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+51.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+51.42.Sign = Positive
+51.42.XCommand = 
+51.42.leaf = command.sun.LocationImpl
+51.42.composite = command.sun.Appointment
+51.42.component = command.sun.Location
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+52.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+52.42.Sign = Positive
+52.42.XCommand = 
+52.42.leaf = visitor.java2s.ContactImpl
+52.42.composite = visitor.java2s.Deliverable
+52.42.component = visitor.java2s.Contact
+
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+53.42.Name = Composite Design Motif
+# Removed constraint: -|>-: Leaf -|>- Component
+# Removed constraint: <#>->: Composite <#>-> Component
+# Removed constraint: -|>-: Composite -|>- Component
+# Removed constraint: -|>-...-|>-: Composite -|>- Component
+# Constraint replaced with this weaker constraint:
+#	 <> : Composite -|>- Component
+53.42.Sign = Positive
+53.42.XCommand = 
+53.42.leaf = visitor.java2s.ContactImpl
+53.42.composite = visitor.java2s.Task
+53.42.component = visitor.java2s.Contact
+

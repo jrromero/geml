@@ -1,0 +1,2 @@
+( = aggregation decorator component notLinked ) -> (!= label aPattern ), supp: 0.75, conf: 1.0
+( != aggregation decorator component notLinked ) -> (= label aPattern ), supp: 0.25, conf: 1.0

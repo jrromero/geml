@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Composite">
+		<instance>
+			<role name="Component" element="composite.kuchana.FileSystemComponent" />
+			<role name="Composite" element="composite.kuchana.DirComponent" />
+			<role name="Operation()" element="composite.kuchana.DirComponent::getComponentSize():long" />
+		</instance>
+		<instance>
+			<role name="Component" element="templatemethod.sun.ProjectItem" />
+			<role name="Composite" element="templatemethod.sun.Task" />
+			<role name="Operation()" element="templatemethod.sun.Task::getMaterialsCost():double" />
+			<role name="Operation()" element="templatemethod.sun.Task::getTimeRequired():double" />
+		</instance>
+		<instance>
+			<role name="Component" element="visitor.earthlink.composite2.Component" />
+			<role name="Composite" element="visitor.earthlink.composite2.Composite" />
+			<role name="Operation()" element="visitor.earthlink.composite2.Composite::traverse():void" />
+			<role name="Operation()" element="visitor.earthlink.composite2.Composite::collect():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="composite.sun.ProjectItem" />
+			<role name="Composite" element="composite.sun.Project" />
+			<role name="Operation()" element="composite.sun.Project::getTimeRequired():double" />
+		</instance>
+		<instance>
+			<role name="Component" element="composite.sun.ProjectItem" />
+			<role name="Composite" element="composite.sun.Task" />
+			<role name="Operation()" element="composite.sun.Task::getTimeRequired():double" />
+		</instance>
+		<instance>
+			<role name="Component" element="visitor.earthlink.Component" />
+			<role name="Composite" element="visitor.earthlink.Composite" />
+			<role name="Operation()" element="visitor.earthlink.Composite::traverse():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="visitor.earthlink.composite3.Component" />
+			<role name="Composite" element="visitor.earthlink.composite3.Composite" />
+			<role name="Operation()" element="visitor.earthlink.composite3.Composite::traverse():void" />
+			<role name="Operation()" element="visitor.earthlink.composite3.Composite::accept(visitor.earthlink.composite3.Visitor):void" />
+		</instance>
+	</pattern>
+</system>

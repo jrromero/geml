@@ -1,0 +1,414 @@
+# Solution with all constraints
+1.100.Name = Strategy Design Motif
+# Solution with all constraints
+1.100.Sign = Positive
+1.100.XCommand = No source transformation needed
+1.100.context = bridge.wikipedia.CircleShape
+1.100.strategy = bridge.wikipedia.DrawingAPI
+1.100.concretestrategy = bridge.wikipedia.DrawingAPI2
+
+# Solution with all constraints
+2.100.Name = Strategy Design Motif
+# Solution with all constraints
+2.100.Sign = Positive
+2.100.XCommand = No source transformation needed
+2.100.context = bridge.javacamp.QuestionManager
+2.100.strategy = bridge.javacamp.Question
+2.100.concretestrategy = bridge.javacamp.JavaQuestions
+
+# Solution with all constraints
+3.100.Name = Strategy Design Motif
+# Solution with all constraints
+3.100.Sign = Positive
+3.100.XCommand = No source transformation needed
+3.100.context = bridge.oodesign.PersistenceImp
+3.100.strategy = bridge.oodesign.PersistenceImplementor
+3.100.concretestrategy = bridge.oodesign.FileSystemPersistenceImplementor
+
+# Solution with all constraints
+4.100.Name = Strategy Design Motif
+# Solution with all constraints
+4.100.Sign = Positive
+4.100.XCommand = No source transformation needed
+4.100.context = bridge.sourcemaking3.StackFIFO
+4.100.strategy = bridge.sourcemaking3.StackImpl
+4.100.concretestrategy = bridge.sourcemaking3.StackList
+
+# Solution with all constraints
+5.100.Name = Strategy Design Motif
+# Solution with all constraints
+5.100.Sign = Positive
+5.100.XCommand = No source transformation needed
+5.100.context = bridge.sourcemaking3.Stack
+5.100.strategy = bridge.sourcemaking3.StackImpl
+5.100.concretestrategy = bridge.sourcemaking3.StackList
+
+# Solution with all constraints
+6.100.Name = Strategy Design Motif
+# Solution with all constraints
+6.100.Sign = Positive
+6.100.XCommand = No source transformation needed
+6.100.context = strategy.sun.ContactList
+6.100.strategy = strategy.sun.SummarizingStrategy
+6.100.concretestrategy = strategy.sun.NameSummarizer
+
+# Solution with all constraints
+7.100.Name = Strategy Design Motif
+# Solution with all constraints
+7.100.Sign = Positive
+7.100.XCommand = No source transformation needed
+7.100.context = strategy.kuchana.EncryptLogger
+7.100.strategy = strategy.kuchana.EncryptionStrategy
+7.100.concretestrategy = strategy.kuchana.SubstitutionCypher
+
+# Solution with all constraints
+8.100.Name = Strategy Design Motif
+# Solution with all constraints
+8.100.Sign = Positive
+8.100.XCommand = No source transformation needed
+8.100.context = strategy.cooper.Context
+8.100.strategy = strategy.cooper.PlotStrategy
+8.100.concretestrategy = strategy.cooper.BarPlotStrategy
+
+# Solution with all constraints
+9.100.Name = Strategy Design Motif
+# Solution with all constraints
+9.100.Sign = Positive
+9.100.XCommand = No source transformation needed
+9.100.context = strategy.str2.FTPServer
+9.100.strategy = strategy.str2.RequestHandler
+9.100.concretestrategy = strategy.str2.FileSystemRequestHandler
+
+# Solution with all constraints
+10.100.Name = Strategy Design Motif
+# Solution with all constraints
+10.100.Sign = Positive
+10.100.XCommand = No source transformation needed
+10.100.context = strategy.ravani.Elenco
+10.100.strategy = strategy.ravani.Salvataggio
+10.100.concretestrategy = strategy.ravani.TipoHtml
+
+# Solution with all constraints
+11.100.Name = Strategy Design Motif
+# Solution with all constraints
+11.100.Sign = Positive
+11.100.XCommand = No source transformation needed
+11.100.context = memento.earthlink.mem2.Command
+11.100.strategy = memento.earthlink.mem2.Action
+11.100.concretestrategy = memento.earthlink.mem2.DoubleAction
+
+# Solution with all constraints
+12.100.Name = Strategy Design Motif
+# Solution with all constraints
+12.100.Sign = Positive
+12.100.XCommand = No source transformation needed
+12.100.context = memento.sun.ContactImpl
+12.100.strategy = memento.sun.Address
+12.100.concretestrategy = memento.sun.AddressImpl
+
+# Solution with all constraints
+13.100.Name = Strategy Design Motif
+# Solution with all constraints
+13.100.Sign = Positive
+13.100.XCommand = No source transformation needed
+13.100.context = boh.sun.Project
+13.100.strategy = boh.sun.Contact
+13.100.concretestrategy = boh.sun.ContactImpl
+
+# Solution with all constraints
+14.100.Name = Strategy Design Motif
+# Solution with all constraints
+14.100.Sign = Positive
+14.100.XCommand = No source transformation needed
+14.100.context = boh.sun.Task
+14.100.strategy = boh.sun.ProjectItem
+14.100.concretestrategy = boh.sun.Project
+
+# Solution with all constraints
+15.100.Name = Strategy Design Motif
+# Solution with all constraints
+15.100.Sign = Positive
+15.100.XCommand = No source transformation needed
+15.100.context = visitor.sun.Deliverable
+15.100.strategy = visitor.sun.Contact
+15.100.concretestrategy = visitor.sun.ContactImpl
+
+# Solution with all constraints
+16.100.Name = Strategy Design Motif
+# Solution with all constraints
+16.100.Sign = Positive
+16.100.XCommand = No source transformation needed
+16.100.context = visitor.sun.Task
+16.100.strategy = visitor.sun.Contact
+16.100.concretestrategy = visitor.sun.ContactImpl
+
+# Solution with all constraints
+17.100.Name = Strategy Design Motif
+# Solution with all constraints
+17.100.Sign = Positive
+17.100.XCommand = No source transformation needed
+17.100.context = visitor.java2s.Deliverable
+17.100.strategy = visitor.java2s.Contact
+17.100.concretestrategy = visitor.java2s.ContactImpl
+
+# Solution with all constraints
+18.100.Name = Strategy Design Motif
+# Solution with all constraints
+18.100.Sign = Positive
+18.100.XCommand = No source transformation needed
+18.100.context = visitor.java2s.Task
+18.100.strategy = visitor.java2s.Contact
+18.100.concretestrategy = visitor.java2s.ContactImpl
+
+# Solution with all constraints
+19.100.Name = Strategy Design Motif
+# Solution with all constraints
+19.100.Sign = Positive
+19.100.XCommand = No source transformation needed
+19.100.context = interpreter.sun.ComparisonExpression
+19.100.strategy = interpreter.sun.Expression
+19.100.concretestrategy = interpreter.sun.EqualsExpression
+
+# Solution with all constraints
+20.100.Name = Strategy Design Motif
+# Solution with all constraints
+20.100.Sign = Positive
+20.100.XCommand = No source transformation needed
+20.100.context = proxy.wikipedia.ProxyImage
+20.100.strategy = proxy.wikipedia.Image
+20.100.concretestrategy = proxy.wikipedia.RealImage
+
+# Solution with all constraints
+21.100.Name = Strategy Design Motif
+# Solution with all constraints
+21.100.Sign = Positive
+21.100.XCommand = No source transformation needed
+21.100.context = mediator.sun.MediatorGui
+21.100.strategy = mediator.sun.ContactMediator
+21.100.concretestrategy = mediator.sun.ContactMediatorImpl
+
+# Solution with all constraints
+22.100.Name = Strategy Design Motif
+# Solution with all constraints
+22.100.Sign = Positive
+22.100.XCommand = No source transformation needed
+22.100.context = command.sun.ChangeLocationCommand
+22.100.strategy = command.sun.Location
+22.100.concretestrategy = command.sun.LocationImpl
+
+# Solution with all constraints
+23.100.Name = Strategy Design Motif
+# Solution with all constraints
+23.100.Sign = Positive
+23.100.XCommand = No source transformation needed
+23.100.context = command.sun.ChangeLocationCommand
+23.100.strategy = command.sun.LocationEditor
+23.100.concretestrategy = command.sun.CommandGui
+
+# Solution with all constraints
+24.100.Name = Strategy Design Motif
+# Solution with all constraints
+24.100.Sign = Positive
+24.100.XCommand = No source transformation needed
+24.100.context = command.sun.Appointment
+24.100.strategy = command.sun.Location
+24.100.concretestrategy = command.sun.LocationImpl
+
+# Solution with all constraints
+25.100.Name = Strategy Design Motif
+# Solution with all constraints
+25.100.Sign = Positive
+25.100.XCommand = No source transformation needed
+25.100.context = command.kuchana.txt.ItemManager
+25.100.strategy = command.kuchana.txt.CommandInterface
+25.100.concretestrategy = command.kuchana.txt.DeleteCommand
+
+# Solution with all constraints
+26.100.Name = Strategy Design Motif
+# Solution with all constraints
+26.100.Sign = Positive
+26.100.XCommand = No source transformation needed
+26.100.context = chainofresp.cooper.ColorImage
+26.100.strategy = chainofresp.cooper.Chain
+26.100.concretestrategy = chainofresp.cooper.Sender
+
+# Solution with all constraints
+27.100.Name = Strategy Design Motif
+# Solution with all constraints
+27.100.Sign = Positive
+27.100.XCommand = No source transformation needed
+27.100.context = chainofresp.cooper.Sender
+27.100.strategy = chainofresp.cooper.Chain
+27.100.concretestrategy = chainofresp.cooper.ColorImage
+
+# Solution with all constraints
+28.100.Name = Strategy Design Motif
+# Solution with all constraints
+28.100.Sign = Positive
+28.100.XCommand = No source transformation needed
+28.100.context = chainofresp.cooper.Imager
+28.100.strategy = chainofresp.cooper.Chain
+28.100.concretestrategy = chainofresp.cooper.ColorImage
+
+# Solution with all constraints
+29.100.Name = Strategy Design Motif
+# Solution with all constraints
+29.100.Sign = Positive
+29.100.XCommand = No source transformation needed
+29.100.context = chainofresp.cooper.RestList
+29.100.strategy = chainofresp.cooper.Chain
+29.100.concretestrategy = chainofresp.cooper.ColorImage
+
+# Solution with all constraints
+30.100.Name = Strategy Design Motif
+# Solution with all constraints
+30.100.Sign = Positive
+30.100.XCommand = No source transformation needed
+30.100.context = chainofresp.cooper.FileList
+30.100.strategy = chainofresp.cooper.Chain
+30.100.concretestrategy = chainofresp.cooper.ColorImage
+
+# Solution with all constraints
+31.100.Name = Strategy Design Motif
+# Solution with all constraints
+31.100.Sign = Positive
+31.100.XCommand = No source transformation needed
+31.100.context = state.fluffycat.DvdStateContext
+31.100.strategy = state.fluffycat.DvdStateName
+31.100.concretestrategy = state.fluffycat.DvdStateNameExclaim
+
+# Solution with all constraints
+32.100.Name = Strategy Design Motif
+# Solution with all constraints
+32.100.Sign = Positive
+32.100.XCommand = No source transformation needed
+32.100.context = state.sun.Appointment
+32.100.strategy = state.sun.Location
+32.100.concretestrategy = state.sun.LocationImpl
+
+# Solution with all constraints
+33.100.Name = Strategy Design Motif
+# Solution with all constraints
+33.100.Sign = Positive
+33.100.XCommand = No source transformation needed
+33.100.context = composite.sun.Deliverable
+33.100.strategy = composite.sun.Contact
+33.100.concretestrategy = composite.sun.ContactImpl
+
+# Solution with all constraints
+34.100.Name = Strategy Design Motif
+# Solution with all constraints
+34.100.Sign = Positive
+34.100.XCommand = No source transformation needed
+34.100.context = composite.sun.Task
+34.100.strategy = composite.sun.Contact
+34.100.concretestrategy = composite.sun.ContactImpl
+
+# Solution with all constraints
+35.100.Name = Strategy Design Motif
+# Solution with all constraints
+35.100.Sign = Positive
+35.100.XCommand = No source transformation needed
+35.100.context = abstractfactory.gruntz.CurrentFactory
+35.100.strategy = abstractfactory.gruntz.ComponentFactory
+35.100.concretestrategy = abstractfactory.gruntz.FactorySwing
+
+# Solution with all constraints
+36.100.Name = Strategy Design Motif
+# Solution with all constraints
+36.100.Sign = Positive
+36.100.XCommand = No source transformation needed
+36.100.context = abstractfactory.headfirst.pizzaaf.ClamPizza
+36.100.strategy = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+36.100.concretestrategy = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+
+# Solution with all constraints
+37.100.Name = Strategy Design Motif
+# Solution with all constraints
+37.100.Sign = Positive
+37.100.XCommand = No source transformation needed
+37.100.context = abstractfactory.headfirst.pizzaaf.VeggiePizza
+37.100.strategy = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+37.100.concretestrategy = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+
+# Solution with all constraints
+38.100.Name = Strategy Design Motif
+# Solution with all constraints
+38.100.Sign = Positive
+38.100.XCommand = No source transformation needed
+38.100.context = abstractfactory.headfirst.pizzaaf.CheesePizza
+38.100.strategy = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+38.100.concretestrategy = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+
+# Solution with all constraints
+39.100.Name = Strategy Design Motif
+# Solution with all constraints
+39.100.Sign = Positive
+39.100.XCommand = No source transformation needed
+39.100.context = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+39.100.strategy = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+39.100.concretestrategy = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+
+# Solution with all constraints
+40.100.Name = Strategy Design Motif
+# Solution with all constraints
+40.100.Sign = Positive
+40.100.XCommand = No source transformation needed
+40.100.context = abstractfactory.headfirst.ducks.QuackCounter
+40.100.strategy = abstractfactory.headfirst.ducks.Quackable
+40.100.concretestrategy = abstractfactory.headfirst.ducks.DuckCall
+
+# Solution with all constraints
+41.100.Name = Strategy Design Motif
+# Solution with all constraints
+41.100.Sign = Positive
+41.100.XCommand = No source transformation needed
+41.100.context = abstractfactory.locutus.kingwoodcable.RemoteFileOutputStream
+41.100.strategy = abstractfactory.locutus.kingwoodcable.RemoteFileOutput
+41.100.concretestrategy = abstractfactory.locutus.kingwoodcable.RemoteFileOutputImpl
+
+# Solution with all constraints
+42.100.Name = Strategy Design Motif
+# Solution with all constraints
+42.100.Sign = Positive
+42.100.XCommand = No source transformation needed
+42.100.context = abstractfactory.locutus.kingwoodcable.RemoteFileInputStream
+42.100.strategy = abstractfactory.locutus.kingwoodcable.RemoteFileInput
+42.100.concretestrategy = abstractfactory.locutus.kingwoodcable.RemoteFileInputImpl
+
+# Solution with all constraints
+43.100.Name = Strategy Design Motif
+# Solution with all constraints
+43.100.Sign = Positive
+43.100.XCommand = No source transformation needed
+43.100.context = abstractfactory.eckel.Games
+43.100.strategy = abstractfactory.eckel.GameElementFactory
+43.100.concretestrategy = abstractfactory.eckel.KillAndDismember
+
+# Solution with all constraints
+44.100.Name = Strategy Design Motif
+# Solution with all constraints
+44.100.Sign = Positive
+44.100.XCommand = No source transformation needed
+44.100.context = abstractfactory.eckel.GameEnvironment
+44.100.strategy = abstractfactory.eckel.GameElementFactory
+44.100.concretestrategy = abstractfactory.eckel.KillAndDismember
+
+# Solution with all constraints
+45.100.Name = Strategy Design Motif
+# Solution with all constraints
+45.100.Sign = Positive
+45.100.XCommand = No source transformation needed
+45.100.context = decorator.wikipedia.WindowDecorator
+45.100.strategy = decorator.wikipedia.Window
+45.100.concretestrategy = decorator.wikipedia.HorizontalScrollBarDecorator
+
+# Solution with all constraints
+46.100.Name = Strategy Design Motif
+# Solution with all constraints
+46.100.Sign = Positive
+46.100.XCommand = No source transformation needed
+46.100.context = decorator.wikipedia2.CoffeeDecorator
+46.100.strategy = decorator.wikipedia2.Coffee
+46.100.concretestrategy = decorator.wikipedia2.Sprinkles
+

@@ -1,0 +1,990 @@
+# Solution with all constraints
+1.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+1.100.Sign = Positive
+1.100.XCommand = No source transformation needed
+1.100.abstractfactory = bridge.siddiqui.Abstraction
+1.100.concretefactory = bridge.siddiqui.RefinedAbstraction
+1.100.abstractproduct = bridge.siddiqui.Implementor
+1.100.concreteproduct = bridge.siddiqui.ConcreteImplementor
+
+# Solution with all constraints
+2.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+2.100.Sign = Positive
+2.100.XCommand = No source transformation needed
+2.100.abstractfactory = observer.kuchana.Observer
+2.100.concretefactory = observer.kuchana.YTDChart
+2.100.abstractproduct = observer.kuchana.Observable
+2.100.concreteproduct = observer.kuchana.ReportManager
+
+# Solution with all constraints
+3.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+3.100.Sign = Positive
+3.100.XCommand = No source transformation needed
+3.100.abstractfactory = observer.kuchana.Observer
+3.100.concretefactory = observer.kuchana.MonthlyReport
+3.100.abstractproduct = observer.kuchana.Observable
+3.100.concreteproduct = observer.kuchana.ReportManager
+
+# Solution with all constraints
+4.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+4.100.Sign = Positive
+4.100.XCommand = No source transformation needed
+4.100.abstractfactory = factorymethod.fluffycat.SoupFactoryMethod
+4.100.concretefactory = factorymethod.fluffycat.HonoluluSoupFactoryMethodSubclass
+4.100.abstractproduct = factorymethod.fluffycat.FishChowder
+4.100.concreteproduct = factorymethod.fluffycat.HonoluluFishChowder
+
+# Solution with all constraints
+5.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+5.100.Sign = Positive
+5.100.XCommand = No source transformation needed
+5.100.abstractfactory = factorymethod.fluffycat.SoupFactoryMethod
+5.100.concretefactory = factorymethod.fluffycat.BostonSoupFactoryMethodSubclass
+5.100.abstractproduct = factorymethod.fluffycat.FishChowder
+5.100.concreteproduct = factorymethod.fluffycat.BostonFishChowder
+
+# Solution with all constraints
+6.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+6.100.Sign = Positive
+6.100.XCommand = No source transformation needed
+6.100.abstractfactory = factorymethod.fluffycat.SoupFactoryMethod
+6.100.concretefactory = factorymethod.fluffycat.HonoluluSoupFactoryMethodSubclass
+6.100.abstractproduct = factorymethod.fluffycat.ClamChowder
+6.100.concreteproduct = factorymethod.fluffycat.HonoluluClamChowder
+
+# Solution with all constraints
+7.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+7.100.Sign = Positive
+7.100.XCommand = No source transformation needed
+7.100.abstractfactory = factorymethod.fluffycat.SoupFactoryMethod
+7.100.concretefactory = factorymethod.fluffycat.BostonSoupFactoryMethodSubclass
+7.100.abstractproduct = factorymethod.fluffycat.ClamChowder
+7.100.concreteproduct = factorymethod.fluffycat.BostonClamChowder
+
+# Solution with all constraints
+8.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+8.100.Sign = Positive
+8.100.XCommand = No source transformation needed
+8.100.abstractfactory = factorymethod.gof.MazeGame
+8.100.concretefactory = factorymethod.gof.EnchantedMazeGame
+8.100.abstractproduct = basic.gofcommons.Door
+8.100.concreteproduct = factorymethod.gof.DoorNeedingSpell
+
+# Solution with all constraints
+9.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+9.100.Sign = Positive
+9.100.XCommand = No source transformation needed
+9.100.abstractfactory = factorymethod.gof.MazeGame
+9.100.concretefactory = factorymethod.gof.EnchantedMazeGame
+9.100.abstractproduct = basic.gofcommons.Room
+9.100.concreteproduct = factorymethod.gof.EnchantedRoom
+
+# Solution with all constraints
+10.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+10.100.Sign = Positive
+10.100.XCommand = No source transformation needed
+10.100.abstractfactory = factorymethod.gof.MazeGame
+10.100.concretefactory = factorymethod.gof.BombedMazeGame
+10.100.abstractproduct = basic.gofcommons.Room
+10.100.concreteproduct = factorymethod.gof.RoomWithABomb
+
+# Solution with all constraints
+11.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+11.100.Sign = Positive
+11.100.XCommand = No source transformation needed
+11.100.abstractfactory = factorymethod.gof.MazeGame
+11.100.concretefactory = factorymethod.gof.BombedMazeGame
+11.100.abstractproduct = basic.gofcommons.Wall
+11.100.concreteproduct = factorymethod.gof.BombedWall
+
+# Solution with all constraints
+12.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+12.100.Sign = Positive
+12.100.XCommand = No source transformation needed
+12.100.abstractfactory = factorymethod.cselt.Creator
+12.100.concretefactory = factorymethod.cselt.Creator1
+12.100.abstractproduct = factorymethod.cselt.AbstractObject
+12.100.concreteproduct = factorymethod.cselt.ConcreteObject1
+
+# Solution with all constraints
+13.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+13.100.Sign = Positive
+13.100.XCommand = No source transformation needed
+13.100.abstractfactory = visitor.sun.ProjectVisitor
+13.100.concretefactory = visitor.sun.ProjectCostVisitor
+13.100.abstractproduct = visitor.sun.Task
+13.100.concreteproduct = visitor.sun.DependentTask
+
+# Solution with all constraints
+14.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+14.100.Sign = Positive
+14.100.XCommand = No source transformation needed
+14.100.abstractfactory = visitor.cooper.Visitor
+14.100.concretefactory = visitor.cooper.bVacationVisitor
+14.100.abstractproduct = visitor.cooper.Employee
+14.100.concreteproduct = visitor.cooper.Boss
+
+# Solution with all constraints
+15.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+15.100.Sign = Positive
+15.100.XCommand = No source transformation needed
+15.100.abstractfactory = visitor.java2s.Visitor
+15.100.concretefactory = visitor.java2s.bVacationVisitor
+15.100.abstractproduct = visitor.java2s.Employee
+15.100.concreteproduct = visitor.java2s.Boss
+
+# Solution with all constraints
+16.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+16.100.Sign = Positive
+16.100.XCommand = No source transformation needed
+16.100.abstractfactory = visitor.java2s.ProjectVisitor
+16.100.concretefactory = visitor.java2s.ProjectCostVisitor
+16.100.abstractproduct = visitor.java2s.Task
+16.100.concreteproduct = visitor.java2s.DependentTask
+
+# Solution with all constraints
+17.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+17.100.Sign = Positive
+17.100.XCommand = No source transformation needed
+17.100.abstractfactory = interpreter.lucacristina.expr.functions.FunctionFactory
+17.100.concretefactory = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+17.100.abstractproduct = interpreter.lucacristina.expr.Expression
+17.100.concreteproduct = interpreter.lucacristina.expr.functions.user.UserFunction
+
+# Solution with all constraints
+18.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+18.100.Sign = Positive
+18.100.XCommand = No source transformation needed
+18.100.abstractfactory = interpreter.lucacristina.expr.functions.FunctionFactory
+18.100.concretefactory = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+18.100.abstractproduct = interpreter.lucacristina.expr.Function
+18.100.concreteproduct = interpreter.lucacristina.expr.functions.user.UserFunction
+
+# Solution with all constraints
+19.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+19.100.Sign = Positive
+19.100.XCommand = No source transformation needed
+19.100.abstractfactory = proxy.sun.AddressBook
+19.100.concretefactory = proxy.sun.AddressBookImpl
+19.100.abstractproduct = proxy.sun.Address
+19.100.concreteproduct = proxy.sun.AddressImpl
+
+# Solution with all constraints
+20.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+20.100.Sign = Positive
+20.100.XCommand = No source transformation needed
+20.100.abstractfactory = proxy.sun.AddressBook
+20.100.concretefactory = proxy.sun.AddressBookProxy
+20.100.abstractproduct = proxy.sun.Address
+20.100.concreteproduct = proxy.sun.AddressImpl
+
+# Solution with all constraints
+21.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+21.100.Sign = Positive
+21.100.XCommand = No source transformation needed
+21.100.abstractfactory = mediator.med1.AbstractMediator
+21.100.concretefactory = mediator.med1.TextToBarMediator
+21.100.abstractproduct = mediator.med1.AbstractColleague
+21.100.concreteproduct = mediator.med1.TextField
+
+# Solution with all constraints
+22.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+22.100.Sign = Positive
+22.100.XCommand = No source transformation needed
+22.100.abstractfactory = mediator.med1.AbstractMediator
+22.100.concretefactory = mediator.med1.TextToBarMediator
+22.100.abstractproduct = mediator.med1.AbstractColleague
+22.100.concreteproduct = mediator.med1.ProgressBar
+
+# Solution with all constraints
+23.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+23.100.Sign = Positive
+23.100.XCommand = No source transformation needed
+23.100.abstractfactory = mediator.sun.ContactMediator
+23.100.concretefactory = mediator.sun.ContactMediatorImpl
+23.100.abstractproduct = mediator.sun.Contact
+23.100.concreteproduct = mediator.sun.ContactImpl
+
+# Solution with all constraints
+24.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+24.100.Sign = Positive
+24.100.XCommand = No source transformation needed
+24.100.abstractfactory = command.sun.LocationEditor
+24.100.concretefactory = command.sun.CommandGui
+24.100.abstractproduct = command.sun.Location
+24.100.concreteproduct = command.sun.LocationImpl
+
+# Solution with all constraints
+25.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+25.100.Sign = Positive
+25.100.XCommand = No source transformation needed
+25.100.abstractfactory = abstractfactory.earthlink.democpp.Factory
+25.100.concretefactory = abstractfactory.earthlink.democpp.MotifFactory
+25.100.abstractproduct = abstractfactory.earthlink.democpp.Widget
+25.100.concreteproduct = abstractfactory.earthlink.democpp.MotifBtn
+
+# Solution with all constraints
+26.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+26.100.Sign = Positive
+26.100.XCommand = No source transformation needed
+26.100.abstractfactory = abstractfactory.earthlink.democpp.Factory
+26.100.concretefactory = abstractfactory.earthlink.democpp.WindowsFactory
+26.100.abstractproduct = abstractfactory.earthlink.democpp.Widget
+26.100.concreteproduct = abstractfactory.earthlink.democpp.WindowsBtn
+
+# Solution with all constraints
+27.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+27.100.Sign = Positive
+27.100.XCommand = No source transformation needed
+27.100.abstractfactory = abstractfactory.developer.com.AbstractFactory
+27.100.concretefactory = abstractfactory.developer.com.EmberToolkit
+27.100.abstractproduct = abstractfactory.developer.com.MMU
+27.100.concreteproduct = abstractfactory.developer.com.EmberMMU
+
+# Solution with all constraints
+28.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+28.100.Sign = Positive
+28.100.XCommand = No source transformation needed
+28.100.abstractfactory = abstractfactory.developer.com.AbstractFactory
+28.100.concretefactory = abstractfactory.developer.com.EnginolaToolkit
+28.100.abstractproduct = abstractfactory.developer.com.MMU
+28.100.concreteproduct = abstractfactory.developer.com.EnginolaMMU
+
+# Solution with all constraints
+29.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+29.100.Sign = Positive
+29.100.XCommand = No source transformation needed
+29.100.abstractfactory = abstractfactory.developer.com.AbstractFactory
+29.100.concretefactory = abstractfactory.developer.com.EmberToolkit
+29.100.abstractproduct = abstractfactory.developer.com.CPU
+29.100.concreteproduct = abstractfactory.developer.com.EmberCPU
+
+# Solution with all constraints
+30.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+30.100.Sign = Positive
+30.100.XCommand = No source transformation needed
+30.100.abstractfactory = abstractfactory.developer.com.AbstractFactory
+30.100.concretefactory = abstractfactory.developer.com.EnginolaToolkit
+30.100.abstractproduct = abstractfactory.developer.com.CPU
+30.100.concreteproduct = abstractfactory.developer.com.EnginolaCPU
+
+# Solution with all constraints
+31.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+31.100.Sign = Positive
+31.100.XCommand = No source transformation needed
+31.100.abstractfactory = abstractfactory.fluffycat.AbstractSoupFactory
+31.100.concretefactory = abstractfactory.fluffycat.HonoluluConcreteSoupFactory
+31.100.abstractproduct = abstractfactory.fluffycat.FishChowder
+31.100.concreteproduct = abstractfactory.fluffycat.HonoluluFishChowder
+
+# Solution with all constraints
+32.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+32.100.Sign = Positive
+32.100.XCommand = No source transformation needed
+32.100.abstractfactory = abstractfactory.fluffycat.AbstractSoupFactory
+32.100.concretefactory = abstractfactory.fluffycat.BostonConcreteSoupFactory
+32.100.abstractproduct = abstractfactory.fluffycat.FishChowder
+32.100.concreteproduct = abstractfactory.fluffycat.BostonFishChowder
+
+# Solution with all constraints
+33.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+33.100.Sign = Positive
+33.100.XCommand = No source transformation needed
+33.100.abstractfactory = abstractfactory.fluffycat.AbstractSoupFactory
+33.100.concretefactory = abstractfactory.fluffycat.HonoluluConcreteSoupFactory
+33.100.abstractproduct = abstractfactory.fluffycat.ClamChowder
+33.100.concreteproduct = abstractfactory.fluffycat.HonoluluClamChowder
+
+# Solution with all constraints
+34.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+34.100.Sign = Positive
+34.100.XCommand = No source transformation needed
+34.100.abstractfactory = abstractfactory.fluffycat.AbstractSoupFactory
+34.100.concretefactory = abstractfactory.fluffycat.BostonConcreteSoupFactory
+34.100.abstractproduct = abstractfactory.fluffycat.ClamChowder
+34.100.concreteproduct = abstractfactory.fluffycat.BostonClamChowder
+
+# Solution with all constraints
+35.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+35.100.Sign = Positive
+35.100.XCommand = No source transformation needed
+35.100.abstractfactory = abstractfactory.wikipedia.GUIFactory
+35.100.concretefactory = abstractfactory.wikipedia.OSXFactory
+35.100.abstractproduct = abstractfactory.wikipedia.Button
+35.100.concreteproduct = abstractfactory.wikipedia.OSXButton
+
+# Solution with all constraints
+36.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+36.100.Sign = Positive
+36.100.XCommand = No source transformation needed
+36.100.abstractfactory = abstractfactory.wikipedia.GUIFactory
+36.100.concretefactory = abstractfactory.wikipedia.WinFactory
+36.100.abstractproduct = abstractfactory.wikipedia.Button
+36.100.concreteproduct = abstractfactory.wikipedia.WinButton
+
+# Solution with all constraints
+37.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+37.100.Sign = Positive
+37.100.XCommand = No source transformation needed
+37.100.abstractfactory = abstractfactory.csharpcorner.Factory
+37.100.concretefactory = abstractfactory.csharpcorner.ConcreteFactory2
+37.100.abstractproduct = abstractfactory.csharpcorner.Base
+37.100.concreteproduct = abstractfactory.csharpcorner.Derived2
+
+# Solution with all constraints
+38.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+38.100.Sign = Positive
+38.100.XCommand = No source transformation needed
+38.100.abstractfactory = abstractfactory.csharpcorner.Factory
+38.100.concretefactory = abstractfactory.csharpcorner.ConcreteFactory1
+38.100.abstractproduct = abstractfactory.csharpcorner.Base
+38.100.concreteproduct = abstractfactory.csharpcorner.Derived1
+
+# Solution with all constraints
+39.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+39.100.Sign = Positive
+39.100.XCommand = No source transformation needed
+39.100.abstractfactory = abstractfactory.kuchana.VehicleFactory
+39.100.concretefactory = abstractfactory.kuchana.LuxuryVehicleFactory
+39.100.abstractproduct = abstractfactory.kuchana.SUV
+39.100.concreteproduct = abstractfactory.kuchana.LuxurySUV
+
+# Solution with all constraints
+40.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+40.100.Sign = Positive
+40.100.XCommand = No source transformation needed
+40.100.abstractfactory = abstractfactory.kuchana.VehicleFactory
+40.100.concretefactory = abstractfactory.kuchana.NonLuxuryVehicleFactory
+40.100.abstractproduct = abstractfactory.kuchana.SUV
+40.100.concreteproduct = abstractfactory.kuchana.NonLuxurySUV
+
+# Solution with all constraints
+41.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+41.100.Sign = Positive
+41.100.XCommand = No source transformation needed
+41.100.abstractfactory = abstractfactory.kuchana.VehicleFactory
+41.100.concretefactory = abstractfactory.kuchana.LuxuryVehicleFactory
+41.100.abstractproduct = abstractfactory.kuchana.Car
+41.100.concreteproduct = abstractfactory.kuchana.LuxuryCar
+
+# Solution with all constraints
+42.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+42.100.Sign = Positive
+42.100.XCommand = No source transformation needed
+42.100.abstractfactory = abstractfactory.kuchana.VehicleFactory
+42.100.concretefactory = abstractfactory.kuchana.NonLuxuryVehicleFactory
+42.100.abstractproduct = abstractfactory.kuchana.Car
+42.100.concreteproduct = abstractfactory.kuchana.NonLuxuryCar
+
+# Solution with all constraints
+43.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+43.100.Sign = Positive
+43.100.XCommand = No source transformation needed
+43.100.abstractfactory = abstractfactory.gof.MazeFactory
+43.100.concretefactory = abstractfactory.gof.EnchantedMazeFactory
+43.100.abstractproduct = basic.gofcommons.Door
+43.100.concreteproduct = abstractfactory.gof.DoorNeedingSpell
+
+# Solution with all constraints
+44.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+44.100.Sign = Positive
+44.100.XCommand = No source transformation needed
+44.100.abstractfactory = abstractfactory.gof.MazeFactory
+44.100.concretefactory = abstractfactory.gof.BombedMazeFactory
+44.100.abstractproduct = basic.gofcommons.Room
+44.100.concreteproduct = abstractfactory.gof.RoomWithABomb
+
+# Solution with all constraints
+45.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+45.100.Sign = Positive
+45.100.XCommand = No source transformation needed
+45.100.abstractfactory = abstractfactory.gof.MazeFactory
+45.100.concretefactory = abstractfactory.gof.EnchantedMazeFactory
+45.100.abstractproduct = basic.gofcommons.Room
+45.100.concreteproduct = abstractfactory.gof.EnchantedRoom
+
+# Solution with all constraints
+46.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+46.100.Sign = Positive
+46.100.XCommand = No source transformation needed
+46.100.abstractfactory = abstractfactory.gof.MazeFactory
+46.100.concretefactory = abstractfactory.gof.BombedMazeFactory
+46.100.abstractproduct = basic.gofcommons.Wall
+46.100.concreteproduct = abstractfactory.gof.BombedWall
+
+# Solution with all constraints
+47.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+47.100.Sign = Positive
+47.100.XCommand = No source transformation needed
+47.100.abstractfactory = abstractfactory.javanotes.AbstractSoupFactory
+47.100.concretefactory = abstractfactory.javanotes.HonoluluConcreteSoupFactory
+47.100.abstractproduct = abstractfactory.javanotes.FishChowder
+47.100.concreteproduct = abstractfactory.javanotes.HonoluluFishChowder
+
+# Solution with all constraints
+48.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+48.100.Sign = Positive
+48.100.XCommand = No source transformation needed
+48.100.abstractfactory = abstractfactory.javanotes.AbstractSoupFactory
+48.100.concretefactory = abstractfactory.javanotes.BostonConcreteSoupFactory
+48.100.abstractproduct = abstractfactory.javanotes.FishChowder
+48.100.concreteproduct = abstractfactory.javanotes.BostonFishChowder
+
+# Solution with all constraints
+49.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+49.100.Sign = Positive
+49.100.XCommand = No source transformation needed
+49.100.abstractfactory = abstractfactory.javanotes.AbstractSoupFactory
+49.100.concretefactory = abstractfactory.javanotes.HonoluluConcreteSoupFactory
+49.100.abstractproduct = abstractfactory.javanotes.ClamChowder
+49.100.concreteproduct = abstractfactory.javanotes.HonoluluClamChowder
+
+# Solution with all constraints
+50.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+50.100.Sign = Positive
+50.100.XCommand = No source transformation needed
+50.100.abstractfactory = abstractfactory.javanotes.AbstractSoupFactory
+50.100.concretefactory = abstractfactory.javanotes.BostonConcreteSoupFactory
+50.100.abstractproduct = abstractfactory.javanotes.ClamChowder
+50.100.concreteproduct = abstractfactory.javanotes.BostonClamChowder
+
+# Solution with all constraints
+51.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+51.100.Sign = Positive
+51.100.XCommand = No source transformation needed
+51.100.abstractfactory = abstractfactory.javacamp.ConnectionFactory
+51.100.concretefactory = abstractfactory.javacamp.DataManager
+51.100.abstractproduct = abstractfactory.javacamp.Remote
+51.100.concreteproduct = abstractfactory.javacamp.RemoteMode
+
+# Solution with all constraints
+52.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+52.100.Sign = Positive
+52.100.XCommand = No source transformation needed
+52.100.abstractfactory = abstractfactory.javacamp.ConnectionFactory
+52.100.concretefactory = abstractfactory.javacamp.DataManager
+52.100.abstractproduct = abstractfactory.javacamp.Local
+52.100.concreteproduct = abstractfactory.javacamp.Remote
+
+# Solution with all constraints
+53.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+53.100.Sign = Positive
+53.100.XCommand = No source transformation needed
+53.100.abstractfactory = abstractfactory.javacamp.ConnectionFactory
+53.100.concretefactory = abstractfactory.javacamp.DataManager
+53.100.abstractproduct = abstractfactory.javacamp.Local
+53.100.concreteproduct = abstractfactory.javacamp.LocalMode
+
+# Solution with all constraints
+54.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+54.100.Sign = Positive
+54.100.XCommand = No source transformation needed
+54.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+54.100.concretefactory = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+54.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Veggies
+54.100.concreteproduct = abstractfactory.headfirst.pizzaaf.Mushroom
+
+# Solution with all constraints
+55.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+55.100.Sign = Positive
+55.100.XCommand = No source transformation needed
+55.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+55.100.concretefactory = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+55.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Veggies
+55.100.concreteproduct = abstractfactory.headfirst.pizzaaf.RedPepper
+
+# Solution with all constraints
+56.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+56.100.Sign = Positive
+56.100.XCommand = No source transformation needed
+56.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+56.100.concretefactory = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+56.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Veggies
+56.100.concreteproduct = abstractfactory.headfirst.pizzaaf.Garlic
+
+# Solution with all constraints
+57.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+57.100.Sign = Positive
+57.100.XCommand = No source transformation needed
+57.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+57.100.concretefactory = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+57.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Veggies
+57.100.concreteproduct = abstractfactory.headfirst.pizzaaf.Onion
+
+# Solution with all constraints
+58.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+58.100.Sign = Positive
+58.100.XCommand = No source transformation needed
+58.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+58.100.concretefactory = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+58.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Veggies
+58.100.concreteproduct = abstractfactory.headfirst.pizzaaf.BlackOlives
+
+# Solution with all constraints
+59.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+59.100.Sign = Positive
+59.100.XCommand = No source transformation needed
+59.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+59.100.concretefactory = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+59.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Veggies
+59.100.concreteproduct = abstractfactory.headfirst.pizzaaf.Eggplant
+
+# Solution with all constraints
+60.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+60.100.Sign = Positive
+60.100.XCommand = No source transformation needed
+60.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+60.100.concretefactory = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+60.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Veggies
+60.100.concreteproduct = abstractfactory.headfirst.pizzaaf.Spinach
+
+# Solution with all constraints
+61.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+61.100.Sign = Positive
+61.100.XCommand = No source transformation needed
+61.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+61.100.concretefactory = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+61.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Pepperoni
+61.100.concreteproduct = abstractfactory.headfirst.pizzaaf.SlicedPepperoni
+
+# Solution with all constraints
+62.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+62.100.Sign = Positive
+62.100.XCommand = No source transformation needed
+62.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+62.100.concretefactory = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+62.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Pepperoni
+62.100.concreteproduct = abstractfactory.headfirst.pizzaaf.SlicedPepperoni
+
+# Solution with all constraints
+63.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+63.100.Sign = Positive
+63.100.XCommand = No source transformation needed
+63.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+63.100.concretefactory = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+63.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Clams
+63.100.concreteproduct = abstractfactory.headfirst.pizzaaf.FreshClams
+
+# Solution with all constraints
+64.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+64.100.Sign = Positive
+64.100.XCommand = No source transformation needed
+64.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+64.100.concretefactory = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+64.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Clams
+64.100.concreteproduct = abstractfactory.headfirst.pizzaaf.FrozenClams
+
+# Solution with all constraints
+65.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+65.100.Sign = Positive
+65.100.XCommand = No source transformation needed
+65.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+65.100.concretefactory = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+65.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Sauce
+65.100.concreteproduct = abstractfactory.headfirst.pizzaaf.MarinaraSauce
+
+# Solution with all constraints
+66.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+66.100.Sign = Positive
+66.100.XCommand = No source transformation needed
+66.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+66.100.concretefactory = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+66.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Sauce
+66.100.concreteproduct = abstractfactory.headfirst.pizzaaf.PlumTomatoSauce
+
+# Solution with all constraints
+67.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+67.100.Sign = Positive
+67.100.XCommand = No source transformation needed
+67.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+67.100.concretefactory = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+67.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Cheese
+67.100.concreteproduct = abstractfactory.headfirst.pizzaaf.ReggianoCheese
+
+# Solution with all constraints
+68.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+68.100.Sign = Positive
+68.100.XCommand = No source transformation needed
+68.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+68.100.concretefactory = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+68.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Cheese
+68.100.concreteproduct = abstractfactory.headfirst.pizzaaf.MozzarellaCheese
+
+# Solution with all constraints
+69.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+69.100.Sign = Positive
+69.100.XCommand = No source transformation needed
+69.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+69.100.concretefactory = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+69.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Dough
+69.100.concreteproduct = abstractfactory.headfirst.pizzaaf.ThinCrustDough
+
+# Solution with all constraints
+70.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+70.100.Sign = Positive
+70.100.XCommand = No source transformation needed
+70.100.abstractfactory = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+70.100.concretefactory = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+70.100.abstractproduct = abstractfactory.headfirst.pizzaaf.Dough
+70.100.concreteproduct = abstractfactory.headfirst.pizzaaf.ThickCrustDough
+
+# Solution with all constraints
+71.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+71.100.Sign = Positive
+71.100.XCommand = No source transformation needed
+71.100.abstractfactory = abstractfactory.headfirst.ducks.AbstractDuckFactory
+71.100.concretefactory = abstractfactory.headfirst.ducks.CountingDuckFactory
+71.100.abstractproduct = abstractfactory.headfirst.ducks.Quackable
+71.100.concreteproduct = abstractfactory.headfirst.ducks.DuckCall
+
+# Solution with all constraints
+72.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+72.100.Sign = Positive
+72.100.XCommand = No source transformation needed
+72.100.abstractfactory = abstractfactory.headfirst.ducks.AbstractDuckFactory
+72.100.concretefactory = abstractfactory.headfirst.ducks.CountingDuckFactory
+72.100.abstractproduct = abstractfactory.headfirst.ducks.Quackable
+72.100.concreteproduct = abstractfactory.headfirst.ducks.QuackCounter
+
+# Solution with all constraints
+73.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+73.100.Sign = Positive
+73.100.XCommand = No source transformation needed
+73.100.abstractfactory = abstractfactory.headfirst.ducks.AbstractDuckFactory
+73.100.concretefactory = abstractfactory.headfirst.ducks.CountingDuckFactory
+73.100.abstractproduct = abstractfactory.headfirst.ducks.Quackable
+73.100.concreteproduct = abstractfactory.headfirst.ducks.RubberDuck
+
+# Solution with all constraints
+74.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+74.100.Sign = Positive
+74.100.XCommand = No source transformation needed
+74.100.abstractfactory = abstractfactory.headfirst.ducks.AbstractDuckFactory
+74.100.concretefactory = abstractfactory.headfirst.ducks.CountingDuckFactory
+74.100.abstractproduct = abstractfactory.headfirst.ducks.Quackable
+74.100.concreteproduct = abstractfactory.headfirst.ducks.MallardDuck
+
+# Solution with all constraints
+75.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+75.100.Sign = Positive
+75.100.XCommand = No source transformation needed
+75.100.abstractfactory = abstractfactory.headfirst.ducks.AbstractDuckFactory
+75.100.concretefactory = abstractfactory.headfirst.ducks.CountingDuckFactory
+75.100.abstractproduct = abstractfactory.headfirst.ducks.Quackable
+75.100.concreteproduct = abstractfactory.headfirst.ducks.RedheadDuck
+
+# Solution with all constraints
+76.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+76.100.Sign = Positive
+76.100.XCommand = No source transformation needed
+76.100.abstractfactory = abstractfactory.headfirst.ducks.AbstractDuckFactory
+76.100.concretefactory = abstractfactory.headfirst.ducks.DuckFactory
+76.100.abstractproduct = abstractfactory.headfirst.ducks.Quackable
+76.100.concreteproduct = abstractfactory.headfirst.ducks.DuckCall
+
+# Solution with all constraints
+77.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+77.100.Sign = Positive
+77.100.XCommand = No source transformation needed
+77.100.abstractfactory = abstractfactory.headfirst.ducks.AbstractDuckFactory
+77.100.concretefactory = abstractfactory.headfirst.ducks.DuckFactory
+77.100.abstractproduct = abstractfactory.headfirst.ducks.Quackable
+77.100.concreteproduct = abstractfactory.headfirst.ducks.RubberDuck
+
+# Solution with all constraints
+78.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+78.100.Sign = Positive
+78.100.XCommand = No source transformation needed
+78.100.abstractfactory = abstractfactory.headfirst.ducks.AbstractDuckFactory
+78.100.concretefactory = abstractfactory.headfirst.ducks.DuckFactory
+78.100.abstractproduct = abstractfactory.headfirst.ducks.Quackable
+78.100.concreteproduct = abstractfactory.headfirst.ducks.MallardDuck
+
+# Solution with all constraints
+79.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+79.100.Sign = Positive
+79.100.XCommand = No source transformation needed
+79.100.abstractfactory = abstractfactory.headfirst.ducks.AbstractDuckFactory
+79.100.concretefactory = abstractfactory.headfirst.ducks.DuckFactory
+79.100.abstractproduct = abstractfactory.headfirst.ducks.Quackable
+79.100.concreteproduct = abstractfactory.headfirst.ducks.RedheadDuck
+
+# Solution with all constraints
+80.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+80.100.Sign = Positive
+80.100.XCommand = No source transformation needed
+80.100.abstractfactory = abstractfactory.codeguru.csharp.IAVDevice
+80.100.concretefactory = abstractfactory.codeguru.csharp.CDvd
+80.100.abstractproduct = abstractfactory.codeguru.csharp.IVideo
+80.100.concreteproduct = abstractfactory.codeguru.csharp.CDvdVideo
+
+# Solution with all constraints
+81.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+81.100.Sign = Positive
+81.100.XCommand = No source transformation needed
+81.100.abstractfactory = abstractfactory.codeguru.csharp.IAVDevice
+81.100.concretefactory = abstractfactory.codeguru.csharp.CCd
+81.100.abstractproduct = abstractfactory.codeguru.csharp.IVideo
+81.100.concreteproduct = abstractfactory.codeguru.csharp.CCdVideo
+
+# Solution with all constraints
+82.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+82.100.Sign = Positive
+82.100.XCommand = No source transformation needed
+82.100.abstractfactory = abstractfactory.codeguru.csharp.IAVDevice
+82.100.concretefactory = abstractfactory.codeguru.csharp.CDvd
+82.100.abstractproduct = abstractfactory.codeguru.csharp.IAudio
+82.100.concreteproduct = abstractfactory.codeguru.csharp.CDvdAudio
+
+# Solution with all constraints
+83.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+83.100.Sign = Positive
+83.100.XCommand = No source transformation needed
+83.100.abstractfactory = abstractfactory.codeguru.csharp.IAVDevice
+83.100.concretefactory = abstractfactory.codeguru.csharp.CCd
+83.100.abstractproduct = abstractfactory.codeguru.csharp.IAudio
+83.100.concreteproduct = abstractfactory.codeguru.csharp.CCdAudio
+
+# Solution with all constraints
+84.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+84.100.Sign = Positive
+84.100.XCommand = No source transformation needed
+84.100.abstractfactory = abstractfactory.inria.AbAbstractFactory
+84.100.concretefactory = abstractfactory.inria.AbAbstractFactory1
+84.100.abstractproduct = abstractfactory.inria.A
+84.100.concreteproduct = abstractfactory.inria.A1
+
+# Solution with all constraints
+85.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+85.100.Sign = Positive
+85.100.XCommand = No source transformation needed
+85.100.abstractfactory = abstractfactory.inria.AbAbstractFactory
+85.100.concretefactory = abstractfactory.inria.AbAbstractFactory2
+85.100.abstractproduct = abstractfactory.inria.A
+85.100.concreteproduct = abstractfactory.inria.A2
+
+# Solution with all constraints
+86.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+86.100.Sign = Positive
+86.100.XCommand = No source transformation needed
+86.100.abstractfactory = abstractfactory.inria.AbAbstractFactory
+86.100.concretefactory = abstractfactory.inria.AbAbstractFactory1
+86.100.abstractproduct = abstractfactory.inria.B
+86.100.concreteproduct = abstractfactory.inria.B1
+
+# Solution with all constraints
+87.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+87.100.Sign = Positive
+87.100.XCommand = No source transformation needed
+87.100.abstractfactory = abstractfactory.inria.AbAbstractFactory
+87.100.concretefactory = abstractfactory.inria.AbAbstractFactory2
+87.100.abstractproduct = abstractfactory.inria.B
+87.100.concreteproduct = abstractfactory.inria.B2
+
+# Solution with all constraints
+88.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+88.100.Sign = Positive
+88.100.XCommand = No source transformation needed
+88.100.abstractfactory = abstractfactory.java2s.AddressFactory
+88.100.concretefactory = abstractfactory.java2s.FrenchAddressFactory
+88.100.abstractproduct = abstractfactory.java2s.PhoneNumber
+88.100.concreteproduct = abstractfactory.java2s.FrenchPhoneNumber
+
+# Solution with all constraints
+89.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+89.100.Sign = Positive
+89.100.XCommand = No source transformation needed
+89.100.abstractfactory = abstractfactory.java2s.AddressFactory
+89.100.concretefactory = abstractfactory.java2s.USAddressFactory
+89.100.abstractproduct = abstractfactory.java2s.PhoneNumber
+89.100.concreteproduct = abstractfactory.java2s.USPhoneNumber
+
+# Solution with all constraints
+90.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+90.100.Sign = Positive
+90.100.XCommand = No source transformation needed
+90.100.abstractfactory = abstractfactory.java2s.AddressFactory
+90.100.concretefactory = abstractfactory.java2s.FrenchAddressFactory
+90.100.abstractproduct = abstractfactory.java2s.Address
+90.100.concreteproduct = abstractfactory.java2s.FrenchAddress
+
+# Solution with all constraints
+91.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+91.100.Sign = Positive
+91.100.XCommand = No source transformation needed
+91.100.abstractfactory = abstractfactory.java2s.AddressFactory
+91.100.concretefactory = abstractfactory.java2s.USAddressFactory
+91.100.abstractproduct = abstractfactory.java2s.Address
+91.100.concreteproduct = abstractfactory.java2s.USAddress
+
+# Solution with all constraints
+92.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+92.100.Sign = Positive
+92.100.XCommand = No source transformation needed
+92.100.abstractfactory = abstractfactory.javapractices.DAOFactory
+92.100.concretefactory = abstractfactory.javapractices.DAOFactoryMySql
+92.100.abstractproduct = abstractfactory.javapractices.UserDAO
+92.100.concreteproduct = abstractfactory.javapractices.UserDAOMySql
+
+# Solution with all constraints
+93.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+93.100.Sign = Positive
+93.100.XCommand = No source transformation needed
+93.100.abstractfactory = abstractfactory.javapractices.DAOFactory
+93.100.concretefactory = abstractfactory.javapractices.DAOFactoryFileScheme
+93.100.abstractproduct = abstractfactory.javapractices.UserDAO
+93.100.concreteproduct = abstractfactory.javapractices.UserDAOFileScheme
+
+# Solution with all constraints
+94.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+94.100.Sign = Positive
+94.100.XCommand = No source transformation needed
+94.100.abstractfactory = abstractfactory.javapractices.DAOFactory
+94.100.concretefactory = abstractfactory.javapractices.DAOFactoryMySql
+94.100.abstractproduct = abstractfactory.javapractices.DeviceDAO
+94.100.concreteproduct = abstractfactory.javapractices.DeviceDAOMySql
+
+# Solution with all constraints
+95.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+95.100.Sign = Positive
+95.100.XCommand = No source transformation needed
+95.100.abstractfactory = abstractfactory.javapractices.DAOFactory
+95.100.concretefactory = abstractfactory.javapractices.DAOFactoryFileScheme
+95.100.abstractproduct = abstractfactory.javapractices.DeviceDAO
+95.100.concreteproduct = abstractfactory.javapractices.DeviceDAOFileScheme
+
+# Solution with all constraints
+96.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+96.100.Sign = Positive
+96.100.XCommand = No source transformation needed
+96.100.abstractfactory = abstractfactory.eckel.GameElementFactory
+96.100.concretefactory = abstractfactory.eckel.KillAndDismember
+96.100.abstractproduct = abstractfactory.eckel.Player
+96.100.concreteproduct = abstractfactory.eckel.KungFuGuy
+
+# Solution with all constraints
+97.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+97.100.Sign = Positive
+97.100.XCommand = No source transformation needed
+97.100.abstractfactory = abstractfactory.eckel.GameElementFactory
+97.100.concretefactory = abstractfactory.eckel.KittiesAndPuzzles
+97.100.abstractproduct = abstractfactory.eckel.Player
+97.100.concreteproduct = abstractfactory.eckel.Kitty
+
+# Solution with all constraints
+98.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+98.100.Sign = Positive
+98.100.XCommand = No source transformation needed
+98.100.abstractfactory = abstractfactory.eckel.GameElementFactory
+98.100.concretefactory = abstractfactory.eckel.KillAndDismember
+98.100.abstractproduct = abstractfactory.eckel.Obstacle
+98.100.concreteproduct = abstractfactory.eckel.NastyWeapon
+
+# Solution with all constraints
+99.100.Name = Abstract Factory Design Motif
+# Solution with all constraints
+99.100.Sign = Positive
+99.100.XCommand = No source transformation needed
+99.100.abstractfactory = abstractfactory.eckel.GameElementFactory
+99.100.concretefactory = abstractfactory.eckel.KittiesAndPuzzles
+99.100.abstractproduct = abstractfactory.eckel.Obstacle
+99.100.concreteproduct = abstractfactory.eckel.Puzzle
+
