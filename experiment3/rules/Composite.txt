@@ -1,7 +1,0 @@
-( = redirectInFamily composite notLinked != typeOf component class ) -> (!= label aPattern ), supp: 0.375, conf: 1.0
-( >= DIT component 2.0 != linkMethod leaf component override ) -> (!= label aPattern ), supp: 0.3333333333333333, conf: 1.0
-( = conglomeration composite true != receives composite component true ) -> (!= label aPattern ), supp: 0.25, conf: 1.0
-( = receives composite component true ) -> (= label aPattern ), supp: 0.16666666666666666, conf: 1.0
-( > DIT component 3.0 ) -> (!= label aPattern ), supp: 0.125, conf: 1.0
-( != sameInterfaceContainer composite component true != returns component component true != receives composite component true ) -> (!= label aPattern ), supp: 0.7083333333333334, conf: 0.9444444444444444
-( != redirectInFamily composite notLinked = typeOf component intface ) -> (= label aPattern ), supp: 0.125, conf: 0.75

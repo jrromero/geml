@@ -1,6 +1,0 @@
-( != linkArtefact subject observer notLinked ) -> (!= label aPattern ), supp: 0.5, conf: 1.0
-( = typeOf subject class != adapter concretesubject observer subject declaredDeclared ) -> (!= label aPattern ), supp: 0.45454545454545453, conf: 1.0
-( > NOC subject 2.0 = conglomeration subject true ) -> (= label aPattern ), supp: 0.22727272727272727, conf: 1.0
-( != createObj concreteobserver concretesubject true = aggregation concreteobserver concretesubject instance != adapter concretesubject observer concreteobserver declaredInherited ) -> (= label aPattern ), supp: 0.18181818181818182, conf: 1.0
-( != aggregation concreteobserver concretesubject instance != receives subject subject true ) -> (!= label aPattern ), supp: 0.5909090909090909, conf: 0.8666666666666667
-( = receives subject subject true ) -> (= label aPattern ), supp: 0.22727272727272727, conf: 0.8333333333333334

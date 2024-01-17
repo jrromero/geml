@@ -1,6 +1,0 @@
-( <= RFC subject 92.0 != returns proxy realsubject true != aggregation proxy realsubject instance ) -> (!= label aPattern ), supp: 0.618421052631579, conf: 1.0
-( = isSubclass proxy true != adapter proxy realsubject subject declaredDeclared ) -> (!= label aPattern ), supp: 0.5657894736842105, conf: 1.0
-( = adapter proxy realsubject subject declaredDeclared != isSubclass realsubject true ) -> (= label aPattern ), supp: 0.19736842105263158, conf: 1.0
-( <= NOC subject 51.0 = returns proxy realsubject true ) -> (= label aPattern ), supp: 0.10526315789473684, conf: 1.0
-( >= DIT subject 2.0 < RFC subject 23.0 ) -> (= label aPattern ), supp: 0.02631578947368421, conf: 1.0
-( != adapter proxy realsubject subject declaredDeclared ) -> (!= label aPattern ), supp: 0.6842105263157895, conf: 0.9811320754716981

@@ -1,4 +1,0 @@
-( != linkMethod concretecommand command override != linkMethod invoker invoker notLinked != returns command invoker true ) -> (!= label aPattern ), supp: 0.75, conf: 1.0
-( = delegates invoker receiver true ) -> (= label aPattern ), supp: 0.15, conf: 1.0
-( = linkMethod concretecommand command override != receives command command true != isSubclass receiver true ) -> (= label aPattern ), supp: 0.15, conf: 1.0
-( != adapter concretecommand receiver command notLinked ) -> (= label aPattern ), supp: 0.15, conf: 0.75

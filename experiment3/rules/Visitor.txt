@@ -1,2 +1,0 @@
-( = typeOf visitor class ) -> (!= label aPattern ), supp: 0.75, conf: 1.0
-( != typeOf visitor class ) -> (= label aPattern ), supp: 0.25, conf: 1.0

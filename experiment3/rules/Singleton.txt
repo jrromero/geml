@@ -1,6 +1,0 @@
-( != aggregation singleton singleton static = ctorVisibility singleton public ) -> (!= label aPattern ), supp: 0.6863636363636364, conf: 1.0
-( >= DIT singleton 2.0 != aggregation singleton singleton static ) -> (!= label aPattern ), supp: 0.5545454545454546, conf: 1.0
-( = aggregation singleton singleton notLinked = conglomeration singleton true ) -> (!= label aPattern ), supp: 0.25, conf: 1.0
-( = aggregation singleton singleton static ) -> (= label aPattern ), supp: 0.2409090909090909, conf: 1.0
-( != aggregation singleton singleton static = isFinal singleton true ) -> (!= label aPattern ), supp: 0.09545454545454546, conf: 1.0
-( != aggregation singleton singleton static ) -> (!= label aPattern ), supp: 0.75, conf: 0.9880239520958084

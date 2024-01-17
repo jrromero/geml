@@ -1,3 +1,0 @@
-( = conglomeration creator true ) -> (!= label aPattern ), supp: 0.6666666666666666, conf: 1.0
-( > RFC product 12.0 ) -> (!= label aPattern ), supp: 0.5833333333333334, conf: 1.0
-( != conglomeration creator true != ctorVisibility product public ) -> (= label aPattern ), supp: 0.25, conf: 1.0

@@ -1,6 +1,0 @@
-( = typeOf abstractproduct absClass = ctorVisibility concreteproduct public ) -> (!= label aPattern ), supp: 0.5833333333333334, conf: 1.0
-( = isSubclass concretefactory true ) -> (!= label aPattern ), supp: 0.5416666666666666, conf: 1.0
-( = conglomeration abstractproduct true != isSubclass abstractproduct true ) -> (!= label aPattern ), supp: 0.3333333333333333, conf: 1.0
-( = createObj concretefactory concreteproduct true ) -> (= label aPattern ), supp: 0.16666666666666666, conf: 1.0
-( = delegates concretefactory concreteproduct true ) -> (= label aPattern ), supp: 0.125, conf: 1.0
-( != adapter concretefactory concreteproduct abstractfactory notLinked ) -> (= label aPattern ), supp: 0.08333333333333333, conf: 1.0
