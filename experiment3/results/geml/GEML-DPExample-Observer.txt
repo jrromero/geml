@@ -1,0 +1,20 @@
+# Solution with all constraints
+1.100.Name = Observer Design Motif
+# Solution with all constraints
+1.100.Sign = Positive
+1.100.XCommand = No source transformation needed
+1.100.subject = observer.kuchana.Observable
+1.100.observer = observer.kuchana.Observer
+1.100.concreteobserver = observer.kuchana.YTDChart
+1.100.concretesubject = observer.kuchana.ReportManager
+
+# Solution with all constraints
+2.100.Name = Observer Design Motif
+# Solution with all constraints
+2.100.Sign = Positive
+2.100.XCommand = No source transformation needed
+2.100.subject = observer.ob2.Creature
+2.100.observer = observer.ob2.AvailableActionsListener
+2.100.concreteobserver = observer.ob2.PlainAvailableActionsListener
+2.100.concretesubject = observer.ob2.Action
+

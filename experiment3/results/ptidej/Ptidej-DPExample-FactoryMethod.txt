@@ -1,0 +1,3401 @@
+# Solution with all constraints
+1.22.Name = Factory Method Design Motif
+# Solution with all constraints
+1.22.Sign = Positive
+1.22.XCommand = No source transformation needed
+1.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+1.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+1.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+1.22.product = abstractfactory.headfirst.pizzaaf.Dough
+1.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.ThinCrustDough
+1.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.ThickCrustDough
+
+# Solution with all constraints
+2.22.Name = Factory Method Design Motif
+# Solution with all constraints
+2.22.Sign = Positive
+2.22.XCommand = No source transformation needed
+2.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+2.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+2.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+2.22.product = abstractfactory.headfirst.pizzaaf.Sauce
+2.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.PlumTomatoSauce
+2.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.MarinaraSauce
+
+# Solution with all constraints
+3.22.Name = Factory Method Design Motif
+# Solution with all constraints
+3.22.Sign = Positive
+3.22.XCommand = No source transformation needed
+3.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+3.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+3.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+3.22.product = abstractfactory.headfirst.pizzaaf.Pepperoni
+3.22.concreteProduct = abstractfactory.headfirst.pizzaaf.SlicedPepperoni
+
+# Solution with all constraints
+4.22.Name = Factory Method Design Motif
+# Solution with all constraints
+4.22.Sign = Positive
+4.22.XCommand = No source transformation needed
+4.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+4.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+4.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+4.22.product = abstractfactory.headfirst.pizzaaf.Clams
+4.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.FrozenClams
+4.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.FreshClams
+
+# Solution with all constraints
+5.22.Name = Factory Method Design Motif
+# Solution with all constraints
+5.22.Sign = Positive
+5.22.XCommand = No source transformation needed
+5.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+5.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+5.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+5.22.product = abstractfactory.headfirst.pizzaaf.Cheese
+5.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.ReggianoCheese
+5.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.MozzarellaCheese
+
+# Solution with all constraints
+6.22.Name = Factory Method Design Motif
+# Solution with all constraints
+6.22.Sign = Positive
+6.22.XCommand = No source transformation needed
+6.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+6.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+6.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+6.22.product = abstractfactory.headfirst.pizzaaf.Veggies
+6.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.Garlic
+6.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.RedPepper
+6.22.concreteProduct-3 = abstractfactory.headfirst.pizzaaf.Eggplant
+6.22.concreteProduct-4 = abstractfactory.headfirst.pizzaaf.Spinach
+6.22.concreteProduct-5 = abstractfactory.headfirst.pizzaaf.Mushroom
+6.22.concreteProduct-6 = abstractfactory.headfirst.pizzaaf.BlackOlives
+6.22.concreteProduct-7 = abstractfactory.headfirst.pizzaaf.Onion
+
+# Solution with all constraints
+7.22.Name = Factory Method Design Motif
+# Solution with all constraints
+7.22.Sign = Positive
+7.22.XCommand = No source transformation needed
+7.22.creator = interpreter.lucacristina.expr.functions.FunctionFactory
+7.22.concreteCreator = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+7.22.product = interpreter.lucacristina.expr.Function
+7.22.concreteProduct = interpreter.lucacristina.expr.functions.user.UserFunction
+
+# Solution with all constraints
+8.22.Name = Factory Method Design Motif
+# Solution with all constraints
+8.22.Sign = Positive
+8.22.XCommand = No source transformation needed
+8.22.creator = abstractfactory.wikipedia.GUIFactory
+8.22.concreteCreator-1 = abstractfactory.wikipedia.WinFactory
+8.22.concreteCreator-2 = abstractfactory.wikipedia.OSXFactory
+8.22.product = abstractfactory.wikipedia.Button
+8.22.concreteProduct-1 = abstractfactory.wikipedia.OSXButton
+8.22.concreteProduct-2 = abstractfactory.wikipedia.WinButton
+
+# Solution with all constraints
+9.22.Name = Factory Method Design Motif
+# Solution with all constraints
+9.22.Sign = Positive
+9.22.XCommand = No source transformation needed
+9.22.creator = abstractfactory.java2s.AddressFactory
+9.22.concreteCreator-1 = abstractfactory.java2s.FrenchAddressFactory
+9.22.concreteCreator-2 = abstractfactory.java2s.USAddressFactory
+9.22.product = abstractfactory.java2s.Address
+9.22.concreteProduct-1 = abstractfactory.java2s.FrenchAddress
+9.22.concreteProduct-2 = abstractfactory.java2s.USAddress
+
+# Solution with all constraints
+10.22.Name = Factory Method Design Motif
+# Solution with all constraints
+10.22.Sign = Positive
+10.22.XCommand = No source transformation needed
+10.22.creator = abstractfactory.java2s.AddressFactory
+10.22.concreteCreator-1 = abstractfactory.java2s.FrenchAddressFactory
+10.22.concreteCreator-2 = abstractfactory.java2s.USAddressFactory
+10.22.product = abstractfactory.java2s.PhoneNumber
+10.22.concreteProduct-1 = abstractfactory.java2s.USPhoneNumber
+10.22.concreteProduct-2 = abstractfactory.java2s.FrenchPhoneNumber
+
+# Solution with all constraints
+11.22.Name = Factory Method Design Motif
+# Solution with all constraints
+11.22.Sign = Positive
+11.22.XCommand = No source transformation needed
+11.22.creator = factorymethod.cselt.Creator
+11.22.concreteCreator = factorymethod.cselt.Creator1
+11.22.product = factorymethod.cselt.AbstractObject
+11.22.concreteProduct = factorymethod.cselt.ConcreteObject1
+
+# Solution with all constraints
+12.22.Name = Factory Method Design Motif
+# Solution with all constraints
+12.22.Sign = Positive
+12.22.XCommand = No source transformation needed
+12.22.creator = factorymethod.headfirst.pizzafm.PizzaStore
+12.22.concreteCreator-1 = factorymethod.headfirst.pizzafm.ChicagoPizzaStore
+12.22.concreteCreator-2 = factorymethod.headfirst.pizzafm.NYPizzaStore
+12.22.product = factorymethod.headfirst.pizzafm.Pizza
+12.22.concreteProduct-1 = factorymethod.headfirst.pizzafm.ChicagoStyleCheesePizza
+12.22.concreteProduct-2 = factorymethod.headfirst.pizzafm.ChicagoStylePepperoniPizza
+12.22.concreteProduct-3 = factorymethod.headfirst.pizzafm.ChicagoStyleVeggiePizza
+12.22.concreteProduct-4 = factorymethod.headfirst.pizzafm.NYStyleVeggiePizza
+12.22.concreteProduct-5 = factorymethod.headfirst.pizzafm.NYStyleCheesePizza
+12.22.concreteProduct-6 = factorymethod.headfirst.pizzafm.ChicagoStyleClamPizza
+12.22.concreteProduct-7 = factorymethod.headfirst.pizzafm.NYStyleClamPizza
+12.22.concreteProduct-8 = factorymethod.headfirst.pizzafm.NYStylePepperoniPizza
+
+# Solution with all constraints
+13.22.Name = Factory Method Design Motif
+# Solution with all constraints
+13.22.Sign = Positive
+13.22.XCommand = No source transformation needed
+13.22.creator = abstractfactory.headfirst.ducks.AbstractDuckFactory
+13.22.concreteCreator-1 = abstractfactory.headfirst.ducks.DuckFactory
+13.22.concreteCreator-2 = abstractfactory.headfirst.ducks.CountingDuckFactory
+13.22.product = abstractfactory.headfirst.ducks.Quackable
+13.22.concreteProduct-1 = abstractfactory.headfirst.ducks.RedheadDuck
+13.22.concreteProduct-2 = abstractfactory.headfirst.ducks.MallardDuck
+13.22.concreteProduct-3 = abstractfactory.headfirst.ducks.DuckCall
+13.22.concreteProduct-4 = abstractfactory.headfirst.ducks.RubberDuck
+13.22.concreteProduct-5 = abstractfactory.headfirst.ducks.QuackCounter
+
+# Solution with all constraints
+14.22.Name = Factory Method Design Motif
+# Solution with all constraints
+14.22.Sign = Positive
+14.22.XCommand = No source transformation needed
+14.22.creator = abstractfactory.inria.AbAbstractFactory
+14.22.concreteCreator-1 = abstractfactory.inria.AbAbstractFactory2
+14.22.concreteCreator-2 = abstractfactory.inria.AbAbstractFactory1
+14.22.product = abstractfactory.inria.B
+14.22.concreteProduct-1 = abstractfactory.inria.B2
+14.22.concreteProduct-2 = abstractfactory.inria.B1
+
+# Solution with all constraints
+15.22.Name = Factory Method Design Motif
+# Solution with all constraints
+15.22.Sign = Positive
+15.22.XCommand = No source transformation needed
+15.22.creator = abstractfactory.inria.AbAbstractFactory
+15.22.concreteCreator-1 = abstractfactory.inria.AbAbstractFactory2
+15.22.concreteCreator-2 = abstractfactory.inria.AbAbstractFactory1
+15.22.product = abstractfactory.inria.A
+15.22.concreteProduct-1 = abstractfactory.inria.A1
+15.22.concreteProduct-2 = abstractfactory.inria.A2
+
+# Solution with all constraints
+16.22.Name = Factory Method Design Motif
+# Solution with all constraints
+16.22.Sign = Positive
+16.22.XCommand = No source transformation needed
+16.22.creator = mediator.sun.ContactMediator
+16.22.concreteCreator = mediator.sun.ContactMediatorImpl
+16.22.product = mediator.sun.Contact
+16.22.concreteProduct = mediator.sun.ContactImpl
+
+# Solution with all constraints
+17.22.Name = Factory Method Design Motif
+# Solution with all constraints
+17.22.Sign = Positive
+17.22.XCommand = No source transformation needed
+17.22.creator = factorymethod.gsraj.common.Profile
+17.22.concreteCreator-1 = factorymethod.gsraj.impl1.Employee
+17.22.concreteCreator-2 = factorymethod.gsraj.impl1.NonEmployee
+17.22.product = factorymethod.gsraj.common.Resource
+17.22.concreteProduct-1 = factorymethod.gsraj.common.PublicResource
+17.22.concreteProduct-2 = factorymethod.gsraj.common.ConfidentialResource
+
+# Solution with all constraints
+18.22.Name = Factory Method Design Motif
+# Solution with all constraints
+18.22.Sign = Positive
+18.22.XCommand = No source transformation needed
+18.22.creator = abstractfactory.codeguru.csharp.IAVDevice
+18.22.concreteCreator-1 = abstractfactory.codeguru.csharp.CCd
+18.22.concreteCreator-2 = abstractfactory.codeguru.csharp.CDvd
+18.22.product = abstractfactory.codeguru.csharp.IAudio
+18.22.concreteProduct-1 = abstractfactory.codeguru.csharp.CDvdAudio
+18.22.concreteProduct-2 = abstractfactory.codeguru.csharp.CCdAudio
+
+# Solution with all constraints
+19.22.Name = Factory Method Design Motif
+# Solution with all constraints
+19.22.Sign = Positive
+19.22.XCommand = No source transformation needed
+19.22.creator = abstractfactory.codeguru.csharp.IAVDevice
+19.22.concreteCreator-1 = abstractfactory.codeguru.csharp.CCd
+19.22.concreteCreator-2 = abstractfactory.codeguru.csharp.CDvd
+19.22.product = abstractfactory.codeguru.csharp.IVideo
+19.22.concreteProduct-1 = abstractfactory.codeguru.csharp.CCdVideo
+19.22.concreteProduct-2 = abstractfactory.codeguru.csharp.CDvdVideo
+
+# Solution with all constraints
+20.22.Name = Factory Method Design Motif
+# Solution with all constraints
+20.22.Sign = Positive
+20.22.XCommand = No source transformation needed
+20.22.creator = abstractfactory.apwebco.FinancialToolsFactory
+20.22.concreteCreator-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+20.22.concreteCreator-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+20.22.product = abstractfactory.apwebco.ShipFeeProcessor
+20.22.concreteProduct-1 = abstractfactory.apwebco.CanadaShipFeeProcessor
+20.22.concreteProduct-2 = abstractfactory.apwebco.EuropeShipFeeProcessor
+
+# Solution with all constraints
+21.22.Name = Factory Method Design Motif
+# Solution with all constraints
+21.22.Sign = Positive
+21.22.XCommand = No source transformation needed
+21.22.creator = abstractfactory.apwebco.FinancialToolsFactory
+21.22.concreteCreator-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+21.22.concreteCreator-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+21.22.product = abstractfactory.apwebco.TaxProcessor
+21.22.concreteProduct-1 = abstractfactory.apwebco.EuropeTaxProcessor
+21.22.concreteProduct-2 = abstractfactory.apwebco.CanadaTaxProcessor
+
+# Solution with all constraints
+22.22.Name = Factory Method Design Motif
+# Solution with all constraints
+22.22.Sign = Positive
+22.22.XCommand = No source transformation needed
+22.22.creator = abstractfactory.headfirst.pizzaaf.PizzaStore
+22.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+22.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+22.22.product = abstractfactory.headfirst.pizzaaf.Pizza
+22.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.CheesePizza
+22.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+22.22.concreteProduct-3 = abstractfactory.headfirst.pizzaaf.ClamPizza
+22.22.concreteProduct-4 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+
+# Solution with all constraints
+23.22.Name = Factory Method Design Motif
+# Solution with all constraints
+23.22.Sign = Positive
+23.22.XCommand = No source transformation needed
+23.22.creator = abstractfactory.javapractices.DAOFactory
+23.22.concreteCreator-1 = abstractfactory.javapractices.DAOFactoryMySql
+23.22.concreteCreator-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+23.22.product = abstractfactory.javapractices.DeviceDAO
+23.22.concreteProduct-1 = abstractfactory.javapractices.DeviceDAOMySql
+23.22.concreteProduct-2 = abstractfactory.javapractices.DeviceDAOFileScheme
+
+# Solution with all constraints
+24.22.Name = Factory Method Design Motif
+# Solution with all constraints
+24.22.Sign = Positive
+24.22.XCommand = No source transformation needed
+24.22.creator = abstractfactory.javapractices.DAOFactory
+24.22.concreteCreator-1 = abstractfactory.javapractices.DAOFactoryMySql
+24.22.concreteCreator-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+24.22.product = abstractfactory.javapractices.UserDAO
+24.22.concreteProduct-1 = abstractfactory.javapractices.UserDAOMySql
+24.22.concreteProduct-2 = abstractfactory.javapractices.UserDAOFileScheme
+
+# Solution with all constraints
+25.22.Name = Factory Method Design Motif
+# Solution with all constraints
+25.22.Sign = Positive
+25.22.XCommand = No source transformation needed
+25.22.creator = factorymethod.earthlink.Application
+25.22.concreteCreator = factorymethod.earthlink.MyApplication
+25.22.product = factorymethod.earthlink.Document
+25.22.concreteProduct = factorymethod.earthlink.MyDocument
+
+# Solution with all constraints
+26.22.Name = Factory Method Design Motif
+# Solution with all constraints
+26.22.Sign = Positive
+26.22.XCommand = No source transformation needed
+26.22.creator = abstractfactory.eckel.GameElementFactory
+26.22.concreteCreator-1 = abstractfactory.eckel.KittiesAndPuzzles
+26.22.concreteCreator-2 = abstractfactory.eckel.KillAndDismember
+26.22.product = abstractfactory.eckel.Obstacle
+26.22.concreteProduct-1 = abstractfactory.eckel.Puzzle
+26.22.concreteProduct-2 = abstractfactory.eckel.NastyWeapon
+
+# Solution with all constraints
+27.22.Name = Factory Method Design Motif
+# Solution with all constraints
+27.22.Sign = Positive
+27.22.XCommand = No source transformation needed
+27.22.creator = abstractfactory.eckel.GameElementFactory
+27.22.concreteCreator-1 = abstractfactory.eckel.KittiesAndPuzzles
+27.22.concreteCreator-2 = abstractfactory.eckel.KillAndDismember
+27.22.product = abstractfactory.eckel.Player
+27.22.concreteProduct-1 = abstractfactory.eckel.KungFuGuy
+27.22.concreteProduct-2 = abstractfactory.eckel.Kitty
+
+# Solution with all constraints
+28.22.Name = Factory Method Design Motif
+# Solution with all constraints
+28.22.Sign = Positive
+28.22.XCommand = No source transformation needed
+28.22.creator = factorymethod.earthlink.Factory
+28.22.concreteCreator-1 = factorymethod.earthlink.DemocratFactory
+28.22.concreteCreator-2 = factorymethod.earthlink.RepublicanFactory
+28.22.product = factorymethod.earthlink.FederalFraudvillian
+28.22.concreteProduct-1 = factorymethod.earthlink.MinorityPartyCongressPerson
+28.22.concreteProduct-2 = factorymethod.earthlink.President
+28.22.concreteProduct-3 = factorymethod.earthlink.AttorneyGeneral
+
+# Solution with all constraints
+29.22.Name = Factory Method Design Motif
+# Solution with all constraints
+29.22.Sign = Positive
+29.22.XCommand = No source transformation needed
+29.22.creator = abstractfactory.kuchana.VehicleFactory
+29.22.concreteCreator-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+29.22.concreteCreator-2 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+29.22.product = abstractfactory.kuchana.SUV
+29.22.concreteProduct-1 = abstractfactory.kuchana.LuxurySUV
+29.22.concreteProduct-2 = abstractfactory.kuchana.NonLuxurySUV
+
+# Solution with all constraints
+30.22.Name = Factory Method Design Motif
+# Solution with all constraints
+30.22.Sign = Positive
+30.22.XCommand = No source transformation needed
+30.22.creator = abstractfactory.kuchana.VehicleFactory
+30.22.concreteCreator-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+30.22.concreteCreator-2 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+30.22.product = abstractfactory.kuchana.Car
+30.22.concreteProduct-1 = abstractfactory.kuchana.LuxuryCar
+30.22.concreteProduct-2 = abstractfactory.kuchana.NonLuxuryCar
+
+# Solution with all constraints
+31.22.Name = Factory Method Design Motif
+# Solution with all constraints
+31.22.Sign = Positive
+31.22.XCommand = No source transformation needed
+31.22.creator = factorymethod.landini.Creator
+31.22.concreteCreator-1 = factorymethod.landini.ConcreteCreatorA
+31.22.concreteCreator-2 = factorymethod.landini.ConcreteCreatorB
+31.22.product = factorymethod.landini.Product
+31.22.concreteProduct = factorymethod.landini.ConcreteProductA
+
+# Solution with all constraints
+32.22.Name = Factory Method Design Motif
+# Solution with all constraints
+32.22.Sign = Positive
+32.22.XCommand = No source transformation needed
+32.22.creator = abstractfactory.csharpcorner.Factory
+32.22.concreteCreator-1 = abstractfactory.csharpcorner.ConcreteFactory1
+32.22.concreteCreator-2 = abstractfactory.csharpcorner.ConcreteFactory2
+32.22.product = abstractfactory.csharpcorner.Base
+32.22.concreteProduct-1 = abstractfactory.csharpcorner.Derived2
+32.22.concreteProduct-2 = abstractfactory.csharpcorner.Derived1
+
+# Solution with all constraints
+33.22.Name = Factory Method Design Motif
+# Solution with all constraints
+33.22.Sign = Positive
+33.22.XCommand = No source transformation needed
+33.22.creator = abstractfactory.javacamp.ConnectionFactory
+33.22.concreteCreator = abstractfactory.javacamp.DataManager
+33.22.product = abstractfactory.javacamp.Remote
+33.22.concreteProduct = abstractfactory.javacamp.RemoteMode
+
+# Solution with all constraints
+34.22.Name = Factory Method Design Motif
+# Solution with all constraints
+34.22.Sign = Positive
+34.22.XCommand = No source transformation needed
+34.22.creator = abstractfactory.javacamp.ConnectionFactory
+34.22.concreteCreator = abstractfactory.javacamp.DataManager
+34.22.product = abstractfactory.javacamp.Local
+34.22.concreteProduct = abstractfactory.javacamp.LocalMode
+
+# Solution with all constraints
+35.22.Name = Factory Method Design Motif
+# Solution with all constraints
+35.22.Sign = Positive
+35.22.XCommand = No source transformation needed
+35.22.creator = abstractfactory.earthlink.democpp.Factory
+35.22.concreteCreator-1 = abstractfactory.earthlink.democpp.MotifFactory
+35.22.concreteCreator-2 = abstractfactory.earthlink.democpp.WindowsFactory
+35.22.product = abstractfactory.earthlink.democpp.Widget
+35.22.concreteProduct-1 = abstractfactory.earthlink.democpp.WindowsBtn
+35.22.concreteProduct-2 = abstractfactory.earthlink.democpp.MotifBtn
+
+# Solution with all constraints
+36.22.Name = Factory Method Design Motif
+# Solution with all constraints
+36.22.Sign = Positive
+36.22.XCommand = No source transformation needed
+36.22.creator = command.sun.LocationEditor
+36.22.concreteCreator = command.sun.CommandGui
+36.22.product = command.sun.Location
+36.22.concreteProduct = command.sun.LocationImpl
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+37.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+37.0.Sign = Positive
+37.0.XCommand = 
+37.0.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+37.0.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+37.0.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+37.0.product = abstractfactory.headfirst.pizzaaf.Dough
+37.0.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.ThinCrustDough
+37.0.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.ThickCrustDough
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+38.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+38.0.Sign = Positive
+38.0.XCommand = 
+38.0.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+38.0.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+38.0.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+38.0.product = abstractfactory.headfirst.pizzaaf.Sauce
+38.0.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.PlumTomatoSauce
+38.0.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.MarinaraSauce
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+39.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+39.0.Sign = Positive
+39.0.XCommand = 
+39.0.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+39.0.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+39.0.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+39.0.product = abstractfactory.headfirst.pizzaaf.Pepperoni
+39.0.concreteProduct = abstractfactory.headfirst.pizzaaf.SlicedPepperoni
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+40.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+40.0.Sign = Positive
+40.0.XCommand = 
+40.0.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+40.0.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+40.0.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+40.0.product = abstractfactory.headfirst.pizzaaf.Clams
+40.0.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.FrozenClams
+40.0.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.FreshClams
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+41.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+41.0.Sign = Positive
+41.0.XCommand = 
+41.0.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+41.0.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+41.0.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+41.0.product = abstractfactory.headfirst.pizzaaf.Cheese
+41.0.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.ReggianoCheese
+41.0.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.MozzarellaCheese
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+42.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+42.0.Sign = Positive
+42.0.XCommand = 
+42.0.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+42.0.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+42.0.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+42.0.product = abstractfactory.headfirst.pizzaaf.Veggies
+42.0.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.Garlic
+42.0.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.RedPepper
+42.0.concreteProduct-3 = abstractfactory.headfirst.pizzaaf.Eggplant
+42.0.concreteProduct-4 = abstractfactory.headfirst.pizzaaf.Spinach
+42.0.concreteProduct-5 = abstractfactory.headfirst.pizzaaf.Mushroom
+42.0.concreteProduct-6 = abstractfactory.headfirst.pizzaaf.BlackOlives
+42.0.concreteProduct-7 = abstractfactory.headfirst.pizzaaf.Onion
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+43.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+43.0.Sign = Positive
+43.0.XCommand = 
+43.0.creator = interpreter.lucacristina.expr.functions.FunctionFactory
+43.0.concreteCreator = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+43.0.product = interpreter.lucacristina.expr.Function
+43.0.concreteProduct = interpreter.lucacristina.expr.functions.user.UserFunction
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+44.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+44.0.Sign = Positive
+44.0.XCommand = 
+44.0.creator = abstractfactory.wikipedia.GUIFactory
+44.0.concreteCreator-1 = abstractfactory.wikipedia.WinFactory
+44.0.concreteCreator-2 = abstractfactory.wikipedia.OSXFactory
+44.0.product = abstractfactory.wikipedia.Button
+44.0.concreteProduct-1 = abstractfactory.wikipedia.OSXButton
+44.0.concreteProduct-2 = abstractfactory.wikipedia.WinButton
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+45.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+45.0.Sign = Positive
+45.0.XCommand = 
+45.0.creator = abstractfactory.java2s.AddressFactory
+45.0.concreteCreator-1 = abstractfactory.java2s.FrenchAddressFactory
+45.0.concreteCreator-2 = abstractfactory.java2s.USAddressFactory
+45.0.product = abstractfactory.java2s.Address
+45.0.concreteProduct-1 = abstractfactory.java2s.FrenchAddress
+45.0.concreteProduct-2 = abstractfactory.java2s.USAddress
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+46.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+46.0.Sign = Positive
+46.0.XCommand = 
+46.0.creator = abstractfactory.java2s.AddressFactory
+46.0.concreteCreator-1 = abstractfactory.java2s.FrenchAddressFactory
+46.0.concreteCreator-2 = abstractfactory.java2s.USAddressFactory
+46.0.product = abstractfactory.java2s.PhoneNumber
+46.0.concreteProduct-1 = abstractfactory.java2s.USPhoneNumber
+46.0.concreteProduct-2 = abstractfactory.java2s.FrenchPhoneNumber
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+47.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+47.0.Sign = Positive
+47.0.XCommand = 
+47.0.creator = factorymethod.cselt.Creator
+47.0.concreteCreator = factorymethod.cselt.Creator1
+47.0.product = factorymethod.cselt.AbstractObject
+47.0.concreteProduct = factorymethod.cselt.ConcreteObject1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+48.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+48.0.Sign = Positive
+48.0.XCommand = 
+48.0.creator = factorymethod.headfirst.pizzafm.PizzaStore
+48.0.concreteCreator-1 = factorymethod.headfirst.pizzafm.ChicagoPizzaStore
+48.0.concreteCreator-2 = factorymethod.headfirst.pizzafm.NYPizzaStore
+48.0.product = factorymethod.headfirst.pizzafm.Pizza
+48.0.concreteProduct-1 = factorymethod.headfirst.pizzafm.ChicagoStyleCheesePizza
+48.0.concreteProduct-2 = factorymethod.headfirst.pizzafm.ChicagoStylePepperoniPizza
+48.0.concreteProduct-3 = factorymethod.headfirst.pizzafm.ChicagoStyleVeggiePizza
+48.0.concreteProduct-4 = factorymethod.headfirst.pizzafm.NYStyleVeggiePizza
+48.0.concreteProduct-5 = factorymethod.headfirst.pizzafm.NYStyleCheesePizza
+48.0.concreteProduct-6 = factorymethod.headfirst.pizzafm.ChicagoStyleClamPizza
+48.0.concreteProduct-7 = factorymethod.headfirst.pizzafm.NYStyleClamPizza
+48.0.concreteProduct-8 = factorymethod.headfirst.pizzafm.NYStylePepperoniPizza
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+49.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+49.0.Sign = Positive
+49.0.XCommand = 
+49.0.creator = abstractfactory.headfirst.ducks.AbstractDuckFactory
+49.0.concreteCreator-1 = abstractfactory.headfirst.ducks.DuckFactory
+49.0.concreteCreator-2 = abstractfactory.headfirst.ducks.CountingDuckFactory
+49.0.product = abstractfactory.headfirst.ducks.Quackable
+49.0.concreteProduct-1 = abstractfactory.headfirst.ducks.RedheadDuck
+49.0.concreteProduct-2 = abstractfactory.headfirst.ducks.MallardDuck
+49.0.concreteProduct-3 = abstractfactory.headfirst.ducks.DuckCall
+49.0.concreteProduct-4 = abstractfactory.headfirst.ducks.RubberDuck
+49.0.concreteProduct-5 = abstractfactory.headfirst.ducks.QuackCounter
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+50.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+50.0.Sign = Positive
+50.0.XCommand = 
+50.0.creator = abstractfactory.inria.AbAbstractFactory
+50.0.concreteCreator-1 = abstractfactory.inria.AbAbstractFactory2
+50.0.concreteCreator-2 = abstractfactory.inria.AbAbstractFactory1
+50.0.product = abstractfactory.inria.B
+50.0.concreteProduct-1 = abstractfactory.inria.B2
+50.0.concreteProduct-2 = abstractfactory.inria.B1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+51.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+51.0.Sign = Positive
+51.0.XCommand = 
+51.0.creator = abstractfactory.inria.AbAbstractFactory
+51.0.concreteCreator-1 = abstractfactory.inria.AbAbstractFactory2
+51.0.concreteCreator-2 = abstractfactory.inria.AbAbstractFactory1
+51.0.product = abstractfactory.inria.A
+51.0.concreteProduct-1 = abstractfactory.inria.A1
+51.0.concreteProduct-2 = abstractfactory.inria.A2
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+52.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+52.0.Sign = Positive
+52.0.XCommand = 
+52.0.creator = mediator.sun.ContactMediator
+52.0.concreteCreator = mediator.sun.ContactMediatorImpl
+52.0.product = mediator.sun.Contact
+52.0.concreteProduct = mediator.sun.ContactImpl
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+53.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+53.0.Sign = Positive
+53.0.XCommand = 
+53.0.creator = factorymethod.gsraj.common.Profile
+53.0.concreteCreator-1 = factorymethod.gsraj.impl1.Employee
+53.0.concreteCreator-2 = factorymethod.gsraj.impl1.NonEmployee
+53.0.product = factorymethod.gsraj.common.Resource
+53.0.concreteProduct-1 = factorymethod.gsraj.common.PublicResource
+53.0.concreteProduct-2 = factorymethod.gsraj.common.ConfidentialResource
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+54.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+54.0.Sign = Positive
+54.0.XCommand = 
+54.0.creator = abstractfactory.codeguru.csharp.IAVDevice
+54.0.concreteCreator-1 = abstractfactory.codeguru.csharp.CCd
+54.0.concreteCreator-2 = abstractfactory.codeguru.csharp.CDvd
+54.0.product = abstractfactory.codeguru.csharp.IAudio
+54.0.concreteProduct-1 = abstractfactory.codeguru.csharp.CDvdAudio
+54.0.concreteProduct-2 = abstractfactory.codeguru.csharp.CCdAudio
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+55.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+55.0.Sign = Positive
+55.0.XCommand = 
+55.0.creator = abstractfactory.codeguru.csharp.IAVDevice
+55.0.concreteCreator-1 = abstractfactory.codeguru.csharp.CCd
+55.0.concreteCreator-2 = abstractfactory.codeguru.csharp.CDvd
+55.0.product = abstractfactory.codeguru.csharp.IVideo
+55.0.concreteProduct-1 = abstractfactory.codeguru.csharp.CCdVideo
+55.0.concreteProduct-2 = abstractfactory.codeguru.csharp.CDvdVideo
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+56.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+56.0.Sign = Positive
+56.0.XCommand = 
+56.0.creator = abstractfactory.apwebco.FinancialToolsFactory
+56.0.concreteCreator-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+56.0.concreteCreator-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+56.0.product = abstractfactory.apwebco.ShipFeeProcessor
+56.0.concreteProduct-1 = abstractfactory.apwebco.CanadaShipFeeProcessor
+56.0.concreteProduct-2 = abstractfactory.apwebco.EuropeShipFeeProcessor
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+57.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+57.0.Sign = Positive
+57.0.XCommand = 
+57.0.creator = abstractfactory.apwebco.FinancialToolsFactory
+57.0.concreteCreator-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+57.0.concreteCreator-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+57.0.product = abstractfactory.apwebco.TaxProcessor
+57.0.concreteProduct-1 = abstractfactory.apwebco.EuropeTaxProcessor
+57.0.concreteProduct-2 = abstractfactory.apwebco.CanadaTaxProcessor
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+58.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+58.0.Sign = Positive
+58.0.XCommand = 
+58.0.creator = abstractfactory.headfirst.pizzaaf.PizzaStore
+58.0.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+58.0.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+58.0.product = abstractfactory.headfirst.pizzaaf.Pizza
+58.0.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.CheesePizza
+58.0.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+58.0.concreteProduct-3 = abstractfactory.headfirst.pizzaaf.ClamPizza
+58.0.concreteProduct-4 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+59.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+59.0.Sign = Positive
+59.0.XCommand = 
+59.0.creator = abstractfactory.javapractices.DAOFactory
+59.0.concreteCreator-1 = abstractfactory.javapractices.DAOFactoryMySql
+59.0.concreteCreator-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+59.0.product = abstractfactory.javapractices.DeviceDAO
+59.0.concreteProduct-1 = abstractfactory.javapractices.DeviceDAOMySql
+59.0.concreteProduct-2 = abstractfactory.javapractices.DeviceDAOFileScheme
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+60.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+60.0.Sign = Positive
+60.0.XCommand = 
+60.0.creator = abstractfactory.javapractices.DAOFactory
+60.0.concreteCreator-1 = abstractfactory.javapractices.DAOFactoryMySql
+60.0.concreteCreator-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+60.0.product = abstractfactory.javapractices.UserDAO
+60.0.concreteProduct-1 = abstractfactory.javapractices.UserDAOMySql
+60.0.concreteProduct-2 = abstractfactory.javapractices.UserDAOFileScheme
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+61.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+61.0.Sign = Positive
+61.0.XCommand = 
+61.0.creator = factorymethod.earthlink.Application
+61.0.concreteCreator = factorymethod.earthlink.MyApplication
+61.0.product = factorymethod.earthlink.Document
+61.0.concreteProduct = factorymethod.earthlink.MyDocument
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+62.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+62.0.Sign = Positive
+62.0.XCommand = 
+62.0.creator = abstractfactory.eckel.GameElementFactory
+62.0.concreteCreator-1 = abstractfactory.eckel.KittiesAndPuzzles
+62.0.concreteCreator-2 = abstractfactory.eckel.KillAndDismember
+62.0.product = abstractfactory.eckel.Obstacle
+62.0.concreteProduct-1 = abstractfactory.eckel.Puzzle
+62.0.concreteProduct-2 = abstractfactory.eckel.NastyWeapon
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+63.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+63.0.Sign = Positive
+63.0.XCommand = 
+63.0.creator = abstractfactory.eckel.GameElementFactory
+63.0.concreteCreator-1 = abstractfactory.eckel.KittiesAndPuzzles
+63.0.concreteCreator-2 = abstractfactory.eckel.KillAndDismember
+63.0.product = abstractfactory.eckel.Player
+63.0.concreteProduct-1 = abstractfactory.eckel.KungFuGuy
+63.0.concreteProduct-2 = abstractfactory.eckel.Kitty
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+64.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+64.0.Sign = Positive
+64.0.XCommand = 
+64.0.creator = factorymethod.earthlink.Factory
+64.0.concreteCreator-1 = factorymethod.earthlink.DemocratFactory
+64.0.concreteCreator-2 = factorymethod.earthlink.RepublicanFactory
+64.0.product = factorymethod.earthlink.FederalFraudvillian
+64.0.concreteProduct-1 = factorymethod.earthlink.MinorityPartyCongressPerson
+64.0.concreteProduct-2 = factorymethod.earthlink.President
+64.0.concreteProduct-3 = factorymethod.earthlink.AttorneyGeneral
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+65.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+65.0.Sign = Positive
+65.0.XCommand = 
+65.0.creator = abstractfactory.kuchana.VehicleFactory
+65.0.concreteCreator-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+65.0.concreteCreator-2 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+65.0.product = abstractfactory.kuchana.SUV
+65.0.concreteProduct-1 = abstractfactory.kuchana.LuxurySUV
+65.0.concreteProduct-2 = abstractfactory.kuchana.NonLuxurySUV
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+66.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+66.0.Sign = Positive
+66.0.XCommand = 
+66.0.creator = abstractfactory.kuchana.VehicleFactory
+66.0.concreteCreator-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+66.0.concreteCreator-2 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+66.0.product = abstractfactory.kuchana.Car
+66.0.concreteProduct-1 = abstractfactory.kuchana.LuxuryCar
+66.0.concreteProduct-2 = abstractfactory.kuchana.NonLuxuryCar
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+67.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+67.0.Sign = Positive
+67.0.XCommand = 
+67.0.creator = factorymethod.landini.Creator
+67.0.concreteCreator-1 = factorymethod.landini.ConcreteCreatorA
+67.0.concreteCreator-2 = factorymethod.landini.ConcreteCreatorB
+67.0.product = factorymethod.landini.Product
+67.0.concreteProduct = factorymethod.landini.ConcreteProductA
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+68.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+68.0.Sign = Positive
+68.0.XCommand = 
+68.0.creator = abstractfactory.csharpcorner.Factory
+68.0.concreteCreator-1 = abstractfactory.csharpcorner.ConcreteFactory1
+68.0.concreteCreator-2 = abstractfactory.csharpcorner.ConcreteFactory2
+68.0.product = abstractfactory.csharpcorner.Base
+68.0.concreteProduct-1 = abstractfactory.csharpcorner.Derived2
+68.0.concreteProduct-2 = abstractfactory.csharpcorner.Derived1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+69.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+69.0.Sign = Positive
+69.0.XCommand = 
+69.0.creator = abstractfactory.javacamp.ConnectionFactory
+69.0.concreteCreator = abstractfactory.javacamp.DataManager
+69.0.product = abstractfactory.javacamp.Remote
+69.0.concreteProduct = abstractfactory.javacamp.RemoteMode
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+70.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+70.0.Sign = Positive
+70.0.XCommand = 
+70.0.creator = abstractfactory.javacamp.ConnectionFactory
+70.0.concreteCreator = abstractfactory.javacamp.DataManager
+70.0.product = abstractfactory.javacamp.Local
+70.0.concreteProduct-1 = abstractfactory.javacamp.LocalMode
+70.0.concreteProduct-2 = abstractfactory.javacamp.RemoteMode
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+71.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+71.0.Sign = Positive
+71.0.XCommand = 
+71.0.creator = abstractfactory.earthlink.democpp.Factory
+71.0.concreteCreator-1 = abstractfactory.earthlink.democpp.MotifFactory
+71.0.concreteCreator-2 = abstractfactory.earthlink.democpp.WindowsFactory
+71.0.product = abstractfactory.earthlink.democpp.Widget
+71.0.concreteProduct-1 = abstractfactory.earthlink.democpp.WindowsBtn
+71.0.concreteProduct-2 = abstractfactory.earthlink.democpp.MotifBtn
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+72.0.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteProdcut -|>- Product
+72.0.Sign = Positive
+72.0.XCommand = 
+72.0.creator = command.sun.LocationEditor
+72.0.concreteCreator = command.sun.CommandGui
+72.0.product = command.sun.Location
+72.0.concreteProduct = command.sun.LocationImpl
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+73.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+73.11.Sign = Positive
+73.11.XCommand = 
+73.11.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+73.11.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+73.11.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+73.11.product = abstractfactory.headfirst.pizzaaf.Dough
+73.11.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.ThinCrustDough
+73.11.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.ThickCrustDough
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+74.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+74.11.Sign = Positive
+74.11.XCommand = 
+74.11.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+74.11.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+74.11.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+74.11.product = abstractfactory.headfirst.pizzaaf.Sauce
+74.11.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.PlumTomatoSauce
+74.11.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.MarinaraSauce
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+75.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+75.11.Sign = Positive
+75.11.XCommand = 
+75.11.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+75.11.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+75.11.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+75.11.product = abstractfactory.headfirst.pizzaaf.Pepperoni
+75.11.concreteProduct = abstractfactory.headfirst.pizzaaf.SlicedPepperoni
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+76.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+76.11.Sign = Positive
+76.11.XCommand = 
+76.11.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+76.11.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+76.11.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+76.11.product = abstractfactory.headfirst.pizzaaf.Clams
+76.11.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.FrozenClams
+76.11.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.FreshClams
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+77.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+77.11.Sign = Positive
+77.11.XCommand = 
+77.11.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+77.11.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+77.11.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+77.11.product = abstractfactory.headfirst.pizzaaf.Cheese
+77.11.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.ReggianoCheese
+77.11.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.MozzarellaCheese
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+78.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+78.11.Sign = Positive
+78.11.XCommand = 
+78.11.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+78.11.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+78.11.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+78.11.product = abstractfactory.headfirst.pizzaaf.Veggies
+78.11.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.Garlic
+78.11.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.RedPepper
+78.11.concreteProduct-3 = abstractfactory.headfirst.pizzaaf.Eggplant
+78.11.concreteProduct-4 = abstractfactory.headfirst.pizzaaf.Spinach
+78.11.concreteProduct-5 = abstractfactory.headfirst.pizzaaf.Mushroom
+78.11.concreteProduct-6 = abstractfactory.headfirst.pizzaaf.BlackOlives
+78.11.concreteProduct-7 = abstractfactory.headfirst.pizzaaf.Onion
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+79.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+79.11.Sign = Positive
+79.11.XCommand = 
+79.11.creator = interpreter.lucacristina.expr.functions.FunctionFactory
+79.11.concreteCreator = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+79.11.product = interpreter.lucacristina.expr.Function
+79.11.concreteProduct = interpreter.lucacristina.expr.functions.user.UserFunction
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+80.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+80.11.Sign = Positive
+80.11.XCommand = 
+80.11.creator = abstractfactory.wikipedia.GUIFactory
+80.11.concreteCreator-1 = abstractfactory.wikipedia.WinFactory
+80.11.concreteCreator-2 = abstractfactory.wikipedia.OSXFactory
+80.11.product = abstractfactory.wikipedia.Button
+80.11.concreteProduct-1 = abstractfactory.wikipedia.OSXButton
+80.11.concreteProduct-2 = abstractfactory.wikipedia.WinButton
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+81.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+81.11.Sign = Positive
+81.11.XCommand = 
+81.11.creator = abstractfactory.java2s.AddressFactory
+81.11.concreteCreator-1 = abstractfactory.java2s.FrenchAddressFactory
+81.11.concreteCreator-2 = abstractfactory.java2s.USAddressFactory
+81.11.product = abstractfactory.java2s.Address
+81.11.concreteProduct-1 = abstractfactory.java2s.FrenchAddress
+81.11.concreteProduct-2 = abstractfactory.java2s.USAddress
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+82.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+82.11.Sign = Positive
+82.11.XCommand = 
+82.11.creator = abstractfactory.java2s.AddressFactory
+82.11.concreteCreator-1 = abstractfactory.java2s.FrenchAddressFactory
+82.11.concreteCreator-2 = abstractfactory.java2s.USAddressFactory
+82.11.product = abstractfactory.java2s.PhoneNumber
+82.11.concreteProduct-1 = abstractfactory.java2s.USPhoneNumber
+82.11.concreteProduct-2 = abstractfactory.java2s.FrenchPhoneNumber
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+83.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+83.11.Sign = Positive
+83.11.XCommand = 
+83.11.creator = factorymethod.cselt.Creator
+83.11.concreteCreator = factorymethod.cselt.Creator1
+83.11.product = factorymethod.cselt.AbstractObject
+83.11.concreteProduct = factorymethod.cselt.ConcreteObject1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+84.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+84.11.Sign = Positive
+84.11.XCommand = 
+84.11.creator = factorymethod.headfirst.pizzafm.PizzaStore
+84.11.concreteCreator-1 = factorymethod.headfirst.pizzafm.ChicagoPizzaStore
+84.11.concreteCreator-2 = factorymethod.headfirst.pizzafm.NYPizzaStore
+84.11.product = factorymethod.headfirst.pizzafm.Pizza
+84.11.concreteProduct-1 = factorymethod.headfirst.pizzafm.ChicagoStyleCheesePizza
+84.11.concreteProduct-2 = factorymethod.headfirst.pizzafm.ChicagoStylePepperoniPizza
+84.11.concreteProduct-3 = factorymethod.headfirst.pizzafm.ChicagoStyleVeggiePizza
+84.11.concreteProduct-4 = factorymethod.headfirst.pizzafm.NYStyleVeggiePizza
+84.11.concreteProduct-5 = factorymethod.headfirst.pizzafm.NYStyleCheesePizza
+84.11.concreteProduct-6 = factorymethod.headfirst.pizzafm.ChicagoStyleClamPizza
+84.11.concreteProduct-7 = factorymethod.headfirst.pizzafm.NYStyleClamPizza
+84.11.concreteProduct-8 = factorymethod.headfirst.pizzafm.NYStylePepperoniPizza
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+85.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+85.11.Sign = Positive
+85.11.XCommand = 
+85.11.creator = abstractfactory.headfirst.ducks.AbstractDuckFactory
+85.11.concreteCreator-1 = abstractfactory.headfirst.ducks.DuckFactory
+85.11.concreteCreator-2 = abstractfactory.headfirst.ducks.CountingDuckFactory
+85.11.product = abstractfactory.headfirst.ducks.Quackable
+85.11.concreteProduct-1 = abstractfactory.headfirst.ducks.RedheadDuck
+85.11.concreteProduct-2 = abstractfactory.headfirst.ducks.MallardDuck
+85.11.concreteProduct-3 = abstractfactory.headfirst.ducks.DuckCall
+85.11.concreteProduct-4 = abstractfactory.headfirst.ducks.RubberDuck
+85.11.concreteProduct-5 = abstractfactory.headfirst.ducks.QuackCounter
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+86.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+86.11.Sign = Positive
+86.11.XCommand = 
+86.11.creator = abstractfactory.inria.AbAbstractFactory
+86.11.concreteCreator-1 = abstractfactory.inria.AbAbstractFactory2
+86.11.concreteCreator-2 = abstractfactory.inria.AbAbstractFactory1
+86.11.product = abstractfactory.inria.B
+86.11.concreteProduct-1 = abstractfactory.inria.B2
+86.11.concreteProduct-2 = abstractfactory.inria.B1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+87.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+87.11.Sign = Positive
+87.11.XCommand = 
+87.11.creator = abstractfactory.inria.AbAbstractFactory
+87.11.concreteCreator-1 = abstractfactory.inria.AbAbstractFactory2
+87.11.concreteCreator-2 = abstractfactory.inria.AbAbstractFactory1
+87.11.product = abstractfactory.inria.A
+87.11.concreteProduct-1 = abstractfactory.inria.A1
+87.11.concreteProduct-2 = abstractfactory.inria.A2
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+88.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+88.11.Sign = Positive
+88.11.XCommand = 
+88.11.creator = mediator.sun.ContactMediator
+88.11.concreteCreator = mediator.sun.ContactMediatorImpl
+88.11.product = mediator.sun.Contact
+88.11.concreteProduct = mediator.sun.ContactImpl
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+89.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+89.11.Sign = Positive
+89.11.XCommand = 
+89.11.creator = factorymethod.gsraj.common.Profile
+89.11.concreteCreator-1 = factorymethod.gsraj.impl1.Employee
+89.11.concreteCreator-2 = factorymethod.gsraj.impl1.NonEmployee
+89.11.product = factorymethod.gsraj.common.Resource
+89.11.concreteProduct-1 = factorymethod.gsraj.common.PublicResource
+89.11.concreteProduct-2 = factorymethod.gsraj.common.ConfidentialResource
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+90.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+90.11.Sign = Positive
+90.11.XCommand = 
+90.11.creator = abstractfactory.codeguru.csharp.IAVDevice
+90.11.concreteCreator-1 = abstractfactory.codeguru.csharp.CCd
+90.11.concreteCreator-2 = abstractfactory.codeguru.csharp.CDvd
+90.11.product = abstractfactory.codeguru.csharp.IAudio
+90.11.concreteProduct-1 = abstractfactory.codeguru.csharp.CDvdAudio
+90.11.concreteProduct-2 = abstractfactory.codeguru.csharp.CCdAudio
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+91.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+91.11.Sign = Positive
+91.11.XCommand = 
+91.11.creator = abstractfactory.codeguru.csharp.IAVDevice
+91.11.concreteCreator-1 = abstractfactory.codeguru.csharp.CCd
+91.11.concreteCreator-2 = abstractfactory.codeguru.csharp.CDvd
+91.11.product = abstractfactory.codeguru.csharp.IVideo
+91.11.concreteProduct-1 = abstractfactory.codeguru.csharp.CCdVideo
+91.11.concreteProduct-2 = abstractfactory.codeguru.csharp.CDvdVideo
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+92.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+92.11.Sign = Positive
+92.11.XCommand = 
+92.11.creator = abstractfactory.apwebco.FinancialToolsFactory
+92.11.concreteCreator-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+92.11.concreteCreator-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+92.11.product = abstractfactory.apwebco.ShipFeeProcessor
+92.11.concreteProduct-1 = abstractfactory.apwebco.CanadaShipFeeProcessor
+92.11.concreteProduct-2 = abstractfactory.apwebco.EuropeShipFeeProcessor
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+93.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+93.11.Sign = Positive
+93.11.XCommand = 
+93.11.creator = abstractfactory.apwebco.FinancialToolsFactory
+93.11.concreteCreator-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+93.11.concreteCreator-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+93.11.product = abstractfactory.apwebco.TaxProcessor
+93.11.concreteProduct-1 = abstractfactory.apwebco.EuropeTaxProcessor
+93.11.concreteProduct-2 = abstractfactory.apwebco.CanadaTaxProcessor
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+94.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+94.11.Sign = Positive
+94.11.XCommand = 
+94.11.creator = abstractfactory.headfirst.pizzaaf.PizzaStore
+94.11.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+94.11.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+94.11.product = abstractfactory.headfirst.pizzaaf.Pizza
+94.11.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.CheesePizza
+94.11.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+94.11.concreteProduct-3 = abstractfactory.headfirst.pizzaaf.ClamPizza
+94.11.concreteProduct-4 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+95.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+95.11.Sign = Positive
+95.11.XCommand = 
+95.11.creator = abstractfactory.javapractices.DAOFactory
+95.11.concreteCreator-1 = abstractfactory.javapractices.DAOFactoryMySql
+95.11.concreteCreator-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+95.11.product = abstractfactory.javapractices.DeviceDAO
+95.11.concreteProduct-1 = abstractfactory.javapractices.DeviceDAOMySql
+95.11.concreteProduct-2 = abstractfactory.javapractices.DeviceDAOFileScheme
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+96.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+96.11.Sign = Positive
+96.11.XCommand = 
+96.11.creator = abstractfactory.javapractices.DAOFactory
+96.11.concreteCreator-1 = abstractfactory.javapractices.DAOFactoryMySql
+96.11.concreteCreator-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+96.11.product = abstractfactory.javapractices.UserDAO
+96.11.concreteProduct-1 = abstractfactory.javapractices.UserDAOMySql
+96.11.concreteProduct-2 = abstractfactory.javapractices.UserDAOFileScheme
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+97.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+97.11.Sign = Positive
+97.11.XCommand = 
+97.11.creator = factorymethod.earthlink.Application
+97.11.concreteCreator = factorymethod.earthlink.MyApplication
+97.11.product = factorymethod.earthlink.Document
+97.11.concreteProduct = factorymethod.earthlink.MyDocument
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+98.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+98.11.Sign = Positive
+98.11.XCommand = 
+98.11.creator = abstractfactory.eckel.GameElementFactory
+98.11.concreteCreator-1 = abstractfactory.eckel.KittiesAndPuzzles
+98.11.concreteCreator-2 = abstractfactory.eckel.KillAndDismember
+98.11.product = abstractfactory.eckel.Obstacle
+98.11.concreteProduct-1 = abstractfactory.eckel.Puzzle
+98.11.concreteProduct-2 = abstractfactory.eckel.NastyWeapon
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+99.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+99.11.Sign = Positive
+99.11.XCommand = 
+99.11.creator = abstractfactory.eckel.GameElementFactory
+99.11.concreteCreator-1 = abstractfactory.eckel.KittiesAndPuzzles
+99.11.concreteCreator-2 = abstractfactory.eckel.KillAndDismember
+99.11.product = abstractfactory.eckel.Player
+99.11.concreteProduct-1 = abstractfactory.eckel.KungFuGuy
+99.11.concreteProduct-2 = abstractfactory.eckel.Kitty
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+100.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+100.11.Sign = Positive
+100.11.XCommand = 
+100.11.creator = factorymethod.earthlink.Factory
+100.11.concreteCreator-1 = factorymethod.earthlink.DemocratFactory
+100.11.concreteCreator-2 = factorymethod.earthlink.RepublicanFactory
+100.11.product = factorymethod.earthlink.FederalFraudvillian
+100.11.concreteProduct-1 = factorymethod.earthlink.MinorityPartyCongressPerson
+100.11.concreteProduct-2 = factorymethod.earthlink.President
+100.11.concreteProduct-3 = factorymethod.earthlink.AttorneyGeneral
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+101.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+101.11.Sign = Positive
+101.11.XCommand = 
+101.11.creator = abstractfactory.kuchana.VehicleFactory
+101.11.concreteCreator-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+101.11.concreteCreator-2 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+101.11.product = abstractfactory.kuchana.SUV
+101.11.concreteProduct-1 = abstractfactory.kuchana.LuxurySUV
+101.11.concreteProduct-2 = abstractfactory.kuchana.NonLuxurySUV
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+102.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+102.11.Sign = Positive
+102.11.XCommand = 
+102.11.creator = abstractfactory.kuchana.VehicleFactory
+102.11.concreteCreator-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+102.11.concreteCreator-2 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+102.11.product = abstractfactory.kuchana.Car
+102.11.concreteProduct-1 = abstractfactory.kuchana.LuxuryCar
+102.11.concreteProduct-2 = abstractfactory.kuchana.NonLuxuryCar
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+103.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+103.11.Sign = Positive
+103.11.XCommand = 
+103.11.creator = factorymethod.landini.Creator
+103.11.concreteCreator-1 = factorymethod.landini.ConcreteCreatorA
+103.11.concreteCreator-2 = factorymethod.landini.ConcreteCreatorB
+103.11.product = factorymethod.landini.Product
+103.11.concreteProduct = factorymethod.landini.ConcreteProductA
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+104.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+104.11.Sign = Positive
+104.11.XCommand = 
+104.11.creator = abstractfactory.csharpcorner.Factory
+104.11.concreteCreator-1 = abstractfactory.csharpcorner.ConcreteFactory1
+104.11.concreteCreator-2 = abstractfactory.csharpcorner.ConcreteFactory2
+104.11.product = abstractfactory.csharpcorner.Base
+104.11.concreteProduct-1 = abstractfactory.csharpcorner.Derived2
+104.11.concreteProduct-2 = abstractfactory.csharpcorner.Derived1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+105.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+105.11.Sign = Positive
+105.11.XCommand = 
+105.11.creator = abstractfactory.javacamp.ConnectionFactory
+105.11.concreteCreator = abstractfactory.javacamp.DataManager
+105.11.product = abstractfactory.javacamp.Remote
+105.11.concreteProduct = abstractfactory.javacamp.RemoteMode
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+106.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+106.11.Sign = Positive
+106.11.XCommand = 
+106.11.creator = abstractfactory.javacamp.ConnectionFactory
+106.11.concreteCreator = abstractfactory.javacamp.DataManager
+106.11.product = abstractfactory.javacamp.Local
+106.11.concreteProduct-1 = abstractfactory.javacamp.LocalMode
+106.11.concreteProduct-2 = abstractfactory.javacamp.RemoteMode
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+107.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+107.11.Sign = Positive
+107.11.XCommand = 
+107.11.creator = abstractfactory.earthlink.democpp.Factory
+107.11.concreteCreator-1 = abstractfactory.earthlink.democpp.MotifFactory
+107.11.concreteCreator-2 = abstractfactory.earthlink.democpp.WindowsFactory
+107.11.product = abstractfactory.earthlink.democpp.Widget
+107.11.concreteProduct-1 = abstractfactory.earthlink.democpp.WindowsBtn
+107.11.concreteProduct-2 = abstractfactory.earthlink.democpp.MotifBtn
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+108.11.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Constraint replaced with this weaker constraint:
+#	-|>-...-|>-: ConcreteCreator -|>- Creator
+108.11.Sign = Positive
+108.11.XCommand = 
+108.11.creator = command.sun.LocationEditor
+108.11.concreteCreator = command.sun.CommandGui
+108.11.product = command.sun.Location
+108.11.concreteProduct = command.sun.LocationImpl
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+109.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+109.22.Sign = Positive
+109.22.XCommand = 
+109.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+109.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+109.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+109.22.product = abstractfactory.headfirst.pizzaaf.Dough
+109.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.ThinCrustDough
+109.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.ThickCrustDough
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+110.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+110.22.Sign = Positive
+110.22.XCommand = 
+110.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+110.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+110.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+110.22.product = abstractfactory.headfirst.pizzaaf.Sauce
+110.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.PlumTomatoSauce
+110.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.MarinaraSauce
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+111.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+111.22.Sign = Positive
+111.22.XCommand = 
+111.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+111.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+111.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+111.22.product = abstractfactory.headfirst.pizzaaf.Pepperoni
+111.22.concreteProduct = abstractfactory.headfirst.pizzaaf.SlicedPepperoni
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+112.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+112.22.Sign = Positive
+112.22.XCommand = 
+112.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+112.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+112.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+112.22.product = abstractfactory.headfirst.pizzaaf.Clams
+112.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.FrozenClams
+112.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.FreshClams
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+113.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+113.22.Sign = Positive
+113.22.XCommand = 
+113.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+113.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+113.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+113.22.product = abstractfactory.headfirst.pizzaaf.Cheese
+113.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.ReggianoCheese
+113.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.MozzarellaCheese
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+114.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+114.22.Sign = Positive
+114.22.XCommand = 
+114.22.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+114.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+114.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+114.22.product = abstractfactory.headfirst.pizzaaf.Veggies
+114.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.Garlic
+114.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.RedPepper
+114.22.concreteProduct-3 = abstractfactory.headfirst.pizzaaf.Eggplant
+114.22.concreteProduct-4 = abstractfactory.headfirst.pizzaaf.Spinach
+114.22.concreteProduct-5 = abstractfactory.headfirst.pizzaaf.Mushroom
+114.22.concreteProduct-6 = abstractfactory.headfirst.pizzaaf.BlackOlives
+114.22.concreteProduct-7 = abstractfactory.headfirst.pizzaaf.Onion
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+115.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+115.22.Sign = Positive
+115.22.XCommand = 
+115.22.creator = interpreter.lucacristina.expr.functions.FunctionFactory
+115.22.concreteCreator = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+115.22.product = interpreter.lucacristina.expr.Expression
+115.22.concreteProduct = interpreter.lucacristina.expr.functions.user.UserFunction
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+116.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+116.22.Sign = Positive
+116.22.XCommand = 
+116.22.creator = interpreter.lucacristina.expr.functions.FunctionFactory
+116.22.concreteCreator = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+116.22.product = interpreter.lucacristina.expr.Function
+116.22.concreteProduct = interpreter.lucacristina.expr.functions.user.UserFunction
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+117.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+117.22.Sign = Positive
+117.22.XCommand = 
+117.22.creator = abstractfactory.wikipedia.GUIFactory
+117.22.concreteCreator-1 = abstractfactory.wikipedia.WinFactory
+117.22.concreteCreator-2 = abstractfactory.wikipedia.OSXFactory
+117.22.product = abstractfactory.wikipedia.Button
+117.22.concreteProduct-1 = abstractfactory.wikipedia.OSXButton
+117.22.concreteProduct-2 = abstractfactory.wikipedia.WinButton
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+118.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+118.22.Sign = Positive
+118.22.XCommand = 
+118.22.creator = abstractfactory.java2s.AddressFactory
+118.22.concreteCreator-1 = abstractfactory.java2s.FrenchAddressFactory
+118.22.concreteCreator-2 = abstractfactory.java2s.USAddressFactory
+118.22.product = abstractfactory.java2s.Address
+118.22.concreteProduct-1 = abstractfactory.java2s.FrenchAddress
+118.22.concreteProduct-2 = abstractfactory.java2s.USAddress
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+119.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+119.22.Sign = Positive
+119.22.XCommand = 
+119.22.creator = abstractfactory.java2s.AddressFactory
+119.22.concreteCreator-1 = abstractfactory.java2s.FrenchAddressFactory
+119.22.concreteCreator-2 = abstractfactory.java2s.USAddressFactory
+119.22.product = abstractfactory.java2s.PhoneNumber
+119.22.concreteProduct-1 = abstractfactory.java2s.USPhoneNumber
+119.22.concreteProduct-2 = abstractfactory.java2s.FrenchPhoneNumber
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+120.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+120.22.Sign = Positive
+120.22.XCommand = 
+120.22.creator = factorymethod.cselt.Creator
+120.22.concreteCreator = factorymethod.cselt.Creator1
+120.22.product = factorymethod.cselt.AbstractObject
+120.22.concreteProduct = factorymethod.cselt.ConcreteObject1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+121.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+121.22.Sign = Positive
+121.22.XCommand = 
+121.22.creator = factorymethod.headfirst.pizzafm.PizzaStore
+121.22.concreteCreator-1 = factorymethod.headfirst.pizzafm.ChicagoPizzaStore
+121.22.concreteCreator-2 = factorymethod.headfirst.pizzafm.NYPizzaStore
+121.22.product = factorymethod.headfirst.pizzafm.Pizza
+121.22.concreteProduct-1 = factorymethod.headfirst.pizzafm.ChicagoStyleCheesePizza
+121.22.concreteProduct-2 = factorymethod.headfirst.pizzafm.ChicagoStylePepperoniPizza
+121.22.concreteProduct-3 = factorymethod.headfirst.pizzafm.ChicagoStyleVeggiePizza
+121.22.concreteProduct-4 = factorymethod.headfirst.pizzafm.NYStyleVeggiePizza
+121.22.concreteProduct-5 = factorymethod.headfirst.pizzafm.NYStyleCheesePizza
+121.22.concreteProduct-6 = factorymethod.headfirst.pizzafm.ChicagoStyleClamPizza
+121.22.concreteProduct-7 = factorymethod.headfirst.pizzafm.NYStyleClamPizza
+121.22.concreteProduct-8 = factorymethod.headfirst.pizzafm.NYStylePepperoniPizza
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+122.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+122.22.Sign = Positive
+122.22.XCommand = 
+122.22.creator = abstractfactory.headfirst.ducks.AbstractDuckFactory
+122.22.concreteCreator-1 = abstractfactory.headfirst.ducks.DuckFactory
+122.22.concreteCreator-2 = abstractfactory.headfirst.ducks.CountingDuckFactory
+122.22.product = abstractfactory.headfirst.ducks.Quackable
+122.22.concreteProduct-1 = abstractfactory.headfirst.ducks.RedheadDuck
+122.22.concreteProduct-2 = abstractfactory.headfirst.ducks.MallardDuck
+122.22.concreteProduct-3 = abstractfactory.headfirst.ducks.DuckCall
+122.22.concreteProduct-4 = abstractfactory.headfirst.ducks.RubberDuck
+122.22.concreteProduct-5 = abstractfactory.headfirst.ducks.QuackCounter
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+123.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+123.22.Sign = Positive
+123.22.XCommand = 
+123.22.creator = abstractfactory.inria.AbAbstractFactory
+123.22.concreteCreator-1 = abstractfactory.inria.AbAbstractFactory2
+123.22.concreteCreator-2 = abstractfactory.inria.AbAbstractFactory1
+123.22.product = abstractfactory.inria.B
+123.22.concreteProduct-1 = abstractfactory.inria.B2
+123.22.concreteProduct-2 = abstractfactory.inria.B1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+124.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+124.22.Sign = Positive
+124.22.XCommand = 
+124.22.creator = abstractfactory.inria.AbAbstractFactory
+124.22.concreteCreator-1 = abstractfactory.inria.AbAbstractFactory2
+124.22.concreteCreator-2 = abstractfactory.inria.AbAbstractFactory1
+124.22.product = abstractfactory.inria.A
+124.22.concreteProduct-1 = abstractfactory.inria.A1
+124.22.concreteProduct-2 = abstractfactory.inria.A2
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+125.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+125.22.Sign = Positive
+125.22.XCommand = 
+125.22.creator = mediator.sun.ContactMediator
+125.22.concreteCreator = mediator.sun.ContactMediatorImpl
+125.22.product = mediator.sun.Contact
+125.22.concreteProduct = mediator.sun.ContactImpl
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+126.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+126.22.Sign = Positive
+126.22.XCommand = 
+126.22.creator = factorymethod.gsraj.common.Profile
+126.22.concreteCreator-1 = factorymethod.gsraj.impl1.Employee
+126.22.concreteCreator-2 = factorymethod.gsraj.impl1.NonEmployee
+126.22.product = factorymethod.gsraj.common.Resource
+126.22.concreteProduct-1 = factorymethod.gsraj.common.PublicResource
+126.22.concreteProduct-2 = factorymethod.gsraj.common.ConfidentialResource
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+127.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+127.22.Sign = Positive
+127.22.XCommand = 
+127.22.creator = abstractfactory.codeguru.csharp.IAVDevice
+127.22.concreteCreator-1 = abstractfactory.codeguru.csharp.CCd
+127.22.concreteCreator-2 = abstractfactory.codeguru.csharp.CDvd
+127.22.product = abstractfactory.codeguru.csharp.IAudio
+127.22.concreteProduct-1 = abstractfactory.codeguru.csharp.CDvdAudio
+127.22.concreteProduct-2 = abstractfactory.codeguru.csharp.CCdAudio
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+128.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+128.22.Sign = Positive
+128.22.XCommand = 
+128.22.creator = abstractfactory.codeguru.csharp.IAVDevice
+128.22.concreteCreator-1 = abstractfactory.codeguru.csharp.CCd
+128.22.concreteCreator-2 = abstractfactory.codeguru.csharp.CDvd
+128.22.product = abstractfactory.codeguru.csharp.IVideo
+128.22.concreteProduct-1 = abstractfactory.codeguru.csharp.CCdVideo
+128.22.concreteProduct-2 = abstractfactory.codeguru.csharp.CDvdVideo
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+129.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+129.22.Sign = Positive
+129.22.XCommand = 
+129.22.creator = abstractfactory.apwebco.FinancialToolsFactory
+129.22.concreteCreator-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+129.22.concreteCreator-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+129.22.product = abstractfactory.apwebco.ShipFeeProcessor
+129.22.concreteProduct-1 = abstractfactory.apwebco.CanadaShipFeeProcessor
+129.22.concreteProduct-2 = abstractfactory.apwebco.EuropeShipFeeProcessor
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+130.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+130.22.Sign = Positive
+130.22.XCommand = 
+130.22.creator = abstractfactory.apwebco.FinancialToolsFactory
+130.22.concreteCreator-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+130.22.concreteCreator-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+130.22.product = abstractfactory.apwebco.TaxProcessor
+130.22.concreteProduct-1 = abstractfactory.apwebco.EuropeTaxProcessor
+130.22.concreteProduct-2 = abstractfactory.apwebco.CanadaTaxProcessor
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+131.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+131.22.Sign = Positive
+131.22.XCommand = 
+131.22.creator = abstractfactory.headfirst.pizzaaf.PizzaStore
+131.22.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+131.22.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+131.22.product = abstractfactory.headfirst.pizzaaf.Pizza
+131.22.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.CheesePizza
+131.22.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+131.22.concreteProduct-3 = abstractfactory.headfirst.pizzaaf.ClamPizza
+131.22.concreteProduct-4 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+132.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+132.22.Sign = Positive
+132.22.XCommand = 
+132.22.creator = abstractfactory.javapractices.DAOFactory
+132.22.concreteCreator-1 = abstractfactory.javapractices.DAOFactoryMySql
+132.22.concreteCreator-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+132.22.product = abstractfactory.javapractices.DeviceDAO
+132.22.concreteProduct-1 = abstractfactory.javapractices.DeviceDAOMySql
+132.22.concreteProduct-2 = abstractfactory.javapractices.DeviceDAOFileScheme
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+133.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+133.22.Sign = Positive
+133.22.XCommand = 
+133.22.creator = abstractfactory.javapractices.DAOFactory
+133.22.concreteCreator-1 = abstractfactory.javapractices.DAOFactoryMySql
+133.22.concreteCreator-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+133.22.product = abstractfactory.javapractices.UserDAO
+133.22.concreteProduct-1 = abstractfactory.javapractices.UserDAOMySql
+133.22.concreteProduct-2 = abstractfactory.javapractices.UserDAOFileScheme
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+134.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+134.22.Sign = Positive
+134.22.XCommand = 
+134.22.creator = factorymethod.earthlink.Application
+134.22.concreteCreator = factorymethod.earthlink.MyApplication
+134.22.product = factorymethod.earthlink.Document
+134.22.concreteProduct = factorymethod.earthlink.MyDocument
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+135.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+135.22.Sign = Positive
+135.22.XCommand = 
+135.22.creator = abstractfactory.eckel.GameElementFactory
+135.22.concreteCreator-1 = abstractfactory.eckel.KittiesAndPuzzles
+135.22.concreteCreator-2 = abstractfactory.eckel.KillAndDismember
+135.22.product = abstractfactory.eckel.Obstacle
+135.22.concreteProduct-1 = abstractfactory.eckel.Puzzle
+135.22.concreteProduct-2 = abstractfactory.eckel.NastyWeapon
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+136.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+136.22.Sign = Positive
+136.22.XCommand = 
+136.22.creator = abstractfactory.eckel.GameElementFactory
+136.22.concreteCreator-1 = abstractfactory.eckel.KittiesAndPuzzles
+136.22.concreteCreator-2 = abstractfactory.eckel.KillAndDismember
+136.22.product = abstractfactory.eckel.Player
+136.22.concreteProduct-1 = abstractfactory.eckel.KungFuGuy
+136.22.concreteProduct-2 = abstractfactory.eckel.Kitty
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+137.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+137.22.Sign = Positive
+137.22.XCommand = 
+137.22.creator = factorymethod.earthlink.Factory
+137.22.concreteCreator-1 = factorymethod.earthlink.DemocratFactory
+137.22.concreteCreator-2 = factorymethod.earthlink.RepublicanFactory
+137.22.product = factorymethod.earthlink.FederalFraudvillian
+137.22.concreteProduct-1 = factorymethod.earthlink.MinorityPartyCongressPerson
+137.22.concreteProduct-2 = factorymethod.earthlink.President
+137.22.concreteProduct-3 = factorymethod.earthlink.AttorneyGeneral
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+138.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+138.22.Sign = Positive
+138.22.XCommand = 
+138.22.creator = abstractfactory.kuchana.VehicleFactory
+138.22.concreteCreator-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+138.22.concreteCreator-2 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+138.22.product = abstractfactory.kuchana.SUV
+138.22.concreteProduct-1 = abstractfactory.kuchana.LuxurySUV
+138.22.concreteProduct-2 = abstractfactory.kuchana.NonLuxurySUV
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+139.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+139.22.Sign = Positive
+139.22.XCommand = 
+139.22.creator = abstractfactory.kuchana.VehicleFactory
+139.22.concreteCreator-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+139.22.concreteCreator-2 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+139.22.product = abstractfactory.kuchana.Car
+139.22.concreteProduct-1 = abstractfactory.kuchana.LuxuryCar
+139.22.concreteProduct-2 = abstractfactory.kuchana.NonLuxuryCar
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+140.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+140.22.Sign = Positive
+140.22.XCommand = 
+140.22.creator = factorymethod.landini.Creator
+140.22.concreteCreator-1 = factorymethod.landini.ConcreteCreatorA
+140.22.concreteCreator-2 = factorymethod.landini.ConcreteCreatorB
+140.22.product = factorymethod.landini.Product
+140.22.concreteProduct = factorymethod.landini.ConcreteProductA
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+141.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+141.22.Sign = Positive
+141.22.XCommand = 
+141.22.creator = abstractfactory.csharpcorner.Factory
+141.22.concreteCreator-1 = abstractfactory.csharpcorner.ConcreteFactory1
+141.22.concreteCreator-2 = abstractfactory.csharpcorner.ConcreteFactory2
+141.22.product = abstractfactory.csharpcorner.Base
+141.22.concreteProduct-1 = abstractfactory.csharpcorner.Derived2
+141.22.concreteProduct-2 = abstractfactory.csharpcorner.Derived1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+142.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+142.22.Sign = Positive
+142.22.XCommand = 
+142.22.creator = mediator.med1.AbstractMediator
+142.22.concreteCreator = mediator.med1.TextToBarMediator
+142.22.product = mediator.med1.AbstractColleague
+142.22.concreteProduct-1 = mediator.med1.TextField
+142.22.concreteProduct-2 = mediator.med1.ProgressBar
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+143.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+143.22.Sign = Positive
+143.22.XCommand = 
+143.22.creator = abstractfactory.javacamp.ConnectionFactory
+143.22.concreteCreator = abstractfactory.javacamp.DataManager
+143.22.product = abstractfactory.javacamp.Remote
+143.22.concreteProduct = abstractfactory.javacamp.RemoteMode
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+144.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+144.22.Sign = Positive
+144.22.XCommand = 
+144.22.creator = abstractfactory.javacamp.ConnectionFactory
+144.22.concreteCreator = abstractfactory.javacamp.DataManager
+144.22.product = abstractfactory.javacamp.Local
+144.22.concreteProduct-1 = abstractfactory.javacamp.LocalMode
+144.22.concreteProduct-2 = abstractfactory.javacamp.RemoteMode
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+145.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+145.22.Sign = Positive
+145.22.XCommand = 
+145.22.creator = abstractfactory.earthlink.democpp.Factory
+145.22.concreteCreator-1 = abstractfactory.earthlink.democpp.MotifFactory
+145.22.concreteCreator-2 = abstractfactory.earthlink.democpp.WindowsFactory
+145.22.product = abstractfactory.earthlink.democpp.Widget
+145.22.concreteProduct-1 = abstractfactory.earthlink.democpp.WindowsBtn
+145.22.concreteProduct-2 = abstractfactory.earthlink.democpp.MotifBtn
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+146.22.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	-k-->: Creator ----> Product
+146.22.Sign = Positive
+146.22.XCommand = 
+146.22.creator = command.sun.LocationEditor
+146.22.concreteCreator = command.sun.CommandGui
+146.22.product = command.sun.Location
+146.22.concreteProduct = command.sun.LocationImpl
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+147.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+147.40.Sign = Positive
+147.40.XCommand = 
+147.40.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+147.40.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+147.40.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+147.40.product = abstractfactory.headfirst.pizzaaf.Dough
+147.40.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.ThinCrustDough
+147.40.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.ThickCrustDough
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+148.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+148.40.Sign = Positive
+148.40.XCommand = 
+148.40.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+148.40.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+148.40.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+148.40.product = abstractfactory.headfirst.pizzaaf.Sauce
+148.40.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.PlumTomatoSauce
+148.40.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.MarinaraSauce
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+149.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+149.40.Sign = Positive
+149.40.XCommand = 
+149.40.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+149.40.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+149.40.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+149.40.product = abstractfactory.headfirst.pizzaaf.Pepperoni
+149.40.concreteProduct = abstractfactory.headfirst.pizzaaf.SlicedPepperoni
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+150.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+150.40.Sign = Positive
+150.40.XCommand = 
+150.40.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+150.40.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+150.40.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+150.40.product = abstractfactory.headfirst.pizzaaf.Clams
+150.40.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.FrozenClams
+150.40.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.FreshClams
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+151.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+151.40.Sign = Positive
+151.40.XCommand = 
+151.40.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+151.40.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+151.40.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+151.40.product = abstractfactory.headfirst.pizzaaf.Cheese
+151.40.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.ReggianoCheese
+151.40.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.MozzarellaCheese
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+152.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+152.40.Sign = Positive
+152.40.XCommand = 
+152.40.creator = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+152.40.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+152.40.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+152.40.product = abstractfactory.headfirst.pizzaaf.Veggies
+152.40.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.Garlic
+152.40.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.RedPepper
+152.40.concreteProduct-3 = abstractfactory.headfirst.pizzaaf.Eggplant
+152.40.concreteProduct-4 = abstractfactory.headfirst.pizzaaf.Spinach
+152.40.concreteProduct-5 = abstractfactory.headfirst.pizzaaf.Mushroom
+152.40.concreteProduct-6 = abstractfactory.headfirst.pizzaaf.BlackOlives
+152.40.concreteProduct-7 = abstractfactory.headfirst.pizzaaf.Onion
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+153.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+153.40.Sign = Positive
+153.40.XCommand = 
+153.40.creator = interpreter.lucacristina.expr.functions.FunctionFactory
+153.40.concreteCreator = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+153.40.product = interpreter.lucacristina.expr.Expression
+153.40.concreteProduct = interpreter.lucacristina.expr.functions.user.UserFunction
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+154.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+154.40.Sign = Positive
+154.40.XCommand = 
+154.40.creator = interpreter.lucacristina.expr.functions.FunctionFactory
+154.40.concreteCreator = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+154.40.product = interpreter.lucacristina.expr.Function
+154.40.concreteProduct = interpreter.lucacristina.expr.functions.user.UserFunction
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+155.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+155.40.Sign = Positive
+155.40.XCommand = 
+155.40.creator = abstractfactory.wikipedia.GUIFactory
+155.40.concreteCreator-1 = abstractfactory.wikipedia.WinFactory
+155.40.concreteCreator-2 = abstractfactory.wikipedia.OSXFactory
+155.40.product = abstractfactory.wikipedia.Button
+155.40.concreteProduct-1 = abstractfactory.wikipedia.OSXButton
+155.40.concreteProduct-2 = abstractfactory.wikipedia.WinButton
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+156.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+156.40.Sign = Positive
+156.40.XCommand = 
+156.40.creator = prototype.earthlink.Prototype
+156.40.concreteCreator-1 = prototype.earthlink.TheOther
+156.40.concreteCreator-2 = prototype.earthlink.That
+156.40.concreteCreator-3 = prototype.earthlink.This
+156.40.product = prototype.earthlink.Command
+156.40.concreteProduct-1 = prototype.earthlink.TheOther
+156.40.concreteProduct-2 = prototype.earthlink.That
+156.40.concreteProduct-3 = prototype.earthlink.This
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+157.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+157.40.Sign = Positive
+157.40.XCommand = 
+157.40.creator = abstractfactory.java2s.AddressFactory
+157.40.concreteCreator-1 = abstractfactory.java2s.FrenchAddressFactory
+157.40.concreteCreator-2 = abstractfactory.java2s.USAddressFactory
+157.40.product = abstractfactory.java2s.Address
+157.40.concreteProduct-1 = abstractfactory.java2s.FrenchAddress
+157.40.concreteProduct-2 = abstractfactory.java2s.USAddress
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+158.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+158.40.Sign = Positive
+158.40.XCommand = 
+158.40.creator = abstractfactory.java2s.AddressFactory
+158.40.concreteCreator-1 = abstractfactory.java2s.FrenchAddressFactory
+158.40.concreteCreator-2 = abstractfactory.java2s.USAddressFactory
+158.40.product = abstractfactory.java2s.PhoneNumber
+158.40.concreteProduct-1 = abstractfactory.java2s.USPhoneNumber
+158.40.concreteProduct-2 = abstractfactory.java2s.FrenchPhoneNumber
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+159.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+159.40.Sign = Positive
+159.40.XCommand = 
+159.40.creator = factorymethod.cselt.Creator
+159.40.concreteCreator = factorymethod.cselt.Creator1
+159.40.product = factorymethod.cselt.AbstractObject
+159.40.concreteProduct = factorymethod.cselt.ConcreteObject1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+160.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+160.40.Sign = Positive
+160.40.XCommand = 
+160.40.creator = prototype.earthlink.Command
+160.40.concreteCreator-1 = prototype.earthlink.TheOther
+160.40.concreteCreator-2 = prototype.earthlink.That
+160.40.concreteCreator-3 = prototype.earthlink.This
+160.40.product = prototype.earthlink.Prototype
+160.40.concreteProduct-1 = prototype.earthlink.TheOther
+160.40.concreteProduct-2 = prototype.earthlink.That
+160.40.concreteProduct-3 = prototype.earthlink.This
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+161.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+161.40.Sign = Positive
+161.40.XCommand = 
+161.40.creator = boh.dofactory.Document
+161.40.concreteCreator-1 = boh.dofactory.Report
+161.40.concreteCreator-2 = boh.dofactory.Resume
+161.40.product = boh.dofactory.Page
+161.40.concreteProduct-1 = boh.dofactory.ConclusionPage
+161.40.concreteProduct-2 = boh.dofactory.EducationPage
+161.40.concreteProduct-3 = boh.dofactory.BibliographyPage
+161.40.concreteProduct-4 = boh.dofactory.IntroductionPage
+161.40.concreteProduct-5 = boh.dofactory.ResultsPage
+161.40.concreteProduct-6 = boh.dofactory.ExperiencePage
+161.40.concreteProduct-7 = boh.dofactory.SummaryPage
+161.40.concreteProduct-8 = boh.dofactory.SkillsPage
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+162.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+162.40.Sign = Positive
+162.40.XCommand = 
+162.40.creator = factorymethod.headfirst.pizzafm.PizzaStore
+162.40.concreteCreator-1 = factorymethod.headfirst.pizzafm.ChicagoPizzaStore
+162.40.concreteCreator-2 = factorymethod.headfirst.pizzafm.NYPizzaStore
+162.40.product = factorymethod.headfirst.pizzafm.Pizza
+162.40.concreteProduct-1 = factorymethod.headfirst.pizzafm.ChicagoStyleCheesePizza
+162.40.concreteProduct-2 = factorymethod.headfirst.pizzafm.ChicagoStylePepperoniPizza
+162.40.concreteProduct-3 = factorymethod.headfirst.pizzafm.ChicagoStyleVeggiePizza
+162.40.concreteProduct-4 = factorymethod.headfirst.pizzafm.NYStyleVeggiePizza
+162.40.concreteProduct-5 = factorymethod.headfirst.pizzafm.NYStyleCheesePizza
+162.40.concreteProduct-6 = factorymethod.headfirst.pizzafm.ChicagoStyleClamPizza
+162.40.concreteProduct-7 = factorymethod.headfirst.pizzafm.NYStyleClamPizza
+162.40.concreteProduct-8 = factorymethod.headfirst.pizzafm.NYStylePepperoniPizza
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+163.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+163.40.Sign = Positive
+163.40.XCommand = 
+163.40.creator = abstractfactory.headfirst.ducks.AbstractDuckFactory
+163.40.concreteCreator-1 = abstractfactory.headfirst.ducks.DuckFactory
+163.40.concreteCreator-2 = abstractfactory.headfirst.ducks.CountingDuckFactory
+163.40.product = abstractfactory.headfirst.ducks.Quackable
+163.40.concreteProduct-1 = abstractfactory.headfirst.ducks.RedheadDuck
+163.40.concreteProduct-2 = abstractfactory.headfirst.ducks.MallardDuck
+163.40.concreteProduct-3 = abstractfactory.headfirst.ducks.DuckCall
+163.40.concreteProduct-4 = abstractfactory.headfirst.ducks.RubberDuck
+163.40.concreteProduct-5 = abstractfactory.headfirst.ducks.QuackCounter
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+164.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+164.40.Sign = Positive
+164.40.XCommand = 
+164.40.creator = builder.fluffycat.SoupBuffetBuilder
+164.40.concreteCreator-1 = builder.fluffycat.BostonSoupBuffetBuilder
+164.40.concreteCreator-2 = builder.fluffycat.HonoluluSoupBuffetBuilder
+164.40.product = builder.fluffycat.Soup
+164.40.concreteProduct-1 = builder.fluffycat.HonoluluClamChowder
+164.40.concreteProduct-2 = builder.fluffycat.BostonClamChowder
+164.40.concreteProduct-3 = builder.fluffycat.BostonFishChowder
+164.40.concreteProduct-4 = builder.fluffycat.HonoluluFishChowder
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+165.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+165.40.Sign = Positive
+165.40.XCommand = 
+165.40.creator = abstractfactory.inria.AbAbstractFactory
+165.40.concreteCreator-1 = abstractfactory.inria.AbAbstractFactory2
+165.40.concreteCreator-2 = abstractfactory.inria.AbAbstractFactory1
+165.40.product = abstractfactory.inria.B
+165.40.concreteProduct-1 = abstractfactory.inria.B2
+165.40.concreteProduct-2 = abstractfactory.inria.B1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+166.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+166.40.Sign = Positive
+166.40.XCommand = 
+166.40.creator = abstractfactory.inria.AbAbstractFactory
+166.40.concreteCreator-1 = abstractfactory.inria.AbAbstractFactory2
+166.40.concreteCreator-2 = abstractfactory.inria.AbAbstractFactory1
+166.40.product = abstractfactory.inria.A
+166.40.concreteProduct-1 = abstractfactory.inria.A1
+166.40.concreteProduct-2 = abstractfactory.inria.A2
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+167.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+167.40.Sign = Positive
+167.40.XCommand = 
+167.40.creator = mediator.sun.ContactMediator
+167.40.concreteCreator = mediator.sun.ContactMediatorImpl
+167.40.product = mediator.sun.Contact
+167.40.concreteProduct = mediator.sun.ContactImpl
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+168.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+168.40.Sign = Positive
+168.40.XCommand = 
+168.40.creator = factorymethod.gsraj.common.Profile
+168.40.concreteCreator-1 = factorymethod.gsraj.impl1.Employee
+168.40.concreteCreator-2 = factorymethod.gsraj.impl1.NonEmployee
+168.40.product = factorymethod.gsraj.common.Resource
+168.40.concreteProduct-1 = factorymethod.gsraj.common.PublicResource
+168.40.concreteProduct-2 = factorymethod.gsraj.common.ConfidentialResource
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+169.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+169.40.Sign = Positive
+169.40.XCommand = 
+169.40.creator = abstractfactory.codeguru.csharp.IAVDevice
+169.40.concreteCreator-1 = abstractfactory.codeguru.csharp.CCd
+169.40.concreteCreator-2 = abstractfactory.codeguru.csharp.CDvd
+169.40.product = abstractfactory.codeguru.csharp.IAudio
+169.40.concreteProduct-1 = abstractfactory.codeguru.csharp.CDvdAudio
+169.40.concreteProduct-2 = abstractfactory.codeguru.csharp.CCdAudio
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+170.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+170.40.Sign = Positive
+170.40.XCommand = 
+170.40.creator = abstractfactory.codeguru.csharp.IAVDevice
+170.40.concreteCreator-1 = abstractfactory.codeguru.csharp.CCd
+170.40.concreteCreator-2 = abstractfactory.codeguru.csharp.CDvd
+170.40.product = abstractfactory.codeguru.csharp.IVideo
+170.40.concreteProduct-1 = abstractfactory.codeguru.csharp.CCdVideo
+170.40.concreteProduct-2 = abstractfactory.codeguru.csharp.CDvdVideo
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+171.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+171.40.Sign = Positive
+171.40.XCommand = 
+171.40.creator = abstractfactory.apwebco.FinancialToolsFactory
+171.40.concreteCreator-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+171.40.concreteCreator-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+171.40.product = abstractfactory.apwebco.ShipFeeProcessor
+171.40.concreteProduct-1 = abstractfactory.apwebco.CanadaShipFeeProcessor
+171.40.concreteProduct-2 = abstractfactory.apwebco.EuropeShipFeeProcessor
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+172.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+172.40.Sign = Positive
+172.40.XCommand = 
+172.40.creator = abstractfactory.apwebco.FinancialToolsFactory
+172.40.concreteCreator-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+172.40.concreteCreator-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+172.40.product = abstractfactory.apwebco.TaxProcessor
+172.40.concreteProduct-1 = abstractfactory.apwebco.EuropeTaxProcessor
+172.40.concreteProduct-2 = abstractfactory.apwebco.CanadaTaxProcessor
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+173.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+173.40.Sign = Positive
+173.40.XCommand = 
+173.40.creator = abstractfactory.headfirst.pizzaaf.PizzaStore
+173.40.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+173.40.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+173.40.product = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+173.40.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+173.40.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+174.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+174.40.Sign = Positive
+174.40.XCommand = 
+174.40.creator = abstractfactory.headfirst.pizzaaf.PizzaStore
+174.40.concreteCreator-1 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+174.40.concreteCreator-2 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+174.40.product = abstractfactory.headfirst.pizzaaf.Pizza
+174.40.concreteProduct-1 = abstractfactory.headfirst.pizzaaf.CheesePizza
+174.40.concreteProduct-2 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+174.40.concreteProduct-3 = abstractfactory.headfirst.pizzaaf.ClamPizza
+174.40.concreteProduct-4 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+175.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+175.40.Sign = Positive
+175.40.XCommand = 
+175.40.creator = abstractfactory.javapractices.DAOFactory
+175.40.concreteCreator-1 = abstractfactory.javapractices.DAOFactoryMySql
+175.40.concreteCreator-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+175.40.product = abstractfactory.javapractices.DeviceDAO
+175.40.concreteProduct-1 = abstractfactory.javapractices.DeviceDAOMySql
+175.40.concreteProduct-2 = abstractfactory.javapractices.DeviceDAOFileScheme
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+176.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+176.40.Sign = Positive
+176.40.XCommand = 
+176.40.creator = abstractfactory.javapractices.DAOFactory
+176.40.concreteCreator-1 = abstractfactory.javapractices.DAOFactoryMySql
+176.40.concreteCreator-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+176.40.product = abstractfactory.javapractices.UserDAO
+176.40.concreteProduct-1 = abstractfactory.javapractices.UserDAOMySql
+176.40.concreteProduct-2 = abstractfactory.javapractices.UserDAOFileScheme
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+177.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+177.40.Sign = Positive
+177.40.XCommand = 
+177.40.creator = factorymethod.earthlink.Application
+177.40.concreteCreator = factorymethod.earthlink.MyApplication
+177.40.product = factorymethod.earthlink.Document
+177.40.concreteProduct = factorymethod.earthlink.MyDocument
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+178.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+178.40.Sign = Positive
+178.40.XCommand = 
+178.40.creator = abstractfactory.eckel.GameElementFactory
+178.40.concreteCreator-1 = abstractfactory.eckel.KittiesAndPuzzles
+178.40.concreteCreator-2 = abstractfactory.eckel.KillAndDismember
+178.40.product = abstractfactory.eckel.Obstacle
+178.40.concreteProduct-1 = abstractfactory.eckel.Puzzle
+178.40.concreteProduct-2 = abstractfactory.eckel.NastyWeapon
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+179.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+179.40.Sign = Positive
+179.40.XCommand = 
+179.40.creator = abstractfactory.eckel.GameElementFactory
+179.40.concreteCreator-1 = abstractfactory.eckel.KittiesAndPuzzles
+179.40.concreteCreator-2 = abstractfactory.eckel.KillAndDismember
+179.40.product = abstractfactory.eckel.Player
+179.40.concreteProduct-1 = abstractfactory.eckel.KungFuGuy
+179.40.concreteProduct-2 = abstractfactory.eckel.Kitty
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+180.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+180.40.Sign = Positive
+180.40.XCommand = 
+180.40.creator = abstractfactory.javanotes.AbstractSoupFactory
+180.40.concreteCreator-1 = abstractfactory.javanotes.BostonConcreteSoupFactory
+180.40.concreteCreator-2 = abstractfactory.javanotes.HonoluluConcreteSoupFactory
+180.40.product = abstractfactory.javanotes.Soup
+180.40.concreteProduct-1 = abstractfactory.javanotes.HonoluluFishChowder
+180.40.concreteProduct-2 = abstractfactory.javanotes.BostonClamChowder
+180.40.concreteProduct-3 = abstractfactory.javanotes.BostonFishChowder
+180.40.concreteProduct-4 = abstractfactory.javanotes.HonoluluClamChowder
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+181.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+181.40.Sign = Positive
+181.40.XCommand = 
+181.40.creator = factorymethod.earthlink.Factory
+181.40.concreteCreator-1 = factorymethod.earthlink.DemocratFactory
+181.40.concreteCreator-2 = factorymethod.earthlink.RepublicanFactory
+181.40.product = factorymethod.earthlink.FederalFraudvillian
+181.40.concreteProduct-1 = factorymethod.earthlink.MinorityPartyCongressPerson
+181.40.concreteProduct-2 = factorymethod.earthlink.President
+181.40.concreteProduct-3 = factorymethod.earthlink.AttorneyGeneral
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+182.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+182.40.Sign = Positive
+182.40.XCommand = 
+182.40.creator = abstractfactory.kuchana.VehicleFactory
+182.40.concreteCreator-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+182.40.concreteCreator-2 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+182.40.product = abstractfactory.kuchana.SUV
+182.40.concreteProduct-1 = abstractfactory.kuchana.LuxurySUV
+182.40.concreteProduct-2 = abstractfactory.kuchana.NonLuxurySUV
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+183.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+183.40.Sign = Positive
+183.40.XCommand = 
+183.40.creator = abstractfactory.kuchana.VehicleFactory
+183.40.concreteCreator-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+183.40.concreteCreator-2 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+183.40.product = abstractfactory.kuchana.Car
+183.40.concreteProduct-1 = abstractfactory.kuchana.LuxuryCar
+183.40.concreteProduct-2 = abstractfactory.kuchana.NonLuxuryCar
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+184.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+184.40.Sign = Positive
+184.40.XCommand = 
+184.40.creator = factorymethod.landini.Creator
+184.40.concreteCreator-1 = factorymethod.landini.ConcreteCreatorA
+184.40.concreteCreator-2 = factorymethod.landini.ConcreteCreatorB
+184.40.product = factorymethod.landini.Product
+184.40.concreteProduct = factorymethod.landini.ConcreteProductA
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+185.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+185.40.Sign = Positive
+185.40.XCommand = 
+185.40.creator = abstractfactory.csharpcorner.Factory
+185.40.concreteCreator-1 = abstractfactory.csharpcorner.ConcreteFactory1
+185.40.concreteCreator-2 = abstractfactory.csharpcorner.ConcreteFactory2
+185.40.product = abstractfactory.csharpcorner.Base
+185.40.concreteProduct-1 = abstractfactory.csharpcorner.Derived2
+185.40.concreteProduct-2 = abstractfactory.csharpcorner.Derived1
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+186.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+186.40.Sign = Positive
+186.40.XCommand = 
+186.40.creator = mediator.med1.AbstractMediator
+186.40.concreteCreator = mediator.med1.TextToBarMediator
+186.40.product = mediator.med1.AbstractColleague
+186.40.concreteProduct-1 = mediator.med1.TextField
+186.40.concreteProduct-2 = mediator.med1.ProgressBar
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+187.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+187.40.Sign = Positive
+187.40.XCommand = 
+187.40.creator = abstractfactory.javacamp.ConnectionFactory
+187.40.concreteCreator = abstractfactory.javacamp.DataManager
+187.40.product = abstractfactory.javacamp.Remote
+187.40.concreteProduct = abstractfactory.javacamp.RemoteMode
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+188.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+188.40.Sign = Positive
+188.40.XCommand = 
+188.40.creator = abstractfactory.javacamp.ConnectionFactory
+188.40.concreteCreator = abstractfactory.javacamp.DataManager
+188.40.product = abstractfactory.javacamp.Local
+188.40.concreteProduct-1 = abstractfactory.javacamp.LocalMode
+188.40.concreteProduct-2 = abstractfactory.javacamp.RemoteMode
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+189.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+189.40.Sign = Positive
+189.40.XCommand = 
+189.40.creator = abstractfactory.earthlink.democpp.Factory
+189.40.concreteCreator-1 = abstractfactory.earthlink.democpp.MotifFactory
+189.40.concreteCreator-2 = abstractfactory.earthlink.democpp.WindowsFactory
+189.40.product = abstractfactory.earthlink.democpp.Widget
+189.40.concreteProduct-1 = abstractfactory.earthlink.democpp.WindowsBtn
+189.40.concreteProduct-2 = abstractfactory.earthlink.democpp.MotifBtn
+
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+190.40.Name = Factory Method Design Motif
+# Removed constraint: -|>-: ConcreteProdcut -|>- Product
+# Removed constraint: -|>-: ConcreteCreator -|>- Creator
+# Removed constraint: ---->: Creator ----> Product
+# Removed constraint: -k-->: Creator ----> Product
+# Constraint replaced with this weaker constraint:
+#	 <> : Creator ----> Product
+190.40.Sign = Positive
+190.40.XCommand = 
+190.40.creator = command.sun.LocationEditor
+190.40.concreteCreator = command.sun.CommandGui
+190.40.product = command.sun.Location
+190.40.concreteProduct = command.sun.LocationImpl
+

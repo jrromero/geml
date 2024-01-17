@@ -1,0 +1,465 @@
+<patternData>
+	<projectPath></projectPath>
+	<pattern>Observer</pattern>
+	<roles>
+		<role>subject</role>
+		<role>observer</role>
+		<role>concreteobserver</role>
+		<role>concretesubject</role>
+	</roles>
+	<candidates>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>diagram.tool.AbstractTool</class>
+				</role>
+				<role name="observer">
+					<class>diagram.tool.ToolListener</class>
+				</role>
+				<role name="concreteobserver">
+					<class>uml.ui.ToolPalette</class>
+				</role>
+				<role name="concretesubject">
+					<class>uml.ui.CardinalityTool</class>
+					<class>diagram.tool.ClipboardTool</class>
+					<class>diagram.tool.EditingTool</class>
+					<class>diagram.tool.FigureDraggingTool</class>
+					<class>diagram.tool.FigureShappingTool</class>
+					<class>diagram.tool.FigureTool</class>
+					<class>diagram.tool.LinkShappingTool</class>
+					<class>diagram.tool.LinkTool</class>
+					<class>uml.ui.AssociationTool</class>
+					<class>uml.ui.CompositionTool</class>
+					<class>uml.ui.DependencyTool</class>
+					<class>uml.ui.GeneralizationTool</class>
+					<class>uml.ui.RealizationTool</class>
+					<class>diagram.tool.SelectionTool</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>com.jmonkey.office.lexi.support.Editor</class>
+				</role>
+				<role name="observer">
+					<class>java.awt.event.FocusListener</class>
+					<class>java.beans.VetoableChangeListener</class>
+					<class>javax.swing.event.ChangeListener</class>
+					<class>javax.swing.event.DocumentListener</class>
+					<class>javax.swing.event.HyperlinkListener</class>
+					<class>javax.swing.event.UndoableEditListener</class>
+				</role>
+				<role name="concreteobserver">
+					<class>com.jmonkey.office.lexi.support.editors.HTMLEditor$E</class>
+				</role>
+				<role name="concretesubject">
+					<class>com.jmonkey.office.lexi.support.editors.HTMLEditor</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>com.jmonkey.office.lexi.support.Editor</class>
+				</role>
+				<role name="observer">
+					<class>java.awt.event.MouseListener</class>
+					<class>java.awt.event.KeyListener</class>
+				</role>
+				<role name="concreteobserver">
+					<class>com.jmonkey.office.lexi.support.editors.HTMLEditor</class>
+				</role>
+				<role name="concretesubject">
+					<class>com.jmonkey.office.lexi.support.editors.HTMLEditor</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.sourceforge.pmd.util.viewer.model.ViewerModel</class>
+				</role>
+				<role name="observer">
+					<class>net.sourceforge.pmd.util.viewer.model.ViewerModelListener</class>
+				</role>
+				<role name="concreteobserver">
+					<class>net.sourceforge.pmd.util.viewer.gui.ASTPanel</class>
+					<class>net.sourceforge.pmd.util.viewer.gui.EvaluationResultsPanel</class>
+					<class>net.sourceforge.pmd.util.viewer.gui.MainFrame</class>
+					<class>net.sourceforge.pmd.util.viewer.gui.SourceCodePanel</class>
+					<class>net.sourceforge.pmd.util.viewer.gui.XPathPanel</class>
+				</role>
+				<role name="concretesubject">
+					<class>net.sourceforge.pmd.util.viewer.model.ViewerModel</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>CH.ifa.draw.framework.Figure</class>
+				</role>
+				<role name="observer">
+					<class>CH.ifa.draw.framework.FigureChangeListener</class>
+				</role>
+				<role name="concreteobserver">
+					<class>CH.ifa.draw.figures.GroupFigure</class>
+					<class>CH.ifa.draw.samples.pert.PertFigure</class>
+					<class>CH.ifa.draw.standard.StandardDrawing</class>
+					<class>CH.ifa.draw.samples.javadraw.BouncingDrawing</class>
+					<class>CH.ifa.draw.samples.javadraw.AnimationDecorator</class>
+					<class>CH.ifa.draw.figures.BorderDecorator</class>
+					<class>CH.ifa.draw.standard.FigureChangeEventMulticaster</class>
+					<class>CH.ifa.draw.figures.TextFigure</class>
+					<class>CH.ifa.draw.samples.net.NodeFigure</class>
+					<class>CH.ifa.draw.figures.NumberTextFigure</class>
+					<class>CH.ifa.draw.figures.LineConnection</class>
+					<class>CH.ifa.draw.figures.ElbowConnection</class>
+					<class>CH.ifa.draw.samples.pert.PertDependency</class>
+					<class>CH.ifa.draw.standard.StandardDrawing</class>
+					<class>CH.ifa.draw.samples.javadraw.BouncingDrawing</class>
+				</role>
+				<role name="concretesubject">
+					<class>CH.ifa.draw.figures.EllipseFigure</class>
+					<class>CH.ifa.draw.figures.ImageFigure</class>
+					<class>CH.ifa.draw.contrib.PolygonFigure</class>
+					<class>CH.ifa.draw.figures.RectangleFigure</class>
+					<class>CH.ifa.draw.contrib.DiamondFigure</class>
+					<class>CH.ifa.draw.contrib.TriangleFigure</class>
+					<class>CH.ifa.draw.figures.RoundRectangleFigure</class>
+					<class>CH.ifa.draw.figures.TextFigure</class>
+					<class>CH.ifa.draw.samples.net.NodeFigure</class>
+					<class>CH.ifa.draw.figures.NumberTextFigure</class>
+					<class>CH.ifa.draw.figures.GroupFigure</class>
+					<class>CH.ifa.draw.samples.pert.PertFigure</class>
+					<class>CH.ifa.draw.standard.StandardDrawing</class>
+					<class>CH.ifa.draw.samples.javadraw.BouncingDrawing</class>
+					<class>CH.ifa.draw.samples.javadraw.AnimationDecorator</class>
+					<class>CH.ifa.draw.figures.BorderDecorator</class>
+					<class>CH.ifa.draw.figures.PolyLineFigure</class>
+					<class>CH.ifa.draw.figures.LineConnection</class>
+					<class>CH.ifa.draw.figures.ElbowConnection</class>
+					<class>CH.ifa.draw.samples.pert.PertDependency</class>
+					<class>CH.ifa.draw.figures.LineFigure</class>
+					<class>CH.ifa.draw.figures.LineConnection</class>
+					<class>CH.ifa.draw.figures.ElbowConnection</class>
+					<class>CH.ifa.draw.samples.pert.PertDependency</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>CH.ifa.draw.framework.Drawing</class>
+				</role>
+				<role name="observer">
+					<class>CH.ifa.draw.framework.DrawingChangeListener</class>
+				</role>
+				<role name="concreteobserver">
+					<class>CH.ifa.draw.standard.StandardDrawingView</class>
+				</role>
+				<role name="concretesubject">
+					<class>CH.ifa.draw.standard.StandardDrawing</class>
+					<class>CH.ifa.draw.samples.javadraw.BouncingDrawing</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>java.awt.Component</class>
+				</role>
+				<role name="observer">
+					<class>java.awt.event.MouseListener</class>
+				</role>
+				<role name="concreteobserver">
+					<class>junit.swingui.TestSelector$DoubleClickListener</class>
+				</role>
+				<role name="concretesubject">
+					<class>junit.swingui.TestSelector</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="subject">
+					<class>java.awt.Component</class>
+				</role>
+				<role name="observer">
+					<class>java.awt.event.KeyListener</class>
+				</role>
+				<role name="concreteobserver">
+					<class>junit.swingui.TestSelector$KeySelectListener</class>
+				</role>
+				<role name="concretesubject">
+					<class>junit.swingui.TestSelector</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>CH.ifa.draw.framework.Drawing</class>
+				</role>
+				<role name="observer">
+					<class>CH.ifa.draw.framework.FigureChangeListener</class>
+				</role>
+				<role name="concreteobserver">
+					<class>CH.ifa.draw.standard.StandardDrawing</class>
+				</role>
+				<role name="concretesubject">
+					<class>CH.ifa.draw.framework.DrawingChangeEvent</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>CH.ifa.draw.figures.LineConnection</class>
+				</role>
+				<role name="observer">
+					<class>CH.ifa.draw.figures.PolyLineFigure</class>
+				</role>
+				<role name="concreteobserver">
+					<class>CH.ifa.draw.figures.ElbowConnection</class>
+				</role>
+				<role name="concretesubject">
+					<class>CH.ifa.draw.figures.ElbowHandle</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>CH.ifa.draw.standard.ReverseFigureEnumerator</class>
+				</role>
+				<role name="observer">
+					<class>CH.ifa.draw.framework.Figure</class>
+				</role>
+				<role name="concreteobserver">
+					<class>CH.ifa.draw.samples.pert.PertFigure</class>
+					<class>CH.ifa.draw.samples.javadraw.BouncingDrawing</class>
+					<class>CH.ifa.draw.figures.GroupFigure</class>
+					<class>CH.ifa.draw.standard.StandardDrawing</class>
+				</role>
+				<role name="concretesubject">
+					<class>CH.ifa.draw.standard.CompositeFigure</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>CH.ifa.draw.standard.LocatorHandle</class>
+				</role>
+				<role name="observer">
+					<class>CH.ifa.draw.standard.AbstractHandle</class>
+				</role>
+				<role name="concreteobserver">
+					<class>CH.ifa.draw.figures.GroupHandle</class>
+				</role>
+				<role name="concretesubject">
+					<class>CH.ifa.draw.standard.NullHandle</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>CH.ifa.draw.figures.PolyLineHandle</class>
+				</role>
+				<role name="observer">
+					<class>CH.ifa.draw.standard.AbstractHandle</class>
+				</role>
+				<role name="concreteobserver">
+					<class>CH.ifa.draw.figures.ElbowHandle</class>
+				</role>
+				<role name="concretesubject">
+					<class>CH.ifa.draw.figures.PolyLineFigure</class>
+					<class>CH.ifa.draw.figures.LineConnection</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>CH.ifa.draw.contrib.PolygonHandle</class>
+				</role>
+				<role name="observer">
+					<class>CH.ifa.draw.standard.AbstractHandle</class>
+				</role>
+				<role name="concreteobserver">
+					<class>CH.ifa.draw.contrib.PolygonScaleHandle</class>
+				</role>
+				<role name="concretesubject">
+					<class>CH.ifa.draw.contrib.PolygonFigure</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>junit.swingui.TestHierarchyRunView</class>
+				</role>
+				<role name="observer">
+					<class>junit.swingui.TestRunView</class>
+				</role>
+				<role name="concreteobserver">
+					<class>junit.swingui.FailureRunView</class>
+				</role>
+				<role name="concretesubject">
+					<class>junit.swingui.TestRunner</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>junit.swingui.FailureRunView</class>
+				</role>
+				<role name="observer">
+					<class>junit.swingui.TestRunView</class>
+				</role>
+				<role name="concreteobserver">
+					<class>junit.swingui.TestHierarchyRunView</class>
+				</role>
+				<role name="concretesubject">
+					<class>junit.swingui.TestRunner</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.sourceforge.pmd.symboltable.ClassScope</class>
+				</role>
+				<role name="observer">
+					<class>net.sourceforge.pmd.symboltable.AbstractScope</class>
+				</role>
+				<role name="concreteobserver">
+					<class>net.sourceforge.pmd.symboltable.GlobalScope</class>
+					<class>net.sourceforge.pmd.symboltable.LocalScope</class>
+				</role>
+				<role name="concretesubject">
+					<class>net.sourceforge.pmd.symboltable.Scope</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.sourceforge.pmd.ast.ASTEnumDeclaration</class>
+				</role>
+				<role name="observer">
+					<class>net.sourceforge.pmd.ast.AccessNode</class>
+				</role>
+				<role name="concreteobserver">
+					<class>net.sourceforge.pmd.ast.ASTClassDeclaration</class>
+					<class>net.sourceforge.pmd.ast.ASTInterfaceDeclaration</class>
+					<class>net.sourceforge.pmd.ast.ASTNestedInterfaceDeclaration</class>
+					<class>net.sourceforge.pmd.ast.ASTFormalParameter</class>
+					<class>net.sourceforge.pmd.ast.ASTConstructorDeclaration</class>
+					<class>net.sourceforge.pmd.ast.ASTMethodDeclaration</class>
+					<class>net.sourceforge.pmd.ast.ASTFieldDeclaration</class>
+					<class>net.sourceforge.pmd.ast.ASTLocalVariableDeclaration</class>
+					<class>net.sourceforge.pmd.ast.ASTNestedClassDeclaration</class>
+				</role>
+				<role name="concretesubject">
+					<class>net.sourceforge.pmd.ast.JavaParserVisitor</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>net.sourceforge.pmd.util.viewer.gui.EvaluationResultsPanel</class>
+				</role>
+				<role name="observer">
+					<class>net.sourceforge.pmd.util.viewer.model.ViewerModelListener</class>
+				</role>
+				<role name="concreteobserver">
+					<class>net.sourceforge.pmd.util.viewer.gui.MainFrame</class>
+				</role>
+				<role name="concretesubject">
+					<class>net.sourceforge.pmd.util.viewer.gui.XPathPanel</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>uml.builder.AbstractBuilder</class>
+				</role>
+				<role name="observer">
+					<class>uml.builder.CodeBuilder</class>
+				</role>
+				<role name="concreteobserver">
+					<class>uml.builder.ObjectBuilder</class>
+				</role>
+				<role name="concretesubject">
+					<class>uml.builder.InheritanceBuilder</class>
+					<class>uml.builder.CompositionBuilder</class>
+					<class>uml.builder.ClassBuilder</class>
+					<class>uml.builder.AssociationBuilder</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>diagram.tool.Tool</class>
+				</role>
+				<role name="observer">
+					<class>diagram.tool.ToolListener</class>
+				</role>
+				<role name="concreteobserver">
+					<class>uml.ui.ToolPalette</class>
+				</role>
+				<role name="concretesubject">
+					<class>diagram.tool.CompositeTool</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="subject">
+					<class>uml.builder.NamingComponent</class>
+				</role>
+				<role name="observer">
+					<class>uml.builder.MetaComponent</class>
+				</role>
+				<role name="concreteobserver">
+					<class>uml.builder.MetaClass</class>
+					<class>uml.builder.MetaParameter</class>
+				</role>
+				<role name="concretesubject">
+					<class>uml.builder.AttributeNamingComponent</class>
+					<class>uml.builder.MetaMethod</class>
+				</role>
+			</roles>
+		</candidate>
+	</candidates>
+</patternData>

@@ -1,0 +1,96 @@
+# Solution with all constraints
+1.100.Name = Template Method Design Motif
+# Solution with all constraints
+1.100.Sign = Positive
+1.100.XCommand = No source transformation needed
+1.100.abstractclass = strategy.earthlink.TemplateMethod1
+1.100.concreteclass = strategy.earthlink.Impl1
+
+# Solution with all constraints
+2.100.Name = Template Method Design Motif
+# Solution with all constraints
+2.100.Sign = Positive
+2.100.XCommand = No source transformation needed
+2.100.abstractclass = strategy.earthlink.TemplateMethod2
+2.100.concreteclass = strategy.earthlink.Impl2
+
+# Solution with all constraints
+3.100.Name = Template Method Design Motif
+# Solution with all constraints
+3.100.Sign = Positive
+3.100.XCommand = No source transformation needed
+3.100.abstractclass = factorymethod.earthlink.Factory
+3.100.concreteclass = factorymethod.earthlink.DemocratFactory
+
+# Solution with all constraints
+4.100.Name = Template Method Design Motif
+# Solution with all constraints
+4.100.Sign = Positive
+4.100.XCommand = No source transformation needed
+4.100.abstractclass = visitor.earthlink.composite2.Component
+4.100.concreteclass = visitor.earthlink.composite2.Composite
+
+# Solution with all constraints
+5.100.Name = Template Method Design Motif
+# Solution with all constraints
+5.100.Sign = Positive
+5.100.XCommand = No source transformation needed
+5.100.abstractclass = prototype.earthlink.Image
+5.100.concreteclass = prototype.earthlink.LandSatImage
+
+# Solution with all constraints
+6.100.Name = Template Method Design Motif
+# Solution with all constraints
+6.100.Sign = Positive
+6.100.XCommand = No source transformation needed
+6.100.abstractclass = chainofresp.cor2.AbstractFilter
+6.100.concreteclass = chainofresp.cor2.LogFilter
+
+# Solution with all constraints
+7.100.Name = Template Method Design Motif
+# Solution with all constraints
+7.100.Sign = Positive
+7.100.XCommand = No source transformation needed
+7.100.abstractclass = templatemethod.earthlink.Specialization
+7.100.concreteclass = templatemethod.earthlink.Realization
+
+# Solution with all constraints
+8.100.Name = Template Method Design Motif
+# Solution with all constraints
+8.100.Sign = Positive
+8.100.XCommand = No source transformation needed
+8.100.abstractclass = templatemethod.fluffycat.TitleInfo
+8.100.concreteclass = templatemethod.fluffycat.BookTitleInfo
+
+# Solution with all constraints
+9.100.Name = Template Method Design Motif
+# Solution with all constraints
+9.100.Sign = Positive
+9.100.XCommand = No source transformation needed
+9.100.abstractclass = templatemethod.sun.ProjectItem
+9.100.concreteclass = templatemethod.sun.Deliverable
+
+# Solution with all constraints
+10.100.Name = Template Method Design Motif
+# Solution with all constraints
+10.100.Sign = Positive
+10.100.XCommand = No source transformation needed
+10.100.abstractclass = templatemethod.kuchana.CreditCard
+10.100.concreteclass = templatemethod.kuchana.VisaCard
+
+# Solution with all constraints
+11.100.Name = Template Method Design Motif
+# Solution with all constraints
+11.100.Sign = Positive
+11.100.XCommand = No source transformation needed
+11.100.abstractclass = templatemethod.cooper.Triangle
+11.100.concreteclass = templatemethod.cooper.IsocelesTriangle
+
+# Solution with all constraints
+12.100.Name = Template Method Design Motif
+# Solution with all constraints
+12.100.Sign = Positive
+12.100.XCommand = No source transformation needed
+12.100.abstractclass = templatemethod.tmpl1.Logger
+12.100.concreteclass = templatemethod.tmpl1.StdoutLogger
+

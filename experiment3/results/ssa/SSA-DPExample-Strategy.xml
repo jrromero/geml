@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Strategy">
+		<instance>
+			<role name="Context" element="strategy.ravani.Elenco" />
+			<role name="Strategy" element="strategy.ravani.Salvataggio" />
+			<role name="strategy" element="strategy.ravani.Elenco::salvataggio:strategy.ravani.Salvataggio" />
+			<role name="ContextInterface()" element="strategy.ravani.Elenco::salva(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Context" element="strategy.str2.FTPServer" />
+			<role name="Strategy" element="strategy.str2.RequestHandler" />
+			<role name="strategy" element="strategy.str2.FTPServer::handler:strategy.str2.RequestHandler" />
+			<role name="ContextInterface()" element="strategy.str2.FTPServer::run():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="strategy.sun.ContactList" />
+			<role name="Strategy" element="strategy.sun.SummarizingStrategy" />
+			<role name="strategy" element="strategy.sun.ContactList::summarizer:strategy.sun.SummarizingStrategy" />
+			<role name="ContextInterface()" element="strategy.sun.ContactList::summarize():java.lang.String" />
+			<role name="ContextInterface()" element="strategy.sun.ContactList::makeSummarizedList():java.lang.String[]" />
+		</instance>
+		<instance>
+			<role name="Context" element="strategy.cooper.Context" />
+			<role name="Strategy" element="strategy.cooper.PlotStrategy" />
+			<role name="strategy" element="strategy.cooper.Context::plotStrategy:strategy.cooper.PlotStrategy" />
+			<role name="ContextInterface()" element="strategy.cooper.Context::plot():void" />
+		</instance>
+		<instance>
+			<role name="Context" element="strategy.fluffycat.DvdNameContext" />
+			<role name="Strategy" element="strategy.fluffycat.DvdNameStrategy" />
+			<role name="strategy" element="strategy.fluffycat.DvdNameContext::dvdNameStrategy:strategy.fluffycat.DvdNameStrategy" />
+			<role name="ContextInterface()" element="strategy.fluffycat.DvdNameContext::formatDvdNames(java.lang.String[], char):java.lang.String[]" />
+		</instance>
+		<instance>
+			<role name="Context" element="strategy.kuchana.EncryptLogger" />
+			<role name="Strategy" element="strategy.kuchana.EncryptionStrategy" />
+			<role name="strategy" element="strategy.kuchana.EncryptLogger::currEncryptionStrategy:strategy.kuchana.EncryptionStrategy" />
+			<role name="ContextInterface()" element="strategy.kuchana.EncryptLogger::encrypt(java.lang.String):java.lang.String" />
+		</instance>
+	</pattern>
+</system>

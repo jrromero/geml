@@ -1,0 +1,219 @@
+<patternData>
+	<projectPath></projectPath>
+	<pattern>Iterator</pattern>
+	<roles>
+		<role>aggregate</role>
+		<role>iterator</role>
+		<role>concreteaggregate</role>
+		<role>concreteiterator</role>
+	</roles>
+	<candidates>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>net.nutch.db.IWebDBWriter</class>
+				</role>
+				<role name="iterator">
+					<class>net.nutch.db.IWebDBReader</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>net.nutch.db.DistributedWebDBWriter</class>
+					<class>net.nutch.db.WebDBWriter</class>
+				</role>
+				<role name="concreteiterator">
+					<class>net.nutch.db.DistributedWebDBReader</class>
+					<class>net.nutch.db.WebDBReader</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>junit.runner.TestCollector</class>
+				</role>
+				<role name="iterator">
+					<class>java.util.Enumeration</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>junit.runner.LoadingTestCollector</class>
+					<class>junit.runner.SimpleTestCollector</class>
+				</role>
+				<role name="concreteiterator">
+					<class>java.util.Hashtable$Enumerator</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>org.jaxen.DefaultNavigator</class>
+				</role>
+				<role name="iterator">
+					<class>java.util.Iterator</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>net.sourceforge.pmd.jaxen.DocumentNavigator</class>
+				</role>
+				<role name="concreteiterator">
+					<class>net.sourceforge.pmd.jaxen.NodeIterator</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>net.nutch.fetcher.OutputThread</class>
+				</role>
+				<role name="iterator">
+					<class>net.nutch.fetcher.FetcherConstants</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>net.nutch.fetcher.RequestScheduler</class>
+				</role>
+				<role name="concreteiterator">
+					<class>net.nutch.fetcher.HostQueue</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>net.nutch.fetcher.RequestRecord</class>
+				</role>
+				<role name="iterator">
+					<class>net.nutch.net.protocols.Response</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>net.nutch.fetcher.FetcherThread</class>
+				</role>
+				<role name="concreteiterator">
+					<class>net.nutch.fetcher.RequestScheduler</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>net.nutch.db.Page</class>
+				</role>
+				<role name="iterator">
+					<class>net.nutch.io.WritableComparable</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>net.nutch.fetcher.OutputThread</class>
+				</role>
+				<role name="concreteiterator">
+					<class>net.nutch.fetcher.RequestScheduler</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>junit.swingui.TestRunView</class>
+				</role>
+				<role name="iterator">
+					<class>junit.framework.Test</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>junit.swingui.TestHierarchyRunView</class>
+				</role>
+				<role name="concreteiterator">
+					<class>junit.swingui.TestRunner</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>junit.framework.TestListener</class>
+				</role>
+				<role name="iterator">
+					<class>junit.framework.Test</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>junit.framework.TestResult</class>
+				</role>
+				<role name="concreteiterator">
+					<class>junit.framework.TestCase</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>junit.framework.TestCase</class>
+				</role>
+				<role name="iterator">
+					<class>junit.framework.TestResult</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>junit.swingui.TestRunner</class>
+				</role>
+				<role name="concreteiterator">
+					<class>junit.swingui.FailureRunView</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>net.sourceforge.pmd.ast.ASTInterfaceMemberDeclaration</class>
+				</role>
+				<role name="iterator">
+					<class>net.sourceforge.pmd.ast.SimpleNode</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>net.sourceforge.pmd.ast.JavaParserVisitor</class>
+				</role>
+				<role name="concreteiterator">
+					<class>net.sourceforge.pmd.ast.ASTNullLiteral</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>net.sourceforge.pmd.ast.ASTCastExpression</class>
+				</role>
+				<role name="iterator">
+					<class>net.sourceforge.pmd.ast.SimpleNode</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>net.sourceforge.pmd.ast.JavaParserVisitor</class>
+				</role>
+				<role name="concreteiterator">
+					<class>net.sourceforge.pmd.ast.ASTBlockStatement</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="aggregate">
+					<class>net.sourceforge.pmd.ast.ASTAdditiveExpression</class>
+				</role>
+				<role name="iterator">
+					<class>net.sourceforge.pmd.ast.SimpleNode</class>
+				</role>
+				<role name="concreteaggregate">
+					<class>net.sourceforge.pmd.ast.JavaParserVisitor</class>
+				</role>
+				<role name="concreteiterator">
+					<class>net.sourceforge.pmd.ast.ASTPrimaryPrefix</class>
+				</role>
+			</roles>
+		</candidate>
+	</candidates>
+</patternData>

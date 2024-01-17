@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Command">
+		<instance>
+			<role name="Receiver" element="command.kuchana.txt.Category" />
+			<role name="ConcreteCommand" element="command.kuchana.txt.AddCommand" />
+			<role name="receiver" element="command.kuchana.txt.AddCommand::cat:command.kuchana.txt.Category" />
+			<role name="Execute()" element="command.kuchana.txt.AddCommand::execute():void" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="command.kuchana.txt.Category" />
+			<role name="ConcreteCommand" element="command.kuchana.txt.DeleteCommand" />
+			<role name="receiver" element="command.kuchana.txt.DeleteCommand::cat:command.kuchana.txt.Category" />
+			<role name="Execute()" element="command.kuchana.txt.DeleteCommand::execute():void" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="command.kuchana.txt.Item" />
+			<role name="ConcreteCommand" element="command.kuchana.txt.AddCommand" />
+			<role name="receiver" element="command.kuchana.txt.AddCommand::item:command.kuchana.txt.Item" />
+			<role name="Execute()" element="command.kuchana.txt.AddCommand::execute():void" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="command.kuchana.txt.Item" />
+			<role name="ConcreteCommand" element="command.kuchana.txt.DeleteCommand" />
+			<role name="receiver" element="command.kuchana.txt.DeleteCommand::item:command.kuchana.txt.Item" />
+			<role name="Execute()" element="command.kuchana.txt.DeleteCommand::execute():void" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="command.fluffycat.DvdName" />
+			<role name="ConcreteCommand" element="command.fluffycat.DvdCommandNameStarsOff" />
+			<role name="receiver" element="command.fluffycat.DvdCommandNameStarsOff::dvdName:command.fluffycat.DvdName" />
+			<role name="Execute()" element="command.fluffycat.DvdCommandNameStarsOff::execute():void" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="command.fluffycat.DvdName" />
+			<role name="ConcreteCommand" element="command.fluffycat.DvdCommandNameStarsOn" />
+			<role name="receiver" element="command.fluffycat.DvdCommandNameStarsOn::dvdName:command.fluffycat.DvdName" />
+			<role name="Execute()" element="command.fluffycat.DvdCommandNameStarsOn::execute():void" />
+		</instance>
+		<instance>
+			<role name="Receiver" element="command.sun.Appointment" />
+			<role name="ConcreteCommand" element="command.sun.ChangeLocationCommand" />
+			<role name="receiver" element="command.sun.ChangeLocationCommand::appointment:command.sun.Appointment" />
+			<role name="Execute()" element="command.sun.ChangeLocationCommand::undo():void" />
+			<role name="Execute()" element="command.sun.ChangeLocationCommand::redo():void" />
+		</instance>
+	</pattern>
+</system>
+

@@ -1,0 +1,165 @@
+<patternData>
+	<projectPath></projectPath>
+	<pattern>Bridge</pattern>
+	<roles>
+		<role>concreteimplementor</role>
+		<role>refinedabstraction</role>
+		<role>implementor</role>
+		<role>abstraction</role>
+	</roles>
+	<candidates>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="concreteimplementor">
+					<class>net.nutch.db.DBSectionReader$MapEnumerator</class>
+					<class>net.nutch.db.DBSectionReader$IndexEnumerator</class>
+					<class>net.nutch.db.DBSectionReader$TableEnumerator</class>
+					<class>net.nutch.db.DistributedWebDBReader$MetaEnumerator</class>
+				</role>
+				<role name="refinedabstraction">
+					<class>net.nutch.db.DistributedWebDBReader$LinkEnumCall</class>
+					<class>net.nutch.db.DistributedWebDBReader$PageEnumCall</class>
+					<class>net.nutch.db.DistributedWebDBReader$PageByMD5EnumCall</class>
+				</role>
+				<role name="implementor">
+					<class>java.util.Enumeration</class>
+				</role>
+				<role name="abstraction">
+					<class>net.nutch.db.DistributedWebDBReader$EnumCall</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>true</isPattern>
+			<roles>
+				<role name="concreteimplementor">
+					<class>net.nutch.db.Link</class>
+					<class>net.nutch.db.Page</class>
+					<class>net.nutch.db.WebDBWriter$PageInstruction</class>
+					<class>net.nutch.db.WebDBWriter$LinkInstruction</class>
+					<class>net.nutch.db.DistributedWebDBWriter$PageInstruction</class>
+					<class>net.nutch.db.DistributedWebDBWriter$LinkInstruction</class>
+					<class>net.nutch.io.IntWritable</class>
+					<class>net.nutch.io.LongWritable</class>
+					<class>net.nutch.io.MD5Hash</class>
+					<class>net.nutch.io.UTF8</class>
+				</role>
+				<role name="refinedabstraction">
+					<class>net.nutch.db.EditSectionGroupWriter$PageURLExtractor</class>
+					<class>net.nutch.db.EditSectionGroupWriter$PageMD5Extractor</class>
+					<class>net.nutch.db.EditSectionGroupWriter$LinkURLExtractor</class>
+					<class>net.nutch.db.EditSectionGroupWriter$LinkMD5Extractor</class>
+				</role>
+				<role name="implementor">
+					<class>net.nutch.io.WritableComparable</class>
+				</role>
+				<role name="abstraction">
+					<class>net.nutch.db.EditSectionGroupWriter$KeyExtractor</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="concreteimplementor">
+					<class>net.nutch.searcher.Hit</class>
+				</role>
+				<role name="refinedabstraction">
+					<class>net.nutch.io.MD5Hash</class>
+				</role>
+				<role name="implementor">
+					<class>net.nutch.io.Writable</class>
+				</role>
+				<role name="abstraction">
+					<class>net.nutch.io.WritableComparable</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="concreteimplementor">
+					<class>net.nutch.net.protocols.http.BadStatusLineException</class>
+				</role>
+				<role name="refinedabstraction">
+					<class>net.nutch.net.protocols.http.ChunkLengthParseException</class>
+				</role>
+				<role name="implementor">
+					<class>net.nutch.net.protocols.http.HttpException</class>
+				</role>
+				<role name="abstraction">
+					<class>net.nutch.net.protocols.http.HttpVersionException</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="concreteimplementor">
+					<class>net.nutch.io.ArrayWritable</class>
+				</role>
+				<role name="refinedabstraction">
+					<class>net.nutch.db.Page</class>
+				</role>
+				<role name="implementor">
+					<class>net.nutch.io.Writable</class>
+				</role>
+				<role name="abstraction">
+					<class>net.nutch.io.WritableComparable</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="concreteimplementor">
+					<class>net.nutch.io.BytesWritable</class>
+				</role>
+				<role name="refinedabstraction">
+					<class>net.nutch.fetcher.FetcherText</class>
+				</role>
+				<role name="implementor">
+					<class>net.nutch.io.Writable</class>
+				</role>
+				<role name="abstraction">
+					<class>net.nutch.io.VersionedWritable</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="concreteimplementor">
+					<class>net.nutch.net.protocols.http.ContentLengthParseException</class>
+				</role>
+				<role name="refinedabstraction">
+					<class>net.nutch.net.protocols.http.ChunkLengthParseException</class>
+				</role>
+				<role name="implementor">
+					<class>net.nutch.net.protocols.http.HttpException</class>
+				</role>
+				<role name="abstraction">
+					<class>net.nutch.net.protocols.http.HttpVersionException</class>
+				</role>
+			</roles>
+		</candidate>
+		<candidate>
+			<isPattern>false</isPattern>
+			<roles>
+				<role name="concreteimplementor">
+					<class>net.nutch.net.protocols.ftp.FtpException</class>
+				</role>
+				<role name="refinedabstraction">
+					<class>net.nutch.net.protocols.http.HttpVersionException</class>
+				</role>
+				<role name="implementor">
+					<class>net.nutch.net.protocols.ProtocolException</class>
+				</role>
+				<role name="abstraction">
+					<class>net.nutch.net.protocols.http.HttpException</class>
+				</role>
+			</roles>
+		</candidate>
+	</candidates>
+</patternData>

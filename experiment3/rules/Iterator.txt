@@ -1,0 +1,3 @@
+( = linkArtefact concreteaggregate aggregate notLinked ) -> (!= label aPattern ), supp: 0.6666666666666666, conf: 1.0
+( != redirectInFamily iterator single != receives aggregate iterator true != linkArtefact concreteaggregate aggregate notLinked ) -> (= label aPattern ), supp: 0.25, conf: 1.0
+( != controlledInit concreteaggregate true >= DIT aggregate 1.0 ) -> (!= label aPattern ), supp: 0.75, conf: 0.9

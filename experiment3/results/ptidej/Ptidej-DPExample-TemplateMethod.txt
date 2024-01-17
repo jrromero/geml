@@ -1,0 +1,2897 @@
+# Solution with all constraints
+1.100.Name = Template Method Design Motif
+# Solution with all constraints
+1.100.Sign = Positive
+1.100.XCommand = No source transformation needed
+1.100.client = bridge.oodesign.PersistenceImp
+1.100.abstractclass = bridge.oodesign.PersistenceImplementor
+1.100.concreteclass-1 = bridge.oodesign.FileSystemPersistenceImplementor
+1.100.concreteclass-2 = bridge.oodesign.DabatasePersistenceImplementor
+
+# Solution with all constraints
+2.100.Name = Template Method Design Motif
+# Solution with all constraints
+2.100.Sign = Positive
+2.100.XCommand = No source transformation needed
+2.100.client-1 = factorymethod.inria.B
+2.100.client-2 = factorymethod.inria.C
+2.100.client-3 = factorymethod.inria.AFactory
+2.100.abstractclass = factorymethod.inria.A
+2.100.concreteclass-1 = factorymethod.inria.B
+2.100.concreteclass-2 = factorymethod.inria.C
+
+# Solution with all constraints
+3.100.Name = Template Method Design Motif
+# Solution with all constraints
+3.100.Sign = Positive
+3.100.XCommand = No source transformation needed
+3.100.client-1 = prototype.kuchana.Example1.UnixBasic
+3.100.client-2 = prototype.kuchana.Example1.UnixPremPlus
+3.100.client-3 = prototype.kuchana.Example1.UnixPremium
+3.100.abstractclass = prototype.kuchana.Example1.UnixPlan
+3.100.concreteclass-1 = prototype.kuchana.Example1.UnixBasic
+3.100.concreteclass-2 = prototype.kuchana.Example1.UnixPremPlus
+3.100.concreteclass-3 = prototype.kuchana.Example1.UnixPremium
+
+# Solution with all constraints
+4.100.Name = Template Method Design Motif
+# Solution with all constraints
+4.100.Sign = Positive
+4.100.XCommand = No source transformation needed
+4.100.client-1 = abstractfactory.headfirst.pizzaaf.CheesePizza
+4.100.client-2 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+4.100.client-3 = abstractfactory.headfirst.pizzaaf.ClamPizza
+4.100.client-4 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+4.100.abstractclass = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+4.100.concreteclass-1 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+4.100.concreteclass-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+
+# Solution with all constraints
+5.100.Name = Template Method Design Motif
+# Solution with all constraints
+5.100.Sign = Positive
+5.100.XCommand = No source transformation needed
+5.100.client-1 = interpreter.kuchana.SubtractExpression
+5.100.client-2 = interpreter.kuchana.Calculator
+5.100.client-3 = interpreter.kuchana.MultiplyExpression
+5.100.client-4 = interpreter.kuchana.NonTerminalExpression
+5.100.client-5 = interpreter.kuchana.AddExpression
+5.100.abstractclass = interpreter.kuchana.Expression
+5.100.concreteclass-1 = interpreter.kuchana.TerminalExpression
+5.100.concreteclass-2 = interpreter.kuchana.NonTerminalExpression
+
+# Solution with all constraints
+6.100.Name = Template Method Design Motif
+# Solution with all constraints
+6.100.Sign = Positive
+6.100.XCommand = No source transformation needed
+6.100.client-1 = adapter.kuchana.CAAddressAdapter
+6.100.client-2 = adapter.kuchana.USAddress
+6.100.abstractclass = adapter.kuchana.AddressValidator
+6.100.concreteclass-1 = adapter.kuchana.CAAddressAdapter
+6.100.concreteclass-2 = adapter.kuchana.USAddress
+
+# Solution with all constraints
+7.100.Name = Template Method Design Motif
+# Solution with all constraints
+7.100.Sign = Positive
+7.100.XCommand = No source transformation needed
+7.100.client-1 = strategy.sun.DataCreator
+7.100.client-2 = strategy.sun.NameSummarizer
+7.100.client-3 = strategy.sun.ContactList
+7.100.client-4 = strategy.sun.OrganizationSummarizer
+7.100.abstractclass = strategy.sun.Contact
+7.100.concreteclass = strategy.sun.ContactImpl
+
+# Solution with all constraints
+8.100.Name = Template Method Design Motif
+# Solution with all constraints
+8.100.Sign = Positive
+8.100.XCommand = No source transformation needed
+8.100.client-1 = visitor.sourcemaking1.TheOther
+8.100.client-2 = visitor.sourcemaking1.That
+8.100.client-3 = visitor.sourcemaking1.This
+8.100.abstractclass = visitor.sourcemaking1.Visitor
+8.100.concreteclass-1 = visitor.sourcemaking1.DownVisitor
+8.100.concreteclass-2 = visitor.sourcemaking1.UpVisitor
+
+# Solution with all constraints
+9.100.Name = Template Method Design Motif
+# Solution with all constraints
+9.100.Sign = Positive
+9.100.XCommand = No source transformation needed
+9.100.client-1 = interpreter.lucacristina.expr.functions.user.UserFunction
+9.100.client-2 = interpreter.lucacristina.expr.Constant
+9.100.client-3 = interpreter.lucacristina.expr.Sum
+9.100.client-4 = interpreter.lucacristina.parser.MathParser
+9.100.client-5 = interpreter.lucacristina.client.Client
+9.100.client-6 = interpreter.lucacristina.expr.functions.min
+9.100.client-7 = interpreter.lucacristina.expr.functions.user.UserFunctionDefinition
+9.100.client-8 = interpreter.lucacristina.expr.functions.pow
+9.100.client-9 = interpreter.lucacristina.expr.functions.sqrt
+9.100.client-10 = interpreter.lucacristina.expr.Multiplication
+9.100.client-11 = interpreter.lucacristina.expr.Function
+9.100.client-12 = interpreter.lucacristina.expr.Variable
+9.100.client-13 = interpreter.lucacristina.expr.Subtraction
+9.100.client-14 = interpreter.lucacristina.expr.Division
+9.100.abstractclass = interpreter.lucacristina.expr.Expression
+9.100.concreteclass-1 = interpreter.lucacristina.expr.Constant
+9.100.concreteclass-2 = interpreter.lucacristina.expr.Sum
+9.100.concreteclass-3 = interpreter.lucacristina.expr.Multiplication
+9.100.concreteclass-4 = interpreter.lucacristina.expr.Function
+9.100.concreteclass-5 = interpreter.lucacristina.expr.Variable
+9.100.concreteclass-6 = interpreter.lucacristina.expr.Subtraction
+9.100.concreteclass-7 = interpreter.lucacristina.expr.Division
+
+# Solution with all constraints
+10.100.Name = Template Method Design Motif
+# Solution with all constraints
+10.100.Sign = Positive
+10.100.XCommand = No source transformation needed
+10.100.client-1 = strategy.fluffycat.DvdNameReplaceSpacesStrategy
+10.100.client-2 = strategy.fluffycat.DvdNameAllCapStrategy
+10.100.client-3 = strategy.fluffycat.DvdNameTheAtEndStrategy
+10.100.client-4 = strategy.fluffycat.DvdNameContext
+10.100.abstractclass = strategy.fluffycat.DvdNameStrategy
+10.100.concreteclass-1 = strategy.fluffycat.DvdNameReplaceSpacesStrategy
+10.100.concreteclass-2 = strategy.fluffycat.DvdNameAllCapStrategy
+10.100.concreteclass-3 = strategy.fluffycat.DvdNameTheAtEndStrategy
+
+# Solution with all constraints
+11.100.Name = Template Method Design Motif
+# Solution with all constraints
+11.100.Sign = Positive
+11.100.XCommand = No source transformation needed
+11.100.client-1 = prototype.earthlink.FederalFraudvillian
+11.100.client-2 = prototype.earthlink.President
+11.100.client-3 = prototype.earthlink.AttorneyGeneral
+11.100.client-4 = prototype.earthlink.PrototypeLabCpp
+11.100.client-5 = prototype.earthlink.MinorityPartyCongressPerson
+11.100.client-6 = prototype.earthlink.Factory
+11.100.abstractclass = prototype.earthlink.FederalFraudvillian
+11.100.concreteclass-1 = prototype.earthlink.President
+11.100.concreteclass-2 = prototype.earthlink.AttorneyGeneral
+11.100.concreteclass-3 = prototype.earthlink.MinorityPartyCongressPerson
+
+# Solution with all constraints
+12.100.Name = Template Method Design Motif
+# Solution with all constraints
+12.100.Sign = Positive
+12.100.XCommand = No source transformation needed
+12.100.client = interpreter.lucacristina.expr.Function
+12.100.abstractclass = interpreter.lucacristina.expr.functions.FunctionFactory
+12.100.concreteclass-1 = interpreter.lucacristina.expr.functions.ClassFunctionFactory
+12.100.concreteclass-2 = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+
+# Solution with all constraints
+13.100.Name = Template Method Design Motif
+# Solution with all constraints
+13.100.Sign = Positive
+13.100.XCommand = No source transformation needed
+13.100.client-1 = visitor.java2s.Deliverable
+13.100.client-2 = visitor.java2s.Task
+13.100.client-3 = visitor.java2s.Project
+13.100.client-4 = visitor.java2s.DependentTask
+13.100.abstractclass = visitor.java2s.ProjectVisitor
+13.100.concreteclass = visitor.java2s.ProjectCostVisitor
+
+# Solution with all constraints
+14.100.Name = Template Method Design Motif
+# Solution with all constraints
+14.100.Sign = Positive
+14.100.XCommand = No source transformation needed
+14.100.client-1 = strategy.sun.RunPattern
+14.100.client-2 = strategy.sun.ContactList
+14.100.abstractclass = strategy.sun.SummarizingStrategy
+14.100.concreteclass-1 = strategy.sun.NameSummarizer
+14.100.concreteclass-2 = strategy.sun.OrganizationSummarizer
+
+# Solution with all constraints
+15.100.Name = Template Method Design Motif
+# Solution with all constraints
+15.100.Sign = Positive
+15.100.XCommand = No source transformation needed
+15.100.client = abstractfactory.earthlink.demojava.FactoryFmProto
+15.100.abstractclass = abstractfactory.earthlink.demojava.FactoryFmProto.Factory
+15.100.concreteclass-1 = abstractfactory.earthlink.demojava.FactoryFmProto.PCFactory
+15.100.concreteclass-2 = abstractfactory.earthlink.demojava.FactoryFmProto.NotPCFactory
+
+# Solution with all constraints
+16.100.Name = Template Method Design Motif
+# Solution with all constraints
+16.100.Sign = Positive
+16.100.XCommand = No source transformation needed
+16.100.client-1 = abstractfactory.javapractices.DAOFactoryMySql
+16.100.client-2 = abstractfactory.javapractices.DAOFactory
+16.100.client-3 = abstractfactory.javapractices.DAOFactoryFileScheme
+16.100.abstractclass = abstractfactory.javapractices.DeviceDAO
+16.100.concreteclass-1 = abstractfactory.javapractices.DeviceDAOMySql
+16.100.concreteclass-2 = abstractfactory.javapractices.DeviceDAOFileScheme
+
+# Solution with all constraints
+17.100.Name = Template Method Design Motif
+# Solution with all constraints
+17.100.Sign = Positive
+17.100.XCommand = No source transformation needed
+17.100.client-1 = interpreter.sun.RunPattern
+17.100.client-2 = interpreter.sun.ContactList
+17.100.abstractclass = interpreter.sun.Contact
+17.100.concreteclass = interpreter.sun.ContactImpl
+
+# Solution with all constraints
+18.100.Name = Template Method Design Motif
+# Solution with all constraints
+18.100.Sign = Positive
+18.100.XCommand = No source transformation needed
+18.100.client-1 = composite.kuchana.FileSystemComponent
+18.100.client-2 = composite.kuchana.DirComponent
+18.100.client-3 = composite.kuchana.FileComponent
+18.100.client-4 = composite.kuchana.CompositeDemo
+18.100.abstractclass = composite.kuchana.FileSystemComponent
+18.100.concreteclass-1 = composite.kuchana.DirComponent
+18.100.concreteclass-2 = composite.kuchana.FileComponent
+
+# Solution with all constraints
+19.100.Name = Template Method Design Motif
+# Solution with all constraints
+19.100.Sign = Positive
+19.100.XCommand = No source transformation needed
+19.100.client-1 = abstractfactory.javanotes.TestAbstractSoupFactory
+19.100.client-2 = abstractfactory.javanotes.FishChowder
+19.100.client-3 = abstractfactory.javanotes.ClamChowder
+19.100.client-4 = abstractfactory.javanotes.TofuSoup
+19.100.client-5 = abstractfactory.javanotes.Minnestrone
+19.100.client-6 = abstractfactory.javanotes.ChickenSoup
+19.100.client-7 = abstractfactory.javanotes.Pastafazul
+19.100.client-8 = abstractfactory.javanotes.VegetableSoup
+19.100.abstractclass = abstractfactory.javanotes.Soup
+19.100.concreteclass-1 = abstractfactory.javanotes.FishChowder
+19.100.concreteclass-2 = abstractfactory.javanotes.ClamChowder
+19.100.concreteclass-3 = abstractfactory.javanotes.TofuSoup
+19.100.concreteclass-4 = abstractfactory.javanotes.Minnestrone
+19.100.concreteclass-5 = abstractfactory.javanotes.ChickenSoup
+19.100.concreteclass-6 = abstractfactory.javanotes.Pastafazul
+19.100.concreteclass-7 = abstractfactory.javanotes.VegetableSoup
+
+# Solution with all constraints
+20.100.Name = Template Method Design Motif
+# Solution with all constraints
+20.100.Sign = Positive
+20.100.XCommand = No source transformation needed
+20.100.client-1 = composite.sun.Project
+20.100.client-2 = composite.sun.Task
+20.100.client-3 = composite.sun.DataCreator
+20.100.abstractclass = composite.sun.ProjectItem
+20.100.concreteclass-1 = composite.sun.Deliverable
+20.100.concreteclass-2 = composite.sun.Project
+20.100.concreteclass-3 = composite.sun.Task
+
+# Solution with all constraints
+21.100.Name = Template Method Design Motif
+# Solution with all constraints
+21.100.Sign = Positive
+21.100.XCommand = No source transformation needed
+21.100.client-1 = factorymethod.wikipedia.Pizza
+21.100.client-2 = factorymethod.wikipedia.HamAndMushroomPizza
+21.100.client-3 = factorymethod.wikipedia.DeluxePizza
+21.100.client-4 = factorymethod.wikipedia.Main
+21.100.client-5 = factorymethod.wikipedia.SeafoodPizza
+21.100.abstractclass = factorymethod.wikipedia.Pizza
+21.100.concreteclass-1 = factorymethod.wikipedia.HamAndMushroomPizza
+21.100.concreteclass-2 = factorymethod.wikipedia.DeluxePizza
+21.100.concreteclass-3 = factorymethod.wikipedia.SeafoodPizza
+
+# Solution with all constraints
+22.100.Name = Template Method Design Motif
+# Solution with all constraints
+22.100.Sign = Positive
+22.100.XCommand = No source transformation needed
+22.100.client = strategy.earthlink.StrategyDemo
+22.100.abstractclass = strategy.earthlink.Strategy
+22.100.concreteclass-1 = strategy.earthlink.TemplateMethod1
+22.100.concreteclass-2 = strategy.earthlink.TemplateMethod2
+
+# Solution with all constraints
+23.100.Name = Template Method Design Motif
+# Solution with all constraints
+23.100.Sign = Positive
+23.100.XCommand = No source transformation needed
+23.100.client-1 = boh.dofactory.ConclusionPage
+23.100.client-2 = boh.dofactory.EducationPage
+23.100.client-3 = boh.dofactory.BibliographyPage
+23.100.client-4 = boh.dofactory.IntroductionPage
+23.100.client-5 = boh.dofactory.ResultsPage
+23.100.client-6 = boh.dofactory.ExperiencePage
+23.100.client-7 = boh.dofactory.SummaryPage
+23.100.client-8 = boh.dofactory.SkillsPage
+23.100.abstractclass = boh.dofactory.Page
+23.100.concreteclass-1 = boh.dofactory.ConclusionPage
+23.100.concreteclass-2 = boh.dofactory.EducationPage
+23.100.concreteclass-3 = boh.dofactory.BibliographyPage
+23.100.concreteclass-4 = boh.dofactory.IntroductionPage
+23.100.concreteclass-5 = boh.dofactory.ResultsPage
+23.100.concreteclass-6 = boh.dofactory.ExperiencePage
+23.100.concreteclass-7 = boh.dofactory.SummaryPage
+23.100.concreteclass-8 = boh.dofactory.SkillsPage
+
+# Solution with all constraints
+24.100.Name = Template Method Design Motif
+# Solution with all constraints
+24.100.Sign = Positive
+24.100.XCommand = No source transformation needed
+24.100.client-1 = chainofresp.cor3.VariableDeclaration
+24.100.client-2 = chainofresp.cor3.Method
+24.100.abstractclass = chainofresp.cor3.Element
+24.100.concreteclass-1 = chainofresp.cor3.VariableDeclaration
+24.100.concreteclass-2 = chainofresp.cor3.Method
+
+# Solution with all constraints
+25.100.Name = Template Method Design Motif
+# Solution with all constraints
+25.100.Sign = Positive
+25.100.XCommand = No source transformation needed
+25.100.client-1 = command.fluffycat.TestCommand
+25.100.client-2 = command.fluffycat.DvdCommandNameStarsOff
+25.100.client-3 = command.fluffycat.DvdCommandNameStarsOn
+25.100.abstractclass = command.fluffycat.CommandAbstract
+25.100.concreteclass-1 = command.fluffycat.DvdCommandNameStarsOff
+25.100.concreteclass-2 = command.fluffycat.DvdCommandNameStarsOn
+
+# Solution with all constraints
+26.100.Name = Template Method Design Motif
+# Solution with all constraints
+26.100.Sign = Positive
+26.100.XCommand = No source transformation needed
+26.100.client-1 = abstractfactory.wikipedia.GUIFactory
+26.100.client-2 = abstractfactory.wikipedia.WinFactory
+26.100.client-3 = abstractfactory.wikipedia.Application
+26.100.client-4 = abstractfactory.wikipedia.OSXFactory
+26.100.abstractclass = abstractfactory.wikipedia.GUIFactory
+26.100.concreteclass-1 = abstractfactory.wikipedia.WinFactory
+26.100.concreteclass-2 = abstractfactory.wikipedia.OSXFactory
+
+# Solution with all constraints
+27.100.Name = Template Method Design Motif
+# Solution with all constraints
+27.100.Sign = Positive
+27.100.XCommand = No source transformation needed
+27.100.client-1 = builder.kuchana.BuilderFactory
+27.100.client-2 = builder.kuchana.CandSrchBuilder
+27.100.client-3 = builder.kuchana.buttonHandler
+27.100.client-4 = builder.kuchana.EmpSrchBuilder
+27.100.abstractclass = builder.kuchana.UIBuilder
+27.100.concreteclass-1 = builder.kuchana.CandSrchBuilder
+27.100.concreteclass-2 = builder.kuchana.EmpSrchBuilder
+
+# Solution with all constraints
+28.100.Name = Template Method Design Motif
+# Solution with all constraints
+28.100.Sign = Positive
+28.100.XCommand = No source transformation needed
+28.100.client-1 = abstractfactory.javacamp.Test
+28.100.client-2 = abstractfactory.javacamp.DataManager
+28.100.client-3 = abstractfactory.javacamp.ConnectionFactory
+28.100.abstractclass = abstractfactory.javacamp.Remote
+28.100.concreteclass = abstractfactory.javacamp.RemoteMode
+
+# Solution with all constraints
+29.100.Name = Template Method Design Motif
+# Solution with all constraints
+29.100.Sign = Positive
+29.100.XCommand = No source transformation needed
+29.100.client-1 = factorymethod.cselt.Creator
+29.100.client-2 = factorymethod.cselt.Creator1
+29.100.abstractclass = factorymethod.cselt.AbstractObject
+29.100.concreteclass = factorymethod.cselt.ConcreteObject1
+
+# Solution with all constraints
+30.100.Name = Template Method Design Motif
+# Solution with all constraints
+30.100.Sign = Positive
+30.100.XCommand = No source transformation needed
+30.100.client = mediator.cooper.MedDemo
+30.100.abstractclass = mediator.cooper.Command
+30.100.concreteclass-1 = mediator.cooper.ClearButton
+30.100.concreteclass-2 = mediator.cooper.MoveButton
+
+# Solution with all constraints
+31.100.Name = Template Method Design Motif
+# Solution with all constraints
+31.100.Sign = Positive
+31.100.XCommand = No source transformation needed
+31.100.client-1 = state.fluffycat.DvdStateNameExclaim
+31.100.client-2 = state.fluffycat.DvdStateNameStars
+31.100.client-3 = state.fluffycat.DvdStateContext
+31.100.abstractclass = state.fluffycat.DvdStateName
+31.100.concreteclass-1 = state.fluffycat.DvdStateNameExclaim
+31.100.concreteclass-2 = state.fluffycat.DvdStateNameStars
+
+# Solution with all constraints
+32.100.Name = Template Method Design Motif
+# Solution with all constraints
+32.100.Sign = Positive
+32.100.XCommand = No source transformation needed
+32.100.client-1 = abstractfactory.javacamp.Test
+32.100.client-2 = abstractfactory.javacamp.DataManager
+32.100.client-3 = abstractfactory.javacamp.ConnectionFactory
+32.100.abstractclass = abstractfactory.javacamp.Local
+32.100.concreteclass-1 = abstractfactory.javacamp.Remote
+32.100.concreteclass-2 = abstractfactory.javacamp.LocalMode
+
+# Solution with all constraints
+33.100.Name = Template Method Design Motif
+# Solution with all constraints
+33.100.Sign = Positive
+33.100.XCommand = No source transformation needed
+33.100.client-1 = visitor.kuchana.CaliforniaOrder
+33.100.client-2 = visitor.kuchana.NonCaliforniaOrder
+33.100.client-3 = visitor.kuchana.OverseasOrder
+33.100.abstractclass = visitor.kuchana.VisitorInterface
+33.100.concreteclass = visitor.kuchana.OrderVisitor
+
+# Solution with all constraints
+34.100.Name = Template Method Design Motif
+# Solution with all constraints
+34.100.Sign = Positive
+34.100.XCommand = No source transformation needed
+34.100.client-1 = boh.sun.Task
+34.100.client-2 = boh.sun.ProjectItem
+34.100.client-3 = boh.sun.Project
+34.100.abstractclass = boh.sun.Contact
+34.100.concreteclass = boh.sun.ContactImpl
+
+# Solution with all constraints
+35.100.Name = Template Method Design Motif
+# Solution with all constraints
+35.100.Sign = Positive
+35.100.XCommand = No source transformation needed
+35.100.client-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+35.100.client-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+35.100.client-3 = abstractfactory.apwebco.OrderProcessor
+35.100.client-4 = abstractfactory.apwebco.CanadaShipFeeProcessor
+35.100.client-5 = abstractfactory.apwebco.FinancialToolsFactory
+35.100.client-6 = abstractfactory.apwebco.EuropeShipFeeProcessor
+35.100.abstractclass = abstractfactory.apwebco.ShipFeeProcessor
+35.100.concreteclass-1 = abstractfactory.apwebco.CanadaShipFeeProcessor
+35.100.concreteclass-2 = abstractfactory.apwebco.EuropeShipFeeProcessor
+
+# Solution with all constraints
+36.100.Name = Template Method Design Motif
+# Solution with all constraints
+36.100.Sign = Positive
+36.100.XCommand = No source transformation needed
+36.100.client = chainofresp.cor1.StatusCollection
+36.100.abstractclass = chainofresp.cor1.AbstractStatus
+36.100.concreteclass-1 = chainofresp.cor1.SevenLivesStatus
+36.100.concreteclass-2 = chainofresp.cor1.HalfDamageStatus
+
+# Solution with all constraints
+37.100.Name = Template Method Design Motif
+# Solution with all constraints
+37.100.Sign = Positive
+37.100.XCommand = No source transformation needed
+37.100.client = strategy.cooper.StrategyPlot
+37.100.abstractclass = strategy.cooper.Command
+37.100.concreteclass-1 = strategy.cooper.JBarButton
+37.100.concreteclass-2 = strategy.cooper.JGraphButton
+
+# Solution with all constraints
+38.100.Name = Template Method Design Motif
+# Solution with all constraints
+38.100.Sign = Positive
+38.100.XCommand = No source transformation needed
+38.100.client = command.sun.CommandGui
+38.100.abstractclass = command.sun.UndoableCommand
+38.100.concreteclass = command.sun.ChangeLocationCommand
+
+# Solution with all constraints
+39.100.Name = Template Method Design Motif
+# Solution with all constraints
+39.100.Sign = Positive
+39.100.XCommand = No source transformation needed
+39.100.client-1 = command.cmd1.Cmd1
+39.100.client-2 = command.cmd1.MenuItem
+39.100.abstractclass = command.cmd1.Action
+39.100.concreteclass = command.cmd1.PlayAction
+
+# Solution with all constraints
+40.100.Name = Template Method Design Motif
+# Solution with all constraints
+40.100.Sign = Positive
+40.100.XCommand = No source transformation needed
+40.100.client-1 = composite.javastuff.Composite
+40.100.client-2 = composite.javastuff.Leaf
+40.100.client-3 = composite.javastuff.Esempio
+40.100.abstractclass = composite.javastuff.Component
+40.100.concreteclass-1 = composite.javastuff.Composite
+40.100.concreteclass-2 = composite.javastuff.Leaf
+
+# Solution with all constraints
+41.100.Name = Template Method Design Motif
+# Solution with all constraints
+41.100.Sign = Positive
+41.100.XCommand = No source transformation needed
+41.100.client-1 = abstractfactory.codeguru.csharp.AbstractFactory
+41.100.client-2 = abstractfactory.codeguru.csharp.CCd
+41.100.client-3 = abstractfactory.codeguru.csharp.IAVDevice
+41.100.client-4 = abstractfactory.codeguru.csharp.CDvd
+41.100.abstractclass = abstractfactory.codeguru.csharp.IAudio
+41.100.concreteclass-1 = abstractfactory.codeguru.csharp.CDvdAudio
+41.100.concreteclass-2 = abstractfactory.codeguru.csharp.CCdAudio
+
+# Solution with all constraints
+42.100.Name = Template Method Design Motif
+# Solution with all constraints
+42.100.Sign = Positive
+42.100.XCommand = No source transformation needed
+42.100.client = adapter.sun.ContactAdapter
+42.100.abstractclass = adapter.sun.Chovnatlh
+42.100.concreteclass = adapter.sun.ChovnatlhImpl
+
+# Solution with all constraints
+43.100.Name = Template Method Design Motif
+# Solution with all constraints
+43.100.Sign = Positive
+43.100.XCommand = No source transformation needed
+43.100.client-1 = visitor.sourcemaking2.This
+43.100.client-2 = visitor.sourcemaking2.That
+43.100.client-3 = visitor.sourcemaking2.TheOther
+43.100.client-4 = visitor.sourcemaking2.DownVisitor
+43.100.client-5 = visitor.sourcemaking2.UpVisitor
+43.100.abstractclass = visitor.sourcemaking2.ReflectiveVisitor
+43.100.concreteclass-1 = visitor.sourcemaking2.DownVisitor
+43.100.concreteclass-2 = visitor.sourcemaking2.UpVisitor
+
+# Solution with all constraints
+44.100.Name = Template Method Design Motif
+# Solution with all constraints
+44.100.Sign = Positive
+44.100.XCommand = No source transformation needed
+44.100.client = state.sun.Appointment
+44.100.abstractclass = state.sun.Location
+44.100.concreteclass = state.sun.LocationImpl
+
+# Solution with all constraints
+45.100.Name = Template Method Design Motif
+# Solution with all constraints
+45.100.Sign = Positive
+45.100.XCommand = No source transformation needed
+45.100.client-1 = boh.sun.Task
+45.100.client-2 = boh.sun.ProjectItem
+45.100.client-3 = boh.sun.DataCreator
+45.100.client-4 = boh.sun.RunPattern
+45.100.client-5 = boh.sun.Project
+45.100.abstractclass = boh.sun.ProjectItem
+45.100.concreteclass-1 = boh.sun.Task
+45.100.concreteclass-2 = boh.sun.Project
+
+# Solution with all constraints
+46.100.Name = Template Method Design Motif
+# Solution with all constraints
+46.100.Sign = Positive
+46.100.XCommand = No source transformation needed
+46.100.client-1 = factorymethod.earthlink.MyDocument
+46.100.client-2 = factorymethod.earthlink.MyApplication
+46.100.client-3 = factorymethod.earthlink.Application
+46.100.abstractclass = factorymethod.earthlink.Document
+46.100.concreteclass = factorymethod.earthlink.MyDocument
+
+# Solution with all constraints
+47.100.Name = Template Method Design Motif
+# Solution with all constraints
+47.100.Sign = Positive
+47.100.XCommand = No source transformation needed
+47.100.client-1 = factorymethod.gsraj.impl3.ResourceCreator
+47.100.client-2 = factorymethod.gsraj.common.PublicResource
+47.100.client-3 = factorymethod.gsraj.impl1.FactoryPattern
+47.100.client-4 = factorymethod.gsraj.impl3.Employee
+47.100.client-5 = factorymethod.gsraj.common.Profile
+47.100.client-6 = factorymethod.gsraj.impl1.Employee
+47.100.client-7 = factorymethod.gsraj.common.ConfidentialResource
+47.100.client-8 = factorymethod.gsraj.impl1.NonEmployee
+47.100.client-9 = factorymethod.gsraj.impl3.NonEmployee
+47.100.abstractclass = factorymethod.gsraj.common.Resource
+47.100.concreteclass-1 = factorymethod.gsraj.common.PublicResource
+47.100.concreteclass-2 = factorymethod.gsraj.common.ConfidentialResource
+
+# Solution with all constraints
+48.100.Name = Template Method Design Motif
+# Solution with all constraints
+48.100.Sign = Positive
+48.100.XCommand = No source transformation needed
+48.100.client-1 = abstractfactory.wikipedia.GUIFactory
+48.100.client-2 = abstractfactory.wikipedia.WinFactory
+48.100.client-3 = abstractfactory.wikipedia.OSXButton
+48.100.client-4 = abstractfactory.wikipedia.Application
+48.100.client-5 = abstractfactory.wikipedia.WinButton
+48.100.client-6 = abstractfactory.wikipedia.OSXFactory
+48.100.abstractclass = abstractfactory.wikipedia.Button
+48.100.concreteclass-1 = abstractfactory.wikipedia.OSXButton
+48.100.concreteclass-2 = abstractfactory.wikipedia.WinButton
+
+# Solution with all constraints
+49.100.Name = Template Method Design Motif
+# Solution with all constraints
+49.100.Sign = Positive
+49.100.XCommand = No source transformation needed
+49.100.client-1 = observer.ob2.Ob2
+49.100.client-2 = observer.ob2.Creature
+49.100.abstractclass = observer.ob2.IPropertyChangeListener
+49.100.concreteclass = observer.ob2.HPListener
+
+# Solution with all constraints
+50.100.Name = Template Method Design Motif
+# Solution with all constraints
+50.100.Sign = Positive
+50.100.XCommand = No source transformation needed
+50.100.client-1 = interpreter.fluffycat.DvdActorExpression
+50.100.client-2 = interpreter.fluffycat.DvdActorTitleExpression
+50.100.client-3 = interpreter.fluffycat.DvdTitleExpression
+50.100.client-4 = interpreter.fluffycat.DvdInterpreterClient
+50.100.client-5 = interpreter.fluffycat.DvdTitleActorExpression
+50.100.abstractclass = interpreter.fluffycat.DvdAbstractExpression
+50.100.concreteclass-1 = interpreter.fluffycat.DvdActorExpression
+50.100.concreteclass-2 = interpreter.fluffycat.DvdActorTitleExpression
+50.100.concreteclass-3 = interpreter.fluffycat.DvdTitleExpression
+50.100.concreteclass-4 = interpreter.fluffycat.DvdTitleActorExpression
+
+# Solution with all constraints
+51.100.Name = Template Method Design Motif
+# Solution with all constraints
+51.100.Sign = Positive
+51.100.XCommand = No source transformation needed
+51.100.client-1 = composite.sun.Deliverable
+51.100.client-2 = composite.sun.Task
+51.100.abstractclass = composite.sun.Contact
+51.100.concreteclass = composite.sun.ContactImpl
+
+# Solution with all constraints
+52.100.Name = Template Method Design Motif
+# Solution with all constraints
+52.100.Sign = Positive
+52.100.XCommand = No source transformation needed
+52.100.client-1 = state.st1.State
+52.100.client-2 = state.st1.HaveUser
+52.100.client-3 = state.st1.Context
+52.100.client-4 = state.st1.Authenticated
+52.100.client-5 = state.st1.Initial
+52.100.abstractclass = state.st1.State
+52.100.concreteclass-1 = state.st1.HaveUser
+52.100.concreteclass-2 = state.st1.Authenticated
+52.100.concreteclass-3 = state.st1.Initial
+
+# Solution with all constraints
+53.100.Name = Template Method Design Motif
+# Solution with all constraints
+53.100.Sign = Positive
+53.100.XCommand = No source transformation needed
+53.100.client-1 = visitor.vis1.If
+53.100.client-2 = visitor.vis1.Assignment
+53.100.client-3 = visitor.vis1.Block
+53.100.abstractclass = visitor.vis1.Visitor
+53.100.concreteclass = visitor.vis1.CountVisitor
+
+# Solution with all constraints
+54.100.Name = Template Method Design Motif
+# Solution with all constraints
+54.100.Sign = Positive
+54.100.XCommand = No source transformation needed
+54.100.client-1 = chainofresp.earthlink.Component
+54.100.client-2 = chainofresp.earthlink.Primitive
+54.100.client-3 = chainofresp.earthlink.ChainDemo
+54.100.client-4 = chainofresp.earthlink.Composite
+54.100.abstractclass = chainofresp.earthlink.Component
+54.100.concreteclass-1 = chainofresp.earthlink.Primitive
+54.100.concreteclass-2 = chainofresp.earthlink.Composite
+
+# Solution with all constraints
+55.100.Name = Template Method Design Motif
+# Solution with all constraints
+55.100.Sign = Positive
+55.100.XCommand = No source transformation needed
+55.100.client-1 = abstractfactory.java2s.FrenchAddress
+55.100.client-2 = abstractfactory.java2s.AddressFactory
+55.100.client-3 = abstractfactory.java2s.FrenchAddressFactory
+55.100.client-4 = abstractfactory.java2s.RunAbstractFactoryPattern
+55.100.client-5 = abstractfactory.java2s.USAddressFactory
+55.100.client-6 = abstractfactory.java2s.USAddress
+55.100.abstractclass = abstractfactory.java2s.Address
+55.100.concreteclass-1 = abstractfactory.java2s.FrenchAddress
+55.100.concreteclass-2 = abstractfactory.java2s.USAddress
+
+# Solution with all constraints
+56.100.Name = Template Method Design Motif
+# Solution with all constraints
+56.100.Sign = Positive
+56.100.XCommand = No source transformation needed
+56.100.client = abstractfactory.java2s.RunAbstractFactoryPattern
+56.100.abstractclass = abstractfactory.java2s.AddressFactory
+56.100.concreteclass-1 = abstractfactory.java2s.FrenchAddressFactory
+56.100.concreteclass-2 = abstractfactory.java2s.USAddressFactory
+
+# Solution with all constraints
+57.100.Name = Template Method Design Motif
+# Solution with all constraints
+57.100.Sign = Positive
+57.100.XCommand = No source transformation needed
+57.100.client-1 = visitor.sun.Task
+57.100.client-2 = visitor.sun.Deliverable
+57.100.abstractclass = visitor.sun.Contact
+57.100.concreteclass = visitor.sun.ContactImpl
+
+# Solution with all constraints
+58.100.Name = Template Method Design Motif
+# Solution with all constraints
+58.100.Sign = Positive
+58.100.XCommand = No source transformation needed
+58.100.client-1 = visitor.earthlink.composite3.Composite
+58.100.client-2 = visitor.earthlink.composite3.Leaf
+58.100.abstractclass = visitor.earthlink.composite3.Visitor
+58.100.concreteclass = visitor.earthlink.composite3.CollectVisitor
+
+# Solution with all constraints
+59.100.Name = Template Method Design Motif
+# Solution with all constraints
+59.100.Sign = Positive
+59.100.XCommand = No source transformation needed
+59.100.client = decorator.wikipedia2.Main
+59.100.abstractclass = decorator.wikipedia2.Coffee
+59.100.concreteclass-1 = decorator.wikipedia2.CoffeeDecorator
+59.100.concreteclass-2 = decorator.wikipedia2.SimpleCoffee
+
+# Solution with all constraints
+60.100.Name = Template Method Design Motif
+# Solution with all constraints
+60.100.Sign = Positive
+60.100.XCommand = No source transformation needed
+60.100.client-1 = visitor.earthlink.demo.This
+60.100.client-2 = visitor.earthlink.demo.TheOther
+60.100.client-3 = visitor.earthlink.demo.That
+60.100.abstractclass = visitor.earthlink.demo.Visitor
+60.100.concreteclass-1 = visitor.earthlink.demo.UpVisitor
+60.100.concreteclass-2 = visitor.earthlink.demo.DownVisitor
+
+# Solution with all constraints
+61.100.Name = Template Method Design Motif
+# Solution with all constraints
+61.100.Sign = Positive
+61.100.XCommand = No source transformation needed
+61.100.client-1 = factorymethod.cselt.Creator
+61.100.client-2 = factorymethod.cselt.Creator1
+61.100.abstractclass = factorymethod.cselt.Creator
+61.100.concreteclass = factorymethod.cselt.Creator1
+
+# Solution with all constraints
+62.100.Name = Template Method Design Motif
+# Solution with all constraints
+62.100.Sign = Positive
+62.100.XCommand = No source transformation needed
+62.100.client-1 = abstractfactory.fluffycat.HonoluluConcreteSoupFactory
+62.100.client-2 = abstractfactory.fluffycat.BostonConcreteSoupFactory
+62.100.client-3 = abstractfactory.fluffycat.TestAbstractSoupFactory
+62.100.abstractclass = abstractfactory.fluffycat.AbstractSoupFactory
+62.100.concreteclass-1 = abstractfactory.fluffycat.HonoluluConcreteSoupFactory
+62.100.concreteclass-2 = abstractfactory.fluffycat.BostonConcreteSoupFactory
+
+# Solution with all constraints
+63.100.Name = Template Method Design Motif
+# Solution with all constraints
+63.100.Sign = Positive
+63.100.XCommand = No source transformation needed
+63.100.client-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+63.100.client-2 = abstractfactory.kuchana.ButtonHandler
+63.100.client-3 = abstractfactory.kuchana.VehicleFactory
+63.100.client-4 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+63.100.abstractclass = abstractfactory.kuchana.SUV
+63.100.concreteclass-1 = abstractfactory.kuchana.LuxurySUV
+63.100.concreteclass-2 = abstractfactory.kuchana.NonLuxurySUV
+
+# Solution with all constraints
+64.100.Name = Template Method Design Motif
+# Solution with all constraints
+64.100.Sign = Positive
+64.100.XCommand = No source transformation needed
+64.100.client-1 = observer.ob2.Ob2
+64.100.client-2 = observer.ob2.PlainAvailableActionsListener
+64.100.client-3 = observer.ob2.Knight
+64.100.client-4 = observer.ob2.Dragon
+64.100.client-5 = observer.ob2.Creature
+64.100.abstractclass = observer.ob2.Action
+64.100.concreteclass = observer.ob2.AttackAction
+
+# Solution with all constraints
+65.100.Name = Template Method Design Motif
+# Solution with all constraints
+65.100.Sign = Positive
+65.100.XCommand = No source transformation needed
+65.100.client-1 = state.earthlink.disc.Low
+65.100.client-2 = state.earthlink.disc.High
+65.100.client-3 = state.earthlink.disc.State
+65.100.client-4 = state.earthlink.disc.Chain
+65.100.client-5 = state.earthlink.disc.Medium
+65.100.client-6 = state.earthlink.disc.Off
+65.100.abstractclass = state.earthlink.disc.State
+65.100.concreteclass-1 = state.earthlink.disc.Low
+65.100.concreteclass-2 = state.earthlink.disc.High
+65.100.concreteclass-3 = state.earthlink.disc.Medium
+65.100.concreteclass-4 = state.earthlink.disc.Off
+
+# Solution with all constraints
+66.100.Name = Template Method Design Motif
+# Solution with all constraints
+66.100.Sign = Positive
+66.100.XCommand = No source transformation needed
+66.100.client-1 = abstractfactory.earthlink.democpp.MotifFactory
+66.100.client-2 = abstractfactory.earthlink.democpp.FactoryDemosCpp
+66.100.client-3 = abstractfactory.earthlink.democpp.WindowsBtn
+66.100.client-4 = abstractfactory.earthlink.democpp.MotifBtn
+66.100.client-5 = abstractfactory.earthlink.democpp.WindowsFactory
+66.100.client-6 = abstractfactory.earthlink.democpp.Factory
+66.100.abstractclass = abstractfactory.earthlink.democpp.Widget
+66.100.concreteclass-1 = abstractfactory.earthlink.democpp.WindowsBtn
+66.100.concreteclass-2 = abstractfactory.earthlink.democpp.MotifBtn
+
+# Solution with all constraints
+67.100.Name = Template Method Design Motif
+# Solution with all constraints
+67.100.Sign = Positive
+67.100.XCommand = No source transformation needed
+67.100.client-1 = mediator.med1.TextField
+67.100.client-2 = mediator.med1.ProgressBar
+67.100.abstractclass = mediator.med1.AbstractColleague
+67.100.concreteclass-1 = mediator.med1.TextField
+67.100.concreteclass-2 = mediator.med1.ProgressBar
+
+# Solution with all constraints
+68.100.Name = Template Method Design Motif
+# Solution with all constraints
+68.100.Sign = Positive
+68.100.XCommand = No source transformation needed
+68.100.client = command.cooper.externalCommand.extrnCommand
+68.100.abstractclass = command.cooper.externalCommand.Command
+68.100.concreteclass-1 = command.cooper.externalCommand.fileOpenCommand
+68.100.concreteclass-2 = command.cooper.externalCommand.fileExitCommand
+68.100.concreteclass-3 = command.cooper.externalCommand.btnRedCommand
+
+# Solution with all constraints
+69.100.Name = Template Method Design Motif
+# Solution with all constraints
+69.100.Sign = Positive
+69.100.XCommand = No source transformation needed
+69.100.client-1 = abstractfactory.allapplabs.Server
+69.100.client-2 = abstractfactory.allapplabs.ComputerType
+69.100.client-3 = abstractfactory.allapplabs.PC
+69.100.client-4 = abstractfactory.allapplabs.Workstation
+69.100.abstractclass = abstractfactory.allapplabs.Computer
+69.100.concreteclass-1 = abstractfactory.allapplabs.Server
+69.100.concreteclass-2 = abstractfactory.allapplabs.PC
+69.100.concreteclass-3 = abstractfactory.allapplabs.Workstation
+
+# Solution with all constraints
+70.100.Name = Template Method Design Motif
+# Solution with all constraints
+70.100.Sign = Positive
+70.100.XCommand = No source transformation needed
+70.100.client-1 = factorymethod.eckel.polymorphicfactory.ShapeFactory2
+70.100.client-2 = factorymethod.eckel.polymorphicfactory.ShapeFactory
+70.100.abstractclass = factorymethod.eckel.polymorphicfactory.Shape
+70.100.concreteclass-1 = factorymethod.eckel.polymorphicfactory.Square
+70.100.concreteclass-2 = factorymethod.eckel.polymorphicfactory.Circle
+
+# Solution with all constraints
+71.100.Name = Template Method Design Motif
+# Solution with all constraints
+71.100.Sign = Positive
+71.100.XCommand = No source transformation needed
+71.100.client-1 = templatemethod.cooper.stdTriangle
+71.100.client-2 = templatemethod.cooper.IsocelesTriangle
+71.100.client-3 = templatemethod.cooper.Triangle
+71.100.client-4 = templatemethod.cooper.TPanel
+71.100.abstractclass = templatemethod.cooper.Triangle
+71.100.concreteclass-1 = templatemethod.cooper.stdTriangle
+71.100.concreteclass-2 = templatemethod.cooper.IsocelesTriangle
+
+# Solution with all constraints
+72.100.Name = Template Method Design Motif
+# Solution with all constraints
+72.100.Sign = Positive
+72.100.XCommand = No source transformation needed
+72.100.client = prototype.earthlink.PrototypeDemo
+72.100.abstractclass = prototype.earthlink.Command
+72.100.concreteclass-1 = prototype.earthlink.TheOther
+72.100.concreteclass-2 = prototype.earthlink.That
+72.100.concreteclass-3 = prototype.earthlink.This
+
+# Solution with all constraints
+73.100.Name = Template Method Design Motif
+# Solution with all constraints
+73.100.Sign = Positive
+73.100.XCommand = No source transformation needed
+73.100.client-1 = state.earthlink.demo2.B
+73.100.client-2 = state.earthlink.demo2.C
+73.100.client-3 = state.earthlink.demo2.A
+73.100.abstractclass = state.earthlink.demo2.State
+73.100.concreteclass-1 = state.earthlink.demo2.B
+73.100.concreteclass-2 = state.earthlink.demo2.C
+73.100.concreteclass-3 = state.earthlink.demo2.A
+
+# Solution with all constraints
+74.100.Name = Template Method Design Motif
+# Solution with all constraints
+74.100.Sign = Positive
+74.100.XCommand = No source transformation needed
+74.100.client-1 = decorator.sourcemaking2.ScrollDecorator
+74.100.client-2 = decorator.sourcemaking2.BorderDecorator
+74.100.abstractclass = decorator.sourcemaking2.Decorator
+74.100.concreteclass-1 = decorator.sourcemaking2.ScrollDecorator
+74.100.concreteclass-2 = decorator.sourcemaking2.BorderDecorator
+
+# Solution with all constraints
+75.100.Name = Template Method Design Motif
+# Solution with all constraints
+75.100.Sign = Positive
+75.100.XCommand = No source transformation needed
+75.100.client-1 = visitor.java2s.DataCreator
+75.100.client-2 = visitor.java2s.RunVisitorPattern
+75.100.abstractclass = visitor.java2s.ProjectItem
+75.100.concreteclass-1 = visitor.java2s.Deliverable
+75.100.concreteclass-2 = visitor.java2s.Task
+75.100.concreteclass-3 = visitor.java2s.Project
+
+# Solution with all constraints
+76.100.Name = Template Method Design Motif
+# Solution with all constraints
+76.100.Sign = Positive
+76.100.XCommand = No source transformation needed
+76.100.client-1 = prototype.earthlink.LandSatImage
+76.100.client-2 = prototype.earthlink.PrototypeDemoCpp
+76.100.client-3 = prototype.earthlink.Image
+76.100.client-4 = prototype.earthlink.SpotImage
+76.100.abstractclass = prototype.earthlink.Image
+76.100.concreteclass-1 = prototype.earthlink.LandSatImage
+76.100.concreteclass-2 = prototype.earthlink.SpotImage
+
+# Solution with all constraints
+77.100.Name = Template Method Design Motif
+# Solution with all constraints
+77.100.Sign = Positive
+77.100.XCommand = No source transformation needed
+77.100.client = observer.ob1.Punto
+77.100.abstractclass = observer.ob1.Figura
+77.100.concreteclass = observer.ob1.Punto
+
+# Solution with all constraints
+78.100.Name = Template Method Design Motif
+# Solution with all constraints
+78.100.Sign = Positive
+78.100.XCommand = No source transformation needed
+78.100.client-1 = chainofresp.cooper.ColorImage
+78.100.client-2 = chainofresp.cooper.FileList
+78.100.client-3 = chainofresp.cooper.RestList
+78.100.client-4 = chainofresp.cooper.Sender
+78.100.client-5 = chainofresp.cooper.Chain
+78.100.client-6 = chainofresp.cooper.Imager
+78.100.abstractclass = chainofresp.cooper.Chain
+78.100.concreteclass-1 = chainofresp.cooper.ColorImage
+78.100.concreteclass-2 = chainofresp.cooper.RestList
+78.100.concreteclass-3 = chainofresp.cooper.Sender
+78.100.concreteclass-4 = chainofresp.cooper.Imager
+
+# Solution with all constraints
+79.100.Name = Template Method Design Motif
+# Solution with all constraints
+79.100.Sign = Positive
+79.100.XCommand = No source transformation needed
+79.100.client-1 = state.earthlink.disc2.Property
+79.100.client-2 = state.earthlink.disc2.UnownedState
+79.100.client-3 = state.earthlink.disc2.OwnedState
+79.100.abstractclass = state.earthlink.disc2.PropertyOwnershipState
+79.100.concreteclass-1 = state.earthlink.disc2.UnownedState
+79.100.concreteclass-2 = state.earthlink.disc2.OwnedState
+
+# Solution with all constraints
+80.100.Name = Template Method Design Motif
+# Solution with all constraints
+80.100.Sign = Positive
+80.100.XCommand = No source transformation needed
+80.100.client = proxy.javaworld2.Test
+80.100.abstractclass = proxy.javaworld2.AnInterface
+80.100.concreteclass = proxy.javaworld2.AClass
+
+# Solution with all constraints
+81.100.Name = Template Method Design Motif
+# Solution with all constraints
+81.100.Sign = Positive
+81.100.XCommand = No source transformation needed
+81.100.client-1 = boh.dofactory.Report
+81.100.client-2 = boh.dofactory.Document
+81.100.client-3 = boh.dofactory.Resume
+81.100.client-4 = boh.dofactory.MainApp
+81.100.abstractclass = boh.dofactory.Document
+81.100.concreteclass-1 = boh.dofactory.Report
+81.100.concreteclass-2 = boh.dofactory.Resume
+
+# Solution with all constraints
+82.100.Name = Template Method Design Motif
+# Solution with all constraints
+82.100.Sign = Positive
+82.100.XCommand = No source transformation needed
+82.100.client-1 = factorymethod.headfirst.pizzafm.PizzaTestDrive
+82.100.client-2 = factorymethod.headfirst.pizzafm.PizzaStore
+82.100.client-3 = factorymethod.headfirst.pizzafm.ChicagoPizzaStore
+82.100.client-4 = factorymethod.headfirst.pizzafm.NYPizzaStore
+82.100.abstractclass = factorymethod.headfirst.pizzafm.PizzaStore
+82.100.concreteclass-1 = factorymethod.headfirst.pizzafm.ChicagoPizzaStore
+82.100.concreteclass-2 = factorymethod.headfirst.pizzafm.NYPizzaStore
+
+# Solution with all constraints
+83.100.Name = Template Method Design Motif
+# Solution with all constraints
+83.100.Sign = Positive
+83.100.XCommand = No source transformation needed
+83.100.client-1 = templatemethod.sun.Deliverable
+83.100.client-2 = templatemethod.sun.ProjectItem
+83.100.client-3 = templatemethod.sun.RunPattern
+83.100.client-4 = templatemethod.sun.Task
+83.100.abstractclass = templatemethod.sun.ProjectItem
+83.100.concreteclass-1 = templatemethod.sun.Deliverable
+83.100.concreteclass-2 = templatemethod.sun.Task
+
+# Solution with all constraints
+84.100.Name = Template Method Design Motif
+# Solution with all constraints
+84.100.Sign = Positive
+84.100.XCommand = No source transformation needed
+84.100.client = memento.cooper.MemDraw
+84.100.abstractclass = memento.cooper.Command
+84.100.concreteclass-1 = memento.cooper.RectButton
+84.100.concreteclass-2 = memento.cooper.ClearButton
+84.100.concreteclass-3 = memento.cooper.UndoButton
+
+# Solution with all constraints
+85.100.Name = Template Method Design Motif
+# Solution with all constraints
+85.100.Sign = Positive
+85.100.XCommand = No source transformation needed
+85.100.client-1 = abstractfactory.headfirst.ducks.DuckFactory
+85.100.client-2 = abstractfactory.headfirst.ducks.DuckSimulator
+85.100.client-3 = abstractfactory.headfirst.ducks.CountingDuckFactory
+85.100.abstractclass = abstractfactory.headfirst.ducks.AbstractDuckFactory
+85.100.concreteclass-1 = abstractfactory.headfirst.ducks.DuckFactory
+85.100.concreteclass-2 = abstractfactory.headfirst.ducks.CountingDuckFactory
+
+# Solution with all constraints
+86.100.Name = Template Method Design Motif
+# Solution with all constraints
+86.100.Sign = Positive
+86.100.XCommand = No source transformation needed
+86.100.client-1 = builder.earthlink.democpp2.UnixBuilder
+86.100.client-2 = builder.earthlink.democpp2.DemoCpp2
+86.100.client-3 = builder.earthlink.democpp2.VmsBuilder
+86.100.abstractclass = builder.earthlink.democpp2.Builder
+86.100.concreteclass-1 = builder.earthlink.democpp2.UnixBuilder
+86.100.concreteclass-2 = builder.earthlink.democpp2.VmsBuilder
+
+# Solution with all constraints
+87.100.Name = Template Method Design Motif
+# Solution with all constraints
+87.100.Sign = Positive
+87.100.XCommand = No source transformation needed
+87.100.client = visitor.java2s.ButtonHandler
+87.100.abstractclass = visitor.java2s.Order
+87.100.concreteclass-1 = visitor.java2s.OverseasOrder
+87.100.concreteclass-2 = visitor.java2s.NonCaliforniaOrder
+87.100.concreteclass-3 = visitor.java2s.CaliforniaOrder
+
+# Solution with all constraints
+88.100.Name = Template Method Design Motif
+# Solution with all constraints
+88.100.Sign = Positive
+88.100.XCommand = No source transformation needed
+88.100.client-1 = visitor.earthlink.composite2.Leaf
+88.100.client-2 = visitor.earthlink.composite2.VisitorComposite2
+88.100.client-3 = visitor.earthlink.composite2.Composite
+88.100.abstractclass = visitor.earthlink.composite2.Component
+88.100.concreteclass-1 = visitor.earthlink.composite2.Leaf
+88.100.concreteclass-2 = visitor.earthlink.composite2.Composite
+
+# Solution with all constraints
+89.100.Name = Template Method Design Motif
+# Solution with all constraints
+89.100.Sign = Positive
+89.100.XCommand = No source transformation needed
+89.100.client-1 = builder.fluffycat.TestSoupBuffetBuilder
+89.100.client-2 = builder.fluffycat.BostonSoupBuffetBuilder
+89.100.client-3 = builder.fluffycat.HonoluluSoupBuffetBuilder
+89.100.abstractclass = builder.fluffycat.SoupBuffetBuilder
+89.100.concreteclass-1 = builder.fluffycat.BostonSoupBuffetBuilder
+89.100.concreteclass-2 = builder.fluffycat.HonoluluSoupBuffetBuilder
+
+# Solution with all constraints
+90.100.Name = Template Method Design Motif
+# Solution with all constraints
+90.100.Sign = Positive
+90.100.XCommand = No source transformation needed
+90.100.client-1 = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+90.100.client-2 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+90.100.client-3 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+90.100.client-4 = abstractfactory.headfirst.pizzaaf.Pizza
+90.100.abstractclass = abstractfactory.headfirst.pizzaaf.Dough
+90.100.concreteclass-1 = abstractfactory.headfirst.pizzaaf.ThinCrustDough
+90.100.concreteclass-2 = abstractfactory.headfirst.pizzaaf.ThickCrustDough
+
+# Solution with all constraints
+91.100.Name = Template Method Design Motif
+# Solution with all constraints
+91.100.Sign = Positive
+91.100.XCommand = No source transformation needed
+91.100.client-1 = abstractfactory.inria.AbAbstractFactory2
+91.100.client-2 = abstractfactory.inria.AbAbstractFactory1
+91.100.abstractclass = abstractfactory.inria.AbAbstractFactory
+91.100.concreteclass-1 = abstractfactory.inria.AbAbstractFactory2
+91.100.concreteclass-2 = abstractfactory.inria.AbAbstractFactory1
+
+# Solution with all constraints
+92.100.Name = Template Method Design Motif
+# Solution with all constraints
+92.100.Sign = Positive
+92.100.XCommand = No source transformation needed
+92.100.client-1 = factorymethod.kuchana.LoggerTest
+92.100.client-2 = factorymethod.kuchana.LoggerFactory
+92.100.abstractclass = factorymethod.kuchana.Logger
+92.100.concreteclass-1 = factorymethod.kuchana.ConsoleLogger
+92.100.concreteclass-2 = factorymethod.kuchana.FileLogger
+
+# Solution with all constraints
+93.100.Name = Template Method Design Motif
+# Solution with all constraints
+93.100.Sign = Positive
+93.100.XCommand = No source transformation needed
+93.100.client-1 = mediator.sun.ContactSelectorPanel
+93.100.client-2 = mediator.sun.ContactEditorPanel
+93.100.client-3 = mediator.sun.RunPattern
+93.100.abstractclass = mediator.sun.ContactMediator
+93.100.concreteclass = mediator.sun.ContactMediatorImpl
+
+# Solution with all constraints
+94.100.Name = Template Method Design Motif
+# Solution with all constraints
+94.100.Sign = Positive
+94.100.XCommand = No source transformation needed
+94.100.client-1 = factorymethod.fluffycat.FishChowder
+94.100.client-2 = factorymethod.fluffycat.PastaFazul
+94.100.client-3 = factorymethod.fluffycat.Minnestrone
+94.100.client-4 = factorymethod.fluffycat.ClamChowder
+94.100.client-5 = factorymethod.fluffycat.ChickenSoup
+94.100.client-6 = factorymethod.fluffycat.TofuSoup
+94.100.client-7 = factorymethod.fluffycat.VegetableSoup
+94.100.abstractclass = factorymethod.fluffycat.Soup
+94.100.concreteclass-1 = factorymethod.fluffycat.FishChowder
+94.100.concreteclass-2 = factorymethod.fluffycat.PastaFazul
+94.100.concreteclass-3 = factorymethod.fluffycat.Minnestrone
+94.100.concreteclass-4 = factorymethod.fluffycat.ClamChowder
+94.100.concreteclass-5 = factorymethod.fluffycat.ChickenSoup
+94.100.concreteclass-6 = factorymethod.fluffycat.TofuSoup
+94.100.concreteclass-7 = factorymethod.fluffycat.VegetableSoup
+
+# Solution with all constraints
+95.100.Name = Template Method Design Motif
+# Solution with all constraints
+95.100.Sign = Positive
+95.100.XCommand = No source transformation needed
+95.100.client-1 = decorator.netobjectives.Footer1
+95.100.client-2 = decorator.netobjectives.Footer2
+95.100.client-3 = decorator.netobjectives.Header2
+95.100.client-4 = decorator.netobjectives.Header1
+95.100.abstractclass = decorator.netobjectives.TicketDecorator
+95.100.concreteclass-1 = decorator.netobjectives.Footer1
+95.100.concreteclass-2 = decorator.netobjectives.Footer2
+95.100.concreteclass-3 = decorator.netobjectives.Header2
+95.100.concreteclass-4 = decorator.netobjectives.Header1
+
+# Solution with all constraints
+96.100.Name = Template Method Design Motif
+# Solution with all constraints
+96.100.Sign = Positive
+96.100.XCommand = No source transformation needed
+96.100.client = abstractfactory.locutus.kingwoodcable.RemoteFileInputStream
+96.100.abstractclass = abstractfactory.locutus.kingwoodcable.RemoteFileInput
+96.100.concreteclass = abstractfactory.locutus.kingwoodcable.RemoteFileInputImpl
+
+# Solution with all constraints
+97.100.Name = Template Method Design Motif
+# Solution with all constraints
+97.100.Sign = Positive
+97.100.XCommand = No source transformation needed
+97.100.client-1 = visitor.earthlink.UpVisitor
+97.100.client-2 = visitor.earthlink.DownVisitor
+97.100.client-3 = visitor.earthlink.This
+97.100.client-4 = visitor.earthlink.TheOther
+97.100.client-5 = visitor.earthlink.That
+97.100.abstractclass = visitor.earthlink.ReflectiveVisitor
+97.100.concreteclass-1 = visitor.earthlink.UpVisitor
+97.100.concreteclass-2 = visitor.earthlink.DownVisitor
+
+# Solution with all constraints
+98.100.Name = Template Method Design Motif
+# Solution with all constraints
+98.100.Sign = Positive
+98.100.XCommand = No source transformation needed
+98.100.client-1 = state.rigovitale.rv2.CaldaiaPanel
+98.100.client-2 = state.rigovitale.rv2.StatoCaldaiaOff
+98.100.client-3 = state.rigovitale.rv2.StatoCaldaiaOn
+98.100.client-4 = state.rigovitale.rv2.StatoCaldaiaGuasto
+98.100.client-5 = state.rigovitale.rv2.StatoCaldaiaRiscaldamento
+98.100.client-6 = state.rigovitale.rv2.Caldaia
+98.100.abstractclass = state.rigovitale.rv2.StatoCaldaia
+98.100.concreteclass-1 = state.rigovitale.rv2.StatoCaldaiaOff
+98.100.concreteclass-2 = state.rigovitale.rv2.StatoCaldaiaOn
+98.100.concreteclass-3 = state.rigovitale.rv2.StatoCaldaiaGuasto
+98.100.concreteclass-4 = state.rigovitale.rv2.StatoCaldaiaRiscaldamento
+
+# Solution with all constraints
+99.100.Name = Template Method Design Motif
+# Solution with all constraints
+99.100.Sign = Positive
+99.100.XCommand = No source transformation needed
+99.100.client-1 = iterator.iter2.ArrayCollection
+99.100.client-2 = iterator.iter2.Client
+99.100.abstractclass = iterator.iter2.Collection
+99.100.concreteclass = iterator.iter2.ArrayCollection
+
+# Solution with all constraints
+100.100.Name = Template Method Design Motif
+# Solution with all constraints
+100.100.Sign = Positive
+100.100.XCommand = No source transformation needed
+100.100.client-1 = iterator.sun.DataCreator
+100.100.client-2 = iterator.sun.ListPrinter
+100.100.abstractclass = iterator.sun.ToDoListCollection
+100.100.concreteclass = iterator.sun.ToDoListCollectionImpl
+
+# Solution with all constraints
+101.100.Name = Template Method Design Motif
+# Solution with all constraints
+101.100.Sign = Positive
+101.100.XCommand = No source transformation needed
+101.100.client-1 = decorator.wikipedia2.Sprinkles
+101.100.client-2 = decorator.wikipedia2.Whip
+101.100.client-3 = decorator.wikipedia2.Milk
+101.100.abstractclass = decorator.wikipedia2.CoffeeDecorator
+101.100.concreteclass-1 = decorator.wikipedia2.Sprinkles
+101.100.concreteclass-2 = decorator.wikipedia2.Whip
+101.100.concreteclass-3 = decorator.wikipedia2.Milk
+
+# Solution with all constraints
+102.100.Name = Template Method Design Motif
+# Solution with all constraints
+102.100.Sign = Positive
+102.100.XCommand = No source transformation needed
+102.100.client-1 = factorymethod.gsraj.impl3.Employee
+102.100.client-2 = factorymethod.gsraj.impl1.Employee
+102.100.client-3 = factorymethod.gsraj.impl1.NonEmployee
+102.100.client-4 = factorymethod.gsraj.impl3.NonEmployee
+102.100.abstractclass = factorymethod.gsraj.common.Profile
+102.100.concreteclass-1 = factorymethod.gsraj.impl3.Employee
+102.100.concreteclass-2 = factorymethod.gsraj.impl1.Employee
+102.100.concreteclass-3 = factorymethod.gsraj.impl1.NonEmployee
+102.100.concreteclass-4 = factorymethod.gsraj.impl3.NonEmployee
+
+# Solution with all constraints
+103.100.Name = Template Method Design Motif
+# Solution with all constraints
+103.100.Sign = Positive
+103.100.XCommand = No source transformation needed
+103.100.client-1 = visitor.fluffycat.BookInfo
+103.100.client-2 = visitor.fluffycat.TestTitleVisitor
+103.100.client-3 = visitor.fluffycat.DvdInfo
+103.100.client-4 = visitor.fluffycat.GameInfo
+103.100.abstractclass = visitor.fluffycat.AbstractTitleInfo
+103.100.concreteclass-1 = visitor.fluffycat.BookInfo
+103.100.concreteclass-2 = visitor.fluffycat.DvdInfo
+103.100.concreteclass-3 = visitor.fluffycat.GameInfo
+
+# Solution with all constraints
+104.100.Name = Template Method Design Motif
+# Solution with all constraints
+104.100.Sign = Positive
+104.100.XCommand = No source transformation needed
+104.100.client-1 = abstractfactory.codeguru.csharp.AbstractFactory
+104.100.client-2 = abstractfactory.codeguru.csharp.CAVMaker
+104.100.abstractclass = abstractfactory.codeguru.csharp.IAVDevice
+104.100.concreteclass-1 = abstractfactory.codeguru.csharp.CCd
+104.100.concreteclass-2 = abstractfactory.codeguru.csharp.CDvd
+
+# Solution with all constraints
+105.100.Name = Template Method Design Motif
+# Solution with all constraints
+105.100.Sign = Positive
+105.100.XCommand = No source transformation needed
+105.100.client-1 = abstractfactory.csharpcorner.MyClient
+105.100.client-2 = abstractfactory.csharpcorner.ConcreteFactory1
+105.100.client-3 = abstractfactory.csharpcorner.ConcreteFactory2
+105.100.client-4 = abstractfactory.csharpcorner.Factory
+105.100.abstractclass = abstractfactory.csharpcorner.Base
+105.100.concreteclass-1 = abstractfactory.csharpcorner.Derived2
+105.100.concreteclass-2 = abstractfactory.csharpcorner.Derived1
+
+# Solution with all constraints
+106.100.Name = Template Method Design Motif
+# Solution with all constraints
+106.100.Sign = Positive
+106.100.XCommand = No source transformation needed
+106.100.client-1 = templatemethod.tmpl1.Logger
+106.100.client-2 = templatemethod.tmpl1.StdoutLogger
+106.100.abstractclass = templatemethod.tmpl1.Logger
+106.100.concreteclass = templatemethod.tmpl1.StdoutLogger
+
+# Solution with all constraints
+107.100.Name = Template Method Design Motif
+# Solution with all constraints
+107.100.Sign = Positive
+107.100.XCommand = No source transformation needed
+107.100.client-1 = interpreter.int2.Block
+107.100.client-2 = interpreter.int2.Client
+107.100.client-3 = interpreter.int2.Assignment
+107.100.abstractclass = interpreter.int2.Statement
+107.100.concreteclass-1 = interpreter.int2.Block
+107.100.concreteclass-2 = interpreter.int2.Assignment
+
+# Solution with all constraints
+108.100.Name = Template Method Design Motif
+# Solution with all constraints
+108.100.Sign = Positive
+108.100.XCommand = No source transformation needed
+108.100.client = iterator.sun.ListPrinter
+108.100.abstractclass = iterator.sun.Iterating
+108.100.concreteclass-1 = iterator.sun.ToDoListCollection
+108.100.concreteclass-2 = iterator.sun.ToDoList
+
+# Solution with all constraints
+109.100.Name = Template Method Design Motif
+# Solution with all constraints
+109.100.Sign = Positive
+109.100.XCommand = No source transformation needed
+109.100.client-1 = abstractfactory.locutus.kingwoodcable.LocalIOFactory
+109.100.client-2 = abstractfactory.locutus.kingwoodcable.IOFactoryMaker
+109.100.client-3 = abstractfactory.locutus.kingwoodcable.RemoteIOFactory
+109.100.client-4 = abstractfactory.locutus.kingwoodcable.test
+109.100.abstractclass = abstractfactory.locutus.kingwoodcable.IOFactory
+109.100.concreteclass-1 = abstractfactory.locutus.kingwoodcable.LocalIOFactory
+109.100.concreteclass-2 = abstractfactory.locutus.kingwoodcable.RemoteIOFactory
+
+# Solution with all constraints
+110.100.Name = Template Method Design Motif
+# Solution with all constraints
+110.100.Sign = Positive
+110.100.XCommand = No source transformation needed
+110.100.client-1 = bridge.sourcemaking3.StackFIFO
+110.100.client-2 = bridge.sourcemaking3.Stack
+110.100.abstractclass = bridge.sourcemaking3.StackImpl
+110.100.concreteclass-1 = bridge.sourcemaking3.StackArray
+110.100.concreteclass-2 = bridge.sourcemaking3.StackList
+
+# Solution with all constraints
+111.100.Name = Template Method Design Motif
+# Solution with all constraints
+111.100.Sign = Positive
+111.100.XCommand = No source transformation needed
+111.100.client-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+111.100.client-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+111.100.client-3 = abstractfactory.apwebco.OrderProcessor
+111.100.abstractclass = abstractfactory.apwebco.FinancialToolsFactory
+111.100.concreteclass-1 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+111.100.concreteclass-2 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+
+# Solution with all constraints
+112.100.Name = Template Method Design Motif
+# Solution with all constraints
+112.100.Sign = Positive
+112.100.XCommand = No source transformation needed
+112.100.client-1 = observer.sun.ObserverGui
+112.100.client-2 = observer.sun.TaskChangeObservable
+112.100.abstractclass = observer.sun.TaskChangeObserver
+112.100.concreteclass-1 = observer.sun.TaskHistoryPanel
+112.100.concreteclass-2 = observer.sun.TaskSelectorPanel
+112.100.concreteclass-3 = observer.sun.TaskEditorPanel
+
+# Solution with all constraints
+113.100.Name = Template Method Design Motif
+# Solution with all constraints
+113.100.Sign = Positive
+113.100.XCommand = No source transformation needed
+113.100.client-1 = decorator.sourcemaking2.DecoratorDemo
+113.100.client-2 = decorator.sourcemaking2.Decorator
+113.100.abstractclass = decorator.sourcemaking2.Widget
+113.100.concreteclass-1 = decorator.sourcemaking2.Decorator
+113.100.concreteclass-2 = decorator.sourcemaking2.TextField
+
+# Solution with all constraints
+114.100.Name = Template Method Design Motif
+# Solution with all constraints
+114.100.Sign = Positive
+114.100.XCommand = No source transformation needed
+114.100.client-1 = singleton.kuchana.LoggerTest
+114.100.client-2 = singleton.kuchana.LoggerFactory
+114.100.abstractclass = singleton.kuchana.Logger
+114.100.concreteclass-1 = singleton.kuchana.ConsoleLogger
+114.100.concreteclass-2 = singleton.kuchana.FileLogger
+
+# Solution with all constraints
+115.100.Name = Template Method Design Motif
+# Solution with all constraints
+115.100.Sign = Positive
+115.100.XCommand = No source transformation needed
+115.100.client-1 = visitor.sun.Task
+115.100.client-2 = visitor.sun.DependentTask
+115.100.client-3 = visitor.sun.Project
+115.100.client-4 = visitor.sun.Deliverable
+115.100.abstractclass = visitor.sun.ProjectVisitor
+115.100.concreteclass = visitor.sun.ProjectCostVisitor
+
+# Solution with all constraints
+116.100.Name = Template Method Design Motif
+# Solution with all constraints
+116.100.Sign = Positive
+116.100.XCommand = No source transformation needed
+116.100.client-1 = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+116.100.client-2 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+116.100.client-3 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+116.100.client-4 = abstractfactory.headfirst.pizzaaf.Pizza
+116.100.abstractclass = abstractfactory.headfirst.pizzaaf.Sauce
+116.100.concreteclass-1 = abstractfactory.headfirst.pizzaaf.PlumTomatoSauce
+116.100.concreteclass-2 = abstractfactory.headfirst.pizzaaf.MarinaraSauce
+
+# Solution with all constraints
+117.100.Name = Template Method Design Motif
+# Solution with all constraints
+117.100.Sign = Positive
+117.100.XCommand = No source transformation needed
+117.100.client-1 = abstractfactory.earthlink.lab.VmsFactory
+117.100.client-2 = abstractfactory.earthlink.lab.UnixFactory
+117.100.client-3 = abstractfactory.earthlink.lab.NtFactory
+117.100.client-4 = abstractfactory.earthlink.lab.FactoryLabCpp
+117.100.abstractclass = abstractfactory.earthlink.lab.Factory
+117.100.concreteclass-1 = abstractfactory.earthlink.lab.VmsFactory
+117.100.concreteclass-2 = abstractfactory.earthlink.lab.UnixFactory
+117.100.concreteclass-3 = abstractfactory.earthlink.lab.NtFactory
+
+# Solution with all constraints
+118.100.Name = Template Method Design Motif
+# Solution with all constraints
+118.100.Sign = Positive
+118.100.XCommand = No source transformation needed
+118.100.client-1 = observer.ob2.PropertyChangeEvent
+118.100.client-2 = observer.ob2.AvailableActionsChangedEvent
+118.100.abstractclass = observer.ob2.Event
+118.100.concreteclass-1 = observer.ob2.PropertyChangeEvent
+118.100.concreteclass-2 = observer.ob2.AvailableActionsChangedEvent
+
+# Solution with all constraints
+119.100.Name = Template Method Design Motif
+# Solution with all constraints
+119.100.Sign = Positive
+119.100.XCommand = No source transformation needed
+119.100.client-1 = abstractfactory.headfirst.pizzaaf.PizzaTestDrive
+119.100.client-2 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+119.100.client-3 = abstractfactory.headfirst.pizzaaf.PizzaStore
+119.100.client-4 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+119.100.abstractclass = abstractfactory.headfirst.pizzaaf.PizzaStore
+119.100.concreteclass-1 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+119.100.concreteclass-2 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+
+# Solution with all constraints
+120.100.Name = Template Method Design Motif
+# Solution with all constraints
+120.100.Sign = Positive
+120.100.XCommand = No source transformation needed
+120.100.client = visitor.kuchana.ButtonHandler
+120.100.abstractclass = visitor.kuchana.Order
+120.100.concreteclass-1 = visitor.kuchana.CaliforniaOrder
+120.100.concreteclass-2 = visitor.kuchana.NonCaliforniaOrder
+120.100.concreteclass-3 = visitor.kuchana.OverseasOrder
+
+# Solution with all constraints
+121.100.Name = Template Method Design Motif
+# Solution with all constraints
+121.100.Sign = Positive
+121.100.XCommand = No source transformation needed
+121.100.client = abstractfactory.javapractices.DatastoreSelector
+121.100.abstractclass = abstractfactory.javapractices.DAOFactory
+121.100.concreteclass-1 = abstractfactory.javapractices.DAOFactoryMySql
+121.100.concreteclass-2 = abstractfactory.javapractices.DAOFactoryFileScheme
+
+# Solution with all constraints
+122.100.Name = Template Method Design Motif
+# Solution with all constraints
+122.100.Sign = Positive
+122.100.XCommand = No source transformation needed
+122.100.client-1 = abstractfactory.headfirst.ducks.DuckFactory
+122.100.client-2 = abstractfactory.headfirst.ducks.AbstractDuckFactory
+122.100.client-3 = abstractfactory.headfirst.ducks.DuckSimulator
+122.100.client-4 = abstractfactory.headfirst.ducks.CountingDuckFactory
+122.100.client-5 = abstractfactory.headfirst.ducks.QuackCounter
+122.100.abstractclass = abstractfactory.headfirst.ducks.Quackable
+122.100.concreteclass-1 = abstractfactory.headfirst.ducks.RedheadDuck
+122.100.concreteclass-2 = abstractfactory.headfirst.ducks.MallardDuck
+122.100.concreteclass-3 = abstractfactory.headfirst.ducks.DuckCall
+122.100.concreteclass-4 = abstractfactory.headfirst.ducks.RubberDuck
+122.100.concreteclass-5 = abstractfactory.headfirst.ducks.GooseAdapter
+122.100.concreteclass-6 = abstractfactory.headfirst.ducks.DecoyDuck
+122.100.concreteclass-7 = abstractfactory.headfirst.ducks.QuackCounter
+
+# Solution with all constraints
+123.100.Name = Template Method Design Motif
+# Solution with all constraints
+123.100.Sign = Positive
+123.100.XCommand = No source transformation needed
+123.100.client-1 = strategy.earthlink.Impl1
+123.100.client-2 = strategy.earthlink.TemplateMethod1
+123.100.abstractclass = strategy.earthlink.TemplateMethod1
+123.100.concreteclass = strategy.earthlink.Impl1
+
+# Solution with all constraints
+124.100.Name = Template Method Design Motif
+# Solution with all constraints
+124.100.Sign = Positive
+124.100.XCommand = No source transformation needed
+124.100.client-1 = strategy.earthlink.Impl2
+124.100.client-2 = strategy.earthlink.TemplateMethod2
+124.100.abstractclass = strategy.earthlink.TemplateMethod2
+124.100.concreteclass = strategy.earthlink.Impl2
+
+# Solution with all constraints
+125.100.Name = Template Method Design Motif
+# Solution with all constraints
+125.100.Sign = Positive
+125.100.XCommand = No source transformation needed
+125.100.client-1 = factorymethod.earthlink.MyApplication
+125.100.client-2 = factorymethod.earthlink.Application
+125.100.abstractclass = factorymethod.earthlink.Application
+125.100.concreteclass = factorymethod.earthlink.MyApplication
+
+# Solution with all constraints
+126.100.Name = Template Method Design Motif
+# Solution with all constraints
+126.100.Sign = Positive
+126.100.XCommand = No source transformation needed
+126.100.client-1 = factorymethod.landini.ConcreteCreatorA
+126.100.client-2 = factorymethod.landini.ConcreteCreatorB
+126.100.client-3 = factorymethod.landini.ConcreteProductA
+126.100.client-4 = factorymethod.landini.ConcreteProductB
+126.100.client-5 = factorymethod.landini.Creator
+126.100.abstractclass = factorymethod.landini.Product
+126.100.concreteclass-1 = factorymethod.landini.ConcreteProductA
+126.100.concreteclass-2 = factorymethod.landini.ConcreteProductB
+
+# Solution with all constraints
+127.100.Name = Template Method Design Motif
+# Solution with all constraints
+127.100.Sign = Positive
+127.100.XCommand = No source transformation needed
+127.100.client-1 = prototype.fluffycat.SaladSpoon
+127.100.client-2 = prototype.fluffycat.PrototypeFactory
+127.100.client-3 = prototype.fluffycat.TestPrototype
+127.100.client-4 = prototype.fluffycat.SoupSpoon
+127.100.abstractclass = prototype.fluffycat.AbstractSpoon
+127.100.concreteclass-1 = prototype.fluffycat.SaladSpoon
+127.100.concreteclass-2 = prototype.fluffycat.SoupSpoon
+
+# Solution with all constraints
+128.100.Name = Template Method Design Motif
+# Solution with all constraints
+128.100.Sign = Positive
+128.100.XCommand = No source transformation needed
+128.100.client = strategy.str2.FTPServer
+128.100.abstractclass = strategy.str2.RequestHandler
+128.100.concreteclass-1 = strategy.str2.DatabaseRequestHandler
+128.100.concreteclass-2 = strategy.str2.FileSystemRequestHandler
+
+# Solution with all constraints
+129.100.Name = Template Method Design Motif
+# Solution with all constraints
+129.100.Sign = Positive
+129.100.XCommand = No source transformation needed
+129.100.client = strategy.str1.Antivirus
+129.100.abstractclass = strategy.str1.VirusHandler
+129.100.concreteclass-1 = strategy.str1.LogVirusHandler
+129.100.concreteclass-2 = strategy.str1.SleepVirusHandler
+
+# Solution with all constraints
+130.100.Name = Template Method Design Motif
+# Solution with all constraints
+130.100.Sign = Positive
+130.100.XCommand = No source transformation needed
+130.100.client-1 = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+130.100.client-2 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+130.100.client-3 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+130.100.client-4 = abstractfactory.headfirst.pizzaaf.Pizza
+130.100.abstractclass = abstractfactory.headfirst.pizzaaf.Pepperoni
+130.100.concreteclass = abstractfactory.headfirst.pizzaaf.SlicedPepperoni
+
+# Solution with all constraints
+131.100.Name = Template Method Design Motif
+# Solution with all constraints
+131.100.Sign = Positive
+131.100.XCommand = No source transformation needed
+131.100.client-1 = strategy.kuchana.EncryptLogger
+131.100.client-2 = strategy.kuchana.LoggerClient
+131.100.abstractclass = strategy.kuchana.EncryptionStrategy
+131.100.concreteclass-1 = strategy.kuchana.CodeBookCypher
+131.100.concreteclass-2 = strategy.kuchana.SimpleEncryption
+131.100.concreteclass-3 = strategy.kuchana.SubstitutionCypher
+131.100.concreteclass-4 = strategy.kuchana.CaesarCypher
+
+# Solution with all constraints
+132.100.Name = Template Method Design Motif
+# Solution with all constraints
+132.100.Sign = Positive
+132.100.XCommand = No source transformation needed
+132.100.client-1 = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+132.100.client-2 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+132.100.client-3 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+132.100.client-4 = abstractfactory.headfirst.pizzaaf.Pizza
+132.100.abstractclass = abstractfactory.headfirst.pizzaaf.Clams
+132.100.concreteclass-1 = abstractfactory.headfirst.pizzaaf.FrozenClams
+132.100.concreteclass-2 = abstractfactory.headfirst.pizzaaf.FreshClams
+
+# Solution with all constraints
+133.100.Name = Template Method Design Motif
+# Solution with all constraints
+133.100.Sign = Positive
+133.100.XCommand = No source transformation needed
+133.100.client-1 = interpreter.int1.Constant
+133.100.client-2 = interpreter.int1.Sum
+133.100.abstractclass = interpreter.int1.Expression
+133.100.concreteclass-1 = interpreter.int1.Constant
+133.100.concreteclass-2 = interpreter.int1.Sum
+
+# Solution with all constraints
+134.100.Name = Template Method Design Motif
+# Solution with all constraints
+134.100.Sign = Positive
+134.100.XCommand = No source transformation needed
+134.100.client-1 = visitor.fluffycat.BookInfo
+134.100.client-2 = visitor.fluffycat.TestTitleVisitor
+134.100.client-3 = visitor.fluffycat.TitleShortBlurbVisitor
+134.100.client-4 = visitor.fluffycat.DvdInfo
+134.100.client-5 = visitor.fluffycat.GameInfo
+134.100.client-6 = visitor.fluffycat.TitleLongBlurbVisitor
+134.100.abstractclass = visitor.fluffycat.TitleBlurbVisitor
+134.100.concreteclass-1 = visitor.fluffycat.TitleShortBlurbVisitor
+134.100.concreteclass-2 = visitor.fluffycat.TitleLongBlurbVisitor
+
+# Solution with all constraints
+135.100.Name = Template Method Design Motif
+# Solution with all constraints
+135.100.Sign = Positive
+135.100.XCommand = No source transformation needed
+135.100.client-1 = abstractfactory.codeguru.csharp.AbstractFactory
+135.100.client-2 = abstractfactory.codeguru.csharp.CCd
+135.100.client-3 = abstractfactory.codeguru.csharp.IAVDevice
+135.100.client-4 = abstractfactory.codeguru.csharp.CDvd
+135.100.abstractclass = abstractfactory.codeguru.csharp.IVideo
+135.100.concreteclass-1 = abstractfactory.codeguru.csharp.CCdVideo
+135.100.concreteclass-2 = abstractfactory.codeguru.csharp.CDvdVideo
+
+# Solution with all constraints
+136.100.Name = Template Method Design Motif
+# Solution with all constraints
+136.100.Sign = Positive
+136.100.XCommand = No source transformation needed
+136.100.client-1 = prototype.proto1.TargetedAction
+136.100.client-2 = prototype.proto1.Attack
+136.100.abstractclass = prototype.proto1.TargetedAction
+136.100.concreteclass = prototype.proto1.Attack
+
+# Solution with all constraints
+137.100.Name = Template Method Design Motif
+# Solution with all constraints
+137.100.Sign = Positive
+137.100.XCommand = No source transformation needed
+137.100.client-1 = visitor.earthlink.VisitorComposite1
+137.100.client-2 = visitor.earthlink.Composite
+137.100.abstractclass = visitor.earthlink.Component
+137.100.concreteclass-1 = visitor.earthlink.Composite
+137.100.concreteclass-2 = visitor.earthlink.Leaf
+
+# Solution with all constraints
+138.100.Name = Template Method Design Motif
+# Solution with all constraints
+138.100.Sign = Positive
+138.100.XCommand = No source transformation needed
+138.100.client-1 = factorymethod.headfirst.pizzas.PepperoniPizza
+138.100.client-2 = factorymethod.headfirst.pizzas.ClamPizza
+138.100.client-3 = factorymethod.headfirst.pizzas.PizzaTestDrive
+138.100.client-4 = factorymethod.headfirst.pizzas.PizzaStore
+138.100.client-5 = factorymethod.headfirst.pizzas.SimplePizzaFactory
+138.100.client-6 = factorymethod.headfirst.pizzas.CheesePizza
+138.100.client-7 = factorymethod.headfirst.pizzas.VeggiePizza
+138.100.abstractclass = factorymethod.headfirst.pizzas.Pizza
+138.100.concreteclass-1 = factorymethod.headfirst.pizzas.PepperoniPizza
+138.100.concreteclass-2 = factorymethod.headfirst.pizzas.ClamPizza
+138.100.concreteclass-3 = factorymethod.headfirst.pizzas.CheesePizza
+138.100.concreteclass-4 = factorymethod.headfirst.pizzas.VeggiePizza
+
+# Solution with all constraints
+139.100.Name = Template Method Design Motif
+# Solution with all constraints
+139.100.Sign = Positive
+139.100.XCommand = No source transformation needed
+139.100.client = memento.sun.ContactImpl
+139.100.abstractclass = memento.sun.Address
+139.100.concreteclass = memento.sun.AddressImpl
+
+# Solution with all constraints
+140.100.Name = Template Method Design Motif
+# Solution with all constraints
+140.100.Sign = Positive
+140.100.XCommand = No source transformation needed
+140.100.client-1 = decorator.wikipedia.HorizontalScrollBarDecorator
+140.100.client-2 = decorator.wikipedia.VerticalScrollBarDecorator
+140.100.abstractclass = decorator.wikipedia.WindowDecorator
+140.100.concreteclass-1 = decorator.wikipedia.HorizontalScrollBarDecorator
+140.100.concreteclass-2 = decorator.wikipedia.VerticalScrollBarDecorator
+
+# Solution with all constraints
+141.100.Name = Template Method Design Motif
+# Solution with all constraints
+141.100.Sign = Positive
+141.100.XCommand = No source transformation needed
+141.100.client-1 = interpreter.sun.OrExpression
+141.100.client-2 = interpreter.sun.EqualsExpression
+141.100.client-3 = interpreter.sun.ContainsExpression
+141.100.client-4 = interpreter.sun.AndExpression
+141.100.abstractclass = interpreter.sun.ComparisonExpression
+141.100.concreteclass-1 = interpreter.sun.EqualsExpression
+141.100.concreteclass-2 = interpreter.sun.ContainsExpression
+
+# Solution with all constraints
+142.100.Name = Template Method Design Motif
+# Solution with all constraints
+142.100.Sign = Positive
+142.100.XCommand = No source transformation needed
+142.100.client-1 = prototype.earthlink.RepublicanFactory
+142.100.client-2 = prototype.earthlink.PrototypeLabCpp
+142.100.client-3 = prototype.earthlink.DemocratFactory
+142.100.abstractclass = prototype.earthlink.Factory
+142.100.concreteclass-1 = prototype.earthlink.RepublicanFactory
+142.100.concreteclass-2 = prototype.earthlink.DemocratFactory
+
+# Solution with all constraints
+143.100.Name = Template Method Design Motif
+# Solution with all constraints
+143.100.Sign = Positive
+143.100.XCommand = No source transformation needed
+143.100.client = abstractfactory.eckel.GameEnvironment
+143.100.abstractclass = abstractfactory.eckel.GameElementFactory
+143.100.concreteclass-1 = abstractfactory.eckel.KittiesAndPuzzles
+143.100.concreteclass-2 = abstractfactory.eckel.KillAndDismember
+
+# Solution with all constraints
+144.100.Name = Template Method Design Motif
+# Solution with all constraints
+144.100.Sign = Positive
+144.100.XCommand = No source transformation needed
+144.100.client-1 = mediator.sun.ContactMediatorImpl
+144.100.client-2 = mediator.sun.ContactMediator
+144.100.client-3 = mediator.sun.ContactEditorPanel
+144.100.client-4 = mediator.sun.RunPattern
+144.100.client-5 = mediator.sun.ContactDisplayPanel
+144.100.abstractclass = mediator.sun.Contact
+144.100.concreteclass = mediator.sun.ContactImpl
+
+# Solution with all constraints
+145.100.Name = Template Method Design Motif
+# Solution with all constraints
+145.100.Sign = Positive
+145.100.XCommand = No source transformation needed
+145.100.client-1 = abstractfactory.javanotes.TestAbstractSoupFactory
+145.100.client-2 = abstractfactory.javanotes.BostonConcreteSoupFactory
+145.100.client-3 = abstractfactory.javanotes.HonoluluConcreteSoupFactory
+145.100.abstractclass = abstractfactory.javanotes.AbstractSoupFactory
+145.100.concreteclass-1 = abstractfactory.javanotes.BostonConcreteSoupFactory
+145.100.concreteclass-2 = abstractfactory.javanotes.HonoluluConcreteSoupFactory
+
+# Solution with all constraints
+146.100.Name = Template Method Design Motif
+# Solution with all constraints
+146.100.Sign = Positive
+146.100.XCommand = No source transformation needed
+146.100.client-1 = bridge.siddiqui.Client
+146.100.client-2 = bridge.siddiqui.RefinedAbstraction
+146.100.abstractclass = bridge.siddiqui.Abstraction
+146.100.concreteclass = bridge.siddiqui.RefinedAbstraction
+
+# Solution with all constraints
+147.100.Name = Template Method Design Motif
+# Solution with all constraints
+147.100.Sign = Positive
+147.100.XCommand = No source transformation needed
+147.100.client-1 = factorymethod.earthlink.MinorityPartyCongressPerson
+147.100.client-2 = factorymethod.earthlink.President
+147.100.client-3 = factorymethod.earthlink.AttorneyGeneral
+147.100.client-4 = factorymethod.earthlink.FederalFraudvillian
+147.100.client-5 = factorymethod.earthlink.Factory
+147.100.abstractclass = factorymethod.earthlink.FederalFraudvillian
+147.100.concreteclass-1 = factorymethod.earthlink.MinorityPartyCongressPerson
+147.100.concreteclass-2 = factorymethod.earthlink.President
+147.100.concreteclass-3 = factorymethod.earthlink.AttorneyGeneral
+
+# Solution with all constraints
+148.100.Name = Template Method Design Motif
+# Solution with all constraints
+148.100.Sign = Positive
+148.100.XCommand = No source transformation needed
+148.100.client-1 = proxy.sun.AddressBook
+148.100.client-2 = proxy.sun.AddressBookImpl
+148.100.client-3 = proxy.sun.RunProxyPattern
+148.100.client-4 = proxy.sun.AddressBookProxy
+148.100.abstractclass = proxy.sun.Address
+148.100.concreteclass = proxy.sun.AddressImpl
+
+# Solution with all constraints
+149.100.Name = Template Method Design Motif
+# Solution with all constraints
+149.100.Sign = Positive
+149.100.XCommand = No source transformation needed
+149.100.client-1 = prototype.kuchana.Example1.UnixPlan
+149.100.client-2 = prototype.kuchana.Example1.HostingPlanKit
+149.100.client-3 = prototype.kuchana.Example1.WinPlan
+149.100.client-4 = prototype.kuchana.Example1.TestClient
+149.100.abstractclass = prototype.kuchana.Example1.HostingPlan
+149.100.concreteclass-1 = prototype.kuchana.Example1.UnixPlan
+149.100.concreteclass-2 = prototype.kuchana.Example1.WinPlan
+
+# Solution with all constraints
+150.100.Name = Template Method Design Motif
+# Solution with all constraints
+150.100.Sign = Positive
+150.100.XCommand = No source transformation needed
+150.100.client-1 = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+150.100.client-2 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+150.100.client-3 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+150.100.client-4 = abstractfactory.headfirst.pizzaaf.Pizza
+150.100.abstractclass = abstractfactory.headfirst.pizzaaf.Cheese
+150.100.concreteclass-1 = abstractfactory.headfirst.pizzaaf.ParmesanCheese
+150.100.concreteclass-2 = abstractfactory.headfirst.pizzaaf.ReggianoCheese
+150.100.concreteclass-3 = abstractfactory.headfirst.pizzaaf.MozzarellaCheese
+
+# Solution with all constraints
+151.100.Name = Template Method Design Motif
+# Solution with all constraints
+151.100.Sign = Positive
+151.100.XCommand = No source transformation needed
+151.100.client-1 = factorymethod.earthlink.DemocratFactory
+151.100.client-2 = factorymethod.earthlink.FactoryMethodLab
+151.100.client-3 = factorymethod.earthlink.RepublicanFactory
+151.100.client-4 = factorymethod.earthlink.Factory
+151.100.abstractclass = factorymethod.earthlink.Factory
+151.100.concreteclass-1 = factorymethod.earthlink.DemocratFactory
+151.100.concreteclass-2 = factorymethod.earthlink.RepublicanFactory
+
+# Solution with all constraints
+152.100.Name = Template Method Design Motif
+# Solution with all constraints
+152.100.Sign = Positive
+152.100.XCommand = No source transformation needed
+152.100.client-1 = templatemethod.fluffycat.TestTitleInfoTemplate
+152.100.client-2 = templatemethod.fluffycat.BookTitleInfo
+152.100.client-3 = templatemethod.fluffycat.GameTitleInfo
+152.100.client-4 = templatemethod.fluffycat.TitleInfo
+152.100.client-5 = templatemethod.fluffycat.DvdTitleInfo
+152.100.abstractclass = templatemethod.fluffycat.TitleInfo
+152.100.concreteclass-1 = templatemethod.fluffycat.BookTitleInfo
+152.100.concreteclass-2 = templatemethod.fluffycat.GameTitleInfo
+152.100.concreteclass-3 = templatemethod.fluffycat.DvdTitleInfo
+
+# Solution with all constraints
+153.100.Name = Template Method Design Motif
+# Solution with all constraints
+153.100.Sign = Positive
+153.100.XCommand = No source transformation needed
+153.100.client = bridge.javacamp.QuestionManager
+153.100.abstractclass = bridge.javacamp.Question
+153.100.concreteclass = bridge.javacamp.JavaQuestions
+
+# Solution with all constraints
+154.100.Name = Template Method Design Motif
+# Solution with all constraints
+154.100.Sign = Positive
+154.100.XCommand = No source transformation needed
+154.100.client-1 = iterator.iter1.ArrayPoint3DCollection
+154.100.client-2 = iterator.iter1.Client
+154.100.abstractclass = iterator.iter1.Point3DCollection
+154.100.concreteclass = iterator.iter1.ArrayPoint3DCollection
+
+# Solution with all constraints
+155.100.Name = Template Method Design Motif
+# Solution with all constraints
+155.100.Sign = Positive
+155.100.XCommand = No source transformation needed
+155.100.client-1 = templatemethod.earthlink.TemplateMethodDemo
+155.100.client-2 = templatemethod.earthlink.Generalization
+155.100.client-3 = templatemethod.earthlink.Specialization
+155.100.abstractclass = templatemethod.earthlink.Generalization
+155.100.concreteclass = templatemethod.earthlink.Specialization
+
+# Solution with all constraints
+156.100.Name = Template Method Design Motif
+# Solution with all constraints
+156.100.Sign = Positive
+156.100.XCommand = No source transformation needed
+156.100.client = observer.kuchana.ReportManager
+156.100.abstractclass = observer.kuchana.Observer
+156.100.concreteclass-1 = observer.kuchana.MonthlyReport
+156.100.concreteclass-2 = observer.kuchana.YTDChart
+
+# Solution with all constraints
+157.100.Name = Template Method Design Motif
+# Solution with all constraints
+157.100.Sign = Positive
+157.100.XCommand = No source transformation needed
+157.100.client-1 = visitor.wikipedia.Body
+157.100.client-2 = visitor.wikipedia.Wheel
+157.100.client-3 = visitor.wikipedia.VisitorDemo
+157.100.client-4 = visitor.wikipedia.Engine
+157.100.abstractclass = visitor.wikipedia.CarElementVisitor
+157.100.concreteclass-1 = visitor.wikipedia.CarElementDoVisitor
+157.100.concreteclass-2 = visitor.wikipedia.CarElementPrintVisitor
+
+# Solution with all constraints
+158.100.Name = Template Method Design Motif
+# Solution with all constraints
+158.100.Sign = Positive
+158.100.XCommand = No source transformation needed
+158.100.client = abstractfactory.cooper.checkCommand
+158.100.abstractclass = abstractfactory.cooper.Command
+158.100.concreteclass = abstractfactory.cooper.checkCommand
+
+# Solution with all constraints
+159.100.Name = Template Method Design Motif
+# Solution with all constraints
+159.100.Sign = Positive
+159.100.XCommand = No source transformation needed
+159.100.client = bridge.wikipedia.BridgePattern
+159.100.abstractclass = bridge.wikipedia.Shape
+159.100.concreteclass = bridge.wikipedia.CircleShape
+
+# Solution with all constraints
+160.100.Name = Template Method Design Motif
+# Solution with all constraints
+160.100.Sign = Positive
+160.100.XCommand = No source transformation needed
+160.100.client-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+160.100.client-2 = abstractfactory.kuchana.ButtonHandler
+160.100.client-3 = abstractfactory.kuchana.VehicleFactory
+160.100.client-4 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+160.100.abstractclass = abstractfactory.kuchana.VehicleFactory
+160.100.concreteclass-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+160.100.concreteclass-2 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+
+# Solution with all constraints
+161.100.Name = Template Method Design Motif
+# Solution with all constraints
+161.100.Sign = Positive
+161.100.XCommand = No source transformation needed
+161.100.client-1 = builder.fluffycat.TofuSoup
+161.100.client-2 = builder.fluffycat.ClamChowder
+161.100.client-3 = builder.fluffycat.ChickenSoup
+161.100.client-4 = builder.fluffycat.VegetableSoup
+161.100.client-5 = builder.fluffycat.Minnestrone
+161.100.client-6 = builder.fluffycat.PastaFazul
+161.100.client-7 = builder.fluffycat.FishChowder
+161.100.abstractclass = builder.fluffycat.Soup
+161.100.concreteclass-1 = builder.fluffycat.TofuSoup
+161.100.concreteclass-2 = builder.fluffycat.ClamChowder
+161.100.concreteclass-3 = builder.fluffycat.ChickenSoup
+161.100.concreteclass-4 = builder.fluffycat.VegetableSoup
+161.100.concreteclass-5 = builder.fluffycat.Minnestrone
+161.100.concreteclass-6 = builder.fluffycat.PastaFazul
+161.100.concreteclass-7 = builder.fluffycat.FishChowder
+
+# Solution with all constraints
+162.100.Name = Template Method Design Motif
+# Solution with all constraints
+162.100.Sign = Positive
+162.100.XCommand = No source transformation needed
+162.100.client-1 = factorymethod.eckel.staticfactory.ShapeFactory1
+162.100.client-2 = factorymethod.eckel.staticfactory.Square
+162.100.client-3 = factorymethod.eckel.staticfactory.Circle
+162.100.client-4 = factorymethod.eckel.staticfactory.Shape
+162.100.abstractclass = factorymethod.eckel.staticfactory.Shape
+162.100.concreteclass-1 = factorymethod.eckel.staticfactory.Square
+162.100.concreteclass-2 = factorymethod.eckel.staticfactory.Circle
+
+# Solution with all constraints
+163.100.Name = Template Method Design Motif
+# Solution with all constraints
+163.100.Sign = Positive
+163.100.XCommand = No source transformation needed
+163.100.client-1 = observer.earthlink.HexObserver
+163.100.client-2 = observer.earthlink.Subject
+163.100.client-3 = observer.earthlink.BinObserver
+163.100.client-4 = observer.earthlink.OctObserver
+163.100.abstractclass = observer.earthlink.Observer
+163.100.concreteclass-1 = observer.earthlink.HexObserver
+163.100.concreteclass-2 = observer.earthlink.BinObserver
+163.100.concreteclass-3 = observer.earthlink.OctObserver
+
+# Solution with all constraints
+164.100.Name = Template Method Design Motif
+# Solution with all constraints
+164.100.Sign = Positive
+164.100.XCommand = No source transformation needed
+164.100.client = memento.sun.RunPattern
+164.100.abstractclass = memento.sun.Contact
+164.100.concreteclass = memento.sun.ContactImpl
+
+# Solution with all constraints
+165.100.Name = Template Method Design Motif
+# Solution with all constraints
+165.100.Sign = Positive
+165.100.XCommand = No source transformation needed
+165.100.client-1 = state.rigovitale.rv1.StatoCaldaiaOn
+165.100.client-2 = state.rigovitale.rv1.StatoCaldaiaRiscaldamento
+165.100.client-3 = state.rigovitale.rv1.CaldaiaPanel
+165.100.client-4 = state.rigovitale.rv1.StatoCaldaiaOff
+165.100.client-5 = state.rigovitale.rv1.StatoCaldaiaGuasto
+165.100.client-6 = state.rigovitale.rv1.Caldaia
+165.100.abstractclass = state.rigovitale.rv1.StatoCaldaia
+165.100.concreteclass-1 = state.rigovitale.rv1.StatoCaldaiaOn
+165.100.concreteclass-2 = state.rigovitale.rv1.StatoCaldaiaRiscaldamento
+165.100.concreteclass-3 = state.rigovitale.rv1.StatoCaldaiaOff
+165.100.concreteclass-4 = state.rigovitale.rv1.StatoCaldaiaGuasto
+
+# Solution with all constraints
+166.100.Name = Template Method Design Motif
+# Solution with all constraints
+166.100.Sign = Positive
+166.100.XCommand = No source transformation needed
+166.100.client-1 = mediator.fluffycat.DvdUpcaseTitle
+166.100.client-2 = mediator.fluffycat.DvdLowercaseTitle
+166.100.abstractclass = mediator.fluffycat.DvdTitle
+166.100.concreteclass-1 = mediator.fluffycat.DvdUpcaseTitle
+166.100.concreteclass-2 = mediator.fluffycat.DvdLowercaseTitle
+
+# Solution with all constraints
+167.100.Name = Template Method Design Motif
+# Solution with all constraints
+167.100.Sign = Positive
+167.100.XCommand = No source transformation needed
+167.100.client-1 = abstractfactory.headfirst.pizzaaf.PizzaIngredientFactory
+167.100.client-2 = abstractfactory.headfirst.pizzaaf.NYPizzaIngredientFactory
+167.100.client-3 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaIngredientFactory
+167.100.client-4 = abstractfactory.headfirst.pizzaaf.Pizza
+167.100.abstractclass = abstractfactory.headfirst.pizzaaf.Veggies
+167.100.concreteclass-1 = abstractfactory.headfirst.pizzaaf.Garlic
+167.100.concreteclass-2 = abstractfactory.headfirst.pizzaaf.RedPepper
+167.100.concreteclass-3 = abstractfactory.headfirst.pizzaaf.Eggplant
+167.100.concreteclass-4 = abstractfactory.headfirst.pizzaaf.Spinach
+167.100.concreteclass-5 = abstractfactory.headfirst.pizzaaf.Mushroom
+167.100.concreteclass-6 = abstractfactory.headfirst.pizzaaf.BlackOlives
+167.100.concreteclass-7 = abstractfactory.headfirst.pizzaaf.Onion
+
+# Solution with all constraints
+168.100.Name = Template Method Design Motif
+# Solution with all constraints
+168.100.Sign = Positive
+168.100.XCommand = No source transformation needed
+168.100.client-1 = factorymethod.landini.ConcreteCreatorA
+168.100.client-2 = factorymethod.landini.ConcreteCreatorB
+168.100.client-3 = factorymethod.landini.FactoryExample
+168.100.client-4 = factorymethod.landini.Creator
+168.100.abstractclass = factorymethod.landini.Creator
+168.100.concreteclass-1 = factorymethod.landini.ConcreteCreatorA
+168.100.concreteclass-2 = factorymethod.landini.ConcreteCreatorB
+
+# Solution with all constraints
+169.100.Name = Template Method Design Motif
+# Solution with all constraints
+169.100.Sign = Positive
+169.100.XCommand = No source transformation needed
+169.100.client-1 = abstractfactory.eckel.KungFuGuy
+169.100.client-2 = abstractfactory.eckel.GameEnvironment
+169.100.client-3 = abstractfactory.eckel.KittiesAndPuzzles
+169.100.client-4 = abstractfactory.eckel.KillAndDismember
+169.100.client-5 = abstractfactory.eckel.Kitty
+169.100.client-6 = abstractfactory.eckel.GameElementFactory
+169.100.abstractclass = abstractfactory.eckel.Obstacle
+169.100.concreteclass-1 = abstractfactory.eckel.Puzzle
+169.100.concreteclass-2 = abstractfactory.eckel.NastyWeapon
+
+# Solution with all constraints
+170.100.Name = Template Method Design Motif
+# Solution with all constraints
+170.100.Sign = Positive
+170.100.XCommand = No source transformation needed
+170.100.client-1 = visitor.sun.DataCreator
+170.100.client-2 = visitor.sun.RunPattern
+170.100.abstractclass = visitor.sun.ProjectItem
+170.100.concreteclass-1 = visitor.sun.Task
+170.100.concreteclass-2 = visitor.sun.Project
+170.100.concreteclass-3 = visitor.sun.Deliverable
+
+# Solution with all constraints
+171.100.Name = Template Method Design Motif
+# Solution with all constraints
+171.100.Sign = Positive
+171.100.XCommand = No source transformation needed
+171.100.client-1 = builder.earthlink.democppafter.BuilderOne
+171.100.client-2 = builder.earthlink.democppafter.DemoCppAfter
+171.100.client-3 = builder.earthlink.democppafter.Builder
+171.100.client-4 = builder.earthlink.democppafter.BuilderTwo
+171.100.abstractclass = builder.earthlink.democppafter.Array
+171.100.concreteclass-1 = builder.earthlink.democppafter.BuilderTwo.TwoEnded
+171.100.concreteclass-2 = builder.earthlink.democppafter.BuilderOne.OneEnded
+
+# Solution with all constraints
+172.100.Name = Template Method Design Motif
+# Solution with all constraints
+172.100.Sign = Positive
+172.100.XCommand = No source transformation needed
+172.100.client = abstractfactory.csharpcorner.MyClient
+172.100.abstractclass = abstractfactory.csharpcorner.Factory
+172.100.concreteclass-1 = abstractfactory.csharpcorner.ConcreteFactory1
+172.100.concreteclass-2 = abstractfactory.csharpcorner.ConcreteFactory2
+
+# Solution with all constraints
+173.100.Name = Template Method Design Motif
+# Solution with all constraints
+173.100.Sign = Positive
+173.100.XCommand = No source transformation needed
+173.100.client-1 = interpreter.int2.Constant
+173.100.client-2 = interpreter.int2.Assignment
+173.100.abstractclass = interpreter.int2.Expression
+173.100.concreteclass = interpreter.int2.Constant
+
+# Solution with all constraints
+174.100.Name = Template Method Design Motif
+# Solution with all constraints
+174.100.Sign = Positive
+174.100.XCommand = No source transformation needed
+174.100.client-1 = observer.ob2.Ob2
+174.100.client-2 = observer.ob2.PlainAvailableActionsListener
+174.100.client-3 = observer.ob2.Knight
+174.100.client-4 = observer.ob2.AttackAction
+174.100.client-5 = observer.ob2.Dragon
+174.100.client-6 = observer.ob2.Creature
+174.100.abstractclass = observer.ob2.Creature
+174.100.concreteclass-1 = observer.ob2.Knight
+174.100.concreteclass-2 = observer.ob2.Dragon
+
+# Solution with all constraints
+175.100.Name = Template Method Design Motif
+# Solution with all constraints
+175.100.Sign = Positive
+175.100.XCommand = No source transformation needed
+175.100.client = visitor.earthlink.VisitorDemoReflection
+175.100.abstractclass = visitor.earthlink.Element
+175.100.concreteclass-1 = visitor.earthlink.This
+175.100.concreteclass-2 = visitor.earthlink.TheOther
+175.100.concreteclass-3 = visitor.earthlink.That
+
+# Solution with all constraints
+176.100.Name = Template Method Design Motif
+# Solution with all constraints
+176.100.Sign = Positive
+176.100.XCommand = No source transformation needed
+176.100.client = observer.earthlink.SensorSystem
+176.100.abstractclass = observer.earthlink.AlarmListener
+176.100.concreteclass-1 = observer.earthlink.Gates
+176.100.concreteclass-2 = observer.earthlink.Lighting
+176.100.concreteclass-3 = observer.earthlink.Surveillance
+
+# Solution with all constraints
+177.100.Name = Template Method Design Motif
+# Solution with all constraints
+177.100.Sign = Positive
+177.100.XCommand = No source transformation needed
+177.100.client-1 = interpreter.sun.OrExpression
+177.100.client-2 = interpreter.sun.AndExpression
+177.100.abstractclass = interpreter.sun.CompoundExpression
+177.100.concreteclass-1 = interpreter.sun.OrExpression
+177.100.concreteclass-2 = interpreter.sun.AndExpression
+
+# Solution with all constraints
+178.100.Name = Template Method Design Motif
+# Solution with all constraints
+178.100.Sign = Positive
+178.100.XCommand = No source transformation needed
+178.100.client-1 = abstractfactory.gruntz.GUI1
+178.100.client-2 = abstractfactory.gruntz.GUI2
+178.100.client-3 = abstractfactory.gruntz.CurrentFactory
+178.100.abstractclass = abstractfactory.gruntz.ComponentFactory
+178.100.concreteclass-1 = abstractfactory.gruntz.FactoryAWT
+178.100.concreteclass-2 = abstractfactory.gruntz.FactorySwing
+
+# Solution with all constraints
+179.100.Name = Template Method Design Motif
+# Solution with all constraints
+179.100.Sign = Positive
+179.100.XCommand = No source transformation needed
+179.100.client-1 = composite.fluffycat.TestTeaBagsComposite
+179.100.client-2 = composite.fluffycat.OneTeaBag
+179.100.client-3 = composite.fluffycat.TinOfTeaBags
+179.100.client-4 = composite.fluffycat.TeaBags
+179.100.abstractclass = composite.fluffycat.TeaBags
+179.100.concreteclass-1 = composite.fluffycat.OneTeaBag
+179.100.concreteclass-2 = composite.fluffycat.TinOfTeaBags
+
+# Solution with all constraints
+180.100.Name = Template Method Design Motif
+# Solution with all constraints
+180.100.Sign = Positive
+180.100.XCommand = No source transformation needed
+180.100.client-1 = proxy.wikipedia.ProxyExample
+180.100.client-2 = proxy.wikipedia.ProxyImage
+180.100.abstractclass = proxy.wikipedia.Image
+180.100.concreteclass-1 = proxy.wikipedia.RealImage
+180.100.concreteclass-2 = proxy.wikipedia.ProxyImage
+
+# Solution with all constraints
+181.100.Name = Template Method Design Motif
+# Solution with all constraints
+181.100.Sign = Positive
+181.100.XCommand = No source transformation needed
+181.100.client-1 = observer.ob2.Ob2
+181.100.client-2 = observer.ob2.Creature
+181.100.abstractclass = observer.ob2.AvailableActionsListener
+181.100.concreteclass = observer.ob2.PlainAvailableActionsListener
+
+# Solution with all constraints
+182.100.Name = Template Method Design Motif
+# Solution with all constraints
+182.100.Sign = Positive
+182.100.XCommand = No source transformation needed
+182.100.client-1 = visitor.java2s.bVacationVisitor
+182.100.client-2 = visitor.java2s.Employee
+182.100.client-3 = visitor.java2s.VacationVisitor
+182.100.client-4 = visitor.java2s.Boss
+182.100.abstractclass = visitor.java2s.Visitor
+182.100.concreteclass-1 = visitor.java2s.bVacationVisitor
+182.100.concreteclass-2 = visitor.java2s.VacationVisitor
+
+# Solution with all constraints
+183.100.Name = Template Method Design Motif
+# Solution with all constraints
+183.100.Sign = Positive
+183.100.XCommand = No source transformation needed
+183.100.client-1 = interpreter.kuchana.SubtractExpression
+183.100.client-2 = interpreter.kuchana.Calculator
+183.100.client-3 = interpreter.kuchana.MultiplyExpression
+183.100.client-4 = interpreter.kuchana.NonTerminalExpression
+183.100.client-5 = interpreter.kuchana.AddExpression
+183.100.abstractclass = interpreter.kuchana.NonTerminalExpression
+183.100.concreteclass-1 = interpreter.kuchana.SubtractExpression
+183.100.concreteclass-2 = interpreter.kuchana.MultiplyExpression
+183.100.concreteclass-3 = interpreter.kuchana.AddExpression
+
+# Solution with all constraints
+184.100.Name = Template Method Design Motif
+# Solution with all constraints
+184.100.Sign = Positive
+184.100.XCommand = No source transformation needed
+184.100.client-1 = interpreter.lucacristina.expr.functions.user.UserFunction
+184.100.client-2 = interpreter.lucacristina.expr.functions.FunctionFactory
+184.100.client-3 = interpreter.lucacristina.expr.functions.ClassFunctionFactory
+184.100.client-4 = interpreter.lucacristina.expr.functions.min
+184.100.client-5 = interpreter.lucacristina.expr.functions.pow
+184.100.client-6 = interpreter.lucacristina.expr.functions.sqrt
+184.100.client-7 = interpreter.lucacristina.expr.functions.user.UserFunctionFactory
+184.100.client-8 = interpreter.lucacristina.expr.Function
+184.100.abstractclass = interpreter.lucacristina.expr.Function
+184.100.concreteclass-1 = interpreter.lucacristina.expr.functions.user.UserFunction
+184.100.concreteclass-2 = interpreter.lucacristina.expr.functions.min
+184.100.concreteclass-3 = interpreter.lucacristina.expr.functions.pow
+184.100.concreteclass-4 = interpreter.lucacristina.expr.functions.sqrt
+
+# Solution with all constraints
+185.100.Name = Template Method Design Motif
+# Solution with all constraints
+185.100.Sign = Positive
+185.100.XCommand = No source transformation needed
+185.100.client-1 = abstractfactory.inria.AbAbstractFactory2
+185.100.client-2 = abstractfactory.inria.AbAbstractFactory1
+185.100.client-3 = abstractfactory.inria.AbAbstractFactory
+185.100.client-4 = abstractfactory.inria.B2
+185.100.client-5 = abstractfactory.inria.B1
+185.100.abstractclass = abstractfactory.inria.B
+185.100.concreteclass-1 = abstractfactory.inria.B2
+185.100.concreteclass-2 = abstractfactory.inria.B1
+
+# Solution with all constraints
+186.100.Name = Template Method Design Motif
+# Solution with all constraints
+186.100.Sign = Positive
+186.100.XCommand = No source transformation needed
+186.100.client-1 = abstractfactory.inria.AbAbstractFactory2
+186.100.client-2 = abstractfactory.inria.AbAbstractFactory1
+186.100.client-3 = abstractfactory.inria.AbAbstractFactory
+186.100.client-4 = abstractfactory.inria.A1
+186.100.client-5 = abstractfactory.inria.A2
+186.100.abstractclass = abstractfactory.inria.A
+186.100.concreteclass-1 = abstractfactory.inria.A1
+186.100.concreteclass-2 = abstractfactory.inria.A2
+
+# Solution with all constraints
+187.100.Name = Template Method Design Motif
+# Solution with all constraints
+187.100.Sign = Positive
+187.100.XCommand = No source transformation needed
+187.100.client-1 = factorymethod.javaworld.Main
+187.100.client-2 = factorymethod.javaworld.TraceFactory
+187.100.abstractclass = factorymethod.javaworld.Trace
+187.100.concreteclass-1 = factorymethod.javaworld.FileTrace
+187.100.concreteclass-2 = factorymethod.javaworld.SystemTrace
+
+# Solution with all constraints
+188.100.Name = Template Method Design Motif
+# Solution with all constraints
+188.100.Sign = Positive
+188.100.XCommand = No source transformation needed
+188.100.client-1 = abstractfactory.eckel.KittiesAndPuzzles
+188.100.client-2 = abstractfactory.eckel.KillAndDismember
+188.100.client-3 = abstractfactory.eckel.GameElementFactory
+188.100.abstractclass = abstractfactory.eckel.Player
+188.100.concreteclass-1 = abstractfactory.eckel.KungFuGuy
+188.100.concreteclass-2 = abstractfactory.eckel.Kitty
+
+# Solution with all constraints
+189.100.Name = Template Method Design Motif
+# Solution with all constraints
+189.100.Sign = Positive
+189.100.XCommand = No source transformation needed
+189.100.client = composite.earthlink.Directory
+189.100.abstractclass = composite.earthlink.AbstractFile
+189.100.concreteclass-1 = composite.earthlink.Directory
+189.100.concreteclass-2 = composite.earthlink.File
+
+# Solution with all constraints
+190.100.Name = Template Method Design Motif
+# Solution with all constraints
+190.100.Sign = Positive
+190.100.XCommand = No source transformation needed
+190.100.client-1 = command.sun.ChangeLocationCommand
+190.100.client-2 = command.sun.Appointment
+190.100.client-3 = command.sun.CommandGui
+190.100.client-4 = command.sun.LocationEditor
+190.100.abstractclass = command.sun.Location
+190.100.concreteclass = command.sun.LocationImpl
+
+# Solution with all constraints
+191.100.Name = Template Method Design Motif
+# Solution with all constraints
+191.100.Sign = Positive
+191.100.XCommand = No source transformation needed
+191.100.client = adapter.sun.RunAdapterPattern
+191.100.abstractclass = adapter.sun.Contact
+191.100.concreteclass = adapter.sun.ContactAdapter
+
+# Solution with all constraints
+192.100.Name = Template Method Design Motif
+# Solution with all constraints
+192.100.Sign = Positive
+192.100.XCommand = No source transformation needed
+192.100.client = adapter.sourcemaking1.AdapterDemo
+192.100.abstractclass = adapter.sourcemaking1.Shape
+192.100.concreteclass-1 = adapter.sourcemaking1.Line
+192.100.concreteclass-2 = adapter.sourcemaking1.Rectangle
+
+# Solution with all constraints
+193.100.Name = Template Method Design Motif
+# Solution with all constraints
+193.100.Sign = Positive
+193.100.XCommand = No source transformation needed
+193.100.client = bridge.oodesign.PersistenceFrameworkDriver
+193.100.abstractclass = bridge.oodesign.Persistence
+193.100.concreteclass = bridge.oodesign.PersistenceImp
+
+# Solution with all constraints
+194.100.Name = Template Method Design Motif
+# Solution with all constraints
+194.100.Sign = Positive
+194.100.XCommand = No source transformation needed
+194.100.client-1 = abstractfactory.javapractices.DAOFactoryMySql
+194.100.client-2 = abstractfactory.javapractices.DAOFactory
+194.100.client-3 = abstractfactory.javapractices.DAOFactoryFileScheme
+194.100.abstractclass = abstractfactory.javapractices.UserDAO
+194.100.concreteclass-1 = abstractfactory.javapractices.UserDAOMySql
+194.100.concreteclass-2 = abstractfactory.javapractices.UserDAOFileScheme
+
+# Solution with all constraints
+195.100.Name = Template Method Design Motif
+# Solution with all constraints
+195.100.Sign = Positive
+195.100.XCommand = No source transformation needed
+195.100.client-1 = prototype.kuchana.Example1.WinBasic
+195.100.client-2 = prototype.kuchana.Example1.WinPremium
+195.100.client-3 = prototype.kuchana.Example1.WinPremPlus
+195.100.abstractclass = prototype.kuchana.Example1.WinPlan
+195.100.concreteclass-1 = prototype.kuchana.Example1.WinBasic
+195.100.concreteclass-2 = prototype.kuchana.Example1.WinPremium
+195.100.concreteclass-3 = prototype.kuchana.Example1.WinPremPlus
+
+# Solution with all constraints
+196.100.Name = Template Method Design Motif
+# Solution with all constraints
+196.100.Sign = Positive
+196.100.XCommand = No source transformation needed
+196.100.client = visitor.sourcemaking2.VisitorDemo
+196.100.abstractclass = visitor.sourcemaking2.Element
+196.100.concreteclass-1 = visitor.sourcemaking2.This
+196.100.concreteclass-2 = visitor.sourcemaking2.That
+196.100.concreteclass-3 = visitor.sourcemaking2.TheOther
+
+# Solution with all constraints
+197.100.Name = Template Method Design Motif
+# Solution with all constraints
+197.100.Sign = Positive
+197.100.XCommand = No source transformation needed
+197.100.client-1 = mediator.med1.TextField
+197.100.client-2 = mediator.med1.TextToBarMediator
+197.100.abstractclass = mediator.med1.AbstractMediator
+197.100.concreteclass = mediator.med1.TextToBarMediator
+
+# Solution with all constraints
+198.100.Name = Template Method Design Motif
+# Solution with all constraints
+198.100.Sign = Positive
+198.100.XCommand = No source transformation needed
+198.100.client-1 = builder.earthlink.democppafter.BuilderOne
+198.100.client-2 = builder.earthlink.democppafter.DemoCppAfter
+198.100.client-3 = builder.earthlink.democppafter.BuilderTwo
+198.100.abstractclass = builder.earthlink.democppafter.Builder
+198.100.concreteclass-1 = builder.earthlink.democppafter.BuilderOne
+198.100.concreteclass-2 = builder.earthlink.democppafter.BuilderTwo
+
+# Solution with all constraints
+199.100.Name = Template Method Design Motif
+# Solution with all constraints
+199.100.Sign = Positive
+199.100.XCommand = No source transformation needed
+199.100.client-1 = abstractfactory.apwebco.EuropeTaxProcessor
+199.100.client-2 = abstractfactory.apwebco.CanadaFinancialToolsFactory
+199.100.client-3 = abstractfactory.apwebco.CanadaTaxProcessor
+199.100.client-4 = abstractfactory.apwebco.EuropeFinancialToolsFactory
+199.100.client-5 = abstractfactory.apwebco.OrderProcessor
+199.100.client-6 = abstractfactory.apwebco.FinancialToolsFactory
+199.100.abstractclass = abstractfactory.apwebco.TaxProcessor
+199.100.concreteclass-1 = abstractfactory.apwebco.EuropeTaxProcessor
+199.100.concreteclass-2 = abstractfactory.apwebco.CanadaTaxProcessor
+
+# Solution with all constraints
+200.100.Name = Template Method Design Motif
+# Solution with all constraints
+200.100.Sign = Positive
+200.100.XCommand = No source transformation needed
+200.100.client = command.sun.Appointment
+200.100.abstractclass = command.sun.Contact
+200.100.concreteclass = command.sun.ContactImpl
+
+# Solution with all constraints
+201.100.Name = Template Method Design Motif
+# Solution with all constraints
+201.100.Sign = Positive
+201.100.XCommand = No source transformation needed
+201.100.client = proxy.kuchana.MainProxyApp
+201.100.abstractclass = proxy.kuchana.OrderIF
+201.100.concreteclass-1 = proxy.kuchana.Order
+201.100.concreteclass-2 = proxy.kuchana.OrderProxy
+
+# Solution with all constraints
+202.100.Name = Template Method Design Motif
+# Solution with all constraints
+202.100.Sign = Positive
+202.100.XCommand = No source transformation needed
+202.100.client-1 = visitor.java2s.Deliverable
+202.100.client-2 = visitor.java2s.Task
+202.100.abstractclass = visitor.java2s.Contact
+202.100.concreteclass = visitor.java2s.ContactImpl
+
+# Solution with all constraints
+203.100.Name = Template Method Design Motif
+# Solution with all constraints
+203.100.Sign = Positive
+203.100.XCommand = No source transformation needed
+203.100.client-1 = abstractfactory.headfirst.pizzaaf.ChicagoPizzaStore
+203.100.client-2 = abstractfactory.headfirst.pizzaaf.CheesePizza
+203.100.client-3 = abstractfactory.headfirst.pizzaaf.PizzaStore
+203.100.client-4 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+203.100.client-5 = abstractfactory.headfirst.pizzaaf.NYPizzaStore
+203.100.client-6 = abstractfactory.headfirst.pizzaaf.ClamPizza
+203.100.client-7 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+203.100.abstractclass = abstractfactory.headfirst.pizzaaf.Pizza
+203.100.concreteclass-1 = abstractfactory.headfirst.pizzaaf.CheesePizza
+203.100.concreteclass-2 = abstractfactory.headfirst.pizzaaf.VeggiePizza
+203.100.concreteclass-3 = abstractfactory.headfirst.pizzaaf.ClamPizza
+203.100.concreteclass-4 = abstractfactory.headfirst.pizzaaf.PepperoniPizza
+
+# Solution with all constraints
+204.100.Name = Template Method Design Motif
+# Solution with all constraints
+204.100.Sign = Positive
+204.100.XCommand = No source transformation needed
+204.100.client = observer.ob1.Figura
+204.100.abstractclass = observer.ob1.IObserver
+204.100.concreteclass = observer.ob1.Disegnatore
+
+# Solution with all constraints
+205.100.Name = Template Method Design Motif
+# Solution with all constraints
+205.100.Sign = Positive
+205.100.XCommand = No source transformation needed
+205.100.client = state.cooper.StateDraw
+205.100.abstractclass = state.cooper.Command
+205.100.concreteclass-1 = state.cooper.PickButton
+205.100.concreteclass-2 = state.cooper.FillButton
+205.100.concreteclass-3 = state.cooper.CircleButton
+205.100.concreteclass-4 = state.cooper.RectButton
+205.100.concreteclass-5 = state.cooper.ClearButton
+205.100.concreteclass-6 = state.cooper.UndoButton
+
+# Solution with all constraints
+206.100.Name = Template Method Design Motif
+# Solution with all constraints
+206.100.Sign = Positive
+206.100.XCommand = No source transformation needed
+206.100.client-1 = iterator.sun.DataCreator
+206.100.client-2 = iterator.sun.ToDoListCollectionImpl
+206.100.client-3 = iterator.sun.ListPrinter
+206.100.abstractclass = iterator.sun.ToDoList
+206.100.concreteclass = iterator.sun.ToDoListImpl
+
+# Solution with all constraints
+207.100.Name = Template Method Design Motif
+# Solution with all constraints
+207.100.Sign = Positive
+207.100.XCommand = No source transformation needed
+207.100.client-1 = state.earthlink.demo.A
+207.100.client-2 = state.earthlink.demo.B
+207.100.client-3 = state.earthlink.demo.C
+207.100.abstractclass = state.earthlink.demo.State
+207.100.concreteclass-1 = state.earthlink.demo.A
+207.100.concreteclass-2 = state.earthlink.demo.B
+207.100.concreteclass-3 = state.earthlink.demo.C
+
+# Solution with all constraints
+208.100.Name = Template Method Design Motif
+# Solution with all constraints
+208.100.Sign = Positive
+208.100.XCommand = No source transformation needed
+208.100.client-1 = abstractfactory.cooper.VegieGarden
+208.100.client-2 = abstractfactory.cooper.AnnualGarden
+208.100.client-3 = abstractfactory.cooper.GardenMaker
+208.100.client-4 = abstractfactory.cooper.PerennialGarden
+208.100.abstractclass = abstractfactory.cooper.Garden
+208.100.concreteclass-1 = abstractfactory.cooper.VegieGarden
+208.100.concreteclass-2 = abstractfactory.cooper.AnnualGarden
+208.100.concreteclass-3 = abstractfactory.cooper.PerennialGarden
+
+# Solution with all constraints
+209.100.Name = Template Method Design Motif
+# Solution with all constraints
+209.100.Sign = Positive
+209.100.XCommand = No source transformation needed
+209.100.client-1 = decorator.netobjectives.Factory
+209.100.client-2 = decorator.netobjectives.TicketDecorator
+209.100.client-3 = decorator.netobjectives.Client
+209.100.client-4 = decorator.netobjectives.SalesTicket
+209.100.abstractclass = decorator.netobjectives.Component
+209.100.concreteclass-1 = decorator.netobjectives.TicketDecorator
+209.100.concreteclass-2 = decorator.netobjectives.SalesTicket
+
+# Solution with all constraints
+210.100.Name = Template Method Design Motif
+# Solution with all constraints
+210.100.Sign = Positive
+210.100.XCommand = No source transformation needed
+210.100.client-1 = interpreter.sun.EqualsExpression
+210.100.client-2 = interpreter.sun.ContainsExpression
+210.100.client-3 = interpreter.sun.ContactList
+210.100.abstractclass = interpreter.sun.Expression
+210.100.concreteclass-1 = interpreter.sun.ComparisonExpression
+210.100.concreteclass-2 = interpreter.sun.ConstantExpression
+210.100.concreteclass-3 = interpreter.sun.VariableExpression
+210.100.concreteclass-4 = interpreter.sun.CompoundExpression
+
+# Solution with all constraints
+211.100.Name = Template Method Design Motif
+# Solution with all constraints
+211.100.Sign = Positive
+211.100.XCommand = No source transformation needed
+211.100.client-1 = strategy.cooper.LinePlotStrategy
+211.100.client-2 = strategy.cooper.BarPlotStrategy
+211.100.client-3 = strategy.cooper.PlotStrategy
+211.100.abstractclass = strategy.cooper.PlotStrategy
+211.100.concreteclass-1 = strategy.cooper.LinePlotStrategy
+211.100.concreteclass-2 = strategy.cooper.BarPlotStrategy
+
+# Solution with all constraints
+212.100.Name = Template Method Design Motif
+# Solution with all constraints
+212.100.Sign = Positive
+212.100.XCommand = No source transformation needed
+212.100.client-1 = chainofresp.kuchana.VicePresident
+212.100.client-2 = chainofresp.kuchana.PresidentCOO
+212.100.client-3 = chainofresp.kuchana.RegionalDirector
+212.100.client-4 = chainofresp.kuchana.BranchManager
+212.100.client-5 = chainofresp.kuchana.PRHandler
+212.100.client-6 = chainofresp.kuchana.PRManager
+212.100.abstractclass = chainofresp.kuchana.PRHandler
+212.100.concreteclass-1 = chainofresp.kuchana.VicePresident
+212.100.concreteclass-2 = chainofresp.kuchana.PresidentCOO
+212.100.concreteclass-3 = chainofresp.kuchana.RegionalDirector
+212.100.concreteclass-4 = chainofresp.kuchana.BranchManager
+
+# Solution with all constraints
+213.100.Name = Template Method Design Motif
+# Solution with all constraints
+213.100.Sign = Positive
+213.100.XCommand = No source transformation needed
+213.100.client-1 = prototype.fluffycat.PrototypeFactory
+213.100.client-2 = prototype.fluffycat.TestPrototype
+213.100.client-3 = prototype.fluffycat.SaladFork
+213.100.abstractclass = prototype.fluffycat.AbstractFork
+213.100.concreteclass = prototype.fluffycat.SaladFork
+
+# Solution with all constraints
+214.100.Name = Template Method Design Motif
+# Solution with all constraints
+214.100.Sign = Positive
+214.100.XCommand = No source transformation needed
+214.100.client-1 = chainofresp.cor2.LogFilter
+214.100.client-2 = chainofresp.cor2.AbstractFilter
+214.100.client-3 = chainofresp.cor2.RandomFilter
+214.100.abstractclass = chainofresp.cor2.AbstractFilter
+214.100.concreteclass-1 = chainofresp.cor2.LogFilter
+214.100.concreteclass-2 = chainofresp.cor2.RandomFilter
+
+# Solution with all constraints
+215.100.Name = Template Method Design Motif
+# Solution with all constraints
+215.100.Sign = Positive
+215.100.XCommand = No source transformation needed
+215.100.client-1 = abstractfactory.java2s.AddressFactory
+215.100.client-2 = abstractfactory.java2s.FrenchAddressFactory
+215.100.client-3 = abstractfactory.java2s.RunAbstractFactoryPattern
+215.100.client-4 = abstractfactory.java2s.USAddressFactory
+215.100.client-5 = abstractfactory.java2s.USPhoneNumber
+215.100.client-6 = abstractfactory.java2s.FrenchPhoneNumber
+215.100.abstractclass = abstractfactory.java2s.PhoneNumber
+215.100.concreteclass-1 = abstractfactory.java2s.USPhoneNumber
+215.100.concreteclass-2 = abstractfactory.java2s.FrenchPhoneNumber
+
+# Solution with all constraints
+216.100.Name = Template Method Design Motif
+# Solution with all constraints
+216.100.Sign = Positive
+216.100.XCommand = No source transformation needed
+216.100.client = prototype.proto1.TargetedAction
+216.100.abstractclass = prototype.proto1.Action
+216.100.concreteclass = prototype.proto1.TargetedAction
+
+# Solution with all constraints
+217.100.Name = Template Method Design Motif
+# Solution with all constraints
+217.100.Sign = Positive
+217.100.XCommand = No source transformation needed
+217.100.client-1 = templatemethod.earthlink.Realization
+217.100.client-2 = templatemethod.earthlink.Specialization
+217.100.abstractclass = templatemethod.earthlink.Specialization
+217.100.concreteclass = templatemethod.earthlink.Realization
+
+# Solution with all constraints
+218.100.Name = Template Method Design Motif
+# Solution with all constraints
+218.100.Sign = Positive
+218.100.XCommand = No source transformation needed
+218.100.client-1 = command.kuchana.txt.ItemManager
+218.100.client-2 = command.kuchana.txt.CommandTest
+218.100.abstractclass = command.kuchana.txt.CommandInterface
+218.100.concreteclass-1 = command.kuchana.txt.AddCommand
+218.100.concreteclass-2 = command.kuchana.txt.DeleteCommand
+
+# Solution with all constraints
+219.100.Name = Template Method Design Motif
+# Solution with all constraints
+219.100.Sign = Positive
+219.100.XCommand = No source transformation needed
+219.100.client-1 = visitor.wikipedia.Car
+219.100.client-2 = visitor.wikipedia.CarElementDoVisitor
+219.100.client-3 = visitor.wikipedia.CarElementPrintVisitor
+219.100.abstractclass = visitor.wikipedia.CarElement
+219.100.concreteclass-1 = visitor.wikipedia.Body
+219.100.concreteclass-2 = visitor.wikipedia.Wheel
+219.100.concreteclass-3 = visitor.wikipedia.Engine
+
+# Solution with all constraints
+220.100.Name = Template Method Design Motif
+# Solution with all constraints
+220.100.Sign = Positive
+220.100.XCommand = No source transformation needed
+220.100.client = proxy.fluffycat.TestProxy
+220.100.abstractclass = proxy.fluffycat.PotOfTeaInterface
+220.100.concreteclass-1 = proxy.fluffycat.PotOfTea
+220.100.concreteclass-2 = proxy.fluffycat.PotOfTeaProxy
+
+# Solution with all constraints
+221.100.Name = Template Method Design Motif
+# Solution with all constraints
+221.100.Sign = Positive
+221.100.XCommand = No source transformation needed
+221.100.client = factorymethod.eckel.polymorphicfactory.ShapeFactory
+221.100.abstractclass = factorymethod.eckel.polymorphicfactory.ShapeFactory
+221.100.concreteclass-1 = factorymethod.eckel.polymorphicfactory.Square.Factory
+221.100.concreteclass-2 = factorymethod.eckel.polymorphicfactory.Circle.Factory
+
+# Solution with all constraints
+222.100.Name = Template Method Design Motif
+# Solution with all constraints
+222.100.Sign = Positive
+222.100.XCommand = No source transformation needed
+222.100.client-1 = templatemethod.kuchana.VisaCard
+222.100.client-2 = templatemethod.kuchana.Client
+222.100.client-3 = templatemethod.kuchana.DinersCard
+222.100.client-4 = templatemethod.kuchana.MasterCard
+222.100.client-5 = templatemethod.kuchana.CreditCard
+222.100.abstractclass = templatemethod.kuchana.CreditCard
+222.100.concreteclass-1 = templatemethod.kuchana.VisaCard
+222.100.concreteclass-2 = templatemethod.kuchana.DinersCard
+222.100.concreteclass-3 = templatemethod.kuchana.MasterCard
+
+# Solution with all constraints
+223.100.Name = Template Method Design Motif
+# Solution with all constraints
+223.100.Sign = Positive
+223.100.XCommand = No source transformation needed
+223.100.client-1 = decorator.wikipedia.HorizontalScrollBarDecorator
+223.100.client-2 = decorator.wikipedia.DecoratedWindowTest
+223.100.client-3 = decorator.wikipedia.WindowDecorator
+223.100.client-4 = decorator.wikipedia.VerticalScrollBarDecorator
+223.100.abstractclass = decorator.wikipedia.Window
+223.100.concreteclass-1 = decorator.wikipedia.SimpleWindow
+223.100.concreteclass-2 = decorator.wikipedia.WindowDecorator
+
+# Solution with all constraints
+224.100.Name = Template Method Design Motif
+# Solution with all constraints
+224.100.Sign = Positive
+224.100.XCommand = No source transformation needed
+224.100.client-1 = visitor.cooper.VacationVisitor
+224.100.client-2 = visitor.cooper.bVacationVisitor
+224.100.client-3 = visitor.cooper.Boss
+224.100.client-4 = visitor.cooper.Employee
+224.100.abstractclass = visitor.cooper.Visitor
+224.100.concreteclass-1 = visitor.cooper.VacationVisitor
+224.100.concreteclass-2 = visitor.cooper.bVacationVisitor
+
+# Solution with all constraints
+225.100.Name = Template Method Design Motif
+# Solution with all constraints
+225.100.Sign = Positive
+225.100.XCommand = No source transformation needed
+225.100.client-1 = abstractfactory.earthlink.democpp.MotifFactory
+225.100.client-2 = abstractfactory.earthlink.democpp.WindowsFactory
+225.100.abstractclass = abstractfactory.earthlink.democpp.Factory
+225.100.concreteclass-1 = abstractfactory.earthlink.democpp.MotifFactory
+225.100.concreteclass-2 = abstractfactory.earthlink.democpp.WindowsFactory
+
+# Solution with all constraints
+226.100.Name = Template Method Design Motif
+# Solution with all constraints
+226.100.Sign = Positive
+226.100.XCommand = No source transformation needed
+226.100.client = facade.kuchana.client.ButtonHandler
+226.100.abstractclass = facade.kuchana.server.CustomerIntr
+226.100.concreteclass = facade.kuchana.server.CustomerFacade
+
+# Solution with all constraints
+227.100.Name = Template Method Design Motif
+# Solution with all constraints
+227.100.Sign = Positive
+227.100.XCommand = No source transformation needed
+227.100.client-1 = visitor.earthlink.composite3.Composite
+227.100.client-2 = visitor.earthlink.composite3.VisitorComposite3
+227.100.abstractclass = visitor.earthlink.composite3.Component
+227.100.concreteclass-1 = visitor.earthlink.composite3.Composite
+227.100.concreteclass-2 = visitor.earthlink.composite3.Leaf
+
+# Solution with all constraints
+228.100.Name = Template Method Design Motif
+# Solution with all constraints
+228.100.Sign = Positive
+228.100.XCommand = No source transformation needed
+228.100.client-1 = bridge.sourcemaking2.StackHanoi
+228.100.client-2 = bridge.sourcemaking2.Stack
+228.100.abstractclass = bridge.sourcemaking2.StackImp
+228.100.concreteclass-1 = bridge.sourcemaking2.StackJava
+228.100.concreteclass-2 = bridge.sourcemaking2.StackMine
+
+# Solution with all constraints
+229.100.Name = Template Method Design Motif
+# Solution with all constraints
+229.100.Sign = Positive
+229.100.XCommand = No source transformation needed
+229.100.client-1 = abstractfactory.kuchana.LuxuryVehicleFactory
+229.100.client-2 = abstractfactory.kuchana.ButtonHandler
+229.100.client-3 = abstractfactory.kuchana.VehicleFactory
+229.100.client-4 = abstractfactory.kuchana.NonLuxuryVehicleFactory
+229.100.abstractclass = abstractfactory.kuchana.Car
+229.100.concreteclass-1 = abstractfactory.kuchana.LuxuryCar
+229.100.concreteclass-2 = abstractfactory.kuchana.NonLuxuryCar
+
+# Solution with all constraints
+230.100.Name = Template Method Design Motif
+# Solution with all constraints
+230.100.Sign = Positive
+230.100.XCommand = No source transformation needed
+230.100.client-1 = abstractfactory.developer.com.EmberToolkit
+230.100.client-2 = abstractfactory.developer.com.EnginolaToolkit
+230.100.client-3 = abstractfactory.developer.com.Client
+230.100.client-4 = abstractfactory.developer.com.AbstractFactory
+230.100.abstractclass = abstractfactory.developer.com.AbstractFactory
+230.100.concreteclass-1 = abstractfactory.developer.com.EmberToolkit
+230.100.concreteclass-2 = abstractfactory.developer.com.EnginolaToolkit
+
+# Solution with all constraints
+231.100.Name = Template Method Design Motif
+# Solution with all constraints
+231.100.Sign = Positive
+231.100.XCommand = No source transformation needed
+231.100.client = command.sun.RunPattern
+231.100.abstractclass = command.sun.LocationEditor
+231.100.concreteclass = command.sun.CommandGui
+
+# Solution with all constraints
+232.100.Name = Template Method Design Motif
+# Solution with all constraints
+232.100.Sign = Positive
+232.100.XCommand = No source transformation needed
+232.100.client-1 = factorymethod.headfirst.pizzafm.ChicagoStyleCheesePizza
+232.100.client-2 = factorymethod.headfirst.pizzafm.ChicagoStylePepperoniPizza
+232.100.client-3 = factorymethod.headfirst.pizzafm.ChicagoStyleVeggiePizza
+232.100.client-4 = factorymethod.headfirst.pizzafm.PizzaTestDrive
+232.100.client-5 = factorymethod.headfirst.pizzafm.NYStyleVeggiePizza
+232.100.client-6 = factorymethod.headfirst.pizzafm.NYStyleCheesePizza
+232.100.client-7 = factorymethod.headfirst.pizzafm.PizzaStore
+232.100.client-8 = factorymethod.headfirst.pizzafm.DependentPizzaStore
+232.100.client-9 = factorymethod.headfirst.pizzafm.ChicagoStyleClamPizza
+232.100.client-10 = factorymethod.headfirst.pizzafm.NYStyleClamPizza
+232.100.client-11 = factorymethod.headfirst.pizzafm.NYStylePepperoniPizza
+232.100.client-12 = factorymethod.headfirst.pizzafm.ChicagoPizzaStore
+232.100.client-13 = factorymethod.headfirst.pizzafm.NYPizzaStore
+232.100.abstractclass = factorymethod.headfirst.pizzafm.Pizza
+232.100.concreteclass-1 = factorymethod.headfirst.pizzafm.ChicagoStyleCheesePizza
+232.100.concreteclass-2 = factorymethod.headfirst.pizzafm.ChicagoStylePepperoniPizza
+232.100.concreteclass-3 = factorymethod.headfirst.pizzafm.ChicagoStyleVeggiePizza
+232.100.concreteclass-4 = factorymethod.headfirst.pizzafm.NYStyleVeggiePizza
+232.100.concreteclass-5 = factorymethod.headfirst.pizzafm.NYStyleCheesePizza
+232.100.concreteclass-6 = factorymethod.headfirst.pizzafm.ChicagoStyleClamPizza
+232.100.concreteclass-7 = factorymethod.headfirst.pizzafm.NYStyleClamPizza
+232.100.concreteclass-8 = factorymethod.headfirst.pizzafm.NYStylePepperoniPizza
+
+# Solution with all constraints
+233.100.Name = Template Method Design Motif
+# Solution with all constraints
+233.100.Sign = Positive
+233.100.XCommand = No source transformation needed
+233.100.client = strategy.ravani.Strategy
+233.100.abstractclass = strategy.ravani.Salvataggio
+233.100.concreteclass-1 = strategy.ravani.TipoHtml
+233.100.concreteclass-2 = strategy.ravani.TipoXml
+
+# Solution with all constraints
+234.100.Name = Template Method Design Motif
+# Solution with all constraints
+234.100.Sign = Positive
+234.100.XCommand = No source transformation needed
+234.100.client = visitor.bellinzona.Main
+234.100.abstractclass = visitor.bellinzona.dataFolder.BudgetElement
+234.100.concreteclass-1 = visitor.bellinzona.dataFolder.Debt
+234.100.concreteclass-2 = visitor.bellinzona.dataFolder.Realty
+234.100.concreteclass-3 = visitor.bellinzona.dataFolder.Credit
+234.100.concreteclass-4 = visitor.bellinzona.dataFolder.Stock
+234.100.concreteclass-5 = visitor.bellinzona.dataFolder.BankCash
+234.100.concreteclass-6 = visitor.bellinzona.dataFolder.Worker
+

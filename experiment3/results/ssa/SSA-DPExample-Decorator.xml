@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<pattern name="Decorator">
+		<instance>
+			<role name="Component" element="interpreter.int1.Expression" />
+			<role name="Decorator" element="interpreter.int1.Sum" />
+			<role name="component" element="interpreter.int1.Sum::op1:interpreter.int1.Expression" />
+			<role name="component" element="interpreter.int1.Sum::op2:interpreter.int1.Expression" />
+			<role name="Operation()" element="interpreter.int1.Sum::value():int" />
+		</instance>
+		<instance>
+			<role name="Component" element="interpreter.lucacristina.expr.Expression" />
+			<role name="Decorator" element="interpreter.lucacristina.expr.Division" />
+			<role name="component" element="interpreter.lucacristina.expr.Division::op1:interpreter.lucacristina.expr.Expression" />
+			<role name="component" element="interpreter.lucacristina.expr.Division::op2:interpreter.lucacristina.expr.Expression" />
+			<role name="Operation()" element="interpreter.lucacristina.expr.Division::determined(interpreter.lucacristina.expr.Context):boolean" />
+			<role name="Operation()" element="interpreter.lucacristina.expr.Division::evaluate(interpreter.lucacristina.expr.Context):java.lang.Number" />
+		</instance>
+		<instance>
+			<role name="Component" element="interpreter.lucacristina.expr.Expression" />
+			<role name="Decorator" element="interpreter.lucacristina.expr.Multiplication" />
+			<role name="component" element="interpreter.lucacristina.expr.Multiplication::op1:interpreter.lucacristina.expr.Expression" />
+			<role name="component" element="interpreter.lucacristina.expr.Multiplication::op2:interpreter.lucacristina.expr.Expression" />
+			<role name="Operation()" element="interpreter.lucacristina.expr.Multiplication::determined(interpreter.lucacristina.expr.Context):boolean" />
+			<role name="Operation()" element="interpreter.lucacristina.expr.Multiplication::evaluate(interpreter.lucacristina.expr.Context):java.lang.Number" />
+		</instance>
+		<instance>
+			<role name="Component" element="interpreter.lucacristina.expr.Expression" />
+			<role name="Decorator" element="interpreter.lucacristina.expr.Subtraction" />
+			<role name="component" element="interpreter.lucacristina.expr.Subtraction::op1:interpreter.lucacristina.expr.Expression" />
+			<role name="component" element="interpreter.lucacristina.expr.Subtraction::op2:interpreter.lucacristina.expr.Expression" />
+			<role name="Operation()" element="interpreter.lucacristina.expr.Subtraction::determined(interpreter.lucacristina.expr.Context):boolean" />
+			<role name="Operation()" element="interpreter.lucacristina.expr.Subtraction::evaluate(interpreter.lucacristina.expr.Context):java.lang.Number" />
+		</instance>
+		<instance>
+			<role name="Component" element="interpreter.lucacristina.expr.Expression" />
+			<role name="Decorator" element="interpreter.lucacristina.expr.Sum" />
+			<role name="component" element="interpreter.lucacristina.expr.Sum::op1:interpreter.lucacristina.expr.Expression" />
+			<role name="component" element="interpreter.lucacristina.expr.Sum::op2:interpreter.lucacristina.expr.Expression" />
+			<role name="Operation()" element="interpreter.lucacristina.expr.Sum::determined(interpreter.lucacristina.expr.Context):boolean" />
+			<role name="Operation()" element="interpreter.lucacristina.expr.Sum::evaluate(interpreter.lucacristina.expr.Context):java.lang.Number" />
+		</instance>
+		<instance>
+			<role name="Component" element="interpreter.lucacristina.expr.Expression" />
+			<role name="Decorator" element="interpreter.lucacristina.expr.functions.user.UserFunction" />
+			<role name="component" element="interpreter.lucacristina.expr.functions.user.UserFunction::def:interpreter.lucacristina.expr.Expression" />
+			<role name="Operation()" element="interpreter.lucacristina.expr.functions.user.UserFunction::evaluate(interpreter.lucacristina.expr.Context):java.lang.Number" />
+		</instance>
+		<instance>
+			<role name="Component" element="chainofresp.cooper.Chain" />
+			<role name="Decorator" element="chainofresp.cooper.ColorImage" />
+			<role name="component" element="chainofresp.cooper.ColorImage::nextChain:chainofresp.cooper.Chain" />
+			<role name="Operation()" element="chainofresp.cooper.ColorImage::sendToChain(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="chainofresp.cooper.Chain" />
+			<role name="Decorator" element="chainofresp.cooper.FileList" />
+			<role name="component" element="chainofresp.cooper.FileList::nextChain:chainofresp.cooper.Chain" />
+			<role name="Operation()" element="chainofresp.cooper.FileList::sendToChain(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="chainofresp.cooper.Chain" />
+			<role name="Decorator" element="chainofresp.cooper.Imager" />
+			<role name="component" element="chainofresp.cooper.Imager::nextChain:chainofresp.cooper.Chain" />
+			<role name="Operation()" element="chainofresp.cooper.Imager::sendToChain(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="chainofresp.cooper.Chain" />
+			<role name="Decorator" element="chainofresp.cooper.RestList" />
+			<role name="component" element="chainofresp.cooper.RestList::nextChain:chainofresp.cooper.Chain" />
+			<role name="Operation()" element="chainofresp.cooper.RestList::sendToChain(java.lang.String):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="decorator.sourcemaking.DecoratorStream$LCD" />
+			<role name="Decorator" element="decorator.sourcemaking.DecoratorStream$Decorator" />
+			<role name="component" element="decorator.sourcemaking.DecoratorStream$Decorator::inner:decorator.sourcemaking.DecoratorStream$LCD" />
+			<role name="Operation()" element="decorator.sourcemaking.DecoratorStream$Decorator::write(java.lang.String[]):void" />
+			<role name="Operation()" element="decorator.sourcemaking.DecoratorStream$Decorator::read(java.lang.String[]):void" />
+		</instance>
+		<instance>
+			<role name="Component" element="decorator.sourcemaking2.Widget" />
+			<role name="Decorator" element="decorator.sourcemaking2.Decorator" />
+			<role name="component" element="decorator.sourcemaking2.Decorator::wid:decorator.sourcemaking2.Widget" />
+			<role name="Operation()" element="decorator.sourcemaking2.Decorator::draw():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="decorator.sourcemaking3.DecoratorAfter$I" />
+			<role name="Decorator" element="decorator.sourcemaking3.DecoratorAfter$D" />
+			<role name="component" element="decorator.sourcemaking3.DecoratorAfter$D::core:decorator.sourcemaking3.DecoratorAfter$I" />
+			<role name="Operation()" element="decorator.sourcemaking3.DecoratorAfter$D::doIt():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="decorator.wikipedia.Window" />
+			<role name="Decorator" element="decorator.wikipedia.WindowDecorator" />
+			<role name="component" element="decorator.wikipedia.WindowDecorator::decoratedWindow:decorator.wikipedia.Window" />
+			<role name="Operation()" element="decorator.wikipedia.WindowDecorator::draw():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="decorator.wikipedia2.Coffee" />
+			<role name="Decorator" element="decorator.wikipedia2.CoffeeDecorator" />
+			<role name="component" element="decorator.wikipedia2.CoffeeDecorator::decoratedCoffee:decorator.wikipedia2.Coffee" />
+			<role name="Operation()" element="decorator.wikipedia2.CoffeeDecorator::getCost():double" />
+			<role name="Operation()" element="decorator.wikipedia2.CoffeeDecorator::getIngredients():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Component" element="abstractfactory.cooper.Command" />
+			<role name="Decorator" element="abstractfactory.cooper.checkCommand" />
+			<role name="component" element="abstractfactory.cooper.checkCommand::cmd:abstractfactory.cooper.Command" />
+			<role name="Operation()" element="abstractfactory.cooper.checkCommand::Execute():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="abstractfactory.headfirst.ducks.Quackable" />
+			<role name="Decorator" element="abstractfactory.headfirst.ducks.QuackCounter" />
+			<role name="component" element="abstractfactory.headfirst.ducks.QuackCounter::duck:abstractfactory.headfirst.ducks.Quackable" />
+			<role name="Operation()" element="abstractfactory.headfirst.ducks.QuackCounter::quack():void" />
+		</instance>
+		<instance>
+			<role name="Component" element="boh.sun.ProjectItem" />
+			<role name="Decorator" element="boh.sun.Task" />
+			<role name="component" element="boh.sun.Task::parent:boh.sun.ProjectItem" />
+			<role name="Operation()" element="boh.sun.Task::getOwner():boh.sun.Contact" />
+			<role name="Operation()" element="boh.sun.Task::getDetails():java.lang.String" />
+		</instance>
+		<instance>
+			<role name="Component" element="proxy.wikipedia.Image" />
+			<role name="Decorator" element="proxy.wikipedia.ProxyImage" />
+			<role name="component" element="proxy.wikipedia.ProxyImage::image:proxy.wikipedia.Image" />
+			<role name="Operation()" element="proxy.wikipedia.ProxyImage::displayImage():void" />
+		</instance>
+	</pattern>
+</system>
