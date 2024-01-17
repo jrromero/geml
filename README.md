@@ -7,7 +7,7 @@ Design patterns (DPs) are recognised as a good practice in software development.
 ## Additional material
 ### Experiment 1
 #### **Results of statistical tests**
-Analysis of *coverage threshold* ([ZIP](https://www.uco.es/kdis/sbse/geml/coverage.zip), 27KB)
+Analysis of *coverage threshold* ([ZIP](/experiment1/coverage.zip), 27KB)
 
 Analysis of *support*, *confidence* and *classification strategy*:
 - Adapted grammar ([ZIP](https://www.uco.es/kdis/sbse/geml/adapted.zip), 65KB)
